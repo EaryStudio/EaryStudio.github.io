@@ -154,6 +154,26 @@ Emergency: publish maintenance true. Clients stop starting operations after seei
 it; active uploads still complete required batch cleanup. For longer withdrawal
 also set enabled false. Restore only after resolving the issue.
 
+### Cross Save QA channel
+
+The dedicated Android internal-testing and Windows Full `main_qa` builds read
+**https://earystudio.github.io/config/iris-qa.json**. Its initial values are
+`crossSaveEnabled=true`, `crossSaveMaintenance=false`, `configVersion=1`.
+The production `iris.json` remains disabled.
+
+Unity selects this URL with the build-only `CROSS_SAVE_QA` symbol in the dedicated
+QA Build Profiles. Installing from a Play track or selecting a Steam beta branch
+does not change an existing binary's channel. Demo is excluded even if the symbol
+is accidentally present. QA still requires Full access, Valve OAuth configuration,
+valid fresh remote config, and maintenance false; it does not bypass these checks.
+
+These are public feature flags, not tester authentication. Restrict distribution
+through Play internal testing and Steam QA access. QA uses the same save paths,
+AppID, and real Steam Cloud files; use QA accounts and backed-up saves.
+Do not promote a QA binary to production: rebuild with the normal profile.
+To pause QA, set maintenance true in `iris-qa.json`; to pause both channels,
+set it in both JSON files. Each channel observes its own maintenance flag.
+
 ## Steam callback / Android handoff
 
 Exact redirect: **https://earystudio.github.io/steam-auth/**
@@ -290,3 +310,4 @@ Coordinate DNS, CNAME/Pages, HTTPS, canonical/social URLs, store links, Valve
 redirect registration, Android callback/association host, and Unity config URLs.
 Keep old installed clients working during migration. Do not assume a GitHub redirect
 preserves OAuth or App Link verification. Adding CNAME alone is not a migration.
+
