@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.earystudio.irissidlelog",
+      "sha256_cert_fingerprints": [
+        "06:26:C6:3D:99:44:88:4E:5C:C4:0D:58:F1:04:01:E6:C3:4A:CA:21:9F:A1:09:3A:B2:AA:37:D5:57:58:47:5B"
+      ]
+    }
+  }
+]

@@ -174,7 +174,7 @@ the tab and retry. The callback meta CSP disallows connections/forms/external sc
 GitHub Pages does not provide arbitrary per-page headers; meta CSP cannot implement
 unsupported `frame-ancestors` protection.
 
-### Later native implementation requirements
+### Native implementation contract and device QA
 
 - Generate 32 cryptographically random bytes for state. Keep one pending attempt
   in app-private storage with 10-minute expiry and single use.
@@ -184,7 +184,7 @@ unsupported `frame-ancestors` protection.
   assume token length or trust deprecated `steamid` response data.
 - Matching `access_denied` maps to denial. Browser close is local cancellation;
   Steam may send no callback. Verification failure/timeouts accept no credential.
-- Pass status, state, token on success only, and normalized error code to Unity.
+- Keep the token in native secure storage; pass only normalized result status to Unity.
   Never log full URIs. Clear pending state on completion/cancel/timeout/replacement.
 - Protect credentials using Android platform-backed storage, excluded from backups
   and logs; not ordinary Unity preferences. Validate access with a read-only cloud
@@ -195,25 +195,33 @@ unsupported `frame-ancestors` protection.
 - State correlates attempts; it is not a signed identity assertion. Save formats,
   conflicts, filenames, quotas, and PC Steam Cloud setup belong to the Unity task.
 
-### Association deliberately pending
+### Android website association
 
-No placeholder `.well-known/assetlinks.json` is deployed. Add it after verifying
-the genuine **Play app-signing** SHA-256 fingerprint (not the upload certificate).
-Use namespace `android_app`, package `com.earystudio.irissidlelog`, and relation
-`delegate_permission/common.handle_all_urls`; verify any additional requirement of
-the selected Auth Tab implementation. Include legitimate key-rotation fingerprints
-when needed; never add a development signing key to production associations.
+`.well-known/assetlinks.json` contains the Play app-signing certificate fingerprint
+provided by the developer on 2026-09-26 (not the upload certificate):
 
-Restrict Android’s manifest to host `earystudio.github.io`, exact `/steam-auth/`
-path. Serve association JSON over HTTPS with no redirect. `.nojekyll` preserves
-the dot-prefixed directory. Test release-signed builds and actual link verification.
-Fingerprints are public metadata, not signing keys.
+```text
+06:26:C6:3D:99:44:88:4E:5C:C4:0D:58:F1:04:01:E6:C3:4A:CA:21:9F:A1:09:3A:B2:AA:37:D5:57:58:47:5B
+```
+
+Namespace: `android_app`; package: `com.earystudio.irissidlelog`;
+relation: `delegate_permission/common.handle_all_urls`.
+Include legitimate key-rotation fingerprints when needed; never add a development
+signing key to production associations. Fingerprints are public metadata, not keys.
+
+Restrict Android's manifest to host `earystudio.github.io`, exact `/steam-auth/`
+path. Serve association JSON over HTTPS with no redirect. The existing empty
+`.nojekyll` preserves the dot-prefixed directory. Verify the deployed endpoint,
+then test actual App Link verification and Auth Tab/Custom Tabs return with an app
+delivered through Play using this signing certificate. A locally installed APK
+with a different signer is not covered by this association.
 
 ### Valve gate and credential boundaries
 
 Valve documents `response_type=token` with fragment delivery and mentions code mode.
 Modern OAuth prefers code + PKCE. Ask Valve for documented public-native PKCE support
-before authentication implementation. Never invent exchange endpoints. If a secret
+before changing the documented token flow. The approval reply does not confirm PKCE.
+Never invent exchange endpoints. If a secret
 is required, revisit architecture first. Cross Save stays disabled meanwhile.
 
 ICloudService supports non-Steam cross-platform saves; its documented file methods
@@ -235,41 +243,30 @@ References: [Steam OAuth](https://partner.steamgames.com/doc/webapi_overview/oau
 [native OAuth](https://www.rfc-editor.org/info/rfc8252/),
 [OAuth security](https://www.rfc-editor.org/info/rfc9700/).
 
-## Valve request — draft, not submitted
+## Valve approval — 2026-09-26
 
-After authorized publication and live checks, use the Steamworks partner account’s
-[publishing support route](https://help.steampowered.com/en/wizard/HelpWithPublishing)
-or an existing Valve contact. No dedicated public OAuth form/guaranteed turnaround
-was found. The proposed 30-day lifetime is a product choice, not a published Valve
-recommendation. Obtain confirmation before implementing expiry behavior.
+The developer supplied Steam Support's approval reply from Tavish: the requested
+OAuth client profile has been created. This supersedes the old 30-day website draft
+and the later 5-year request in the implementation plan.
 
-**Subject: Steam OAuth Client ID request — Iris’s Idle Log, AppID 5062420**
+| Setting | Value |
+| --- | --- |
+| Client ID | `3BD75E54` |
+| Issued token lifetime | **1 year**, Valve's stated maximum |
+| Full Game AppID | `5062420` |
+| Android package | `com.earystudio.irissidlelog` |
+| Requested Cloud scopes | `read_cloud`, `write_cloud`, scoped to the Full AppID |
+| Redirect URI | `https://earystudio.github.io/steam-auth/` |
 
-> Hello Valve,
->
-> I’m the solo developer at Eary Studio. Iris’s Idle Log is available on Android,
-> and I’m preparing its Steam PC version.
->
-> I would like to request a Steam OAuth Client ID for cross-platform cloud saves
-> between Android and Steam. Android will authenticate through Steam OAuth and
-> use ICloudService to read and write the player’s Steam Cloud files.
->
-> Game: Iris’s Idle Log; developer: Eary Studio.
-> Full Game AppID: 5062420. Android package: com.earystudio.irissidlelog.
-> Permissions: read_cloud and write_cloud, scoped to AppID 5062420.
-> Redirect URI: https://earystudio.github.io/steam-auth/
-> Website: https://earystudio.github.io/
-> Requested token lifetime: 30 days, subject to your recommended supported policy.
->
-> We plan to receive the HTTPS redirect directly in Android through verified
-> App Links/Auth Tab. Could you confirm the supported token lifetime and
-> expiry/re-authentication behavior, exact redirect requirements, and whether
-> authorization code with PKCE is supported for a public native client? Otherwise,
-> please confirm use of the documented response_type=token flow for direct
-> ICloudService access.
->
-> Thank you,
-> Eary — Eary Studio — earystudio@gmail.com
+Unity now uses this public client ID and the documented `response_type=token` flow.
+Token validity follows Valve's actual issuing/revocation policy. Do not infer a
+refresh token, undocumented expiry field, or client-side 365-day validity guarantee.
+The reply does not separately confirm PKCE support. Actual login, issued scopes,
+redirect handling, and Cloud round trips still require release-signed device QA.
+
+Keep `crossSaveEnabled=false`, `crossSaveMaintenance=false`, `configVersion=1`
+until release readiness has been verified and public activation is authorized.
+Client approval and website association do not enable public Cross Save themselves.
 
 ## External follow-up (separate authorization)
 
@@ -282,8 +279,8 @@ recommendation. Obtain confirmation before implementing expiry behavior.
 - Privacy: review the existing game policy against actual Steam data handling
   before Cross Save release; it does not yet describe this integration. No claim
   is made that hosting has no logs or that the policy covers future functionality.
-- Receive Valve settings, resolve flow/lifetime questions, publish authentic
-  association, implement Unity, and validate success/denial/cancel/replay/expiry,
+- Valve settings and the authentic signing association are now recorded. Validate
+  the supported Android build for success/denial/cancel/replay/expiry,
   verification failures, unsupported browsers, and intact normal/GPGS gameplay.
 - Enable only after readiness testing and user approval.
 
