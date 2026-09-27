@@ -311,3 +311,7 @@ redirect registration, Android callback/association host, and Unity config URLs.
 Keep old installed clients working during migration. Do not assume a GitHub redirect
 preserves OAuth or App Link verification. Adding CNAME alone is not a migration.
 
+
+### 2026-09-27 Manual save transfer QA
+The retired automatic protocol uses iris-qa.json with crossSaveEnabled=false and crossSaveMaintenance=true. Keep maintenance enabled even after enabling the new manual feature. The manual-only QA build reads config/iris-transfer-qa.json (manualTransferEnabled/manualTransferMaintenance/configVersion). It copies progress only on explicit Send/Import actions; it does not continuously synchronize devices. Production iris.json is unchanged. Enable the manual QA gate only for the validated new QA build.
+
