@@ -43,7 +43,9 @@ terminal commands, screenshots, fixtures, issues, or logs.
 ## Maintenance
 
 Main content and metadata: `index.html`. Styles: `css/site.css`. Not-found page:
-`404.html`. Callback: the three files in `steam-auth/`. Flags: `config/iris.json`.
+`404.html`. Callback: the three files in `steam-auth/`. Manual transfer flags:
+`config/iris-transfer.json` (production), `config/iris-transfer-qa.json` (internal QA).
+The legacy `iris.json` / `iris-qa.json` flags do not control the manual transfer release.
 
 Steam was rechecked on September 18, 2026: **not yet available**, planned Q4 2026.
 Use **Wishlist on Steam** now; recheck before publication and use **View on Steam**
@@ -118,7 +120,60 @@ missing URL returning the custom 404; and no third-party page-load requests.
 Production config must still be **false/false/1**. Python’s local headers do not
 represent GitHub’s headers. See [Pages publishing sources](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-## Remote config / Unity handoff
+## PC 정식 출시 전 수동 데이터 전달 체크리스트
+
+이 기능은 PC↔모바일 **자동 동기화가 아닙니다**. 사용자가 **보내기/가져오기**를
+요청할 때만 진행 데이터를 전달합니다.
+
+### 설정 파일 구분
+
+| 파일 (`config/` 아래) | 용도 |
+| --- | --- |
+| `iris-transfer.json` | 일반 사용자용 수동 데이터 전달 설정 |
+| `iris-transfer-qa.json` | 내부 테스트용 수동 데이터 전달 설정 |
+| `iris.json` / `iris-qa.json` | 예전 자동 Cross Save 설정. 이번 수동 전달 기능 공개에는 사용하지 않음 |
+
+일반 사용자용 주소: **https://earystudio.github.io/config/iris-transfer.json**
+
+PC 출시 전 초기 설정은 다음과 같이 유지합니다. 이번 사이트 설정 추가 작업에서는
+기능을 활성화하지 않습니다.
+
+```json
+{
+  "manualTransferEnabled": false,
+  "manualTransferMaintenance": false,
+  "configVersion": 1
+}
+```
+
+### 출시 및 공개 확인
+
+- [ ] PC 정식 출시 전에는 `iris-transfer.json`의 `manualTransferEnabled=false`를 유지합니다.
+- [ ] 일반 배포용 Android·Steam Full 빌드에서 PC→모바일 및 모바일→PC의
+  보내기/가져오기를 검증합니다. 내부 QA 빌드 검증만으로 이 항목을 완료하지 않습니다.
+- [ ] 기능 공개가 승인되면 `iris-transfer.json`의 **`manualTransferEnabled`만 `true`로**
+  변경합니다. 정상 공개 시 `manualTransferMaintenance=false`, `configVersion=1`은 유지합니다.
+- [ ] 커밋·푸시 후 GitHub Pages 배포 성공을 확인하고, 위 공개 주소에서 HTTP 200과
+  실제 JSON 값을 확인합니다. 활성화 배포의 기대값은 `true/false/1`입니다.
+- [ ] 활성화 배포 후 일반 배포용 Android 앱에서 **Full 구매자의 연동 메뉴 표시**를
+  실제 기기로 확인합니다. 사이트 JSON 배포 성공만으로 앱 검증을 완료한 것으로 간주하지 않습니다.
+
+### 긴급 중단
+
+일반 사용자용 수동 전달을 긴급 중단하려면 `iris-transfer.json`의
+**`manualTransferMaintenance=true`**로 설정하고 커밋·푸시한 뒤 실제 공개 응답을 확인합니다.
+캐시와 클라이언트의 설정 재조회 시점 때문에 즉시 모든 기기에 반영된다고 가정하지 않습니다.
+
+내부 테스트용 설정과 일반 사용자용 설정은 별개입니다. 이번 기능 공개를 위해
+`iris-transfer-qa.json`, `iris.json`, `iris-qa.json`을 변경하지 않습니다.
+기존 `.nojekyll`과 다른 설정 파일도 유지합니다.
+
+## Legacy automatic Cross Save / historical Unity handoff
+
+This section and its Cross Save QA subsection describe the previous automatic
+Cross Save configuration. They are retained as historical reference, not as the
+activation procedure for manual data transfer. Use the manual transfer checklist
+and `iris-transfer.json` above for the current public release.
 
 Exact URL: **https://earystudio.github.io/config/iris.json**
 
