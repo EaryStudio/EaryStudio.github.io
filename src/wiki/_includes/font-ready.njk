@@ -1,0 +1,13 @@
+<link rel="preload" href="{{ wiki.config.basePath }}assets/fonts/game/silver.woff2" as="font" type="font/woff2" crossorigin>
+{% if lang == 'zh-Hans' or lang == 'zh-Hant' %}<link rel="preload" href="{{ wiki.config.basePath }}assets/fonts/game/fusion-{{ 'hans' if lang == 'zh-Hans' else 'hant' }}.woff2" as="font" type="font/woff2" crossorigin>{% endif %}
+<script>
+// Do not paint a temporary system font while Silver is downloading.
+// JS-disabled pages remain readable; a network failure also releases the page.
+if (document.fonts) {
+  document.documentElement.classList.add('font-pending');
+  const reveal = () => document.documentElement.classList.remove('font-pending');
+  const timeout = setTimeout(reveal, 8000);
+  document.fonts.load('24px Silver').then(() => document.fonts.ready)
+    .catch(() => {}).finally(() => { clearTimeout(timeout); reveal(); });
+}
+</script>

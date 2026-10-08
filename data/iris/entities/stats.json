@@ -1,0 +1,3400 @@
+[
+  {
+    "wikiId": "stats:accuracy",
+    "gameId": "Accuracy",
+    "kind": "stats",
+    "slug": "accuracy",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Accuracy",
+      "ko": "정확도",
+      "ja": "命中",
+      "es": "Precisión",
+      "zh-Hans": "命中",
+      "zh-Hant": "命中"
+    },
+    "descriptions": {
+      "en": "Higher Accuracy compared to the target's Evasion increases hit chance.",
+      "ko": "회피와 비교해서 높을수록 적을 맞출 확률이 높아짐",
+      "ja": "対象の回避と比べて高いほど、攻撃が命中する確率が上がります。",
+      "es": "Más Precisión que la Evasión objetivo aumenta acierto.",
+      "zh-Hans": "命中高于目标的闪避时，命中率会提高。",
+      "zh-Hant": "命中高於目標的閃避時，命中率會提高。"
+    },
+    "image": {
+      "path": "assets/bd6fe09c1e0753545d0adc00.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "Accuracy",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 8,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_ACCURACY_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:accuracy",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "Accuracy",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 8,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_ACCURACY_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:appetite",
+    "gameId": "Appetite",
+    "kind": "stats",
+    "slug": "appetite",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Appetite",
+      "ko": "식욕",
+      "ja": "食欲",
+      "es": "Apetito",
+      "zh-Hans": "食欲",
+      "zh-Hant": "食慾"
+    },
+    "descriptions": {
+      "en": "Reduces food cooldowns, up to 40% (minimum 60% of the base time).",
+      "ko": "음식 쿨타임을 최대 40%까지 감소시킵니다. (기본 시간의 최소 60%)",
+      "ja": "食べ物のクールタイムを最大40%短縮します。（基本時間の60%が下限）",
+      "es": "Reduce el tiempo de reutilización de la comida hasta un 40% (mínimo: 60% del tiempo base).",
+      "zh-Hans": "食物冷却时间最多缩短 40%（最低为基础时间的 60%）。",
+      "zh-Hant": "食物冷卻時間最多縮短 40%（最低為基礎時間的 60%）。"
+    },
+    "image": {
+      "path": "assets/b9f4c5efce3e9aab171074af.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "Appetite",
+      "isInt": false,
+      "isPercent01": false,
+      "isPercent100": true,
+      "sortOrder": 18,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_APPETITE_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "maximumEffectivePercent": 40.0
+    },
+    "relations": [
+      {
+        "target": "stats:appetite",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "Appetite",
+          "isInt": false,
+          "isPercent01": false,
+          "isPercent100": true,
+          "sortOrder": 18,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_APPETITE_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "maximumEffectivePercent": 40.0
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:attackinterval",
+    "gameId": "AttackInterval",
+    "kind": "stats",
+    "slug": "attackinterval",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Attack Interval",
+      "ko": "공격 주기",
+      "ja": "攻撃間隔",
+      "es": "Intervalo atk.",
+      "zh-Hans": "攻击间隔",
+      "zh-Hant": "攻擊間隔"
+    },
+    "descriptions": {
+      "en": "Player attack interval. (Reduced to 0.1s max) During gathering, weapon/armor/accessory effects are excluded; only gathering gear applies. (Skills and buffs can be applied)",
+      "ko": "주인공의 공격 주기입니다. (최대 0.1초까지 단축) 채집 중에는 무기·방어구·장신구 효과가 제외되고 채집 장비 효과만 적용됩니다. (스킬 및 버프 효과는 적용 가능)",
+      "ja": "主人公の攻撃間隔です。（最大0.1秒まで短縮） 採集時は武器・防具・装飾品の装備効果は除外され、採集装備の効果のみ適用されます。（スキル・バフの効果は適用可能）",
+      "es": "Intervalo de ataque (mín. 0.1 s). Al recolectar solo aplica equipo de recolección; habilidades y mejoras sí.",
+      "zh-Hans": "玩家的攻击间隔。（最低可缩短至 0.1 秒）采集时不计入武器、防具和饰品效果，仅采集装备生效。（技能和增益仍然生效）",
+      "zh-Hant": "玩家的攻擊間隔。（最低可縮短至 0.1 秒）採集時不計入武器、防具和飾品效果，僅採集裝備生效。（技能和增益仍然生效）"
+    },
+    "image": {
+      "path": "assets/8e44ddf4e876b95769111312.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "AttackInterval",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 7,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_INTERVAL_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "minimumEffectiveSeconds": 0.1
+    },
+    "relations": [
+      {
+        "target": "stats:attackinterval",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 7,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_INTERVAL_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "minimumEffectiveSeconds": 0.1
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:attackrange",
+    "gameId": "AttackRange",
+    "kind": "stats",
+    "slug": "attackrange",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Attack Range",
+      "ko": "공격범위",
+      "ja": "攻撃範囲",
+      "es": "Alcance atk.",
+      "zh-Hans": "攻击范围",
+      "zh-Hant": "攻擊範圍"
+    },
+    "descriptions": {
+      "en": "Distance from which you can attack enemies.",
+      "ko": "적을 공격할 수 있는 사거리",
+      "ja": "敵を攻撃できる距離です。",
+      "es": "Distancia desde la que atacas enemigos.",
+      "zh-Hans": "可攻击敌人的距离。",
+      "zh-Hant": "可攻擊敵人的距離。"
+    },
+    "image": {
+      "path": "assets/725e6f31c25884cf5adfcb6e.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "AttackRange",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 10,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_ATTACK_RANGE_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:attackrange",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackRange",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 10,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_ATTACK_RANGE_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:bossdamage",
+    "gameId": "BossDamage",
+    "kind": "stats",
+    "slug": "bossdamage",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Boss Damage",
+      "ko": "보스 데미지",
+      "ja": "ボスダメージ",
+      "es": "Daño a jefes",
+      "zh-Hans": "对首领伤害",
+      "zh-Hant": "對首領傷害"
+    },
+    "descriptions": {
+      "en": "Increases damage dealt to Boss and Challenge Boss enemies.",
+      "ko": "보스 및 도전 보스에게 주는 데미지가 증가합니다.",
+      "ja": "ボスおよびチャレンジボスに与えるダメージが増加します。",
+      "es": "Aumenta el daño infligido a jefes y jefes de desafío.",
+      "zh-Hans": "提高对首领和挑战首领造成的伤害。",
+      "zh-Hant": "提高對首領和挑戰首領造成的傷害。"
+    },
+    "image": {
+      "path": "assets/d84ae91de91465248eb0714d.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "BossDamage",
+      "isInt": false,
+      "isPercent01": false,
+      "isPercent100": true,
+      "sortOrder": 16,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_BOSS_DAMAGE_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:bossdamage",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "BossDamage",
+          "isInt": false,
+          "isPercent01": false,
+          "isPercent100": true,
+          "sortOrder": 16,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_BOSS_DAMAGE_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:critchance",
+    "gameId": "CritChance",
+    "kind": "stats",
+    "slug": "critchance",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Crit Chance",
+      "ko": "치명타 확률",
+      "ja": "クリティカル率",
+      "es": "Prob. crítico",
+      "zh-Hans": "暴击率",
+      "zh-Hant": "暴擊率"
+    },
+    "descriptions": {
+      "en": "Chance to deal extra damage. Each 100% above 100% adds another +100% critical damage.",
+      "ko": "데미지를 추가로 줄 수 있는 확률. 100%가 넘어갈 때마다 치명타시 데미지가 100% 상승함",
+      "ja": "追加ダメージを与えられる確率です。100%を超えるたびに、クリティカル時のダメージがさらに100%上昇します。",
+      "es": "Prob. de daño extra. Cada 100% sobre 100% añade +100% daño crítico.",
+      "zh-Hans": "造成额外伤害的概率。暴击率超过 100% 后，每多 100% 会额外增加 100% 暴击伤害。",
+      "zh-Hant": "造成額外傷害的機率。暴擊率超過 100% 後，每多 100% 會額外增加 100% 暴擊傷害。"
+    },
+    "image": {
+      "path": "assets/2d98a9fa8e41da0eac3ed1c2.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "CritChance",
+      "isInt": false,
+      "isPercent01": false,
+      "isPercent100": true,
+      "sortOrder": 12,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_CRIT_CHANCE_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "maximumEffectivePercent": 500.0
+    },
+    "relations": [
+      {
+        "target": "stats:critchance",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "CritChance",
+          "isInt": false,
+          "isPercent01": false,
+          "isPercent100": true,
+          "sortOrder": 12,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_CRIT_CHANCE_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "maximumEffectivePercent": 500.0
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:damagereduction",
+    "gameId": "DamageReduction",
+    "kind": "stats",
+    "slug": "damagereduction",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Damage Reduction",
+      "ko": "데미지 방어율",
+      "ja": "ダメージ軽減率",
+      "es": "Red. daño",
+      "zh-Hans": "伤害减免",
+      "zh-Hant": "傷害減免"
+    },
+    "descriptions": {
+      "en": "Percentage value that reduces incoming damage. It actually caps at 95%.",
+      "ko": "데미지를 줄여주는 수치 퍼센트. 실제로는 95%까지 적용됩니다.",
+      "ja": "受けるダメージを割合で減らす値です。実際には95%まで適用されます。",
+      "es": "Porcentaje que reduce daño recibido. Límite real: 95%.",
+      "zh-Hans": "以百分比降低受到的伤害，实际最高为 95%。",
+      "zh-Hant": "以百分比降低受到的傷害，實際最高為 95%。"
+    },
+    "image": {
+      "path": "assets/19bc226cd4f18b792e501eb3.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "DamageReduction",
+      "isInt": false,
+      "isPercent01": false,
+      "isPercent100": true,
+      "sortOrder": 5,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_DAMAGE_REDUCTION_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "maximumEffectivePercent": 95.0
+    },
+    "relations": [
+      {
+        "target": "stats:damagereduction",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "DamageReduction",
+          "isInt": false,
+          "isPercent01": false,
+          "isPercent100": true,
+          "sortOrder": 5,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_DAMAGE_REDUCTION_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "maximumEffectivePercent": 95.0
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:defense",
+    "gameId": "Defense",
+    "kind": "stats",
+    "slug": "defense",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Defense",
+      "ko": "방어도",
+      "ja": "防御力",
+      "es": "Defensa",
+      "zh-Hans": "防御力",
+      "zh-Hant": "防禦力"
+    },
+    "descriptions": {
+      "en": "Flat value that reduces incoming damage.",
+      "ko": "데미지를 줄여주는 수치 절댓값",
+      "ja": "受けるダメージを減らす固定値です。",
+      "es": "Valor fijo que reduce daño recibido.",
+      "zh-Hans": "以固定数值降低受到的伤害。",
+      "zh-Hant": "以固定數值降低受到的傷害。"
+    },
+    "image": {
+      "path": "assets/0967a426e2fa9a7cad788a77.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "Defense",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 4,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_DEFENSE_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:defense",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "Defense",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 4,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_DEFENSE_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:dexterity",
+    "gameId": "Dexterity",
+    "kind": "stats",
+    "slug": "dexterity",
+    "type": "StatType",
+    "names": {
+      "en": "Dexterity",
+      "ko": "손재주",
+      "ja": "器用度",
+      "es": "Destreza",
+      "zh-Hans": "灵巧",
+      "zh-Hant": "靈巧"
+    },
+    "descriptions": {
+      "en": "Affects stealth and other precision-based actions.",
+      "ko": "절도 및 정밀한 행동 성능에 영향을 줍니다.",
+      "ja": "窃盗やその他の精密な行動の性能に影響します。",
+      "es": "Afecta robo y acciones de precisión.",
+      "zh-Hans": "影响偷窃及其他依赖精准操作的动作。",
+      "zh-Hant": "影響偷竊及其他依賴精準操作的動作。"
+    },
+    "image": null,
+    "data": {
+      "statType": "Dexterity"
+    },
+    "relations": [
+      {
+        "target": "stats:dexterity",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "Dexterity"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:evasion",
+    "gameId": "Evasion",
+    "kind": "stats",
+    "slug": "evasion",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Evasion",
+      "ko": "회피",
+      "ja": "回避",
+      "es": "Evasión",
+      "zh-Hans": "闪避",
+      "zh-Hant": "閃避"
+    },
+    "descriptions": {
+      "en": "Higher Evasion compared to the attacker's Accuracy increases dodge chance.",
+      "ko": "정확과 비교해서 높을수록 공격을 피할 확률이 높아짐",
+      "ja": "攻撃側の命中と比べて高いほど、攻撃を避ける確率が上がります。",
+      "es": "Más Evasión que la Precisión atacante aumenta esquiva.",
+      "zh-Hans": "闪避高于攻击者的命中时，闪避率会提高。",
+      "zh-Hant": "閃避高於攻擊者的命中時，閃避率會提高。"
+    },
+    "image": {
+      "path": "assets/a3c1668e28ea1fef6ccc19a3.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "Evasion",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 9,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_EVASION_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_EVASION_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_EVASION_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_EVASION_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_EVASION_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_EVASION_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_EVASION_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_EVASION_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_EVASION_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_EVASION_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_EVASION_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_EVASION_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:evasion",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "Evasion",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 9,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_EVASION_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_EVASION_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_EVASION_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_EVASION_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_EVASION_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_EVASION_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_EVASION_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_EVASION_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_EVASION_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_EVASION_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_EVASION_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_EVASION_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:hpregen",
+    "gameId": "HpRegen",
+    "kind": "stats",
+    "slug": "hpregen",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "HP Regen",
+      "ko": "체력회복량",
+      "ja": "HP回復量",
+      "es": "Regen. PV",
+      "zh-Hans": "生命恢复",
+      "zh-Hant": "生命恢復"
+    },
+    "descriptions": {
+      "en": "Amount of HP restored automatically once every 3 seconds.",
+      "ko": "3초에 한 번씩 자동으로 회복하는 체력",
+      "ja": "3秒に1回、自動で回復するHP量です。",
+      "es": "PV recuperado automáticamente cada 3 s.",
+      "zh-Hans": "每 3 秒自动恢复的生命值。",
+      "zh-Hant": "每 3 秒自動恢復的生命值。"
+    },
+    "image": {
+      "path": "assets/998978fa97b7c13415b4575b.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "HpRegen",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 1,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_HP_REGEN_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:hpregen",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "HpRegen",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 1,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_HP_REGEN_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:idleactioninterval",
+    "gameId": "IdleActionInterval",
+    "kind": "stats",
+    "slug": "idleactioninterval",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Life Action Speed",
+      "ko": "생활 행동 속도",
+      "ja": "生活行動速度",
+      "es": "Vel. vida",
+      "zh-Hans": "生活行动速度",
+      "zh-Hant": "生活行動速度"
+    },
+    "descriptions": {
+      "en": "Speed multiplier for life actions. Higher values reduce the time needed to complete each action.",
+      "ko": "생활 행동의 진행 속도 배율입니다. 값이 높을수록 행동 완료에 걸리는 시간이 줄어듭니다.",
+      "ja": "生活行動の進行速度の倍率です。値が高いほど、行動の完了にかかる時間が短くなります。",
+      "es": "Multiplicador de velocidad de las acciones de vida. Cuanto mayor sea el valor, menos tiempo se necesita para completar cada acción.",
+      "zh-Hans": "生活行动的速度倍率。数值越高，完成每次行动所需的时间越短。",
+      "zh-Hant": "生活行動的速度倍率。數值越高，完成每次行動所需的時間越短。"
+    },
+    "image": {
+      "path": "assets/37f10f2cd4d076183e6a145d.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "IdleActionInterval",
+      "isInt": false,
+      "isPercent01": false,
+      "isPercent100": true,
+      "sortOrder": 14,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:idleactioninterval",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "IdleActionInterval",
+          "isInt": false,
+          "isPercent01": false,
+          "isPercent100": true,
+          "sortOrder": 14,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_IDLE_ACTION_INTERVAL_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:luck",
+    "gameId": "Luck",
+    "kind": "stats",
+    "slug": "luck",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Luck",
+      "ko": "운",
+      "ja": "運",
+      "es": "Suerte",
+      "zh-Hans": "幸运",
+      "zh-Hant": "幸運"
+    },
+    "descriptions": {
+      "en": "Retries failed item rewards from exploration, area clear rewards, and expeditions. Gold is unaffected. Each 100% Luck adds 1 extra retry, and Luck is capped at 1000%.",
+      "ko": "탐험, 지역 클리어, 원정의 아이템 보상을 재시도합니다. 골드에는 적용되지 않습니다. 운 100%마다 추가 1회가 생기며 최대 1000%까지만 적용됩니다.",
+      "ja": "探索、エリアクリア、遠征のアイテム報酬を再抽選します。ゴールドには適用されません。運100%ごとに追加再抽選が1回増え、運は最大1000%まで適用されます。",
+      "es": "Reintenta recompensas de objeto fallidas en exploración, clears y expediciones. Oro no aplica. 100% Suerte = +1 reintento; límite 1000%.",
+      "zh-Hans": "探索掉落、区域通关奖励或远征奖励未获得物品时，可重新判定。金币不受影响。每 100% 幸运增加 1 次重试机会，最高为 1000%。",
+      "zh-Hant": "探索掉落、區域通關獎勵或遠征獎勵未獲得物品時，可重新判定。金幣不受影響。每 100% 幸運增加 1 次重試機會，最高為 1000%。"
+    },
+    "image": {
+      "path": "assets/b49886594caf47560765df2e.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "Luck",
+      "isInt": false,
+      "isPercent01": false,
+      "isPercent100": true,
+      "sortOrder": 13,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_LUCK_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_LUCK_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_LUCK_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_LUCK_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_LUCK_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_LUCK_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_LUCK_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_LUCK_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_LUCK_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_LUCK_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_LUCK_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_LUCK_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "maximumEffectivePercent": 1000.0
+    },
+    "relations": [
+      {
+        "target": "stats:luck",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "isInt": false,
+          "isPercent01": false,
+          "isPercent100": true,
+          "sortOrder": 13,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_LUCK_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_LUCK_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_LUCK_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_LUCK_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_LUCK_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_LUCK_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_LUCK_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_LUCK_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_LUCK_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_LUCK_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_LUCK_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_LUCK_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "maximumEffectivePercent": 1000.0
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:maxdamage",
+    "gameId": "MaxDamage",
+    "kind": "stats",
+    "slug": "maxdamage",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Max Damage",
+      "ko": "최대데미지",
+      "ja": "最大ダメージ",
+      "es": "Daño máx.",
+      "zh-Hans": "最大伤害",
+      "zh-Hant": "最大傷害"
+    },
+    "descriptions": {
+      "en": "Maximum damage dealt when the target has no Defense.",
+      "ko": "상대방 방어도가 없을 때 뜰 수 있는 최대 데미지",
+      "ja": "相手に防御力がない時に与えられる最大ダメージです。",
+      "es": "Daño máximo si el objetivo no tiene Defensa.",
+      "zh-Hans": "当目标没有防御力时造成的最大伤害。",
+      "zh-Hant": "當目標沒有防禦力時造成的最大傷害。"
+    },
+    "image": {
+      "path": "assets/5c46ec4d293a31508d1e8156.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "MaxDamage",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 3,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_MAX_DAMAGE_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:maxdamage",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "MaxDamage",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 3,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_MAX_DAMAGE_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:maxhp",
+    "gameId": "MaxHP",
+    "kind": "stats",
+    "slug": "maxhp",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Max HP",
+      "ko": "최대체력",
+      "ja": "最大HP",
+      "es": "PV máx.",
+      "zh-Hans": "最大生命值",
+      "zh-Hant": "最大生命值"
+    },
+    "descriptions": {
+      "en": "Maximum amount of HP you can have during exploration.",
+      "ko": "탐험에서 가질 수 있는 체력의 최댓값",
+      "ja": "探索中に持てるHPの最大量です。",
+      "es": "PV máximo durante exploración.",
+      "zh-Hans": "探索时可拥有的生命值上限。",
+      "zh-Hant": "探索時可擁有的生命值上限。"
+    },
+    "image": {
+      "path": "assets/87c83cd6f3e54de44feeb13c.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "MaxHP",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 0,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_MAX_HP_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "MaxHP",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 0,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_MAX_HP_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:mindamage",
+    "gameId": "MinDamage",
+    "kind": "stats",
+    "slug": "mindamage",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Min Damage",
+      "ko": "최소데미지",
+      "ja": "最小ダメージ",
+      "es": "Daño mín.",
+      "zh-Hans": "最小伤害",
+      "zh-Hant": "最小傷害"
+    },
+    "descriptions": {
+      "en": "Minimum damage dealt when the target has no Defense.",
+      "ko": "상대방 방어도가 없을 때 뜰 수 있는 최소 데미지",
+      "ja": "相手に防御力がない時に与えられる最小ダメージです。",
+      "es": "Daño mínimo si el objetivo no tiene Defensa.",
+      "zh-Hans": "当目标没有防御力时造成的最小伤害。",
+      "zh-Hant": "當目標沒有防禦力時造成的最小傷害。"
+    },
+    "image": {
+      "path": "assets/018ad621f9d6b0d2afbc7e1b.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "MinDamage",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 2,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_MIN_DAMAGE_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:mindamage",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "MinDamage",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 2,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_MIN_DAMAGE_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:mobility",
+    "gameId": "Mobility",
+    "kind": "stats",
+    "slug": "mobility",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Mobility",
+      "ko": "기동성",
+      "ja": "機動力",
+      "es": "Movilidad",
+      "zh-Hans": "机动性",
+      "zh-Hant": "機動性"
+    },
+    "descriptions": {
+      "en": "Reduces action skill cooldowns, up to 40% (minimum 60% of the base time).",
+      "ko": "액션 스킬 쿨타임을 최대 40%까지 감소시킵니다. (기본 시간의 최소 60%)",
+      "ja": "アクションスキルのクールタイムを最大40%短縮します。（基本時間の60%が下限）",
+      "es": "Reduce el tiempo de reutilización de las habilidades de acción hasta un 40% (mínimo: 60% del tiempo base).",
+      "zh-Hans": "动作技能冷却时间最多缩短 40%（最低为基础时间的 60%）。",
+      "zh-Hant": "動作技能冷卻時間最多縮短 40%（最低為基礎時間的 60%）。"
+    },
+    "image": {
+      "path": "assets/0e0f42fed29d8924964b5f0a.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "Mobility",
+      "isInt": false,
+      "isPercent01": false,
+      "isPercent100": true,
+      "sortOrder": 17,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_MOBILITY_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "maximumEffectivePercent": 40.0
+    },
+    "relations": [
+      {
+        "target": "stats:mobility",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "Mobility",
+          "isInt": false,
+          "isPercent01": false,
+          "isPercent100": true,
+          "sortOrder": 17,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_MOBILITY_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "maximumEffectivePercent": 40.0
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:movespeed",
+    "gameId": "MoveSpeed",
+    "kind": "stats",
+    "slug": "movespeed",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Move Speed",
+      "ko": "이동속도",
+      "ja": "移動速度",
+      "es": "Vel. mov.",
+      "zh-Hans": "移动速度",
+      "zh-Hant": "移動速度"
+    },
+    "descriptions": {
+      "en": "Speed at which the player moves.",
+      "ko": "주인공이 이동하는 속도",
+      "ja": "主人公が移動する速度です。",
+      "es": "Velocidad de movimiento del jugador.",
+      "zh-Hans": "角色的移动速度。",
+      "zh-Hant": "角色的移動速度。"
+    },
+    "image": {
+      "path": "assets/666473b2a413f0951855e8c7.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "MoveSpeed",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 6,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_MOVE_SPEED_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:movespeed",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 6,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_MOVE_SPEED_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "stats:sight",
+    "gameId": "Sight",
+    "kind": "stats",
+    "slug": "sight",
+    "type": "StatDefinitionSO",
+    "names": {
+      "en": "Sight",
+      "ko": "시야",
+      "ja": "視野",
+      "es": "Visión",
+      "zh-Hans": "视野",
+      "zh-Hant": "視野"
+    },
+    "descriptions": {
+      "en": "Distance from which you can detect enemies.",
+      "ko": "적을 발견할 수 있는 거리",
+      "ja": "敵を発見できる距離です。",
+      "es": "Distancia desde la que detectas enemigos.",
+      "zh-Hans": "可发现敌人的距离。",
+      "zh-Hant": "可發現敵人的距離。"
+    },
+    "image": {
+      "path": "assets/ccda048a6443124903e26ff3.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "statType": "Sight",
+      "isInt": true,
+      "isPercent01": false,
+      "isPercent100": false,
+      "sortOrder": 11,
+      "$type": "StatDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Stats",
+            "key": "STAT_SIGHT_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:sight",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "statType": "Sight",
+          "isInt": true,
+          "isPercent01": false,
+          "isPercent100": false,
+          "sortOrder": 11,
+          "$type": "StatDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_NAME",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_NAME",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_NAME",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_NAME",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_NAME",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_NAME",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Stats",
+                "key": "STAT_SIGHT_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  }
+]

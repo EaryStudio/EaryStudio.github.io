@@ -1,0 +1,6134 @@
+[
+  {
+    "wikiId": "targets:ste0001",
+    "gameId": "STE0001",
+    "kind": "targets",
+    "slug": "ste0001",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Village Boy",
+      "ko": "마을 소년",
+      "ja": "村の少年",
+      "es": "Chico de aldea",
+      "zh-Hans": "村庄少年",
+      "zh-Hant": "村莊少年"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/2e984239a17b24d37fc82d30.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0001",
+      "targetInsight": 10,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              5,
+              5
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0001",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0001_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0001_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0001_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0001_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0001_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0001_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0001",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0001",
+          "targetInsight": 10,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  5,
+                  5
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0001",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0001_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0001_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0001_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0001_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0001_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0001_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0001",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0001",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0002",
+    "gameId": "STE0002",
+    "kind": "targets",
+    "slug": "ste0002",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Village Girl",
+      "ko": "마을 소녀",
+      "ja": "村の少女",
+      "es": "Chica de aldea",
+      "zh-Hans": "村庄少女",
+      "zh-Hant": "村莊少女"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/f121d6c9c2f006ce453c30ae.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0002",
+      "targetInsight": 31,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              10,
+              10
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0002",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0002_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0002_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0002_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0002_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0002_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0002_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0002",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0002",
+          "targetInsight": 31,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  10,
+                  10
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0002",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0002_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0002_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0002_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0002_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0002_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0002_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0002",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0002",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0003",
+    "gameId": "STE0003",
+    "kind": "targets",
+    "slug": "ste0003",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Local Man",
+      "ko": "동네 남성",
+      "ja": "地元の男性",
+      "es": "Hombre local",
+      "zh-Hans": "本地男子",
+      "zh-Hant": "本地男子"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/b1661b56f7c83535e299e52a.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0003",
+      "targetInsight": 42,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              15,
+              15
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0003",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0003_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0003_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0003_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0003_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0003_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0003_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0003",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0003",
+          "targetInsight": 42,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  15,
+                  15
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0003",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0003_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0003_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0003_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0003_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0003_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0003_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0003",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0003",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0004",
+    "gameId": "STE0004",
+    "kind": "targets",
+    "slug": "ste0004",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Local Woman",
+      "ko": "동네 여성",
+      "ja": "地元の女性",
+      "es": "Mujer local",
+      "zh-Hans": "本地女子",
+      "zh-Hant": "本地女子"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/c9f1cd57d846ff495e682fa8.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0004",
+      "targetInsight": 53,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              20,
+              20
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0004",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0004_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0004_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0004_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0004_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0004_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0004_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0004",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0004",
+          "targetInsight": 53,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  20,
+                  20
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0004",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0004_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0004_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0004_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0004_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0004_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0004_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0004",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0004",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0005",
+    "gameId": "STE0005",
+    "kind": "targets",
+    "slug": "ste0005",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Apprentice Cook",
+      "ko": "견습 요리사",
+      "ja": "見習い料理人",
+      "es": "Cocinero aprendiz",
+      "zh-Hans": "见习厨师",
+      "zh-Hant": "見習廚師"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/d38207779762551b59ded2f2.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0005",
+      "targetInsight": 64,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              25,
+              25
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0005",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0005_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0005_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0005_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0005_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0005_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0005_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0005",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0005",
+          "targetInsight": 64,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  25,
+                  25
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0005",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0005_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0005_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0005_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0005_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0005_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0005_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0005",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0005",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0006",
+    "gameId": "STE0006",
+    "kind": "targets",
+    "slug": "ste0006",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Royal Chef",
+      "ko": "왕실 주방장",
+      "ja": "王室シェフ",
+      "es": "Chef real",
+      "zh-Hans": "皇家厨师",
+      "zh-Hant": "皇家廚師"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/cae8ec1a4c2bbefc22f7fea1.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0006",
+      "targetInsight": 255,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              85,
+              85
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0006",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0006_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0006_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0006_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0006_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0006_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0006_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0006",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0006",
+          "targetInsight": 255,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  85,
+                  85
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0006",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0006_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0006_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0006_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0006_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0006_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0006_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0006",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0006",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0007",
+    "gameId": "STE0007",
+    "kind": "targets",
+    "slug": "ste0007",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Drill Instructor",
+      "ko": "훈련 교관",
+      "ja": "訓練教官",
+      "es": "Instructor de entrenamiento",
+      "zh-Hans": "训练教官",
+      "zh-Hant": "訓練教官"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/775307bc1a692a241306daaa.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0007",
+      "targetInsight": 92,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              35,
+              35
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0007",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0007_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0007_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0007_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0007_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0007_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0007_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0007",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0007",
+          "targetInsight": 92,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  35,
+                  35
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0007",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0007_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0007_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0007_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0007_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0007_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0007_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0007",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0007",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0008",
+    "gameId": "STE0008",
+    "kind": "targets",
+    "slug": "ste0008",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Village Farmer",
+      "ko": "마을 농부",
+      "ja": "村の農夫",
+      "es": "Agricultor de aldea",
+      "zh-Hans": "村庄农夫",
+      "zh-Hant": "村莊農夫"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/417ff013befd30757739a0b5.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0008",
+      "targetInsight": 66,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              20,
+              20
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0008",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0008_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0008_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0008_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0008_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0008_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0008_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0008",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0008",
+          "targetInsight": 66,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  20,
+                  20
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0008",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0008_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0008_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0008_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0008_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0008_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0008_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0008",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0008",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0009",
+    "gameId": "STE0009",
+    "kind": "targets",
+    "slug": "ste0009",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Earth Druid",
+      "ko": "대지의 드루이드",
+      "ja": "大地のドルイド",
+      "es": "Druida de tierra",
+      "zh-Hans": "大地德鲁伊",
+      "zh-Hant": "大地德魯伊"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/0436ac01bf3b93cbdb13e11e.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0009",
+      "targetInsight": 218,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              60,
+              60
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0009",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0009_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0009_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0009_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0009_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0009_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0009_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0009",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0009",
+          "targetInsight": 218,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  60,
+                  60
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0009",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0009_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0009_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0009_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0009_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0009_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0009_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0009",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0009",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0010",
+    "gameId": "STE0010",
+    "kind": "targets",
+    "slug": "ste0010",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Street Urchin",
+      "ko": "거리의 아이",
+      "ja": "路地の子ども",
+      "es": "Pilluelo callejero",
+      "zh-Hans": "街头流浪儿",
+      "zh-Hant": "街頭流浪兒"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/d2eb843f6a95116a6340ff29.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0010",
+      "targetInsight": 138,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              40,
+              40
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0010",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0010_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0010_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0010_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0010_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0010_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0010_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0010",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0010",
+          "targetInsight": 138,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  40,
+                  40
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0010",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0010_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0010_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0010_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0010_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0010_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0010_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0010",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0010",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0011",
+    "gameId": "STE0011",
+    "kind": "targets",
+    "slug": "ste0011",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Novice Alchemist",
+      "ko": "초보 연금술사",
+      "ja": "初心者錬金術師",
+      "es": "Alquimista novato",
+      "zh-Hans": "见习炼金术士",
+      "zh-Hant": "見習煉金術士"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/39362bead86bf094eecd9bc5.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0011",
+      "targetInsight": 119,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              35,
+              35
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0011",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0011_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0011_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0011_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0011_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0011_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0011_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0011",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0011",
+          "targetInsight": 119,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  35,
+                  35
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0011",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0011_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0011_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0011_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0011_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0011_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0011_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0011",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0011",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0012",
+    "gameId": "STE0012",
+    "kind": "targets",
+    "slug": "ste0012",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Sage Emel",
+      "ko": "현자 에멜",
+      "ja": "賢者エメル",
+      "es": "Sabio Emel",
+      "zh-Hans": "贤者艾梅尔",
+      "zh-Hant": "賢者艾梅爾"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/8524844be3d0a355ce83aae7.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0012",
+      "targetInsight": 229,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              58,
+              58
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0012",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0012_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0012_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0012_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0012_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0012_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0012_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0012",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0012",
+          "targetInsight": 229,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  58,
+                  58
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0012",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0012_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0012_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0012_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0012_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0012_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0012_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0012",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0012",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0013",
+    "gameId": "STE0013",
+    "kind": "targets",
+    "slug": "ste0013",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Novice Monk",
+      "ko": "견습 수도승",
+      "ja": "見習い修道僧",
+      "es": "Monje novato",
+      "zh-Hans": "见习修士",
+      "zh-Hant": "見習修士"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/008c9b870d39ee7c6fabb494.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0013",
+      "targetInsight": 108,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              25,
+              25
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0013",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0013_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0013_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0013_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0013_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0013_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0013_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0013",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0013",
+          "targetInsight": 108,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  25,
+                  25
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0013",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0013_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0013_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0013_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0013_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0013_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0013_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0013",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0013",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0014",
+    "gameId": "STE0014",
+    "kind": "targets",
+    "slug": "ste0014",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Rune Student",
+      "ko": "룬 학생",
+      "ja": "ルーン学徒",
+      "es": "Estudiante de runas",
+      "zh-Hans": "符文学徒",
+      "zh-Hant": "符文學徒"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/142ecaa983c11b680d0371ea.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0014",
+      "targetInsight": 90,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              20,
+              20
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0014",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0014_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0014_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0014_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0014_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0014_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0014_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0014",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0014",
+          "targetInsight": 90,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  20,
+                  20
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0014",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0014_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0014_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0014_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0014_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0014_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0014_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0014",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0014",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0015",
+    "gameId": "STE0015",
+    "kind": "targets",
+    "slug": "ste0015",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Arcane Enchanter",
+      "ko": "비전 마법사",
+      "ja": "秘術エンチャンター",
+      "es": "Encantador arcano",
+      "zh-Hans": "奥术附魔师",
+      "zh-Hant": "奧術附魔師"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/d689f9c0399879f1431849dd.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0015",
+      "targetInsight": 200,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              50,
+              50
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0015",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0015_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0015_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0015_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0015_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0015_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0015_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0015",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0015",
+          "targetInsight": 200,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  50,
+                  50
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0015",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0015_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0015_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0015_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0015_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0015_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0015_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0015",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0015",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0016",
+    "gameId": "STE0016",
+    "kind": "targets",
+    "slug": "ste0016",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Amateur Crafter",
+      "ko": "견습 수공예가",
+      "ja": "見習い職人",
+      "es": "Artesano aficionado",
+      "zh-Hans": "业余工匠",
+      "zh-Hant": "業餘工匠"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/1ba3f39fcec97f3a0b9cae49.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0016",
+      "targetInsight": 127,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              30,
+              30
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0016",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0016_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0016_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0016_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0016_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0016_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0016_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0016",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0016",
+          "targetInsight": 127,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  30,
+                  30
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0016",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0016_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0016_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0016_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0016_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0016_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0016_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0016",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0016",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0017",
+    "gameId": "STE0017",
+    "kind": "targets",
+    "slug": "ste0017",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Master Artisan",
+      "ko": "전설의 아티잔",
+      "ja": "伝説の職人",
+      "es": "Maestro artesano",
+      "zh-Hans": "工匠大师",
+      "zh-Hant": "工匠大師"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/ef25e882af1742c5e7727dca.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0017",
+      "targetInsight": 347,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              70,
+              70
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0017",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0017_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0017_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0017_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0017_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0017_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0017_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0017",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0017",
+          "targetInsight": 347,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  70,
+                  70
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0017",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0017_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0017_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0017_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0017_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0017_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0017_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0017",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0017",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0018",
+    "gameId": "STE0018",
+    "kind": "targets",
+    "slug": "ste0018",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Iron Apprentice",
+      "ko": "철공소 소년",
+      "ja": "鉄工所の少年",
+      "es": "Aprendiz de hierro",
+      "zh-Hans": "铁工坊学徒",
+      "zh-Hant": "鐵工坊學徒"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/21c7586ff09ee8ed1ce66bed.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0018",
+      "targetInsight": 90,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              20,
+              20
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0018",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0018_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0018_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0018_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0018_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0018_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0018_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0018",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0018",
+          "targetInsight": 90,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  20,
+                  20
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0018",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0018_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0018_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0018_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0018_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0018_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0018_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0018",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0018",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0019",
+    "gameId": "STE0019",
+    "kind": "targets",
+    "slug": "ste0019",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Forge Master",
+      "ko": "화염 대장장이",
+      "ja": "炎の鍛冶師",
+      "es": "Maestro de forja",
+      "zh-Hans": "锻造大师",
+      "zh-Hant": "鍛造大師"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/a2ea4511e81df7f81a93cb0a.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0019",
+      "targetInsight": 347,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              55,
+              55
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0019",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0019_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0019_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0019_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0019_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0019_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0019_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0019",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0019",
+          "targetInsight": 347,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  55,
+                  55
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0019",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0019_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0019_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0019_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0019_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0019_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0019_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0019",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0019",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0020",
+    "gameId": "STE0020",
+    "kind": "targets",
+    "slug": "ste0020",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Map Sketcher",
+      "ko": "지도 초보자",
+      "ja": "地図見習い",
+      "es": "Dibujante de mapas",
+      "zh-Hans": "地图学徒",
+      "zh-Hant": "地圖學徒"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/6645524f23d2a24d1b916294.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0020",
+      "targetInsight": 163,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              40,
+              40
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0020",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0020_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0020_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0020_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0020_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0020_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0020_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0020",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0020",
+          "targetInsight": 163,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  40,
+                  40
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0020",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0020_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0020_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0020_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0020_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0020_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0020_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0020",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0020",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0021",
+    "gameId": "STE0021",
+    "kind": "targets",
+    "slug": "ste0021",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Beast Tamer",
+      "ko": "비스트 테이머",
+      "ja": "ビーストテイマー",
+      "es": "Domador de bestias",
+      "zh-Hans": "驯兽师",
+      "zh-Hant": "馴獸師"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/ccf04384aee3280a4e4bd674.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0021",
+      "targetInsight": 163,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              40,
+              40
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0021",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0021_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0021_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0021_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0021_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0021_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0021_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0021",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0021",
+          "targetInsight": 163,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  40,
+                  40
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0021",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0021_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0021_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0021_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0021_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0021_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0021_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0021",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0021",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0022",
+    "gameId": "STE0022",
+    "kind": "targets",
+    "slug": "ste0022",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Street Busker",
+      "ko": "거리의 악사",
+      "ja": "街角楽師",
+      "es": "Músico callejero",
+      "zh-Hans": "街头乐师",
+      "zh-Hant": "街頭樂師"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/b115e9e836678c6d3eb56dd2.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0022",
+      "targetInsight": 127,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              30,
+              30
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0022",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0022_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0022_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0022_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0022_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0022_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0022_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0022",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0022",
+          "targetInsight": 127,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  30,
+                  30
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0022",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0022_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0022_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0022_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0022_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0022_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0022_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0022",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0022",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0023",
+    "gameId": "STE0023",
+    "kind": "targets",
+    "slug": "ste0023",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Art Student",
+      "ko": "미술 학도",
+      "ja": "美術学生",
+      "es": "Estudiante de arte",
+      "zh-Hans": "美术学生",
+      "zh-Hant": "美術學生"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/5f4723ddd7608d52d2763bd8.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0023",
+      "targetInsight": 145,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              35,
+              35
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0023",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0023_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0023_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0023_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0023_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0023_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0023_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0023",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0023",
+          "targetInsight": 145,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  35,
+                  35
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0023",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0023_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0023_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0023_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0023_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0023_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0023_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0023",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0023",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0024",
+    "gameId": "STE0024",
+    "kind": "targets",
+    "slug": "ste0024",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Scribe",
+      "ko": "필사기",
+      "ja": "写字生",
+      "es": "Escriba",
+      "zh-Hans": "抄写员",
+      "zh-Hant": "抄寫員"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/a8a7014cec8a66d78e33b9ea.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0024",
+      "targetInsight": 163,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              40,
+              40
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0024",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0024_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0024_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0024_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0024_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0024_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0024_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0024",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0024",
+          "targetInsight": 163,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  40,
+                  40
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0024",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0024_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0024_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0024_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0024_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0024_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0024_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0024",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0024",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0025",
+    "gameId": "STE0025",
+    "kind": "targets",
+    "slug": "ste0025",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Small Peddler",
+      "ko": "보따리상",
+      "ja": "小さな行商人",
+      "es": "Pequeño buhonero",
+      "zh-Hans": "小行商",
+      "zh-Hant": "小行商"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/35f2043218a8262dc09eb56f.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0025",
+      "targetInsight": 163,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              40,
+              40
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0025",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0025_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0025_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0025_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0025_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0025_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0025_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0025",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0025",
+          "targetInsight": 163,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  40,
+                  40
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0025",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0025_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0025_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0025_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0025_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0025_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0025_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0025",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0025",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0026",
+    "gameId": "STE0026",
+    "kind": "targets",
+    "slug": "ste0026",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Survival Master",
+      "ko": "생존왕",
+      "ja": "サバイバルマスター",
+      "es": "Superviviente experto",
+      "zh-Hans": "生存大师",
+      "zh-Hant": "生存大師"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/455e9658831c636796199b2c.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0026",
+      "targetInsight": 390,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              95,
+              95
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0026",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0026_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0026_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0026_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0026_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0026_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0026_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0026",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0026",
+          "targetInsight": 390,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  95,
+                  95
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0026",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0026_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0026_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0026_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0026_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0026_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0026_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0026",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0026",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0027",
+    "gameId": "STE0027",
+    "kind": "targets",
+    "slug": "ste0027",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "God of Farming",
+      "ko": "농사의 신",
+      "ja": "農業の神",
+      "es": "Dios de la agricultura",
+      "zh-Hans": "农业之神",
+      "zh-Hant": "農業之神"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/ec5f081f618c512b63168ed3.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0027",
+      "targetInsight": 420,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              100,
+              100
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0027",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0027_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0027_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0027_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0027_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0027_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0027_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0027",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0027",
+          "targetInsight": 420,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  100,
+                  100
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0027",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0027_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0027_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0027_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0027_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0027_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0027_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0027",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0027",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "targets:ste0028",
+    "gameId": "STE0028",
+    "kind": "targets",
+    "slug": "ste0028",
+    "type": "StealthTargetDefinitionSO",
+    "names": {
+      "en": "Legendary Thief",
+      "ko": "전설의 대도",
+      "ja": "伝説の大泥棒",
+      "es": "Ladrón legendario",
+      "zh-Hans": "传奇大盗",
+      "zh-Hant": "傳奇大盜"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/3fa8058cee63546aebdc9754.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionId": "STE0028",
+      "targetInsight": 440,
+      "rewardTable": {
+        "chooseOneItem": false,
+        "entries": [
+          {
+            "goldRange": [
+              110,
+              110
+            ],
+            "goldProbability": 1.0,
+            "itemId": "",
+            "itemCountRange": [
+              0,
+              0
+            ],
+            "itemProbability": 0.0,
+            "$type": "RewardProbabilityEntry"
+          },
+          {
+            "goldRange": [
+              0,
+              0
+            ],
+            "goldProbability": 0.0,
+            "itemId": "CHESTS0028",
+            "itemCountRange": [
+              1,
+              1
+            ],
+            "itemProbability": 0.2,
+            "$type": "RewardProbabilityEntry"
+          }
+        ],
+        "$type": "RewardProbabilityDataSO"
+      },
+      "$type": "StealthTargetDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "STE0028_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "STE0028_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "STE0028_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "STE0028_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "STE0028_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "STE0028_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "actions:ste0028",
+        "field": "data.actionId",
+        "role": "related",
+        "context": {
+          "actionId": "STE0028",
+          "targetInsight": 440,
+          "rewardTable": {
+            "chooseOneItem": false,
+            "entries": [
+              {
+                "goldRange": [
+                  110,
+                  110
+                ],
+                "goldProbability": 1.0,
+                "itemId": "",
+                "itemCountRange": [
+                  0,
+                  0
+                ],
+                "itemProbability": 0.0,
+                "$type": "RewardProbabilityEntry"
+              },
+              {
+                "goldRange": [
+                  0,
+                  0
+                ],
+                "goldProbability": 0.0,
+                "itemId": "CHESTS0028",
+                "itemCountRange": [
+                  1,
+                  1
+                ],
+                "itemProbability": 0.2,
+                "$type": "RewardProbabilityEntry"
+              }
+            ],
+            "$type": "RewardProbabilityDataSO"
+          },
+          "$type": "StealthTargetDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Skill",
+                "key": "STE0028_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Skill",
+                "key": "STE0028_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Skill",
+                "key": "STE0028_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Skill",
+                "key": "STE0028_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Skill",
+                "key": "STE0028_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Skill",
+                "key": "STE0028_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "items:chests0028",
+        "field": "data.rewardTable.entries[1].itemId",
+        "role": "rewards",
+        "context": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "goldProbability": 0.0,
+          "itemId": "CHESTS0028",
+          "itemCountRange": [
+            1,
+            1
+          ],
+          "itemProbability": 0.2,
+          "$type": "RewardProbabilityEntry"
+        }
+      }
+    ],
+    "aliases": []
+  }
+]

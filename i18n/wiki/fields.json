@@ -1,0 +1,634 @@
+{
+  "skill": [
+    "Skill",
+    "스킬",
+    "スキル",
+    "Habilidad",
+    "技能",
+    "技能"
+  ],
+  "baseDurationSeconds": [
+    "Base duration",
+    "기본 시간",
+    "基本時間",
+    "Duración base",
+    "基础时间",
+    "基礎時間"
+  ],
+  "allowQueue": [
+    "Can be queued",
+    "대기열 등록 가능",
+    "キュー登録可",
+    "Admite cola",
+    "可加入队列",
+    "可加入佇列"
+  ],
+  "isRepeatable": [
+    "Repeatable",
+    "반복 가능",
+    "繰り返し可",
+    "Repetible",
+    "可重复",
+    "可重複"
+  ],
+  "actionSpeedMultiplier": [
+    "Action speed multiplier",
+    "액션 속도 배율",
+    "行動速度倍率",
+    "Multiplicador de velocidad",
+    "行动速度倍率",
+    "行動速度倍率"
+  ],
+  "actionXpMultiplier": [
+    "Action EXP multiplier",
+    "액션 경험치 배율",
+    "行動経験値倍率",
+    "Multiplicador de EXP",
+    "行动经验倍率",
+    "行動經驗倍率"
+  ],
+  "requiresFullGameUnlock": [
+    "Requires full game unlock",
+    "본편 해금 필요",
+    "製品版の解放が必要",
+    "Requiere juego completo",
+    "需要解锁完整版",
+    "需要解鎖完整版"
+  ],
+  "requiredSkillLevels": [
+    "Required skill levels",
+    "스킬 레벨 조건",
+    "必要スキルレベル",
+    "Niveles requeridos",
+    "技能等级要求",
+    "技能等級要求"
+  ],
+  "levelRequirements": [
+    "Level requirements",
+    "레벨 조건",
+    "必要レベル",
+    "Requisitos de nivel",
+    "等级要求",
+    "等級要求"
+  ],
+  "minLevel": [
+    "Minimum level",
+    "최소 레벨",
+    "最低レベル",
+    "Nivel mínimo",
+    "最低等级",
+    "最低等級"
+  ],
+  "maxLevel": [
+    "Level cap",
+    "레벨 상한",
+    "レベル上限",
+    "Nivel máximo",
+    "等级上限",
+    "等級上限"
+  ],
+  "unlockableMaxLevel": [
+    "Unlockable level cap",
+    "해금 가능 레벨 상한",
+    "解放可能な上限",
+    "Límite desbloqueable",
+    "可解锁等级上限",
+    "可解鎖等級上限"
+  ],
+  "inputCosts": [
+    "Materials and costs",
+    "재료와 비용",
+    "材料と費用",
+    "Materiales y costes",
+    "材料与费用",
+    "材料與費用"
+  ],
+  "itemId": [
+    "Item",
+    "아이템",
+    "アイテム",
+    "Objeto",
+    "物品",
+    "物品"
+  ],
+  "currencyId": [
+    "Currency",
+    "통화",
+    "通貨",
+    "Moneda",
+    "货币",
+    "貨幣"
+  ],
+  "amount": [
+    "Amount",
+    "수량",
+    "数量",
+    "Cantidad",
+    "数量",
+    "數量"
+  ],
+  "consume": [
+    "Consumed",
+    "소모 여부",
+    "消費する",
+    "Se consume",
+    "是否消耗",
+    "是否消耗"
+  ],
+  "costKind": [
+    "Cost type",
+    "비용 종류",
+    "費用の種類",
+    "Tipo de coste",
+    "费用类型",
+    "費用類型"
+  ],
+  "toolRequirements": [
+    "Required tools",
+    "필요 도구",
+    "必要な道具",
+    "Herramientas",
+    "所需工具",
+    "所需工具"
+  ],
+  "extraConditions": [
+    "Additional conditions",
+    "추가 조건",
+    "追加条件",
+    "Condiciones adicionales",
+    "额外条件",
+    "額外條件"
+  ],
+  "baseSkillExpGained": [
+    "Base skill EXP",
+    "기본 스킬 경험치",
+    "基本スキル経験値",
+    "EXP base de habilidad",
+    "基础技能经验",
+    "基礎技能經驗"
+  ],
+  "skillExpBonusPercent": [
+    "Skill EXP bonus",
+    "스킬 경험치 보너스",
+    "スキル経験値ボーナス",
+    "Bonificación de EXP",
+    "技能经验加成",
+    "技能經驗加成"
+  ],
+  "rewardTable": [
+    "Rewards",
+    "보상",
+    "報酬",
+    "Recompensas",
+    "奖励",
+    "獎勵"
+  ],
+  "rewards": [
+    "Rewards",
+    "보상",
+    "報酬",
+    "Recompensas",
+    "奖励",
+    "獎勵"
+  ],
+  "onStartEffects": [
+    "Effects on start",
+    "시작 시 효과",
+    "開始時の効果",
+    "Efectos al iniciar",
+    "开始时效果",
+    "開始時效果"
+  ],
+  "onSuccessEffects": [
+    "Effects on success",
+    "성공 시 효과",
+    "成功時の効果",
+    "Efectos al completar",
+    "成功时效果",
+    "成功時效果"
+  ],
+  "onFailEffects": [
+    "Effects on failure",
+    "실패 시 효과",
+    "失敗時の効果",
+    "Efectos al fallar",
+    "失败时效果",
+    "失敗時效果"
+  ],
+  "onProductionEffects": [
+    "Production effects",
+    "생산 시 효과",
+    "生産時の効果",
+    "Efectos de producción",
+    "生产时效果",
+    "生產時效果"
+  ],
+  "onHarvestEffects": [
+    "Harvest effects",
+    "수확 시 효과",
+    "収穫時の効果",
+    "Efectos de recolección",
+    "收获时效果",
+    "收穫時效果"
+  ],
+  "itemType": [
+    "Item type",
+    "아이템 종류",
+    "アイテムの種類",
+    "Tipo de objeto",
+    "物品类型",
+    "物品類型"
+  ],
+  "sellPrice": [
+    "Base sale price",
+    "기본 판매가",
+    "基本売却価格",
+    "Precio base de venta",
+    "基础售价",
+    "基礎售價"
+  ],
+  "rarity": [
+    "Rarity",
+    "희귀도",
+    "レアリティ",
+    "Rareza",
+    "稀有度",
+    "稀有度"
+  ],
+  "validSlots": [
+    "Equipment slots",
+    "장비 슬롯",
+    "装備部位",
+    "Ranuras de equipo",
+    "装备槽位",
+    "裝備欄位"
+  ],
+  "isTwoHanded": [
+    "Two-handed",
+    "양손 장비",
+    "両手装備",
+    "A dos manos",
+    "双手装备",
+    "雙手裝備"
+  ],
+  "equipmentModifiers": [
+    "Equipment bonuses",
+    "장비 효과",
+    "装備効果",
+    "Bonificaciones del equipo",
+    "装备效果",
+    "裝備效果"
+  ],
+  "idleSkillBonuses": [
+    "Life skill bonuses",
+    "생활 스킬 보너스",
+    "生活スキルのボーナス",
+    "Bonificaciones de habilidades",
+    "生活技能加成",
+    "生活技能加成"
+  ],
+  "baseStats": [
+    "Base stats",
+    "기본 능력치",
+    "基本ステータス",
+    "Estadísticas base",
+    "基础属性",
+    "基礎屬性"
+  ],
+  "statType": [
+    "Stat",
+    "능력치",
+    "ステータス",
+    "Estadística",
+    "属性",
+    "屬性"
+  ],
+  "modType": [
+    "Modifier type",
+    "수정 방식",
+    "補正方式",
+    "Tipo de modificador",
+    "修正方式",
+    "修正方式"
+  ],
+  "value": [
+    "Value",
+    "수치",
+    "値",
+    "Valor",
+    "数值",
+    "數值"
+  ],
+  "order": [
+    "Application order",
+    "적용 순서",
+    "適用順",
+    "Orden de aplicación",
+    "应用顺序",
+    "套用順序"
+  ],
+  "enemyLevel": [
+    "Level",
+    "레벨",
+    "レベル",
+    "Nivel",
+    "等级",
+    "等級"
+  ],
+  "enemyType": [
+    "Enemy type",
+    "적 종류",
+    "敵の種類",
+    "Tipo de enemigo",
+    "敌人类型",
+    "敵人類型"
+  ],
+  "resourceLevel": [
+    "Required gathering level",
+    "필요 채집 레벨",
+    "必要採集レベル",
+    "Nivel de recolección",
+    "所需采集等级",
+    "所需採集等級"
+  ],
+  "resourceKind": [
+    "Resource type",
+    "자원 종류",
+    "資源の種類",
+    "Tipo de recurso",
+    "资源类型",
+    "資源類型"
+  ],
+  "resourceDropFailTable": [
+    "Rewards below required level",
+    "레벨 부족 시 보상",
+    "レベル不足時の報酬",
+    "Recompensas con nivel insuficiente",
+    "等级不足时奖励",
+    "等級不足時獎勵"
+  ],
+  "skills": [
+    "Special skills",
+    "특수 기술",
+    "特殊スキル",
+    "Habilidades especiales",
+    "特殊技能",
+    "特殊技能"
+  ],
+  "attack1": [
+    "Attack 1",
+    "공격 1",
+    "攻撃1",
+    "Ataque 1",
+    "攻击1",
+    "攻擊1"
+  ],
+  "attack2": [
+    "Attack 2",
+    "공격 2",
+    "攻撃2",
+    "Ataque 2",
+    "攻击2",
+    "攻擊2"
+  ],
+  "attack3": [
+    "Attack 3",
+    "공격 3",
+    "攻撃3",
+    "Ataque 3",
+    "攻击3",
+    "攻擊3"
+  ],
+  "enabled": [
+    "Enabled",
+    "활성 여부",
+    "有効",
+    "Activado",
+    "启用",
+    "啟用"
+  ],
+  "areaLevel": [
+    "Area level",
+    "지역 레벨",
+    "エリアレベル",
+    "Nivel de zona",
+    "区域等级",
+    "區域等級"
+  ],
+  "attribute": [
+    "Area type",
+    "지역 속성",
+    "エリア属性",
+    "Tipo de zona",
+    "区域属性",
+    "區域屬性"
+  ],
+  "enemySpawns": [
+    "Enemy encounters",
+    "적 배치",
+    "敵の配置",
+    "Encuentros",
+    "敌人配置",
+    "敵人配置"
+  ],
+  "enemyAdditionalStatSources": [
+    "Area stat modifiers",
+    "지역 추가 능력치",
+    "エリアの追加補正",
+    "Modificadores de zona",
+    "区域额外属性",
+    "區域額外屬性"
+  ],
+  "clearRewardTable": [
+    "Area clear rewards",
+    "지역 클리어 보상",
+    "エリアクリア報酬",
+    "Recompensas de zona",
+    "区域通关奖励",
+    "區域通關獎勵"
+  ],
+  "twoStarMaxClearTimeSeconds": [
+    "Two-star clear time",
+    "2성 제한 시간",
+    "星2の制限時間",
+    "Tiempo para 2 estrellas",
+    "2星时限",
+    "2星時限"
+  ],
+  "threeStarMaxClearTimeSeconds": [
+    "Three-star clear time",
+    "3성 제한 시간",
+    "星3の制限時間",
+    "Tiempo para 3 estrellas",
+    "3星时限",
+    "3星時限"
+  ],
+  "condition": [
+    "Completion condition",
+    "완료 조건",
+    "達成条件",
+    "Condición",
+    "完成条件",
+    "完成條件"
+  ],
+  "category": [
+    "Category",
+    "분류",
+    "分類",
+    "Categoría",
+    "分类",
+    "分類"
+  ],
+  "mainOrder": [
+    "Main objective order",
+    "메인 목표 순서",
+    "メイン目標の順番",
+    "Orden del objetivo principal",
+    "主线目标顺序",
+    "主線目標順序"
+  ],
+  "previous": [
+    "Previous",
+    "이전",
+    "前へ",
+    "Anterior",
+    "上一项",
+    "上一項"
+  ],
+  "next": [
+    "Next",
+    "다음",
+    "次へ",
+    "Siguiente",
+    "下一项",
+    "下一項"
+  ],
+  "levelTable": [
+    "Level progression",
+    "레벨별 경험치",
+    "レベル別経験値",
+    "Progresión de nivel",
+    "等级经验表",
+    "等級經驗表"
+  ],
+  "proficiencyTable": [
+    "Proficiency progression",
+    "숙련도별 경험치",
+    "熟練度別経験値",
+    "Progresión de competencia",
+    "熟练度经验表",
+    "熟練度經驗表"
+  ],
+  "level": [
+    "Level",
+    "레벨",
+    "レベル",
+    "Nivel",
+    "等级",
+    "等級"
+  ],
+  "totalExpToReach": [
+    "Total EXP required",
+    "필요 누적 경험치",
+    "必要累計経験値",
+    "EXP total necesaria",
+    "所需累计经验",
+    "所需累計經驗"
+  ],
+  "expToNext": [
+    "EXP to next level",
+    "다음 레벨 경험치",
+    "次のレベルまでの経験値",
+    "EXP al siguiente nivel",
+    "升到下级所需经验",
+    "升到下級所需經驗"
+  ],
+  "rank": [
+    "Rank",
+    "등급",
+    "ランク",
+    "Rango",
+    "评级",
+    "評級"
+  ],
+  "baseCycleSeconds": [
+    "Base cycle",
+    "기본 주기",
+    "基本周期",
+    "Ciclo base",
+    "基础周期",
+    "基礎週期"
+  ],
+  "xpGrantTiming": [
+    "EXP grant timing",
+    "경험치 지급 시점",
+    "経験値付与のタイミング",
+    "Momento de EXP",
+    "经验发放时机",
+    "經驗發放時機"
+  ],
+  "firstClearRewards": [
+    "First clear rewards",
+    "최초 클리어 보상",
+    "初回クリア報酬",
+    "Recompensas iniciales",
+    "首次通关奖励",
+    "首次通關獎勵"
+  ],
+  "sweepRewards": [
+    "Repeat/sweep rewards",
+    "반복·소탕 보상",
+    "周回・掃討報酬",
+    "Recompensas de repetición",
+    "重复/扫荡奖励",
+    "重複／掃蕩獎勵"
+  ],
+  "sweepGoldCost": [
+    "Sweep gold cost",
+    "소탕 골드 비용",
+    "掃討のゴールド費用",
+    "Oro para barrido",
+    "扫荡金币费用",
+    "掃蕩金幣費用"
+  ],
+  "difficulty": [
+    "Difficulty",
+    "난이도",
+    "難易度",
+    "Dificultad",
+    "难度",
+    "難度"
+  ],
+  "price": [
+    "Price rules",
+    "가격 규칙",
+    "価格の規則",
+    "Reglas de precio",
+    "价格规则",
+    "價格規則"
+  ],
+  "offers": [
+    "Offers",
+    "판매 상품",
+    "商品",
+    "Ofertas",
+    "商品",
+    "商品"
+  ],
+  "museumCategory": [
+    "Museum category",
+    "박물관 분류",
+    "博物館の分類",
+    "Categoría del museo",
+    "博物馆分类",
+    "博物館分類"
+  ],
+  "bindings": [
+    "System connections",
+    "시스템 연결",
+    "システムの関連付け",
+    "Conexiones del sistema",
+    "系统关联",
+    "系統關聯"
+  ]
+}

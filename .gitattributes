@@ -1,0 +1,3 @@
+# The export manifest hashes exact bytes, including Windows line endings.
+# Preserve packages unchanged across Windows authoring and Linux Pages builds.
+data/iris/** -text

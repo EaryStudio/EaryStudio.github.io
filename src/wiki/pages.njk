@@ -1,0 +1,75 @@
+---
+pagination:
+  data: wiki.pages
+  size: 1
+  alias: entry
+permalink: "{{ entry.url | withoutBase }}index.html"
+eleventyExcludeFromCollections: true
+---
+{% set ui = entry.ui %}{% set lang = entry.locale %}{% set root = wiki.config.wikiPath %}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ entry.title }} · {{ ui.gameTitle }} {{ ui.wiki }}</title>
+  <meta name="description" content="{{ (entry.entity.descriptions[lang] if entry.entity else ui.intro) | plain | truncate(160) }}">
+  <link rel="canonical" href="{{ wiki.config.siteOrigin }}{{ entry.canonicalUrl or entry.url }}">
+  {% if entry.type == 'forward' %}<meta http-equiv="refresh" content="0;url={{ entry.canonicalUrl }}">{% endif %}
+  {% for locale in entry.locales %}<link rel="alternate" hreflang="{{ locale }}" href="{{ wiki.config.siteOrigin }}{{ entry | localeUrl(locale) }}">{% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ wiki.config.siteOrigin }}{{ entry | localeUrl('en') }}">
+  <link rel="stylesheet" href="{{ wiki.config.basePath }}css/fonts.css"><link rel="stylesheet" href="{{ root }}client/wiki.css"><link rel="stylesheet" href="{{ root }}client/game.css">
+  {% include 'font-ready.njk' %}
+  <script type="module" src="{{ root }}client/wiki.js"></script>
+</head>
+<body data-locale="{{ lang }}" data-index="{{ root }}search/{{ wiki.indexes[lang].file }}">
+<a class="skip" href="#main">{{ ui.skip }}</a>
+<header class="masthead"><a class="brand" href="{{ root }}{{ lang }}/"><img class="brand-icon" src="{{ wiki.config.basePath }}assets/icons/apple-touch-icon.png" width="48" height="48" alt=""><span>{{ ui.gameTitle }}<small>{{ ui.wiki }} <b>{{ wiki.manifest.release }}</b></small></span></a>
+  <form role="search" action="{{ root }}{{ lang }}/search/"><label class="sr-only" for="global-search">{{ ui.search }}</label><input id="global-search" name="q" type="search" placeholder="{{ ui.searchPlaceholder }}"><button>{{ ui.search }}</button></form>
+  <details class="languages"><summary>{{ wiki.dictionaries[lang].native }}</summary><nav aria-label="{{ ui.language }}">{% for locale in entry.locales %}<a lang="{{ locale }}" hreflang="{{ locale }}" href="{{ entry | localeUrl(locale) }}"{% if locale == lang %} aria-current="true"{% endif %}>{{ wiki.dictionaries[locale].native }}</a>{% endfor %}</nav></details>
+</header>
+<div class="wiki-shell">
+<aside class="sidebar"><details open id="navigation"><summary>{{ ui.contents }}</summary><nav aria-label="{{ ui.contents }}"><a href="{{ root }}{{ lang }}/"{% if entry.type == 'home' %} aria-current="page"{% endif %}>{{ ui.home }}</a>{% for kind in wiki.navigationKinds %}<a href="{{ root }}{{ lang }}/{{ kind }}/"{% if (kind == 'skills' and entry.parentSkill) or (kind == 'shops' and entry.parentShopIds.length) or (not entry.parentSkill and (kind == entry.kind or kind == entry.entity.kind)) %} aria-current="page"{% endif %}>{{ ui[kind] }}<small>{{ wiki.groups[kind].length }}</small></a>{% endfor %}</nav><div class="sidebar-foot"><span>{{ ui.version }} {{ wiki.manifest.release }}</span><a href="{{ wiki.config.basePath }}">↗ {{ ui.official }}</a>{% for platform in wiki.config.communityLinks %}<a href="{{ platform.url }}">↗ {{ platform.label }}</a>{% endfor %}</div></details></aside>
+<main id="main">
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="{{ root }}{{ lang }}/">{{ ui.wiki }}</a>{% if entry.parentSkill %}{% set parent = entry.parentSkill | entityById %}<span>/</span><a href="{{ root }}{{ lang }}/skills/">{{ ui.skills }}</a><span>/</span><a href="{{ parent | entityUrl(lang) }}">{{ parent.names[lang] | plain }}</a>{% elif entry.parentShopIds.length %}<span>/</span><a href="{{ root }}{{ lang }}/shops/">{{ ui.shops }}</a>{% for shopId in entry.parentShopIds %}{% set shop = shopId | entityById %}<span>/</span><a href="{{ shop | entityUrl(lang) }}">{{ shop.names[lang] | plain }}</a>{% endfor %}{% elif entry.entity %}<span>/</span><a href="{{ root }}{{ lang }}/{{ entry.entity.kind }}/">{{ ui[entry.entity.kind] }}</a>{% endif %}{% if entry.type != 'home' %}<span>/</span><span>{{ entry.title }}</span>{% endif %}</nav>
+{% if entry.type == 'home' %}
+  <section class="hero"><p class="eyebrow">{{ ui.wiki }} · {{ ui.version }} {{ wiki.manifest.release }}</p><h1>{{ ui.tagline }}</h1><p>{{ ui.intro }}</p><a class="button" href="{{ root }}{{ lang }}/items/">{{ ui.explore }} <span aria-hidden="true">↗</span></a><svg class="hero-art" viewBox="0 0 341 220" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false"><image href="{{ wiki.config.basePath }}assets/wiki-ui/hero-scene.png" width="341" height="480" /></svg><img class="hero-portrait" src="{{ wiki.config.basePath }}assets/wiki-ui/iris-smile-b9ee5c08ca37.png" width="208" height="304" alt="" aria-hidden="true"></section>
+  <div class="release-note"><span class="status-dot"></span><strong>{{ wiki.entities.length }}</strong> {{ ui.related }} <span>·</span> 6 {{ ui.language }} <span>·</span> {{ ui.version }} {{ wiki.manifest.release }}</div>
+  <h2>{{ ui.contents }}</h2><div class="category-grid">{% for kind in wiki.navigationKinds %}<a class="category-card" href="{{ root }}{{ lang }}/{{ kind }}/"><img class="category-icon" src="{{ wiki.groups[kind] | categoryImage | imageUrl }}" width="48" height="48" alt="" loading="lazy"><h3>{{ ui[kind] }}</h3><span>{{ wiki.groups[kind].length }} <span aria-hidden="true">↗</span></span></a>{% endfor %}</div>
+{% elif entry.type == 'forward' %}
+  <h1>{{ entry.title }}</h1><div class="data-section"><p>{{ ui.terms.mergedPage }}</p><a class="button" href="{{ entry.canonicalUrl }}">{{ ui.terms.openMergedPage }} →</a></div>
+{% elif entry.type == 'tombstone' %}
+  <h1>{{ entry.title }}</h1><p lang="en">This entry was removed or moved in version {{ entry.migration.removedIn }}. This page preserves its original address.</p>{% if entry.migration.replacement %}<a href="{{ entry.migration.replacement | entityUrl(lang) }}">{{ ui.next }} →</a>{% endif %}
+{% elif entry.kind == 'patch-notes' or entry.entity.kind == 'patch-notes' %}
+  {% set patch = entry.entity or wiki.groups['patch-notes'][0] %}
+  <header class="entity-heading"><img src="{{ patch | entityImage | imageUrl }}" alt="" width="64" height="64"><h1>{{ patch.names[lang] }}</h1></header>
+  <details class="content-details patch-history"><summary>{{ ui.terms.previousVersions }} · {{ patch.data.version }}</summary><nav class="patch-versions" aria-label="{{ ui['patch-notes'] }} · {{ ui.version }}">{% for note in wiki.groups['patch-notes'] %}<a href="{{ note | entityUrl(lang) }}"{% if note.wikiId == patch.wikiId %} aria-current="page"{% endif %}>{{ note.data.version }}</a>{% endfor %}</nav></details>
+  {% if lang in patch.data.fallbackLocales %}<p class="fallback-notice">{{ ui.fallback }}</p>{% endif %}
+  <article class="patch-body data-section" aria-label="{{ patch.names[lang] }}">{{ patch.data.bodies[lang] }}</article>
+{% elif entry.type == 'list' %}
+  <div class="page-heading"><p class="eyebrow">{{ ui.version }} {{ wiki.manifest.release }}</p><h1>{{ entry.title }} <small>{{ entry.total }}</small></h1></div>
+  {% include 'game-guides.njk' %}
+  {% set listedEntities = entry.entities %}{% include 'entity-list.njk' %}
+{% elif entry.type == 'skill-actions' %}
+  <div class="page-heading"><h1>{{ entry.entity.names[lang] | plain }} · {{ ui.skillActions }} <small>{{ entry.allSkillActionIds.length }}</small></h1></div>
+  <section id="skill-actions">{% set listedEntities = entry.skillActionIds | entitiesByIds %}{% include 'entity-list.njk' %}</section>
+{% elif entry.type == 'search' %}
+  <div class="page-heading"><h1>{{ ui.search }}</h1></div><p data-search-status role="status" data-empty="{{ ui.noResults }}" data-error="{{ ui.searchError }}" data-results="{{ ui.results }}" data-range="{{ ui.terms.showingRange }}"></p>{% include 'client-pager.njk' %}<div class="data-section" data-search-results tabindex="-1" aria-label="{{ ui.results }}"></div>{% include 'client-pager.njk' %}
+  <noscript><p>{{ ui.searchError }}</p></noscript><h2>{{ ui.contents }}</h2><ul class="data-section search-categories">{% for kind in wiki.navigationKinds %}<li><a href="{{ root }}{{ lang }}/{{ kind }}/">{{ ui[kind] }}</a></li>{% endfor %}</ul>
+{% else %}
+  {% set entity = entry.entity %}
+  {% set dataHtml = entity | dataHtml(lang) %}{% set relationSections = entity | relationSections(lang) %}
+  <header class="entity-heading"><img src="{{ entity | entityImage | imageUrl }}" alt="" width="88" height="88"><div><p class="eyebrow">{{ ui[entity.kind] }} · {{ ui.version }} {{ wiki.manifest.release }}</p><h1>{{ entity.names[lang] | plain }}</h1></div></header>
+  {% if entity.descriptions[lang] %}<p class="entity-description data-section">{{ entity.descriptions[lang] | plain }}</p>{% endif %}
+  {% if lang != 'en' and entity.data.editorialLanguage == 'en' %}<p class="fallback-notice">{{ ui.englishNotice }}</p>{% endif %}
+  {% if entity.data.fallbackLocales and lang in entity.data.fallbackLocales %}<p class="fallback-notice">{{ ui.fallback }}</p>{% endif %}
+  <nav class="page-toc" aria-label="{{ ui.contents }}">{% if entry.contextualGuideIds.length %}<a href="#game-guide">{{ ui.guides }}</a>{% endif %}{% if entry.skillActionIds.length %}<a href="#skill-actions">{{ ui.skillActions }}</a>{% endif %}{% if dataHtml %}<a href="#values">{{ ui.terms.definition if entity.kind == 'statistics' else ui.terms.details }}</a>{% endif %}{% for mergedId in entry.mergedIds %}{% set merged = mergedId | entityById %}<a href="#merged-{{ merged.kind }}">{{ ui[merged.kind] }}</a>{% endfor %}{% for section in relationSections %}<a href="#{{ section.id }}">{{ section.title }}</a>{% endfor %}<a href="#provenance">{{ ui.provenance }}</a></nav>
+  {% include 'game-guides.njk' %}
+  {% if dataHtml %}<section id="values"><h2>{{ ui.terms.definition if entity.kind == 'statistics' else ui.terms.details }}</h2>{% if entity.kind in ['items','monsters','actions','recipes','skills','combat-actions'] %}<p class="notice">{{ ui.baseNotice }}</p>{% endif %}<div class="data-grid">{{ dataHtml | safe }}</div></section>{% endif %}
+  {% if entry.skillActionIds.length %}<section id="skill-actions"><h2>{{ ui.skillActions }} <small>{{ entry.allSkillActionIds.length }}</small></h2>{% set listedEntities = entry.skillActionIds | entitiesByIds %}{% include 'entity-list.njk' %}</section>{% endif %}
+  {% for mergedId in entry.mergedIds %}{% set merged = mergedId | entityById %}<section class="merged-content" id="merged-{{ merged.kind }}"><h2>{{ ui[merged.kind] }}</h2>{% if merged.descriptions[lang] and merged.descriptions[lang] != entity.descriptions[lang] %}<p class="entity-description data-section">{{ merged.descriptions[lang] | plain }}</p>{% endif %}<div class="data-grid">{{ merged | dataHtml(lang) | safe }}</div></section>{% endfor %}
+  {% for section in relationSections %}<section id="{{ section.id }}" class="relation-section"><h2>{{ section.title }}</h2>{{ section.html | safe }}</section>{% endfor %}
+  {% if entity.data.previous or entity.data.next %}<nav class="previous-next">{% if entity.data.previous %}<a href="{{ entity.data.previous.ref | entityUrl(lang) }}">← {{ ui.previous }}</a>{% endif %}{% if entity.data.next %}<a href="{{ entity.data.next.ref | entityUrl(lang) }}">{{ ui.next }} →</a>{% endif %}</nav>{% endif %}
+{% endif %}
+<footer id="provenance"><strong>{{ ui.gameTitle }} · {{ ui.version }} {{ wiki.manifest.release }}</strong><p>{{ ui.provenance }}: <code>{{ wiki.manifest.sourceRevision | truncate(12, true, '') }}</code> · exporter {{ wiki.manifest.exporterVersion }}</p><p>Eary Studio <span aria-hidden="true">✦</span> <a href="{{ wiki.config.basePath }}">{{ ui.official }}</a></p><p>Silver · <a href="https://poppyworks.itch.io/silver">Poppy Works</a> · <a href="{{ wiki.config.basePath }}assets/fonts/game/Silver-LICENSE.txt">CC BY 4.0</a></p></footer>
+</main></div>
+</body></html>

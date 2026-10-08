@@ -1,0 +1,26 @@
+{
+  "silver": {
+    "source": "Assets/Font/Silver.ttf",
+    "sourceSha256": "7adcf56d93142ded08ff18196f78fcaaf552411b9a94dc559dac90eb5c91cef1",
+    "woff2Sha256": "9027fab8f8f8e844ac5ffbb4cf8df5d5e78b51a6dcf674528275300231a1ae68",
+    "bytes": 508580
+  },
+  "fusion-hans": {
+    "source": "Assets/Font/Localization/Sources/fusion-pixel-12px-proportional-zh_hans.ttf",
+    "sourceSha256": "ffa464aae492ed7a8526367debcce62603cec8157f59548cc50cebf1ed81a53f",
+    "woff2Sha256": "87886f3c93cc4528575f1c58f67fd8a94c9483a3e466006a97c6ddc63086d25b",
+    "bytes": 917432
+  },
+  "fusion-hant": {
+    "source": "Assets/Font/Localization/Sources/fusion-pixel-12px-proportional-zh_hant.ttf",
+    "sourceSha256": "3462877948294744c4edf8c765354f326d227f58c1b9e8087543137ea8d0e737",
+    "woff2Sha256": "466a64dc76d825cd238a89e6fae4b2c08c79c6dddad95087a2c4fbc51cbb0e1e",
+    "bytes": 926524
+  },
+  "unifont": {
+    "source": "Assets/Font/Localization/Sources/unifont-17.0.05.otf",
+    "sourceSha256": "85701ab9b1e251ee16f4df00b13f22eac311d72b7dab427a7d975fe7f5064702",
+    "woff2Sha256": "7d9e568a3de218096cd07b09f3212277d04ee5934dd22835cb47c1c4c57bf4ac",
+    "bytes": 911932
+  }
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "wikiId": "currencies:challenge.cycle_stone",
+    "gameId": "challenge.cycle_stone",
+    "kind": "currencies",
+    "slug": "challenge.cycle_stone",
+    "type": "CurrencyDefinitionSO",
+    "names": {
+      "en": "Cycle Stone",
+      "ko": "순환석",
+      "ja": "循環石",
+      "es": "Piedra Cíclica",
+      "zh-Hans": "循环石",
+      "zh-Hant": "循環石"
+    },
+    "descriptions": {
+      "en": "Currency earned from the Trial Tower.",
+      "ko": "순환의 시련탑에서 획득하는 재화입니다.",
+      "ja": "循環の試練塔で獲得できる通貨です。",
+      "es": "Moneda obtenida en la Torre de Prueba Cíclica.",
+      "zh-Hans": "可从试炼之塔获得的货币。",
+      "zh-Hant": "可從試煉之塔獲得的貨幣。"
+    },
+    "image": {
+      "path": "assets/09e416378cfce0434fb133e7.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "$type": "CurrencyDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "UI",
+            "key": "UI_CURRENCY_CYCLE_STONE_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "currencies:challenge.rewind_thread",
+    "gameId": "challenge.rewind_thread",
+    "kind": "currencies",
+    "slug": "challenge.rewind_thread",
+    "type": "CurrencyDefinitionSO",
+    "names": {
+      "en": "Rewind Thread",
+      "ko": "되감기 실타래",
+      "ja": "巻き戻しの糸",
+      "es": "Hilo de Rebobinado",
+      "zh-Hans": "回溯丝线",
+      "zh-Hant": "回溯絲線"
+    },
+    "descriptions": {
+      "en": "Currency earned from the Rewinding Labyrinth.",
+      "ko": "되감기는 미궁에서 획득하는 재화입니다.",
+      "ja": "巻き戻しの迷宮で獲得できる通貨です。",
+      "es": "Moneda obtenida en el Laberinto del Rebobinado.",
+      "zh-Hans": "可从回溯迷宫获得的货币。",
+      "zh-Hant": "可從回溯迷宮獲得的貨幣。"
+    },
+    "image": {
+      "path": "assets/1a0ca8068f51052a90d78707.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "$type": "CurrencyDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "UI",
+            "key": "UI_CURRENCY_REWIND_THREAD_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "currencies:ducarin",
+    "gameId": "ducarin",
+    "kind": "currencies",
+    "slug": "ducarin",
+    "type": "CurrencyDefinitionSO",
+    "names": {
+      "en": "Ducarin",
+      "ko": "두카린",
+      "ja": "デュカリン",
+      "es": "Ducarin",
+      "zh-Hans": "杜卡林",
+      "zh-Hant": "杜卡林"
+    },
+    "descriptions": {
+      "en": "Special commerce-only currency.",
+      "ko": "상업 전용 특수 화폐입니다.",
+      "ja": "商業専用の特殊通貨です。",
+      "es": "Moneda especial exclusiva de comercio.",
+      "zh-Hans": "仅限商业使用的特殊货币。",
+      "zh-Hant": "僅限商業使用的特殊貨幣。"
+    },
+    "image": {
+      "path": "assets/7dd5d1aaacced5634cba6073.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "$type": "CurrencyDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "UI",
+            "key": "UI_CURRENCY_DUCARIN_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "currencies:gold",
+    "gameId": "gold",
+    "kind": "currencies",
+    "slug": "gold",
+    "type": "CurrencyDefinitionSO",
+    "names": {
+      "en": "Gold",
+      "ko": "골드",
+      "ja": "ゴールド",
+      "es": "Oro",
+      "zh-Hans": "金币",
+      "zh-Hant": "金幣"
+    },
+    "descriptions": {
+      "en": "Primary trading currency.",
+      "ko": "기본 거래 화폐입니다.",
+      "ja": "基本取引用の通貨です。",
+      "es": "Moneda principal de comercio.",
+      "zh-Hans": "主要交易货币。",
+      "zh-Hant": "主要交易貨幣。"
+    },
+    "image": {
+      "path": "assets/59a352c854bce5d3a7dd0284.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "$type": "CurrencyDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_NAME",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_NAME",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_NAME",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_NAME",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_NAME",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_NAME",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "UI",
+            "key": "UI_CURRENCY_GOLD_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "currencies:inspiration",
+    "gameId": "inspiration",
+    "kind": "currencies",
+    "slug": "inspiration",
+    "type": "CurrencyDefinitionSO",
+    "names": {
+      "en": "Inspiration",
+      "ko": "영감",
+      "ja": "インスピレーション",
+      "es": "Inspiración",
+      "zh-Hans": "灵感",
+      "zh-Hant": "靈感"
+    },
+    "descriptions": {
+      "en": "Used for Painting and Writing actions.",
+      "ko": "그림 및 글쓰기에 사용됩니다.",
+      "ja": "絵画と執筆アクションに使用します。",
+      "es": "Usado en Pintura y Escritura.",
+      "zh-Hans": "用于绘画和写作动作。",
+      "zh-Hant": "用於繪畫和寫作動作。"
+    },
+    "image": {
+      "path": "assets/1076743ff5977646c9688160.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "$type": "CurrencyDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_TITLE",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_TITLE",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_TITLE",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_TITLE",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_TITLE",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_TITLE",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "UI",
+            "key": "UI_RESOURCE_INSPIRATION_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [],
+    "aliases": []
+  }
+]

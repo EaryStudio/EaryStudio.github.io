@@ -1,0 +1,1635 @@
+[
+  {
+    "wikiId": "patch-notes:0.34",
+    "gameId": "0.34",
+    "kind": "patch-notes",
+    "slug": "0.34",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.34)",
+      "ko": "패치노트 (0.34)",
+      "ja": "パッチノート (0.34)",
+      "es": "Notas del parche (0.34)",
+      "zh-Hans": "更新说明（0.34）",
+      "zh-Hant": "更新說明（0.34）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.34",
+      "order": 22,
+      "bodies": {
+        "en": "Combat / Familiars\n\n- Changed combat familiar unlock mechanics.\n- Fixed an issue where the unlock chance was much lower than intended.\n\nCamping / Objectives\n\n- Updated Camping skill and main objectives.\n\nCrafting\n\n- Fixed Magic Armor subcategory order in Crafting.\n\nDialogue / UI\n\n- Adjusted dialogue page text limits by language.\n- Fixed some Farming scroll view clipping issues.\n\nAuto Explore / Performance\n\n- Simplified Auto Explore item reward popups.\n- Reduced lag caused by reward popups.",
+        "ko": "전투 / 소환수\n\n- 전투 관련 소환수 해금 메커니즘을 변경했습니다.\n- 의도된 확률보다 지나치게 낮게 해금되던 문제를 수정했습니다.\n\n야영 / 목표\n\n- 야영 스킬 및 메인 목표를 업데이트했습니다.\n\n제작\n\n- 제작 내 마법사용 방어구 하위분류 순서를 수정했습니다.\n\n대화 / UI\n\n- 대화 출력 시 언어별 페이지 글자 수를 조절했습니다.\n- 농사 스크롤 화면 일부가 잘리던 현상을 수정했습니다.\n\n자동 탐험 / 성능\n\n- 자동 탐험 아이템 보상 팝업창을 간소화했습니다.\n- 보상 팝업 간소화로 렉 유발을 감소시켰습니다.",
+        "ja": "戦闘 / 召喚獣\n\n- 戦闘関連の召喚獣解放の仕組みを変更しました。\n- 想定より大幅に低い確率でしか解放されない問題を修正しました。\n\n野営 / 目標\n\n- 野営スキルと主要目標を更新しました。\n\n製作\n\n- 製作内の魔法用防具の小分類順を修正しました。\n\n会話 / 画面\n\n- 会話表示で、言語ごとの1ページあたりの文字数を調整しました。\n- 栽培画面のスクロール表示が一部切れる問題を修正しました。\n\n自動探索 / 動作改善\n\n- 自動探索のアイテム報酬ポップアップを簡略化しました。\n- 報酬ポップアップの簡略化により、カクつきの発生を軽減しました。",
+        "es": "Combate / Familiares\n\n- Se cambió la mecánica de desbloqueo de familiares relacionados con combate.\n- Se corrigió un problema por el que la probabilidad de desbloqueo era mucho menor de lo previsto.\n\nAcampada / Objetivos principales\n\n- Se actualizaron la habilidad de Acampada y los objetivos principales.\n\nFabricación\n\n- Se corrigió el orden de la subcategoría de armadura mágica en Fabricación.\n\nDiálogo / Interfaz\n\n- Se ajustó el límite de caracteres por página en los diálogos según el idioma.\n- Se corrigió un problema por el que parte de la vista desplazable de Cultivo se recortaba.\n\nAutoexploración / Rendimiento\n\n- Se simplificaron las ventanas emergentes de recompensas de objetos de Autoexploración.\n- Se redujo el lag causado por las ventanas emergentes de recompensas.",
+        "zh-Hans": "战斗 / 使魔\n\n- 调整了战斗类使魔的解锁机制。\n- 修复了解锁概率远低于预期的问题。\n\n露营 / 目标\n\n- 更新了露营技能和主要目标。\n\n制作\n\n- 修正了制作中魔法防具子分类的排列顺序。\n\n对话 / UI\n\n- 根据语言调整了每页对话的文字数量上限。\n- 修复了耕作界面的部分滚动区域被裁切的问题。\n\n自动探索 / 性能\n\n- 简化了自动探索的物品奖励弹窗。\n- 减少了奖励弹窗造成的卡顿。",
+        "zh-Hant": "戰鬥 / 使魔\n\n- 調整了戰鬥類使魔的解鎖機制。\n- 修復了解鎖機率遠低於預期的問題。\n\n露營 / 目標\n\n- 更新了露營技能和主要目標。\n\n製作\n\n- 修正了製作中魔法防具子分類的排列順序。\n\n對話 / UI\n\n- 根據語言調整了每頁對話的文字數量上限。\n- 修復了耕作介面的部分捲動區域被裁切的問題。\n\n自動探索 / 效能\n\n- 簡化了自動探索的物品獎勵彈窗。\n- 減少了獎勵彈窗造成的卡頓。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_34",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_34",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_34",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_34",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_34",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_34",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.35",
+    "gameId": "0.35",
+    "kind": "patch-notes",
+    "slug": "0.35",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.35)",
+      "ko": "패치노트 (0.35)",
+      "ja": "パッチノート (0.35)",
+      "es": "Notas del parche (0.35)",
+      "zh-Hans": "更新说明（0.35）",
+      "zh-Hant": "更新說明（0.35）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.35",
+      "order": 21,
+      "bodies": {
+        "en": "Language Addition\n\n- Spanish language support has been added.\n\nRest / Familiars\n\n- Increased the unlock chance for Rest-related familiars.\n\nGold Shop\n\n- Reduced the price scaling for Inventory Expansion Tickets in the Gold Shop.\n- Before: x1.4 every 5 purchases\n- After: x1.2 every 5 purchases\n\nCrafting / Smithing\n\n- Increased the EXP gained from Crafting and Smithing items that consume more of the same material.\n- Adjusted crafting actions that use more materials so their EXP gain is reflected more naturally.\n\nStealth\n\n- Adjusted early Stealth balance.\n- Adjusted action times for actions with the same EXP but different required levels.\n\nWriting\n\n- Fixed the max queue count display issue for Writing (Drama).\n- Before: 3000\n- After: 1\n\nPatch Notes\n\n- Patch notes can now be viewed in game.",
+        "ko": "언어 추가\n\n- 스페인어 지원이 추가되었습니다.\n\n휴식 / 소환수\n\n- 휴식 관련 소환수 해금 확률을 상향했습니다.\n\n골드 상점\n\n- 골드 상점의 인벤토리 추가 티켓 가격 상승폭을 낮췄습니다.\n- 기존: 5회 구매마다 1.4배 증가\n- 변경: 5회 구매마다 1.2배 증가\n\n제작 / 제련\n\n- 제작 및 제련에서 동일 재료를 더 많이 소모하는 아이템의 경험치 획득량을 증가시켰습니다.\n- 재료를 많이 사용하는 제작 행동이 경험치 측면에서도 더 자연스럽게 반영되도록 조정했습니다.\n\n절도\n\n- 절도 초반 구간 밸런스를 조정했습니다.\n- 경험치가 같지만 필요 레벨이 다른 행동들의 행동 시간을 조정했습니다.\n\n글쓰기\n\n- 글쓰기(희곡) 대기열 등록 최대 개수 표시 오류를 수정했습니다.\n- 기존 표시: 3000\n- 수정 후: 1\n\n패치노트\n\n- 이제 패치노트를 게임 내에서 확인할 수 있습니다.",
+        "ja": "言語追加\n\n- スペイン語対応を追加しました。\n\n休息 / 召喚獣\n\n- 休息関連の召喚獣解放確率を上方修正しました。\n\nゴールドショップ\n\n- ゴールドショップのインベントリ追加チケットの価格上昇幅を緩和しました。\n- 変更前：5回購入ごとに1.4倍\n- 変更後：5回購入ごとに1.2倍\n\n製作 / 鍛冶\n\n- 製作および鍛冶で、同じ素材をより多く消費するアイテムの経験値獲得量を増加しました。\n- より多くの素材を使う製作行動が、経験値面でもより自然に反映されるよう調整しました。\n\n窃盗\n\n- 窃盗の序盤バランスを調整しました。\n- 経験値が同じで必要レベルが異なる行動の所要時間を調整しました。\n\n執筆\n\n- 執筆（戯曲）の待機列登録最大数表示の不具合を修正しました。\n- 変更前：3000\n- 変更後：1\n\nパッチノート\n\n- ゲーム内でパッチノートを確認できるようになりました。",
+        "es": "Adición de idioma\n\n- Se agregó compatibilidad con español.\n\nDescanso / Familiares\n\n- Se aumentó la probabilidad de desbloquear familiares relacionados con Descanso.\n\nTienda de oro\n\n- Se redujo el aumento de precio del boleto de expansión de inventario en la tienda de oro.\n- Antes: x1.4 cada 5 compras\n- Ahora: x1.2 cada 5 compras\n\nFabricación / Herrería\n\n- Se aumentó la EXP obtenida de los objetos de Fabricación y Herrería que consumen más cantidad del mismo material.\n- Se ajustaron las acciones de fabricación que usan más materiales para que su ganancia de EXP se refleje de forma más natural.\n\nSigilo\n\n- Se ajustó el balance inicial de Sigilo.\n- Se ajustó el tiempo de acción para acciones con la misma EXP pero distinto nivel requerido.\n\nEscritura\n\n- Se corrigió el problema de visualización de la cantidad máxima de cola para Escritura (Obra dramática).\n- Antes: 3000\n- Ahora: 1\n\nNotas del parche\n\n- Ahora las notas del parche se pueden ver dentro del juego.",
+        "zh-Hans": "新增语言\n\n- 已新增西班牙语支持。\n\n休息 / 使魔\n\n- 提高了休息类使魔的解锁概率。\n\n金币商店\n\n- 降低了金币商店中背包栏位券的价格涨幅。\n- 调整前：每购买 5 次，价格变为 1.4 倍\n- 调整后：每购买 5 次，价格变为 1.2 倍\n\n制作 / 锻造\n\n- 提高了制作与锻造中使用更多相同材料的物品所提供的经验值。\n- 调整了消耗更多材料的制作动作，使其经验值收益更加合理。\n\n偷窃\n\n- 调整了偷窃前期的平衡。\n- 调整了经验值相同但所需等级不同的动作所需时间。\n\n写作\n\n- 修复了写作（戏剧）的最大队列数量显示错误。\n- 调整前：3000\n- 调整后：1\n\n更新说明\n\n- 现在可以在游戏内查看更新说明。",
+        "zh-Hant": "新增語言\n\n- 已新增西班牙語支援。\n\n休息 / 使魔\n\n- 提高了休息類使魔的解鎖機率。\n\n金幣商店\n\n- 降低了金幣商店中背包欄位券的價格漲幅。\n- 調整前：每購買 5 次，價格變為 1.4 倍\n- 調整後：每購買 5 次，價格變為 1.2 倍\n\n製作 / 鍛造\n\n- 提高了製作與鍛造中使用更多相同材料的物品所提供的經驗值。\n- 調整了消耗更多材料的製作動作，使其經驗值收益更加合理。\n\n偷竊\n\n- 調整了偷竊前期的平衡。\n- 調整了經驗值相同但所需等級不同的動作所需時間。\n\n寫作\n\n- 修復了寫作（戲劇）的最大佇列數量顯示錯誤。\n- 調整前：3000\n- 調整後：1\n\n更新說明\n\n- 現在可以在遊戲內查看更新說明。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_35",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_35",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_35",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_35",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_35",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_35",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.36",
+    "gameId": "0.36",
+    "kind": "patch-notes",
+    "slug": "0.36",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.36)",
+      "ko": "패치노트 (0.36)",
+      "ja": "パッチノート (0.36)",
+      "es": "Notas del parche (0.36)",
+      "zh-Hans": "更新说明（0.36）",
+      "zh-Hant": "更新說明（0.36）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.36",
+      "order": 20,
+      "bodies": {
+        "en": "Google Play Games\n\n- Improved excessive Google Play Games re-login attempts.\n\nActions\n\n- Added actions for Leap and Combat Mastery.\n- Leap: leaps forward toward the enemy.\n- Combat Mastery: increases attack speed by reducing Attack Interval.\n\nSale Confirmation\n\n- Sale price is now shown again on the sale confirmation screen.\n\nExploration\n\n- Equipped items are now also checked for consumption requirements during Exploration.\n\nInventory\n\n- Added the option to drink potions from the Inventory.",
+        "ko": "구글 플레이 게임즈\n\n- 구글 플레이 게임즈의 지나친 재로그인 시도를 개선했습니다.\n\n액션\n\n- 도약과 전투 숙련 액션을 추가했습니다.\n- 도약: 적 앞으로 도약합니다.\n- 전투 숙련: 공격 주기가 빨라집니다.\n\n판매 확인\n\n- 판매 확인 시 판매 가격을 다시 표시하도록 개선했습니다.\n\n탐험\n\n- 탐험 시 장착된 아이템도 소비 조건으로 체크하도록 변경했습니다.\n\n인벤토리\n\n- 인벤토리에서 포션을 마실 수 있는 기능을 추가했습니다.",
+        "ja": "Google Play ゲーム\n\n- Google Play ゲームへの過度な再ログイン試行を改善しました。\n\nアクション\n\n- 跳躍と戦闘熟練のアクションを追加しました。\n- 跳躍：敵の前方へ跳躍します。\n- 戦闘熟練：攻撃間隔が短くなります。\n\n販売確認\n\n- 販売確認時に販売価格を再表示するよう改善しました。\n\n探索\n\n- 探索時、装備中のアイテムも消費条件として確認するよう変更しました。\n\nインベントリ\n\n- インベントリからポーションを飲める機能を追加しました。",
+        "es": "Google Play Juegos\n\n- Se mejoraron los intentos excesivos de reinicio de sesión en Google Play Juegos.\n\nAcciones\n\n- Se han añadido las acciones Salto y Dominio de combate.\n- Salto: salta hacia adelante hasta el enemigo.\n- Dominio de combate: aumenta la velocidad de ataque al reducir el intervalo de ataque.\n\nConfirmación de venta\n\n- Ahora el precio de venta se muestra de nuevo en la pantalla de confirmación de venta.\n\nExploración\n\n- Durante la Exploración, los objetos equipados también se revisan para las condiciones de consumo.\n\nInventario\n\n- Se agregó la opción de beber pociones desde el Inventario.",
+        "zh-Hans": "Google Play 游戏\n\n- 优化了 Google Play 游戏反复尝试重新登录的问题。\n\n动作\n\n- 新增了跳跃和战斗精通的动作。\n- 跳跃：向敌人方向跃进。\n- 战斗精通：缩短攻击间隔，提高攻击速度。\n\n出售确认\n\n- 出售确认界面重新显示出售价格。\n\n探索\n\n- 探索时也会检查已装备物品是否满足消耗条件。\n\n背包\n\n- 现在可以直接在背包中饮用药水。",
+        "zh-Hant": "Google Play 遊戲\n\n- 改善了 Google Play 遊戲反覆嘗試重新登入的問題。\n\n動作\n\n- 新增了跳躍和戰鬥精通的動作。\n- 跳躍：向敵人方向躍進。\n- 戰鬥精通：縮短攻擊間隔，提高攻擊速度。\n\n出售確認\n\n- 出售確認畫面重新顯示出售價格。\n\n探索\n\n- 探索時也會檢查已裝備物品是否滿足消耗條件。\n\n背包\n\n- 現在可以直接在背包中飲用藥水。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_36",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_36",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_36",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_36",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_36",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_36",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.37",
+    "gameId": "0.37",
+    "kind": "patch-notes",
+    "slug": "0.37",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.37)",
+      "ko": "패치노트 (0.37)",
+      "ja": "パッチノート (0.37)",
+      "es": "Notas del parche (0.37)",
+      "zh-Hans": "更新说明（0.37）",
+      "zh-Hant": "更新說明（0.37）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.37",
+      "order": 19,
+      "bodies": {
+        "en": "Familiars / Exploration\n\n- Fixed an issue where Exploration familiars were not applying critical chance.\n\nPotions\n\n- Added sound and popup effects when potions are used automatically.\n\nCommerce\n\n- Added Commodity Trade to the Commerce skill.",
+        "ko": "소환수 / 탐험\n\n- 탐험용 소환수에 치명타 확률이 적용되지 않던 문제를 수정했습니다.\n\n포션\n\n- 포션을 자동으로 마실 때도 소리 및 팝업이 출력되도록 추가했습니다.\n\n상업\n\n- 상업 스킬에 상품 거래를 추가했습니다.",
+        "ja": "召喚獣 / 探索\n\n- 探索用の召喚獣にクリティカル率が適用されない問題を修正しました。\n\nポーション\n\n- ポーションを自動で飲む時にも、効果音とポップアップが表示されるようにしました。\n\n商業\n\n- 商業スキルに商品取引を追加しました。",
+        "es": "Familiares / Exploración\n\n- Se corrigió un problema por el que la probabilidad crítica no se aplicaba a los familiares de Exploración.\n\nPociones\n\n- Se agregaron sonido y ventana emergente cuando las pociones se usan automáticamente.\n\nComercio\n\n- Se agregó Comercio de bienes a la habilidad Comercio.",
+        "zh-Hans": "使魔 / 探索\n\n- 修复了探索使魔未应用暴击概率的问题。\n\n药水\n\n- 自动使用药水时也会播放音效并显示弹窗。\n\n商业\n\n- 商业技能新增了商品交易。",
+        "zh-Hant": "使魔 / 探索\n\n- 修復了探索使魔未套用暴擊機率的問題。\n\n藥水\n\n- 自動使用藥水時也會播放音效並顯示彈窗。\n\n商業\n\n- 商業技能新增了商品交易。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_37",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_37",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_37",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_37",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_37",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_37",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.38",
+    "gameId": "0.38",
+    "kind": "patch-notes",
+    "slug": "0.38",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.38)",
+      "ko": "패치노트 (0.38)",
+      "ja": "パッチノート (0.38)",
+      "es": "Notas del parche (0.38)",
+      "zh-Hans": "更新说明（0.38）",
+      "zh-Hant": "更新說明（0.38）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.38",
+      "order": 18,
+      "bodies": {
+        "en": "Ducarin Shop\n\n- Updated the Ducarin Shop description.\n- Clarified Commerce skills: Special Exchange and Commodity Trade.\n\nData Loading\n\n- Added data load validation when starting the game.\n- Fixed issues caused by incorrect data loading.\n\nItems\n\n- Separated plant tomatoes / fruit tomatoes and their seeds, and added descriptions.\n- Added detailed views for item source and usage information.\n- Fixed an issue where item materials were not refreshing properly.\n\nObjectives\n\n- Relaxed the clear condition for Skill Expansion 7 (Rest).\n\nSettings\n\n- Added a setting to show or hide item acquisition popups.",
+        "ko": "두카린 상점\n\n- 두카린 상점 설명을 수정했습니다.\n- 상업 스킬 설명에 특수 거래 및 상품 거래 내용을 반영했습니다.\n\n데이터 불러오기\n\n- 게임 시작 시 데이터 불러오기 검증을 추가했습니다.\n- 잘못된 불러오기 오류를 해결했습니다.\n\n아이템\n\n- 식물 토마토 / 과일 토마토 및 씨앗을 분리하고 설명을 추가했습니다.\n- 아이템 획득 정보 / 사용처 상세보기 기능을 추가했습니다.\n- 아이템 재료가 갱신되지 않던 오류를 수정했습니다.\n\n목표\n\n- 스킬의 확장 7 (휴식) 클리어 조건을 완화했습니다.\n\n설정\n\n- 획득 팝업 표시 / 미표시 설정을 추가했습니다.",
+        "ja": "デュカリンショップ\n\n- デュカリンショップの説明を修正しました。\n- 商業スキルの説明に特殊取引と商品取引の内容を反映しました。\n\nデータ読み込み\n\n- ゲーム開始時のデータ読み込み検証を追加しました。\n- 誤った読み込みによる不具合を修正しました。\n\nアイテム\n\n- 植物トマト / 果物トマトとその種を分離し、説明を追加しました。\n- アイテムの入手情報 / 使用先の詳細表示機能を追加しました。\n- アイテム素材が更新されない不具合を修正しました。\n\n目標\n\n- スキルの拡張 7（休息）のクリア条件を緩和しました。\n\n設定\n\n- 入手ポップアップの表示 / 非表示設定を追加しました。",
+        "es": "Tienda de Ducarin\n\n- Se actualizó la descripción de la tienda de Ducarin.\n- Se aclararon las habilidades de Comercio: Intercambio especial y Comercio de bienes.\n\nCarga de datos\n\n- Se agregó verificación de carga de datos al iniciar el juego.\n- Se corrigieron problemas causados por una carga de datos incorrecta.\n\nObjetos\n\n- Se separaron los tomates vegetales / tomates frutales y sus semillas, y se agregaron descripciones.\n- Se agregaron vistas detalladas para la información de obtención y usos de los objetos.\n- Se corrigió un problema por el que los materiales de los objetos no se actualizaban correctamente.\n\nObjetivos\n\n- Se relajó la condición de finalización de Expansión de habilidades 7 (Descanso).\n\nAjustes\n\n- Se agregó una opción para mostrar u ocultar las ventanas emergentes de obtención.",
+        "zh-Hans": "杜卡林商店\n\n- 更新了杜卡林商店的说明。\n- 明确了商业技能中的特殊交易与商品交易说明。\n\n数据加载\n\n- 启动游戏时新增了数据加载验证。\n- 修复了数据加载错误导致的问题。\n\n物品\n\n- 将蔬菜类番茄、水果类番茄及各自种子拆分为不同物品，并新增了说明。\n- 新增了物品来源和用途信息的详细显示。\n- 修复了物品材料无法正常刷新的问题。\n\n目标\n\n- 放宽了技能扩展 7（休息）的完成条件。\n\n设置\n\n- 新增了显示或隐藏物品获得弹窗的设置。",
+        "zh-Hant": "杜卡林商店\n\n- 更新了杜卡林商店的說明。\n- 明確了商業技能中的特殊交易與商品交易說明。\n\n資料載入\n\n- 啟動遊戲時新增了資料載入驗證。\n- 修復了資料載入錯誤導致的問題。\n\n物品\n\n- 將蔬菜類番茄、水果類番茄及各自種子拆分為不同物品，並新增了說明。\n- 新增了物品來源和用途資訊的詳細顯示。\n- 修復了物品材料無法正常刷新的問題。\n\n目標\n\n- 放寬了技能擴展 7（休息）的完成條件。\n\n設定\n\n- 新增了顯示或隱藏物品獲得彈窗的設定。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_38",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_38",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_38",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_38",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_38",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_38",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.39",
+    "gameId": "0.39",
+    "kind": "patch-notes",
+    "slug": "0.39",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.39)",
+      "ko": "패치노트 (0.39)",
+      "ja": "パッチノート (0.39)",
+      "es": "Notas del parche (0.39)",
+      "zh-Hans": "更新说明（0.39）",
+      "zh-Hant": "更新說明（0.39）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.39",
+      "order": 17,
+      "bodies": {
+        "en": "Queue\n\n- Holding a queue button can now move it to the top or bottom.\n\nPotions\n\n- Potion popups now show whether the same potion buff is already active.\n\nSkill Locks\n\n- Fixed an issue where some skill lock windows could temporarily unlock while the skill was still locked.\n\nExploration\n\n- EXP gained can now be checked when Exploration is completed.\n\nUI / Text\n\n- Added outlines to some text to improve readability.",
+        "ko": "대기열\n\n- 대기열 버튼을 꾹 누르면 맨 위 또는 맨 아래로 이동할 수 있도록 추가했습니다.\n\n포션\n\n- 포션을 마실 때 팝업창에서 현재 동일한 포션 버프가 적용 중인지 확인할 수 있도록 개선했습니다.\n\n스킬 잠금\n\n- 일부 스킬이 잠금 상태일 때 잠금 창이 일시적으로 해제되던 문제를 수정했습니다.\n\n탐험\n\n- 탐험 완료 시 획득한 경험치를 확인할 수 있도록 추가했습니다.\n\nUI / 텍스트\n\n- 일부 텍스트에 외곽선을 적용하여 시인성을 높였습니다.",
+        "ja": "待機列\n\n- 待機列ボタンを長押しすると、一番上または一番下へ移動できるようにしました。\n\nポーション\n\n- ポーションを飲む時のポップアップで、同じポーション効果が現在適用中か確認できるようにしました。\n\nスキルロック\n\n- 一部のスキルがロック状態の時、ロック画面が一時的に解除される問題を修正しました。\n\n探索\n\n- 探索完了時に獲得経験値を確認できるようにしました。\n\n画面 / テキスト\n\n- 一部のテキストに縁取りを適用し、視認性を向上しました。",
+        "es": "Cola\n\n- Mantener pulsado un botón de la cola ahora permite moverlo al principio o al final.\n\nPociones\n\n- Las ventanas emergentes de pociones ahora muestran si el mismo efecto de poción ya está activo.\n\nBloqueo de habilidades\n\n- Se corrigió un problema por el que la ventana de bloqueo de algunas habilidades podía desbloquearse temporalmente mientras la habilidad seguía bloqueada.\n\nExploración\n\n- Ahora se puede comprobar la EXP obtenida al completar una Exploración.\n\nInterfaz / Texto\n\n- Se agregó contorno a algunos textos para mejorar la legibilidad.",
+        "zh-Hans": "队列\n\n- 长按队列按钮后，可将对应任务移至队首或队尾。\n\n药水\n\n- 药水使用弹窗现在会显示同种药水加成是否已生效。\n\n技能锁\n\n- 修复了部分技能仍处于锁定状态时，锁定窗口却会暂时解锁的问题。\n\n探索\n\n- 现在可在探索完成时查看获得的经验值。\n\nUI / 文本\n\n- 为部分文本添加了描边，提高可读性。",
+        "zh-Hant": "隊列\n\n- 長按佇列按鈕後，可將對應任務移至佇列開頭或末尾。\n\n藥水\n\n- 藥水使用彈窗現在會顯示同種藥水加成是否已生效。\n\n技能鎖定\n\n- 修復了部分技能仍處於鎖定狀態時，鎖定視窗卻會暫時解鎖的問題。\n\n探索\n\n- 現在可在探索完成時查看獲得的經驗值。\n\nUI / 文字\n\n- 為部分文字添加了描邊，提高可讀性。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_39",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_39",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_39",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_39",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_39",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_39",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.40",
+    "gameId": "0.40",
+    "kind": "patch-notes",
+    "slug": "0.40",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.40)",
+      "ko": "패치노트 (0.40)",
+      "ja": "パッチノート (0.40)",
+      "es": "Notas del parche (0.40)",
+      "zh-Hans": "更新说明（0.40）",
+      "zh-Hant": "更新說明（0.40）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.40",
+      "order": 16,
+      "bodies": {
+        "en": "Potion Name\n\n- Updated the Creativity Potion name to sound more natural.\n\nItem Info\n\n- Item Info now shows owned quantity.\n\nInventory\n\n- Added inventory categories and related explanations.\n\nSound Effects\n\n- Added sound effects for toggle buttons.\n\nOffline Progress\n\n- Fixed display issues in the offline progress summary.\n- Fixed an issue where the Life window sometimes did not appear.\n- Fixed an Expedition EXP display issue.",
+        "ko": "물약 이름\n\n- 창의력 물약 이름을 더 자연스럽게 수정했습니다.\n\n아이템 정보\n\n- 아이템 정보 창에서 보유량을 확인할 수 있도록 추가했습니다.\n\n인벤토리\n\n- 인벤토리 분류 및 관련 설명을 추가했습니다.\n\n효과음\n\n- 토글 버튼 효과음을 추가했습니다.\n\n오프라인 진행\n\n- 오프라인 진행 요약창의 표기 문제를 수정했습니다.\n- 생활 창이 가끔 표시되지 않던 문제를 수정했습니다.\n- 원정 경험치 표기 오류를 수정했습니다.",
+        "ja": "ポーション名\n\n- 創造力ポーションの名称をより自然な表現に修正しました。\n\nアイテム情報\n\n- アイテム情報画面で所持数を確認できるようにしました。\n\nインベントリ\n\n- インベントリの分類と関連説明を追加しました。\n\n効果音\n\n- 切り替えボタンの効果音を追加しました。\n\nオフライン進行\n\n- オフライン進行の要約画面の表示問題を修正しました。\n- 生活画面がまれに表示されない問題を修正しました。\n- 遠征の経験値表示問題を修正しました。",
+        "es": "Nombre de poción\n\n- Se ajustó el nombre de la poción de creatividad para que suene más natural.\n\nInformación de objetos\n\n- La ventana de información de objetos ahora muestra la cantidad que posees.\n\nInventario\n\n- Se agregaron categorías de inventario y sus explicaciones.\n\nEfectos de sonido\n\n- Se agregaron efectos de sonido a los botones de alternancia.\n\nProgreso sin conexión\n\n- Se corrigieron problemas de visualización en el resumen de progreso sin conexión.\n- Se corrigió un problema por el que la ventana de habilidades de vida a veces no aparecía.\n- Se corrigió un problema de visualización de EXP de Expedición.",
+        "zh-Hans": "药水名称\n\n- 调整了“创造力药水”的名称，使其更自然。\n\n物品信息\n\n- 物品信息现在会显示持有数量。\n\n背包\n\n- 新增了背包分类及相关说明。\n\n音效\n\n- 为切换按钮新增了音效。\n\n离线进度\n\n- 修复了离线结算中的显示问题。\n- 修复了生活窗口偶尔不显示的问题。\n- 修复了远征经验值的显示问题。",
+        "zh-Hant": "藥水名稱\n\n- 調整了「創造力藥水」的名稱，使其更自然。\n\n物品資訊\n\n- 物品資訊現在會顯示持有數量。\n\n背包\n\n- 新增了背包分類及相關說明。\n\n音效\n\n- 為切換按鈕新增了音效。\n\n離線進度\n\n- 修復了離線結算中的顯示問題。\n- 修復了生活視窗偶爾不顯示的問題。\n- 修復了遠征經驗值的顯示問題。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_40",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_40",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_40",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_40",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_40",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_40",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.41",
+    "gameId": "0.41",
+    "kind": "patch-notes",
+    "slug": "0.41",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.41)",
+      "ko": "패치노트 (0.41)",
+      "ja": "パッチノート (0.41)",
+      "es": "Notas del parche (0.41)",
+      "zh-Hans": "更新说明（0.41）",
+      "zh-Hant": "更新說明（0.41）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.41",
+      "order": 15,
+      "bodies": {
+        "en": "Item Info\n\n- Improved the detailed view format for item sources and uses.\n- Added images and adjusted the UI layout.\n\nPainting / Farming\n\n- Fixed some incorrect images in Painting.\n- Fixed some incorrect names in Farming.\n\nSkills\n\n- Actions within each skill are now sorted primarily by their skill level requirements.\n\nCommerce\n\n- Fixed an issue where the Commerce button could become disabled.\n\nCharacter Appearance\n\n- Updated the hero's colors during Exploration to match the original illustration.\n- Updated the hero's appearance in some Life skills to match the original illustration.\n\nInventory\n\n- Added a warning when changing equipment while the Inventory is full.",
+        "ko": "아이템 정보\n\n- 아이템 사용처 및 획득처 상세보기 형식을 개선했습니다.\n- 이미지를 추가하고 UI 위치를 조정했습니다.\n\n그림그리기 / 농사\n\n- 그림그리기의 일부 이미지 오류를 수정했습니다.\n- 농사의 일부 이름 오류를 수정했습니다.\n\n스킬\n\n- 각 스킬 내 액션을 해당 스킬의 필요 레벨을 우선으로 정렬하도록 수정했습니다.\n\n상업\n\n- 상업 버튼이 비활성화되던 문제를 해결했습니다.\n\n캐릭터 외형\n\n- 탐험 시 주인공 캐릭터의 색상을 실제 일러스트와 일치하도록 수정했습니다.\n- 일부 생활 스킬 속 주인공의 모습을 실제 일러스트와 일치하도록 수정했습니다.\n\n인벤토리\n\n- 인벤토리가 꽉 찬 상태에서 장비를 변경할 때 경고 메시지가 표시되도록 추가했습니다.",
+        "ja": "アイテム情報\n\n- アイテムの使用先と入手先の詳細表示形式を改善しました。\n- 画像を追加し、画面内の配置を調整しました。\n\n絵画 / 栽培\n\n- 絵画の一部の画像不具合を修正しました。\n- 栽培の一部の名称不具合を修正しました。\n\nスキル\n\n- 各スキル内の行動を、スキルの必要レベルを優先して並べるように変更しました。\n\n商業\n\n- 商業ボタンが無効になる問題を修正しました。\n\nキャラクター表示\n\n- 探索時の主人公の色を実際のイラストと一致するように修正しました。\n- 一部の生活スキル内の主人公の姿を実際のイラストと一致するように修正しました。\n\nインベントリ\n\n- インベントリが満杯の状態で装備を変更する際に、警告メッセージを表示するようにしました。",
+        "es": "Información de objetos\n\n- Se mejoró el formato de la vista detallada de los usos y las fuentes de obtención de los objetos.\n- Se agregaron imágenes y se ajustó la disposición de la interfaz.\n\nPintura / Cultivo\n\n- Se corrigieron algunas imágenes incorrectas en Pintura.\n- Se corrigieron algunos nombres incorrectos en Cultivo.\n\nHabilidades\n\n- Las acciones de cada habilidad ahora se ordenan primero por el nivel requerido de la habilidad.\n\nComercio\n\n- Se corrigió un problema por el que el botón de Comercio podía quedar desactivado.\n\nApariencia del personaje\n\n- Se ajustaron los colores de la protagonista durante la Exploración para que coincidan con la ilustración original.\n- Se ajustó la apariencia de la protagonista en algunas habilidades de vida para que coincida con la ilustración original.\n\nInventario\n\n- Se agregó un mensaje de advertencia al cambiar de equipo cuando el Inventario está lleno.",
+        "zh-Hans": "物品信息\n\n- 改进了物品来源与用途的详细显示格式。\n- 新增相关图片并调整了 UI 布局。\n\n绘画 / 耕作\n\n- 修正了绘画中的部分图片错误。\n- 修正了耕作中的部分错误名称。\n\n技能\n\n- 每个技能内的动作现在优先按所需技能等级排序。\n\n商业\n\n- 修复了商业按钮有时会被禁用的问题。\n\n角色外观\n\n- 调整了探索时英雄的配色，使其与原始插图一致。\n- 调整了部分生活技能中的英雄外观，使其与原始插图一致。\n\n背包\n\n- 新增了背包已满时更换装备的警告。",
+        "zh-Hant": "物品資訊\n\n- 改進了物品來源與用途的詳細顯示格式。\n- 新增相關圖片並調整了 UI 佈局。\n\n繪畫 / 耕作\n\n- 修正了繪畫中的部分圖片錯誤。\n- 修正了耕作中的部分錯誤名稱。\n\n技能\n\n- 每個技能內的動作現在優先按所需技能等級排序。\n\n商業\n\n- 修復了商業按鈕有時會被停用的問題。\n\n角色外觀\n\n- 調整了探索時英雄的配色，使其與原始插圖一致。\n- 調整了部分生活技能中的英雄外觀，使其與原始插圖一致。\n\n背包\n\n- 新增了背包已滿時更換裝備的警告。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_41",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_41",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_41",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_41",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_41",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_41",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.42",
+    "gameId": "0.42",
+    "kind": "patch-notes",
+    "slug": "0.42",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.42)",
+      "ko": "패치노트 (0.42)",
+      "ja": "パッチノート (0.42)",
+      "es": "Notas del parche (0.42)",
+      "zh-Hans": "更新说明（0.42）",
+      "zh-Hant": "更新說明（0.42）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.42",
+      "order": 14,
+      "bodies": {
+        "en": "Challenge\n\n- Added Challenge content: Trial Tower, Rewinding Labyrinth, and Challenge Shop.\n- Available at Endurance Lv. 15 or higher.\n\nSkills\n\n- Level caps for all skills can now be raised with tickets from the Challenge Shop.\n- Additional actions for higher skill levels will be added in future updates.\n\nItem Info\n\n- Added the maximum slot counts to the descriptions of Loadout Slot Tickets and Reward Slot Tickets.",
+        "ko": "도전\n\n- 순환의 시련탑, 되감기는 미궁, 도전 상점 콘텐츠가 추가되었습니다.\n- 지구력 Lv. 15 이상부터 이용할 수 있습니다.\n\n스킬\n\n- 모든 스킬의 레벨 한도를 도전 상점 티켓으로 늘릴 수 있도록 추가했습니다.\n- 확장된 레벨 구간의 스킬별 추가 액션은 추후 업데이트될 예정입니다.\n\n아이템 정보\n\n- 로드아웃칸 티켓과 획득칸 티켓의 아이템 설명에 최대 확장 한도를 추가했습니다.",
+        "ja": "挑戦\n\n- 循環の試練塔、巻き戻しの迷宮、挑戦ショップを追加しました。\n- 持久力Lv.15以上で利用できます。\n\nスキル\n\n- 挑戦ショップのチケットを使って、すべてのスキルのレベル上限を引き上げられるようになりました。\n- 拡張されたレベル帯の各スキルの追加アクションは、今後のアップデートで追加予定です。\n\nアイテム情報\n\n- ロードアウト枠チケットと報酬枠チケットの説明に、最大拡張数を追加しました。",
+        "es": "Desafío\n\n- Se añadieron la Torre de Prueba Cíclica, el Laberinto del Rebobinado y la Tienda de Desafío.\n- Disponible a partir de Resistencia Nv. 15.\n\nHabilidades\n\n- Ahora se puede aumentar el límite de nivel de todas las habilidades con boletos de la Tienda de Desafío.\n- Se añadirán más acciones para los niveles ampliados en futuras actualizaciones.\n\nInformación de objetos\n\n- Se añadió el límite máximo a las descripciones de los boletos de ranura de equipamiento y de recompensa.",
+        "zh-Hans": "挑战\n\n- 新增挑战内容：试炼之塔、回溯迷宫和挑战商店。\n- 耐力达到 Lv. 15 后即可参加。\n\n技能\n\n- 现在可使用挑战商店的票券提高所有技能的等级上限。\n- 等级上限提高后可用的额外动作将在后续更新中加入。\n\n物品信息\n\n- 在配装栏位券和奖励栏位券的说明中补充了最大扩充数量。",
+        "zh-Hant": "挑戰\n\n- 新增挑戰內容：試煉之塔、回溯迷宮和挑戰商店。\n- 耐力達到 Lv. 15 後即可參加。\n\n技能\n\n- 現在可使用挑戰商店的票券提高所有技能的等級上限。\n- 等級上限提高後可用的額外動作將在後續更新中加入。\n\n物品資訊\n\n- 在配裝欄位券和獎勵欄位券的說明中補充了最大擴充數量。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_42",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_42",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_42",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_42",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_42",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_42",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.43",
+    "gameId": "0.43",
+    "kind": "patch-notes",
+    "slug": "0.43",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.43)",
+      "ko": "패치노트 (0.43)",
+      "ja": "パッチノート (0.43)",
+      "es": "Notas del parche (0.43)",
+      "zh-Hans": "更新说明（0.43）",
+      "zh-Hant": "更新說明（0.43）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.43",
+      "order": 13,
+      "bodies": {
+        "en": "Challenge\n\n- Fixed equipment and loadout change issues in Challenge content.\n- Fixed issues where equipment effects were not applied or items could be deleted or duplicated.\n\nExploration\n\n- Fixed an issue where equipped items could occasionally become invisible during Exploration.",
+        "ko": "도전\n\n- 도전 콘텐츠에서 장비 및 로드아웃 변경 관련 문제를 수정했습니다.\n- 장비 효과가 적용되지 않거나 아이템이 삭제 또는 복제되던 문제를 수정했습니다.\n\n탐험\n\n- 탐험 중 장착한 장비가 가끔 보이지 않던 문제를 수정했습니다.",
+        "ja": "挑戦\n\n- 挑戦コンテンツでの装備変更およびロードアウト変更に関する問題を修正しました。\n- 装備効果が適用されない、またはアイテムが消失・複製される問題を修正しました。\n\n探索\n\n- 探索中に装備品がまれに表示されなくなる問題を修正しました。",
+        "es": "Desafío\n\n- Se corrigieron problemas relacionados con el cambio de equipo y de configuración en el contenido de Desafío.\n- Se corrigieron problemas por los que los efectos del equipo no se aplicaban o los objetos podían desaparecer o duplicarse.\n\nExploración\n\n- Se corrigió un problema por el que el equipo equipado podía dejar de mostrarse ocasionalmente durante la Exploración.",
+        "zh-Hans": "挑战\n\n- 修复了挑战内容中的装备和配装更改问题。\n- 修复了装备效果未应用或物品可能被删除或重复的问题。\n\n探索\n\n- 修复了装备的物品在探索期间偶尔会变得不可见的问题。",
+        "zh-Hant": "挑戰\n\n- 修正了挑戰內容中的裝備和配裝更改問題。\n- 修正了裝備效果未套用或物品可能被刪除或重複的問題。\n\n探索\n\n- 修復了裝備的物品在探索期間偶爾會變得不可見的問題。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_43",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_43",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_43",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_43",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_43",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_43",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.44",
+    "gameId": "0.44",
+    "kind": "patch-notes",
+    "slug": "0.44",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.44)",
+      "ko": "패치노트 (0.44)",
+      "ja": "パッチノート (0.44)",
+      "es": "Notas del parche (0.44)",
+      "zh-Hans": "更新说明（0.44）",
+      "zh-Hant": "更新說明（0.44）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.44",
+      "order": 12,
+      "bodies": {
+        "en": "Potions\n\n- Fixed an issue where potions were not consumed automatically after changing equipment.\n\nWriting\n\n- Skills that have not been unlocked are now excluded from Writing candidates.\n\nEnchanting\n\n- Fixed an issue where the material-saving chance was not applied during Enchanting.\n\nStealth / Meditation\n\n- Fixed an issue where some data was not refreshed after ranking up Stealth or Meditation.\n\nCombat\n\n- Fixed an issue where ranged attacks could occasionally hit more than one enemy.",
+        "ko": "포션\n\n- 포션 장비 교체 후 포션이 자동으로 소모되지 않던 문제를 수정했습니다.\n\n글쓰기\n\n- 아직 해금되지 않은 스킬은 글쓰기 후보에서 제외되도록 변경했습니다.\n\n마법 부여\n\n- 마법 부여 시 재료 미소모 확률이 적용되지 않던 문제를 수정했습니다.\n\n절도 / 명상\n\n- 절도 및 명상 랭크 업 시 일부 데이터가 갱신되지 않던 문제를 수정했습니다.\n\n전투\n\n- 원거리 공격이 가끔 두 명 이상의 적을 공격하던 문제를 수정했습니다.",
+        "ja": "ポーション\n\n- ポーション装備の変更後、ポーションが自動で消費されない問題を修正しました。\n\n執筆\n\n- まだ解放されていないスキルは、執筆の候補から除外されるように変更しました。\n\n魔法付与\n\n- 魔法付与時に素材を消費しない確率が適用されない問題を修正しました。\n\n窃盗 / 瞑想\n\n- 窃盗および瞑想のランク上昇時に、一部のデータが更新されない問題を修正しました。\n\n戦闘\n\n- 遠距離攻撃がまれに複数の敵へ命中する問題を修正しました。",
+        "es": "Pociones\n\n- Se corrigió un problema por el que las pociones no se consumían automáticamente después de cambiar el equipo.\n\nEscritura\n\n- Las habilidades que aún no se han desbloqueado ahora quedan excluidas de las opciones de Escritura.\n\nEncantamiento\n\n- Se corrigió un problema por el que no se aplicaba la probabilidad de no consumir materiales durante el Encantamiento.\n\nSigilo / Meditación\n\n- Se corrigió un problema por el que algunos datos no se actualizaban al subir de rango en Sigilo o Meditación.\n\nCombate\n\n- Se corrigió un problema por el que los ataques a distancia podían golpear ocasionalmente a más de un enemigo.",
+        "zh-Hans": "药水\n\n- 修复了更换所装备的药水后，药水不会自动消耗的问题。\n\n写作\n\n- 未解锁的技能不再出现在写作候选列表中。\n\n附魔\n\n- 修复了附魔时材料免消耗概率未生效的问题。\n\n偷窃 / 冥想\n\n- 修复了偷窃或冥想等阶提升后部分数据未刷新的问题。\n\n战斗\n\n- 修复了远程攻击偶尔会同时命中多个敌人的问题。",
+        "zh-Hant": "藥水\n\n- 修復了更換所裝備的藥水後，藥水不會自動消耗的問題。\n\n寫作\n\n- 未解鎖的技能不再出現在寫作候選清單中。\n\n附魔\n\n- 修復了附魔時材料免消耗機率未生效的問題。\n\n偷竊 / 冥想\n\n- 修復了偷竊或冥想等階提升後部分資料未刷新的問題。\n\n戰鬥\n\n- 修復了遠程攻擊偶爾會同時命中多個敵人的問題。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_44",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_44",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_44",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_44",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_44",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_44",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.45",
+    "gameId": "0.45",
+    "kind": "patch-notes",
+    "slug": "0.45",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.45)",
+      "ko": "패치노트 (0.45)",
+      "ja": "パッチノート (0.45)",
+      "es": "Notas del parche (0.45)",
+      "zh-Hans": "更新说明（0.45）",
+      "zh-Hant": "更新說明（0.45）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.45",
+      "order": 11,
+      "bodies": {
+        "en": "Language\n\n- Added Simplified Chinese and Traditional Chinese support.\n\nDucarin Shop\n\n- Reduced the prices of some items in the Ducarin Shop.\n\nCommerce\n\n- Improved Commodity Trade in the Commerce Life skill.\n- Separated buying and selling.\n- Adjusted Ducarin price balance.",
+        "ko": "언어\n\n- 중국어(간체/번체) 지원을 추가했습니다.\n\n두카린 상점\n\n- 두카린 상점 일부 품목의 가격을 인하했습니다.\n\n상업\n\n- 상업 생활 스킬의 상품 거래를 개선했습니다.\n- 구매와 판매를 분리했습니다.\n- 두카린 가격 밸런스를 조정했습니다.",
+        "ja": "言語\n\n- 中国語（簡体字 / 繁体字）対応を追加しました。\n\nデュカリンショップ\n\n- デュカリンショップの一部商品の価格を引き下げました。\n\n商業\n\n- 生活スキル「商業」の商品取引を改善しました。\n- 購入と販売を分離しました。\n- デュカリン価格のバランスを調整しました。",
+        "es": "Idioma\n\n- Se añadió compatibilidad con chino simplificado y tradicional.\n\nTienda de Ducarin\n\n- Se redujeron los precios de algunos artículos de la Tienda de Ducarin.\n\nComercio\n\n- Se mejoró Comercio de bienes en la habilidad de vida Comercio.\n- Se separaron las compras y las ventas.\n- Se ajustó el balance de precios en Ducarin.",
+        "zh-Hans": "语言\n\n- 新增简体中文和繁体中文支持。\n\n杜卡林商店\n\n- 下调了杜卡林商店部分商品的价格。\n\n商业\n\n- 改进了生活技能“商业”中的商品交易。\n- 将购买和出售分开。\n- 调整了杜卡林价格平衡。",
+        "zh-Hant": "語言\n\n- 新增簡體中文與繁體中文支援。\n\n杜卡林商店\n\n- 下調了杜卡林商店部分商品的價格。\n\n商業\n\n- 改善了生活技能「商業」中的商品交易。\n- 將購買與出售分開。\n- 調整了杜卡林價格平衡。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_45",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_45",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_45",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_45",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_45",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_45",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.46",
+    "gameId": "0.46",
+    "kind": "patch-notes",
+    "slug": "0.46",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.46)",
+      "ko": "패치노트 (0.46)",
+      "ja": "パッチノート (0.46)",
+      "es": "Notas del parche (0.46)",
+      "zh-Hans": "更新说明（0.46）",
+      "zh-Hant": "更新說明（0.46）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.46",
+      "order": 10,
+      "bodies": {
+        "en": "Combat Balance\n\n- Increased the attack power of arrows and mana stones.\n\nChests\n\n- Item drop rates in chests are now displayed to two decimal places.\n- Adjusted the drop rates of some chest items.\n- Corrected rewards that could require more than 10 inventory slots because their drop rates were below 100%.\n\nContent Expansion\n\n- Added exploration areas and items up to level 120.\n- Added actions up to level 120 for most skills, greatly expanding the available content.",
+        "ko": "전투 밸런스\n\n- 화살과 마나석의 공격력을 상향했습니다.\n\n상자\n\n- 상자 내 아이템 획득 확률을 소수점 둘째 자리까지 표시하도록 개선했습니다.\n- 일부 상자 내 아이템의 획득 확률을 조정했습니다.\n- 획득 확률이 100%가 아니어서 보상에 필요한 인벤토리 공간이 10칸을 초과하던 항목을 보정했습니다.\n\n콘텐츠 확장\n\n- 120레벨까지의 탐험 지역과 아이템을 추가했습니다.\n- 대부분의 스킬에 120레벨까지의 신규 액션을 추가해 콘텐츠를 대폭 확장했습니다.",
+        "ja": "戦闘バランス\n\n- 矢とマナストーンの攻撃力を上方修正しました。\n\n宝箱\n\n- 宝箱内アイテムの獲得確率を小数点以下2桁まで表示するように改善しました。\n- 一部の宝箱内アイテムの獲得確率を調整しました。\n- 獲得確率が100%ではないため、報酬に必要なインベントリ枠が10枠を超えていた項目を修正しました。\n\nコンテンツ拡張\n\n- レベル120までの探索地域とアイテムを追加しました。\n- ほとんどのスキルにレベル120までの新しいアクションを追加し、コンテンツを大幅に拡張しました。",
+        "es": "Equilibrio de combate\n\n- Se aumentó el poder de ataque de las flechas y las piedras de maná.\n\nCofres\n\n- Las probabilidades de obtener objetos de los cofres ahora se muestran con dos decimales.\n- Se ajustaron las probabilidades de algunos objetos de los cofres.\n- Se corrigieron las recompensas que podían requerir más de 10 espacios de inventario porque su probabilidad de obtención era inferior al 100 %.\n\nExpansión de contenido\n\n- Se añadieron zonas de exploración y objetos hasta el nivel 120.\n- Se añadieron acciones hasta el nivel 120 para la mayoría de las habilidades, ampliando considerablemente el contenido.",
+        "zh-Hans": "战斗平衡\n\n- 提高了箭矢和魔力石的攻击力。\n\n宝箱\n\n- 宝箱内物品的获取概率现可显示至小数点后两位。\n- 调整了部分宝箱内物品的获取概率。\n- 修正了因获取概率低于100%而可能需要超过10个背包栏位的奖励。\n\n内容扩展\n\n- 新增了最高至120级的探索区域与物品。\n- 为大多数技能新增了最高至120级的行动，大幅扩展了游戏内容。",
+        "zh-Hant": "戰鬥平衡\n\n- 提高了箭矢和魔力石的攻擊力。\n\n寶箱\n\n- 寶箱內物品的獲取機率現可顯示至小數點後兩位。\n- 調整了部分寶箱內物品的獲取機率。\n- 修正了因獲取機率低於100%而可能需要超過10個背包欄位的獎勵。\n\n內容擴展\n\n- 新增了最高至120級的探索區域與物品。\n- 為大多數技能新增了最高至120級的行動，大幅擴展了遊戲內容。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_46",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_46",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_46",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_46",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_46",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_46",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.47",
+    "gameId": "0.47",
+    "kind": "patch-notes",
+    "slug": "0.47",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.47)",
+      "ko": "패치노트 (0.47)",
+      "ja": "パッチノート (0.47)",
+      "es": "Notas del parche (0.47)",
+      "zh-Hans": "更新说明（0.47）",
+      "zh-Hant": "更新說明（0.47）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.47",
+      "order": 9,
+      "bodies": {
+        "en": "Exploration\n\n- Changed the target location image displayed during Exploration.\n- Fixed an issue where the abandon button and camera lock were linked during Exploration.\n\nCartography\n\n- Fixed an issue where the wrong queue image was displayed after level 100.\n\nFarming\n\n- Fixed a slight discrepancy between reaching 100% progress and crops becoming available to harvest.\n\nTraining\n\n- Swapped the stats of two special Training items (Speed and Experience Multiplier).",
+        "ko": "탐험\n\n- 탐험 시 표시되는 목표 지점 이미지를 변경했습니다.\n- 탐험 시 포기 버튼과 카메라 잠금이 연동되던 오류를 수정했습니다.\n\n지도학\n\n- 지도학 100레벨 이후 대기열 이미지가 잘못 표시되던 오류를 수정했습니다.\n\n농사\n\n- 농사 진행도 100% 시점과 수확 가능 시점이 약간 어긋나던 문제를 수정했습니다.\n\n훈련\n\n- 훈련 특별 아이템 2종의 스탯(스피드와 경험치 배율)을 서로 교환했습니다.",
+        "ja": "探索\n\n- 探索中に表示される目的地の画像を変更しました。\n- 探索中、諦めるボタンとカメラロックが連動していた不具合を修正しました。\n\n地図作成\n\n- 地図作成レベル100以降、キューに誤った画像が表示される不具合を修正しました。\n\n栽培\n\n- 進行度が100%になる時点と収穫可能になる時点がわずかにずれていた問題を修正しました。\n\n訓練\n\n- 訓練の特別アイテム2種のステータス（スピードと経験値倍率）を入れ替えました。",
+        "es": "Exploración\n\n- Se cambió la imagen del destino que se muestra durante la Exploración.\n- Se corrigió un error por el que el botón de abandonar y el bloqueo de cámara estaban vinculados durante la Exploración.\n\nCartografía\n\n- Se corrigió un error por el que se mostraba una imagen incorrecta en la cola después del nivel 100.\n\nAgricultura\n\n- Se corrigió un pequeño desfase entre el momento en que el progreso llegaba al 100 % y el momento en que la cosecha estaba disponible.\n\nEntrenamiento\n\n- Se intercambiaron las estadísticas de dos objetos especiales de Entrenamiento (velocidad y multiplicador de EXP).",
+        "zh-Hans": "探索\n\n- 更改了探索时显示的目的地图像。\n- 修复了探索时放弃按钮与镜头锁定联动的错误。\n\n制图\n\n- 修复了制图达到100级后队列中显示错误图像的问题。\n\n耕作\n\n- 修复了进度达到100%的时间点与可收获时间点略有偏差的问题。\n\n训练\n\n- 互换了两件训练特殊物品的属性（速度与经验值倍率）。",
+        "zh-Hant": "探索\n\n- 更改了探索時顯示的目的地圖像。\n- 修復了探索時放棄按鈕與鏡頭鎖定連動的錯誤。\n\n製圖\n\n- 修復了製圖達到100級後佇列中顯示錯誤圖像的問題。\n\n耕作\n\n- 修復了進度達到100%的時間點與可收穫時間點略有偏差的問題。\n\n訓練\n\n- 互換了兩件訓練特殊物品的屬性（速度與經驗值倍率）。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_47",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_47",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_47",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_47",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_47",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_47",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.48",
+    "gameId": "0.48",
+    "kind": "patch-notes",
+    "slug": "0.48",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.48)",
+      "ko": "패치노트 (0.48)",
+      "ja": "パッチノート (0.48)",
+      "es": "Notas del parche (0.48)",
+      "zh-Hans": "更新说明（0.48）",
+      "zh-Hant": "更新說明（0.48）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.48",
+      "order": 8,
+      "bodies": {
+        "en": "Queue\n\n- Fixed an issue where clicking a queued icon for Painting and some other skills did not navigate to the correct action.\n- Fixed an issue where required materials and currency were not shown for some queued actions.\n- Actions can now be added to the queue even without enough materials or currency. If they are still insufficient when the action's turn arrives, it will wait until enough are available.\n\nLocalization\n\n- Localized the game logo for each supported language.\n\nEnchanting\n\n- Increased Enchanting mastery and EXP gains.\n- Fixed issues with the Enchanting queue.\n\nPotions\n\n- Improved automatic potion use so each potion is consumed only when its effects can actually apply.\n\nCommerce\n\n- Fixed item prices wrapping onto another line when the values grew longer.\n\nCamping\n\n- Reduced the load caused by Camping during offline progress simulation.\n\nInventory\n\n- Added a “Use All” button for Inventory Slot Tickets.",
+        "ko": "대기열\n\n- 그림 등 일부 스킬에서 대기열 아이콘을 클릭했을 때 해당 액션으로 정확히 이동하지 않던 문제를 수정했습니다.\n- 일부 대기열 액션에 필요한 재료와 재화가 표시되지 않던 문제를 수정했습니다.\n- 모든 스킬에서 재료나 재화가 부족해도 액션을 미리 대기열에 등록할 수 있도록 개선했습니다. 실행 차례에도 부족하면 필요한 수량이 모일 때까지 대기합니다.\n\n현지화\n\n- 게임 로고를 지원 언어별로 현지화했습니다.\n\n마법 부여\n\n- 마법 부여 숙련도와 경험치 획득량을 상향했습니다.\n- 마법 부여 대기열에서 발생하던 오류를 수정했습니다.\n\n포션\n\n- 포션 종류에 따라 실제 효과가 적용되는 상황에서만 자동 소모되도록 개선했습니다.\n\n상업\n\n- 아이템 가격의 자릿수가 길어지면 줄바꿈되던 현상을 수정했습니다.\n\n야영\n\n- 야영 스킬이 오프라인 진행을 계산할 때 과도한 부하를 일으키던 문제를 개선했습니다.\n\n인벤토리\n\n- 인벤토리 슬롯 확장권에 ‘모두 사용’ 버튼을 추가했습니다.",
+        "ja": "キュー\n\n- 絵画など一部のスキルで、キューのアイコンをクリックしても該当するアクションへ正しく移動しない問題を修正しました。\n- 一部のキュー内アクションで、必要な素材や通貨が表示されない問題を修正しました。\n- すべてのスキルで、素材や通貨が不足していてもアクションを事前にキューへ登録できるよう改善しました。順番が来た時点でも不足している場合は、必要数がそろうまで待機します。\n\nローカライズ\n\n- ゲームロゴを各対応言語向けにローカライズしました。\n\n魔法付与\n\n- 魔法付与の熟練度と経験値の獲得量を増加しました。\n- 魔法付与のキューに関する不具合を修正しました。\n\nポーション\n\n- ポーションの種類に応じて、実際に効果が適用される状況でのみ自動消費されるよう改善しました。\n\n商業\n\n- アイテム価格の桁数が増えると改行される問題を修正しました。\n\n野営\n\n- オフライン進行シミュレーション中に野営スキルが引き起こしていた負荷を軽減しました。\n\nインベントリ\n\n- インベントリ拡張チケットに「すべて使用」ボタンを追加しました。",
+        "es": "Cola\n\n- Se corrigió un problema por el que, al hacer clic en el icono de una acción en cola de Pintura y algunas otras habilidades, no se abría la acción correcta.\n- Se corrigió un problema por el que no se mostraban los materiales ni las monedas necesarios en algunas acciones en cola.\n- Ahora se pueden añadir acciones a la cola en todas las habilidades aunque falten materiales o monedas. Si siguen faltando cuando llegue su turno, la acción esperará hasta que haya suficientes.\n\nLocalización\n\n- Se localizó el logotipo del juego para cada idioma compatible.\n\nEncantamiento\n\n- Se aumentó la obtención de maestría y EXP en Encantamiento.\n- Se corrigieron errores relacionados con la cola de Encantamiento.\n\nPociones\n\n- Se mejoró el uso automático de pociones para que cada poción se consuma solo cuando sus efectos puedan aplicarse.\n\nComercio\n\n- Se corrigió un problema por el que los precios de los objetos saltaban a otra línea cuando tenían muchas cifras.\n\nCampamento\n\n- Se redujo la carga causada por Campamento durante la simulación de progreso sin conexión.\n\nInventario\n\n- Se añadió el botón «Usar todo» a los boletos de expansión de inventario.",
+        "zh-Hans": "队列\n\n- 修复了在绘画等部分技能中点击队列图标时，无法正确跳转到对应动作的问题。\n- 修复了部分队列动作未显示所需材料和货币的问题。\n- 现在所有技能都可以在材料或货币不足时提前将动作加入队列。轮到该动作时若仍然不足，将等待至资源充足。\n\n本地化\n\n- 为各支持语言本地化了游戏徽标。\n\n附魔\n\n- 提高了附魔熟练度和经验值获取量。\n- 修复了附魔队列相关错误。\n\n药水\n\n- 优化了药水自动消耗逻辑，使各类药水仅在其效果能够实际生效时才会自动消耗。\n\n商业\n\n- 修复了物品价格位数较多时自动换行的问题。\n\n露营\n\n- 降低了露营技能在离线进度模拟期间造成的负载。\n\n背包\n\n- 为背包扩展券新增了“全部使用”按钮。",
+        "zh-Hant": "佇列\n\n- 修復了在繪畫等部分技能中點擊佇列圖示時，無法正確跳轉至對應動作的問題。\n- 修復了部分佇列動作未顯示所需材料與貨幣的問題。\n- 現在所有技能都可以在材料或貨幣不足時預先將動作加入佇列。輪到該動作時若仍然不足，將等待至資源充足。\n\n在地化\n\n- 為各支援語言在地化了遊戲標誌。\n\n附魔\n\n- 提高了附魔熟練度與經驗值獲取量。\n- 修復了附魔佇列相關錯誤。\n\n藥水\n\n- 改善了藥水自動消耗邏輯，使各類藥水僅在其效果能夠實際生效時才會自動消耗。\n\n商業\n\n- 修復了物品價格位數較多時自動換行的問題。\n\n露營\n\n- 降低了露營技能在離線進度模擬期間造成的負載。\n\n背包\n\n- 為背包擴充券新增了「全部使用」按鈕。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_48",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_48",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_48",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_48",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_48",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_48",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.49",
+    "gameId": "0.49",
+    "kind": "patch-notes",
+    "slug": "0.49",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.49)",
+      "ko": "패치노트 (0.49)",
+      "ja": "パッチノート (0.49)",
+      "es": "Notas del parche (0.49)",
+      "zh-Hans": "更新说明（0.49）",
+      "zh-Hant": "更新說明（0.49）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.49",
+      "order": 7,
+      "bodies": {
+        "en": "Tutorial\n\n- Improved the tutorial guide so it points to the correct target more accurately.\n\nCombat\n\n- Increased the hero's base HP at level 1 from 20 to 25.\n\nChallenge\n\n- Added five new Challenge bosses.\n\nCommerce\n\n- When Masterpiece Appraisal or Special Exchange reaches rank S or higher, you can now jump directly to that Commerce action from the item sale window.",
+        "ko": "튜토리얼\n\n- 상황에 맞는 대상을 더 정확하게 안내하도록 튜토리얼 가이드를 개선했습니다.\n\n전투\n\n- 주인공의 1레벨 기본 체력을 20에서 25로 상향했습니다.\n\n도전\n\n- 신규 도전 보스 5종을 추가했습니다.\n\n상업\n\n- 명품 감정 또는 특수 거래 액션이 S랭크 이상일 때, 아이템 판매창에서 해당 상업 액션으로 바로 이동할 수 있도록 개선했습니다.",
+        "ja": "チュートリアル\n\n- チュートリアルガイドが状況に応じた対象をより正確に案内するよう改善しました。\n\n戦闘\n\n- 主人公のレベル1時の基本HPを20から25に引き上げました。\n\n挑戦\n\n- 新たな挑戦ボスを5体追加しました。\n\n商業\n\n- 名品鑑定または特殊取引がSランク以上の場合、アイテム売却画面から該当する商業アクションへ直接移動できるようになりました。",
+        "es": "Tutorial\n\n- Se mejoró la precisión de la guía del tutorial para que señale el objetivo correcto en cada situación.\n\nCombate\n\n- Se aumentaron los PV base de la protagonista en el nivel 1 de 20 a 25.\n\nDesafío\n\n- Se añadieron cinco nuevos jefes de Desafío.\n\nComercio\n\n- Al alcanzar el rango S o superior en Tasación de obra maestra o Intercambio especial, ahora se puede ir directamente a la acción de Comercio correspondiente desde la ventana de venta de objetos.",
+        "zh-Hans": "教程\n\n- 提高了教程指引的准确性，使其能根据当前情况更准确地指向目标。\n\n战斗\n\n- 将英雄1级时的基础生命值从20提高至25。\n\n挑战\n\n- 新增5名挑战首领。\n\n商业\n\n- 名品鉴定或特殊交易达到S级或以上时，现在可从物品出售窗口直接前往对应的商业动作。",
+        "zh-Hant": "教學\n\n- 提高了教學指引的準確性，使其能根據目前情況更準確地指向目標。\n\n戰鬥\n\n- 將英雄1級時的基礎生命值從20提高至25。\n\n挑戰\n\n- 新增5名挑戰首領。\n\n商業\n\n- 名品鑑定或特殊交易達到S級或以上時，現在可從物品出售視窗直接前往對應的商業動作。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_49",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_49",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_49",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_49",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_49",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_49",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.50",
+    "gameId": "0.50",
+    "kind": "patch-notes",
+    "slug": "0.50",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.50)",
+      "ko": "패치노트 (0.50)",
+      "ja": "パッチノート (0.50)",
+      "es": "Notas del parche (0.50)",
+      "zh-Hans": "更新说明（0.50）",
+      "zh-Hant": "更新說明（0.50）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.50",
+      "order": 6,
+      "bodies": {
+        "en": "Exploration\n\n- Added an arrow button to collapse or expand active buff icons.\n- Added a Levels tab to the stats panel where you can view levels and EXP for Exploration-related skills.\n\nMuseum\n\n- Added Auto Sell for donated items. When enabled in the Museum, newly acquired copies are automatically sold for Gold.\n\nChallenge\n\n- Fixed an issue where Challenge currency rewards were not clearly displayed in the Clear Bonus section after completion.",
+        "ko": "탐험\n\n- 활성 버프 아이콘을 접거나 펼칠 수 있는 화살표 버튼을 추가했습니다.\n- 스탯 패널에 탐험 관련 스킬의 레벨과 경험치를 확인할 수 있는 레벨 탭을 추가했습니다.\n\n박물관\n\n- 기부를 완료한 아이템에 자동 판매를 설정할 수 있는 기능을 추가했습니다. 박물관에서 설정하면 이후 획득한 같은 아이템이 자동으로 골드로 판매됩니다.\n\n도전\n\n- 도전 완료 시 재화 보상이 완료 보너스 영역에 제대로 표시되지 않던 문제를 수정했습니다.",
+        "ja": "探索\n\n- 有効なバフアイコンを折りたたんだり展開したりできる矢印ボタンを追加しました。\n- ステータスパネルに、探索関連スキルのレベルと経験値を確認できる「レベル」タブを追加しました。\n\n博物館\n\n- 寄贈済みアイテムの自動売却機能を追加しました。博物館で設定すると、以降に入手した同じアイテムが自動でゴールドに換金されます。\n\n挑戦\n\n- 挑戦完了時の通貨報酬がクリアボーナス欄に正しく表示されない問題を修正しました。",
+        "es": "Exploración\n\n- Se añadió un botón de flecha para contraer o expandir los iconos de mejoras activas.\n- Se añadió una pestaña Niveles al panel de estadísticas para consultar el nivel y la EXP de las habilidades relacionadas con la Exploración.\n\nMuseo\n\n- Se añadió la Venta automática para los objetos donados. Al activarla en el Museo, las nuevas copias obtenidas se venden automáticamente por Oro.\n\nDesafío\n\n- Se corrigió un problema por el que las monedas de Desafío no se mostraban correctamente en la sección Bonificación por completar tras finalizar un Desafío.",
+        "zh-Hans": "探索\n\n- 新增箭头按钮，可收起或展开当前生效的增益图标。\n- 在属性面板中新增等级标签页，可查看探索相关技能的等级和经验值。\n\n博物馆\n\n- 为已捐赠物品新增自动出售功能。在博物馆中开启后，之后获得的同类物品会自动出售为金币。\n\n挑战\n\n- 修复了完成挑战后，挑战货币未能在通关加成区域正确显示的问题。",
+        "zh-Hant": "探索\n\n- 新增箭頭按鈕，可收起或展開目前生效的增益圖示。\n- 在屬性面板中新增等級分頁，可查看探索相關技能的等級與經驗值。\n\n博物館\n\n- 為已捐贈物品新增自動出售功能。在博物館中開啟後，之後獲得的同類物品會自動出售為金幣。\n\n挑戰\n\n- 修復了完成挑戰後，挑戰貨幣未能在通關加成區域正確顯示的問題。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_50",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_50",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_50",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_50",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_50",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_50",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.51",
+    "gameId": "0.51",
+    "kind": "patch-notes",
+    "slug": "0.51",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.51)",
+      "ko": "패치노트 (0.51)",
+      "ja": "パッチノート (0.51)",
+      "es": "Notas del parche (0.51)",
+      "zh-Hans": "更新说明（0.51）",
+      "zh-Hant": "更新說明（0.51）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.51",
+      "order": 5,
+      "bodies": {
+        "en": "Equipment\n\n- Fixed an issue where some items could not be equipped even when their requirements were met.\n\nFarming\n\n- The Farming button now glows green when crops are ready to harvest.\n- Moved the Farming button higher in the Action window.\n- Increased herb harvest yields and added more ways to obtain some herbs.\n- Increased both growth times and corresponding rewards by 2–6 times, depending on the crop, to make harvesting more convenient.\n\nMining\n\n- Increased the amounts of Stone and Coal obtained from mines.\n\nEnchanting\n\n- Added Mana Attunement, a new Enchanting action.\n\nPainting\n\n- Doubled Painting rank EXP gains and increased the prices of perfectly painted works.\n\nSmelting / Cooking\n\n- Reduced Coal requirements for Smelting.\n- Corrected the calculation for Coal rewards from failed Cooking attempts so the 95% success / 5% failure probabilities are applied correctly.\n\nGold Shop / Commerce\n\n- Rebalanced Gold Shop prices and added a cap on price increases.\n- Commerce skill shortcuts are now available when selling a single item.",
+        "ko": "장비\n\n- 일부 아이템이 장착 조건을 만족해도 장착되지 않던 문제를 수정했습니다.\n\n농사\n\n- 농작물을 수확할 수 있을 때 농사 버튼이 녹색으로 빛나도록 변경했습니다.\n- 액션 창에서 농사 버튼의 위치를 위로 올렸습니다.\n- 허브 수확량을 늘리고 일부 허브의 획득 경로를 확대했습니다.\n- 수확이 더 편리해지도록 농작물별 성장 시간과 그에 따른 보상을 함께 2~6배 늘렸습니다.\n\n채광\n\n- 광산에서 획득하는 돌과 석탄의 양을 늘렸습니다.\n\n마법부여\n\n- 마법부여에 새로운 액션인 마력 조율을 추가했습니다.\n\n그림\n\n- 그림 랭크 경험치 획득량을 2배로 늘리고, 완벽하게 그린 그림의 가격을 높였습니다.\n\n제련 / 요리\n\n- 제련에 필요한 석탄의 양을 줄였습니다.\n- 요리 실패 시 석탄 보상 계산을 수정해 성공 95% / 실패 5% 확률이 정확히 반영되도록 했습니다.\n\n골드 상점 / 상업\n\n- 골드 상점의 가격 밸런스를 조정하고 가격 상승 한도를 설정했습니다.\n- 아이템을 1개 판매할 때도 상업 스킬 바로가기를 사용할 수 있습니다.",
+        "ja": "装備\n\n- 装備条件を満たしていても一部のアイテムを装備できない問題を修正しました。\n\n栽培\n\n- 作物を収穫できるとき、栽培ボタンが緑色に光るようになりました。\n- アクション画面で栽培ボタンの位置を上に移動しました。\n- ハーブの収穫量を増やし、一部のハーブの入手方法を追加しました。\n- 収穫しやすくなるよう、作物ごとに成長時間とそれに応じた報酬をともに2～6倍に増やしました。\n\n採掘\n\n- 鉱山で入手できる石と石炭の量を増やしました。\n\n魔法付与\n\n- 魔法付与に新しいアクション「魔力調律」を追加しました。\n\n絵画\n\n- 絵画のランク経験値獲得量を2倍にし、完璧に描かれた絵の価格を引き上げました。\n\n製錬 / 料理\n\n- 製錬に必要な石炭の量を減らしました。\n- 料理失敗時の石炭報酬の計算を修正し、成功95%／失敗5%の確率が正しく反映されるようにしました。\n\nゴールドショップ / 商業\n\n- ゴールドショップの価格バランスを調整し、価格上昇に上限を設けました。\n- アイテムを1個売却するときも、商業スキルへのショートカットを利用できるようになりました。",
+        "es": "Equipo\n\n- Se corrigió un problema que impedía equipar algunos objetos aun cuando se cumplían sus requisitos.\n\nAgricultura\n\n- El botón de Agricultura ahora brilla en verde cuando hay cultivos listos para cosechar.\n- Se movió el botón de Agricultura más arriba en la ventana de acciones.\n- Se aumentó la cantidad de hierbas cosechadas y se añadieron más formas de obtener algunas hierbas.\n- Se multiplicaron tanto los tiempos de crecimiento como las recompensas correspondientes por un factor de entre 2 y 6, según el cultivo, para facilitar la cosecha.\n\nMinería\n\n- Se aumentaron las cantidades de piedra y carbón obtenidas en las minas.\n\nEncantamiento\n\n- Se añadió Armonización mágica, una nueva acción de Encantamiento.\n\nPintura\n\n- Se duplicó la EXP de rango obtenida en Pintura y se aumentaron los precios de las obras pintadas a la perfección.\n\nFundición / Cocina\n\n- Se redujo la cantidad de carbón necesaria para Fundición.\n- Se corrigió el cálculo del carbón obtenido al fallar en Cocina para aplicar correctamente las probabilidades de éxito del 95% y de fallo del 5%.\n\nTienda de oro / Comercio\n\n- Se ajustaron los precios de la tienda de oro y se estableció un límite a sus aumentos.\n- Los accesos directos a la habilidad de Comercio ahora también están disponibles al vender un solo objeto.",
+        "zh-Hans": "装备\n\n- 修复了部分物品即使满足装备条件也无法装备的问题。\n\n耕作\n\n- 有农作物可以收获时，耕作按钮现在会发出绿色光芒。\n- 将动作窗口中的耕作按钮位置上移。\n- 增加了草药收获量，并扩展了部分草药的获取途径。\n- 为方便收获，根据作物种类，将生长时间及相应奖励同时提高至原来的2～6倍。\n\n采矿\n\n- 增加了矿山中石头和煤炭的获取量。\n\n附魔\n\n- 为附魔新增了动作“魔力调谐”。\n\n绘画\n\n- 将绘画等级经验获取量提高至2倍，并提高了完美画作的价格。\n\n冶炼 / 烹饪\n\n- 减少了冶炼所需的煤炭量。\n- 修正了烹饪失败时的煤炭奖励计算，使95%成功／5%失败的概率得到正确应用。\n\n金币商店 / 商业\n\n- 调整了金币商店的价格平衡，并设置了价格上涨上限。\n- 现在出售单个物品时也可以使用商业技能快捷入口。",
+        "zh-Hant": "裝備\n\n- 修正了部分物品即使滿足裝備條件也無法裝備的問題。\n\n耕作\n\n- 有農作物可以收穫時，耕作按鈕現在會發出綠色光芒。\n- 將動作視窗中的耕作按鈕位置上移。\n- 增加了草藥收穫量，並擴展了部分草藥的取得途徑。\n- 為方便收穫，依作物種類，將生長時間及相應獎勵同時提高至原來的2～6倍。\n\n採礦\n\n- 增加了礦山中石頭和煤炭的取得量。\n\n附魔\n\n- 為附魔新增了動作「魔力調諧」。\n\n繪畫\n\n- 將繪畫等級經驗取得量提高至2倍，並提高了完美畫作的價格。\n\n冶煉 / 烹飪\n\n- 減少了冶煉所需的煤炭量。\n- 修正了烹飪失敗時的煤炭獎勵計算，使95%成功／5%失敗的機率得到正確套用。\n\n金幣商店 / 商業\n\n- 調整了金幣商店的價格平衡，並設定了價格上漲上限。\n- 現在出售單個物品時也可以使用商業技能快捷入口。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_51",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_51",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_51",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_51",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_51",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_51",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.52",
+    "gameId": "0.52",
+    "kind": "patch-notes",
+    "slug": "0.52",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.52)",
+      "ko": "패치노트 (0.52)",
+      "ja": "パッチノート (0.52)",
+      "es": "Notas del parche (0.52)",
+      "zh-Hans": "更新说明（0.52）",
+      "zh-Hant": "更新說明（0.52）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.52",
+      "order": 4,
+      "bodies": {
+        "en": "Challenge / Combat\n\n- Added a screen transition when clearing a Challenge.\n- Fixed an issue where advancing or retreating during an action in a Challenge reset its cooldown.\n- Adjusted the levels of some dungeon and regular monsters so dungeon bosses have higher levels.\n\nPurchase / Offline Play\n\n- Players who have purchased the game can now play the purchased version without an internet connection.\n\nEquipment / Enchanting\n\n- Improved data for some equipment whose stats did not change when enchanted.\n- Fixed the display and application of Life Action Speed enchantment effects.\n\nInstrument Performance\n\n- Improved the Instrument Performance UI and rewards.\n\nPotions\n\n- Added descriptions for experience potions.\n\nCrafting\n\n- Adjusted level requirements for crafted items.\n\nAuto Exploration / Expedition\n\n- Familiars can now also be unlocked through Auto Exploration and Expeditions.\n\nCommerce\n\n- Fixed an issue where Commerce progress stopped during offline simulation.\n\nMuseum / Inventory\n\n- Improved item classification and sorting by type in the Museum and Inventory.\n\nSaving / Performance\n\n- Improved saving and reduced system load.",
+        "ko": "도전 / 전투\n\n- 도전 클리어 시 화면 전환을 추가했습니다.\n- 도전에서 액션 사용 중 전진하거나 후퇴하면 쿨타임이 초기화되던 문제를 수정했습니다.\n- 던전 보스의 레벨이 더 높도록 일부 던전 및 일반 몬스터의 레벨을 조정했습니다.\n\n구매 / 오프라인 플레이\n\n- 게임을 구매한 유저는 인터넷 연결 없이도 구매한 버전으로 플레이할 수 있도록 개선했습니다.\n\n장비 / 마법부여\n\n- 마법부여 시 수치가 변하지 않던 일부 장비의 데이터를 개선했습니다.\n- 생활 행동 속도(Life Action Speed) 마법부여 효과가 올바르게 표시되고 적용되도록 수정했습니다.\n\n악기연주\n\n- 악기연주 UI와 보상을 개선했습니다.\n\n포션\n\n- 경험치 포션의 설명을 추가했습니다.\n\n제작\n\n- 제작 아이템의 레벨 조건을 조정했습니다.\n\n자동 탐험 / 원정\n\n- 자동 탐험과 원정에서도 소환수를 해금할 수 있도록 개선했습니다.\n\n상업\n\n- 오프라인 시뮬레이션 중 상업 스킬의 진행이 끊기던 문제를 수정했습니다.\n\n박물관 / 가방\n\n- 박물관과 가방의 아이템이 종류별로 더 정확하게 분류되고 정렬되도록 개선했습니다.\n\n저장 / 성능\n\n- 저장 처리를 개선하고 시스템 부하를 줄였습니다.",
+        "ja": "挑戦 / 戦闘\n\n- 挑戦クリア時の画面切り替えを追加しました。\n- 挑戦でアクション使用中に前進または後退すると、クールタイムがリセットされる問題を修正しました。\n- ダンジョンボスのレベルがより高くなるよう、一部のダンジョンおよび通常モンスターのレベルを調整しました。\n\n購入 / オフラインプレイ\n\n- ゲームを購入したプレイヤーは、インターネットに接続していなくても購入済みのバージョンをプレイできるようになりました。\n\n装備 / 魔法付与\n\n- 魔法付与をしても数値が変わらなかった一部装備のデータを改善しました。\n- 生活行動速度の魔法付与効果が正しく表示・適用されるよう修正しました。\n\n楽器演奏\n\n- 楽器演奏のUIと報酬を改善しました。\n\nポーション\n\n- 経験値ポーションの説明を追加しました。\n\n製作\n\n- 製作アイテムのレベル条件を調整しました。\n\n自動探索 / 遠征\n\n- 自動探索と遠征でも召喚獣を解放できるようになりました。\n\n商業\n\n- オフラインシミュレーション中に商業スキルの進行が止まる問題を修正しました。\n\n博物館 / バッグ\n\n- 博物館とバッグのアイテムが種類別により正確に分類・並び替えされるよう改善しました。\n\nセーブ / パフォーマンス\n\n- セーブ処理を改善し、システム負荷を軽減しました。",
+        "es": "Desafío / Combate\n\n- Se añadió una transición de pantalla al completar un Desafío.\n- Se corrigió un problema que reiniciaba el tiempo de reutilización al avanzar o retroceder durante una acción en un Desafío.\n- Se ajustaron los niveles de algunos monstruos normales y de mazmorra para que los jefes de mazmorra tengan niveles más altos.\n\nCompra / Juego sin conexión\n\n- Quienes hayan comprado el juego ahora pueden jugar a la versión comprada sin conexión a internet.\n\nEquipo / Encantamiento\n\n- Se mejoraron los datos de ciertos equipos cuyos atributos no cambiaban al encantarlos.\n- Se corrigieron la visualización y la aplicación de los efectos de encantamiento de velocidad de acciones de vida.\n\nInterpretación musical\n\n- Se mejoraron la interfaz y las recompensas de Interpretación musical.\n\nPociones\n\n- Se añadieron descripciones para las pociones de experiencia.\n\nFabricación\n\n- Se ajustaron los requisitos de nivel de los objetos fabricados.\n\nExploración automática / Expedición\n\n- Ahora también se pueden desbloquear familiares mediante la Exploración automática y las Expediciones.\n\nComercio\n\n- Se corrigió un problema que interrumpía el progreso de Comercio durante la simulación sin conexión.\n\nMuseo / Inventario\n\n- Se mejoraron la clasificación y el orden por tipo de los objetos del Museo y el Inventario.\n\nGuardado / Rendimiento\n\n- Se mejoró el guardado y se redujo la carga del sistema.",
+        "zh-Hans": "挑战 / 战斗\n\n- 新增了挑战通关时的画面切换。\n- 修复了挑战中使用动作时前进或后退会重置冷却时间的问题。\n- 调整了部分地牢和普通怪物的等级，使地牢首领的等级更高。\n\n购买 / 离线游玩\n\n- 已购买游戏的玩家现在无需连接互联网也能游玩已购买的版本。\n\n装备 / 附魔\n\n- 改进了部分装备的数据，修复了附魔后数值不变的问题。\n- 修复了生活行动速度附魔效果的显示与应用问题。\n\n乐器演奏\n\n- 改进了乐器演奏的界面和奖励。\n\n药水\n\n- 新增了经验药水的说明。\n\n制作\n\n- 调整了制作物品的等级条件。\n\n自动探索 / 远征\n\n- 现在也可以通过自动探索和远征解锁使魔。\n\n商业\n\n- 修复了离线模拟中商业技能进度中断的问题。\n\n博物馆 / 背包\n\n- 改进了博物馆和背包的物品分类与排序，使其按种类排列得更加准确。\n\n存档 / 性能\n\n- 改进了存档处理，并降低了系统负载。",
+        "zh-Hant": "挑戰 / 戰鬥\n\n- 新增了挑戰通關時的畫面切換。\n- 修正了挑戰中使用動作時前進或後退會重設冷卻時間的問題。\n- 調整了部分地牢和普通怪物的等級，使地牢首領的等級更高。\n\n購買 / 離線遊玩\n\n- 已購買遊戲的玩家現在無需連接網際網路也能遊玩已購買的版本。\n\n裝備 / 附魔\n\n- 改善了部分裝備的資料，修正了附魔後數值不變的問題。\n- 修正了生活行動速度附魔效果的顯示與套用問題。\n\n樂器演奏\n\n- 改善了樂器演奏的介面和獎勵。\n\n藥水\n\n- 新增了經驗藥水的說明。\n\n製作\n\n- 調整了製作物品的等級條件。\n\n自動探索 / 遠征\n\n- 現在也可以透過自動探索和遠征解鎖使魔。\n\n商業\n\n- 修正了離線模擬中商業技能進度中斷的問題。\n\n博物館 / 背包\n\n- 改善了博物館和背包的物品分類與排序，使其按種類排列得更加準確。\n\n存檔 / 效能\n\n- 改善了存檔處理，並降低了系統負載。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_52",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_52",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_52",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_52",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_52",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_52",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.53",
+    "gameId": "0.53",
+    "kind": "patch-notes",
+    "slug": "0.53",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.53)",
+      "ko": "패치노트 (0.53)",
+      "ja": "パッチノート (0.53)",
+      "es": "Notas del parche (0.53)",
+      "zh-Hans": "更新说明（0.53）",
+      "zh-Hant": "更新說明（0.53）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.53",
+      "order": 3,
+      "bodies": {
+        "en": "Training\n\n- New traits can now be selected for existing Training actions upon reaching SSS rank.\n\nTerminology (English Only)\n\n- Renamed \"Idle Action Speed\" to \"Life Action Speed\" in the English text only. The wording in other languages remains unchanged.\n\nFarming\n\n- Added four types of compost for use in Farming.",
+        "ko": "훈련\n\n- 기존 액션을 SSS 등급까지 훈련하면 새로운 특성을 선택할 수 있습니다.\n\n용어 변경 (영어만)\n\n- 영어 원문의 \"Idle Action Speed\"를 \"Life Action Speed\"로 변경했습니다. 다른 언어의 표기는 변경하지 않았습니다.\n\n농사\n\n- 농사에 사용할 수 있는 비료 4종을 추가했습니다.",
+        "ja": "訓練\n\n- 既存のアクションをSSSランクまで訓練すると、新しい特性を選べるようになりました。\n\n用語変更（英語のみ）\n\n- 英語の表記のみ、\"Idle Action Speed\"から\"Life Action Speed\"に変更しました。他の言語の表記は変更していません。\n\n栽培\n\n- 栽培で使える堆肥を4種類追加しました。",
+        "es": "Entrenamiento\n\n- Ahora puedes elegir nuevos rasgos para las acciones de Entrenamiento existentes al alcanzar el rango SSS.\n\nTerminología (solo en inglés)\n\n- Se cambió \"Idle Action Speed\" por \"Life Action Speed\" únicamente en el texto en inglés. La terminología en los demás idiomas no ha cambiado.\n\nAgricultura\n\n- Se han añadido cuatro tipos de compost para usar en Agricultura.",
+        "zh-Hans": "训练\n\n- 现有动作在训练达到SSS级后可选择新的特性。\n\n术语调整（仅限英语）\n\n- 仅将英语文本中的\"Idle Action Speed\"改为\"Life Action Speed\"。其他语言的表述保持不变。\n\n耕作\n\n- 新增4种可用于耕作的堆肥。",
+        "zh-Hant": "訓練\n\n- 現有動作在訓練達到SSS級後可選擇新的特性。\n\n用語調整（僅限英語）\n\n- 僅將英語文字中的\"Idle Action Speed\"改為\"Life Action Speed\"。其他語言的表述維持不變。\n\n耕作\n\n- 新增4種可用於耕作的堆肥。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_53",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_53",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_53",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_53",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_53",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_53",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.54",
+    "gameId": "0.54",
+    "kind": "patch-notes",
+    "slug": "0.54",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.54)",
+      "ko": "패치노트 (0.54)",
+      "ja": "パッチノート (0.54)",
+      "es": "Notas del parche (0.54)",
+      "zh-Hans": "更新说明（0.54）",
+      "zh-Hant": "更新說明（0.54）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.54",
+      "order": 2,
+      "bodies": {
+        "en": "Farming\n\n- Failed results are now shown first when starting all Farming activities, and a results summary has been added.\n- Livestock Pens now occasionally yield compost.\n- Improved the compost assignment UI.\n\nMuseum\n\n- Fixed a bug that caused the auto-sell list to be cleared.",
+        "ko": "농사\n\n- 농사 일괄 시작 시 실패한 결과가 먼저 표시되도록 변경하고 결과 요약을 추가했습니다.\n- 축사에서 가끔 비료를 획득할 수 있도록 변경했습니다.\n- 비료 등록 UI를 개선했습니다.\n\n박물관\n\n- 자동 판매 목록이 지워지던 버그를 수정했습니다.",
+        "ja": "栽培\n\n- 栽培の一括開始時に失敗した結果が先に表示されるように変更し、結果の概要を追加しました。\n- 畜舎で時々堆肥を入手できるようになりました。\n- 堆肥の登録UIを改善しました。\n\n博物館\n\n- 自動売却リストが消えてしまう不具合を修正しました。",
+        "es": "Agricultura\n\n- Al iniciar todas las actividades de Agricultura, los resultados fallidos ahora se muestran primero y se ha añadido un resumen de los resultados.\n- Ahora puedes obtener compost ocasionalmente del ganado.\n- Se ha mejorado la interfaz de asignación de compost.\n\nMuseo\n\n- Se ha corregido un error que borraba la lista de venta automática.",
+        "zh-Hans": "耕作\n\n- 批量开始耕作时，失败的结果现在会优先显示，并新增了结果摘要。\n- 现在可以偶尔从畜栏中获得堆肥。\n- 改善了堆肥设置界面。\n\n博物馆\n\n- 修复了自动出售列表被清空的问题。",
+        "zh-Hant": "耕作\n\n- 批次開始耕作時，失敗的結果現在會優先顯示，並新增了結果摘要。\n- 現在可以偶爾從畜欄中獲得堆肥。\n- 改善了堆肥設定介面。\n\n博物館\n\n- 修正了自動出售清單被清空的問題。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_54",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_54",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_54",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_54",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_54",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_54",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.55",
+    "gameId": "0.55",
+    "kind": "patch-notes",
+    "slug": "0.55",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.55)",
+      "ko": "패치노트 (0.55)",
+      "ja": "パッチノート (0.55)",
+      "es": "Notas del parche (0.55)",
+      "zh-Hans": "更新说明（0.55）",
+      "zh-Hant": "更新說明（0.55）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.55",
+      "order": 1,
+      "bodies": {
+        "en": "Farming\n\n- Fixed an issue where the Yellow Tomato image reverted to a red tomato.\n- Added more ways to obtain seeds and some Farming harvests.\n\nInstrument Performance\n\n- Changed the Inspiration amount display in the Instrument Performance UI to K/M/B notation.\n\nCommerce / Enchanting\n\n- Increased the bonus values on some equipment items related to Commerce and Enchanting.\n\nPC Demo Only\n\n- Added a companion popup window.",
+        "ko": "농사\n\n- 노란 토마토의 이미지가 빨간 토마토로 되돌아가던 문제를 수정했습니다.\n- 씨앗 및 일부 농사 수확물의 획득처를 추가했습니다.\n\n악기 연주\n\n- 악기 연주 UI의 영감 보유량 표시를 K/M/B 형식으로 변경했습니다.\n\n상업 / 마법 부여\n\n- 일부 상업 및 마법 부여 관련 장비 아이템의 수치 보너스를 높였습니다.\n\nPC 데모 전용\n\n- 보조 팝업 창을 추가했습니다.",
+        "ja": "栽培\n\n- 黄色のトマトの画像が赤いトマトに戻ってしまう問題を修正しました。\n- 種と一部の栽培収穫物の入手方法を追加しました。\n\n楽器演奏\n\n- 楽器演奏UIのインスピレーション所持量表示をK/M/B形式に変更しました。\n\n商業 / 魔法付与\n\n- 商業・魔法付与に関連する一部の装備アイテムのボーナス値を引き上げました。\n\nPC体験版のみ\n\n- 補助ポップアップウィンドウを追加しました。",
+        "es": "Agricultura\n\n- Se ha corregido un error por el que la imagen del Tomate amarillo volvía a ser la de un tomate rojo.\n- Se han añadido más formas de obtener semillas y algunos productos de Agricultura.\n\nInterpretación instrumental\n\n- La cantidad de Inspiración en la interfaz de Interpretación instrumental ahora se muestra con la notación K/M/B.\n\nComercio / Encantamiento\n\n- Se han aumentado los valores de bonificación de algunos objetos de equipo relacionados con Comercio y Encantamiento.\n\nSolo en la demo para PC\n\n- Se ha añadido una ventana emergente auxiliar.",
+        "zh-Hans": "耕作\n\n- 修复了黄番茄的图像变回红番茄的问题。\n- 新增了种子及部分耕作收获物的获取途径。\n\n乐器演奏\n\n- 将乐器演奏界面的灵感持有量改为以K/M/B格式显示。\n\n商业 / 附魔\n\n- 提高了部分商业和附魔相关装备物品的加成数值。\n\n仅限PC试玩版\n\n- 新增了辅助弹窗。",
+        "zh-Hant": "耕作\n\n- 修正了黃番茄的圖像變回紅番茄的問題。\n- 新增了種子及部分耕作收穫物的取得途徑。\n\n樂器演奏\n\n- 將樂器演奏介面的靈感持有量改為以K/M/B格式顯示。\n\n商業 / 附魔\n\n- 提高了部分商業和附魔相關裝備物品的加成數值。\n\n僅限PC試玩版\n\n- 新增了輔助彈出視窗。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_55",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_55",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_55",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_55",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_55",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_55",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.56",
+    "gameId": "0.56",
+    "kind": "patch-notes",
+    "slug": "0.56",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.56)",
+      "ko": "패치노트 (0.56)",
+      "ja": "パッチノート (0.56)",
+      "es": "Notas del parche (0.56)",
+      "zh-Hans": "更新说明（0.56）",
+      "zh-Hant": "更新說明（0.56）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.56",
+      "order": 0,
+      "bodies": {
+        "en": "Writing\n\n- Fixed an issue that prevented Reroll from working in Writing.\n\nKorean Text\n\n- Korean text now wraps at spaces between words.\n\nBestiary\n\n- Added the Bestiary.",
+        "ko": "글쓰기\n\n- 글쓰기의 다시 굴리기가 작동하지 않던 문제를 수정했습니다.\n\n한국어 텍스트\n\n- 한국어 텍스트가 띄어쓰기 단위로 줄바꿈되도록 변경했습니다.\n\n몬스터 도감\n\n- 몬스터 도감을 추가했습니다.",
+        "ja": "執筆\n\n- 執筆で振り直しが機能しない問題を修正しました。\n\n韓国語テキスト\n\n- 韓国語テキストをスペースで区切られた単語単位で改行するように変更しました。\n\nモンスター図鑑\n\n- モンスター図鑑を追加しました。",
+        "es": "Escritura\n\n- Se ha corregido un error que impedía usar Resortear en Escritura.\n\nTexto en coreano\n\n- El texto en coreano ahora salta de línea entre palabras, en los espacios.\n\nBestiario\n\n- Se ha añadido el Bestiario.",
+        "zh-Hans": "写作\n\n- 修复了写作中的重新抽选功能无法使用的问题。\n\n韩语文本\n\n- 将韩语文本改为按空格分隔的词语换行。\n\n怪物图鉴\n\n- 新增了怪物图鉴。",
+        "zh-Hant": "寫作\n\n- 修正了寫作中的重新抽選功能無法使用的問題。\n\n韓語文字\n\n- 將韓語文字改為以空格分隔的詞語為單位換行。\n\n怪物圖鑑\n\n- 新增了怪物圖鑑。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_56",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_56",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_56",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_56",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_56",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_56",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  }
+]

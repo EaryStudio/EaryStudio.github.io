@@ -1,0 +1,14 @@
+Silver — Poppy Works (2019)
+Author: Poppy Works / Wolfgang Wozniak.
+Contributors include Itou Hiro (PixelMPlus), leedheo (DOSGothic), Yoon Design and buchi.
+
+Source and complete author terms: https://poppyworks.itch.io/silver
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+The author's page additionally requests direct licensing for productions exceeding
+USD 100,000 in total spending or earnings, or requiring urgent support.
+
+This website uses the font from Iris's Idle Log release 0.56. The outlines and
+character set are unchanged; only the container was converted from TTF to WOFF2.
+Credit to Poppy Works appears in the website footer. No endorsement is implied.

@@ -1,0 +1,202 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://earystudio.github.io/iris/wiki/schema/entity-v1.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "wikiId",
+    "gameId",
+    "kind",
+    "slug",
+    "type",
+    "names",
+    "descriptions",
+    "image",
+    "data",
+    "relations",
+    "aliases"
+  ],
+  "properties": {
+    "wikiId": {
+      "type": "string",
+      "pattern": "^[a-z-]+:[a-z0-9._-]+$"
+    },
+    "gameId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "type": "string",
+      "pattern": "^[a-z-]+$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]*$"
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "names": {
+      "$ref": "#/definitions/localizedName"
+    },
+    "descriptions": {
+      "$ref": "#/definitions/localizedText"
+    },
+    "image": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/image"
+        }
+      ]
+    },
+    "data": {
+      "type": "object"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "target",
+          "role",
+          "field",
+          "context"
+        ],
+        "properties": {
+          "target": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "related",
+              "requires",
+              "rewards",
+              "consumes",
+              "encounter",
+              "summons",
+              "unlock"
+            ]
+          },
+          "field": {
+            "type": "string"
+          },
+          "context": {
+            "type": [
+              "object",
+              "array",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "localizedName": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en",
+        "ko",
+        "ja",
+        "es",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ko": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ja": {
+          "type": "string",
+          "minLength": 1
+        },
+        "es": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zh-Hans": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zh-Hant": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en",
+        "ko",
+        "ja",
+        "es",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "ko": {
+          "type": "string"
+        },
+        "ja": {
+          "type": "string"
+        },
+        "es": {
+          "type": "string"
+        },
+        "zh-Hans": {
+          "type": "string"
+        },
+        "zh-Hant": {
+          "type": "string"
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "width",
+        "height"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^assets/[a-f0-9]{24}\\.png$"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 16384
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 16384
+        }
+      }
+    }
+  }
+}

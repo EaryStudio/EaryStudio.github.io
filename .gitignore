@@ -1,0 +1,7 @@
+node_modules/
+_site/
+.wiki-import-*/
+reports/
+data/*.operation.lock
+data/.wiki-import-*/
+data/*.previous/

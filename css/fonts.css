@@ -1,7 +1,16 @@
 @font-face {
-  font-family: "Pixelify Sans";
-  src: url("/assets/fonts/pixelify-sans.ttf") format("truetype");
+  font-family: "Silver";
+  src: url("../assets/fonts/game/silver.woff2") format("woff2");
   font-style: normal;
   font-weight: 400 700;
-  font-display: swap;
+  font-display: block;
+  /* Silver reserves 900/1900 em below the baseline, but normal text only uses
+     about 200. Match the visible glyphs so controls center their text correctly. */
+  ascent-override: 63.16%;
+  descent-override: 10.53%;
+  line-gap-override: 0%;
 }
+@font-face { font-family: "Fusion Hans"; src: url("../assets/fonts/game/fusion-hans.woff2") format("woff2"); font-display: block; }
+@font-face { font-family: "Fusion Hant"; src: url("../assets/fonts/game/fusion-hant.woff2") format("woff2"); font-display: block; }
+@font-face { font-family: "Game Unifont"; src: url("../assets/fonts/game/unifont.woff2") format("woff2"); font-display: block; }
+html.font-pending body { visibility: hidden; }

@@ -1,0 +1,338 @@
+{
+  "conditions": [
+    "Conditions",
+    "조건",
+    "条件",
+    "Condiciones",
+    "条件",
+    "條件"
+  ],
+  "result": [
+    "Result",
+    "결과",
+    "結果",
+    "Resultado",
+    "结果",
+    "結果"
+  ],
+  "currentLevel": [
+    "Current enhancement",
+    "현재 강화 단계",
+    "現在の強化段階",
+    "Mejora actual",
+    "当前强化等级",
+    "目前強化等級"
+  ],
+  "levelChange": [
+    "Enhancement change",
+    "강화 단계 변화",
+    "強化段階の変化",
+    "Cambio de mejora",
+    "强化等级变化",
+    "強化等級變化"
+  ],
+  "materials": [
+    "Materials per attempt",
+    "시도당 재료",
+    "試行ごとの素材",
+    "Materiales por intento",
+    "每次所需材料",
+    "每次所需材料"
+  ],
+  "target": [
+    "Target",
+    "대상",
+    "対象",
+    "Objetivo",
+    "目标",
+    "目標"
+  ],
+  "candidateItems": [
+    "Eligible items",
+    "거래 후보 아이템",
+    "取引候補アイテム",
+    "Objetos elegibles",
+    "可交易物品",
+    "可交易物品"
+  ],
+  "tradeMode": [
+    "Trade mode",
+    "거래 구분",
+    "取引区分",
+    "Tipo de operación",
+    "交易类型",
+    "交易類型"
+  ],
+  "weeklyReset": [
+    "Weekly reset (local time)",
+    "주간 갱신 (기기 현지 시간)",
+    "週間更新（端末の現地時刻）",
+    "Reinicio semanal (hora local)",
+    "每周重置（设备本地时间）",
+    "每週重設（裝置當地時間）"
+  ],
+  "capacity": [
+    "Trades per refresh",
+    "갱신당 거래 횟수",
+    "更新ごとの取引回数",
+    "Operaciones por reinicio",
+    "每次刷新交易次数",
+    "每次更新交易次數"
+  ],
+  "priceCap": [
+    "Price cap vs. initial price",
+    "초기 가격 대비 상한",
+    "初期価格に対する上限",
+    "Tope respecto al precio inicial",
+    "相对初始价格上限",
+    "相對初始價格上限"
+  ],
+  "rank": [
+    "Proficiency rank",
+    "숙련도 등급",
+    "熟練度ランク",
+    "Rango de dominio",
+    "熟练度等级",
+    "熟練度等級"
+  ],
+  "bonus": [
+    "Bonus",
+    "보너스",
+    "ボーナス",
+    "Bonificación",
+    "加成",
+    "加成"
+  ],
+  "salePremium": [
+    "Sale premium",
+    "판매 가격 가산",
+    "売却価格加算",
+    "Prima de venta",
+    "出售溢价",
+    "出售溢價"
+  ],
+  "buyMarkup": [
+    "Purchase markup",
+    "구매 가격 가산",
+    "購入価格加算",
+    "Recargo de compra",
+    "购买加价",
+    "購買加價"
+  ],
+  "specialMinimum": [
+    "Minimum over Special Exchange",
+    "특수 거래 대비 최소 가산",
+    "特殊取引に対する最低加算",
+    "Mínimo sobre intercambio especial",
+    "相对特殊交易的最低溢价",
+    "相對特殊交易的最低溢價"
+  ],
+  "specialMaximum": [
+    "Maximum vs. Special Exchange",
+    "특수 거래 대비 상한",
+    "特殊取引に対する上限",
+    "Máximo frente a intercambio especial",
+    "相对特殊交易的上限",
+    "相對特殊交易的上限"
+  ],
+  "baseConversion": [
+    "Base Gold → Ducarin conversion",
+    "골드 → 두카린 기본 환산 배율",
+    "ゴールド→デュカリン基本換算倍率",
+    "Conversión base de oro a Ducarin",
+    "金币→杜卡林基础换算倍率",
+    "金幣→杜卡林基礎換算倍率"
+  ],
+  "completed": [
+    "Completed trades",
+    "완료한 거래",
+    "完了した取引",
+    "Operaciones completadas",
+    "已完成交易",
+    "已完成交易"
+  ],
+  "remaining": [
+    "Demand / stock remaining",
+    "남은 수요 / 재고",
+    "残り需要／在庫",
+    "Demanda / existencias restantes",
+    "剩余需求／库存",
+    "剩餘需求／庫存"
+  ],
+  "initialPrice": [
+    "Item purchase price multiplier",
+    "아이템 구매가 배율",
+    "アイテム購入価格の倍率",
+    "Multiplicador de compra del objeto",
+    "物品购买价倍率",
+    "物品購買價倍率"
+  ],
+  "requiredCount": [
+    "Completions per assigned skill",
+    "배정 스킬별 수행 횟수",
+    "割当スキルごとの完了回数",
+    "Ejecuciones por habilidad asignada",
+    "每个指定技能的完成次数",
+    "每個指定技能的完成次數"
+  ],
+  "excluded": [
+    "Excluded skills",
+    "제외 스킬",
+    "対象外スキル",
+    "Habilidades excluidas",
+    "排除技能",
+    "排除技能"
+  ],
+  "consecutive": [
+    "Consecutive completions",
+    "연속 수행 횟수",
+    "連続完了回数",
+    "Ejecuciones consecutivas",
+    "连续完成次数",
+    "連續完成次數"
+  ],
+  "duration": [
+    "Duration",
+    "지속 시간",
+    "持続時間",
+    "Duración",
+    "持续时间",
+    "持續時間"
+  ],
+  "unlockChance": [
+    "Unlock chance",
+    "해금 확률",
+    "解放確率",
+    "Probabilidad de desbloqueo",
+    "解锁概率",
+    "解鎖機率"
+  ],
+  "stars": [
+    "Area stars",
+    "지역 별 수",
+    "エリアの星数",
+    "Estrellas del área",
+    "区域星数",
+    "區域星數"
+  ],
+  "effectiveDexterity": [
+    "Dexterity + Stealth level bonus",
+    "손재주 + 절도 레벨 보너스",
+    "器用さ＋窃盗レベルボーナス",
+    "Destreza + bono de nivel de hurto",
+    "灵巧＋偷窃等级加成",
+    "靈巧＋偷竊等級加成"
+  ],
+  "failureWait": [
+    "Failure cooldown",
+    "실패 후 대기 시간",
+    "失敗後の待機時間",
+    "Espera tras fallar",
+    "失败后等待时间",
+    "失敗後等待時間"
+  ],
+  "levelBonus": [
+    "Skill level bonus",
+    "스킬 레벨 보너스",
+    "スキルレベルボーナス",
+    "Bono de nivel de habilidad",
+    "技能等级加成",
+    "技能等級加成"
+  ],
+  "resourceLevel": [
+    "Gathering skill level",
+    "채집 스킬 레벨",
+    "採集スキルレベル",
+    "Nivel de recolección",
+    "采集技能等级",
+    "採集技能等級"
+  ],
+  "perMilestone": [
+    "Bonus per milestone",
+    "단계별 추가 보너스",
+    "段階ごとの追加ボーナス",
+    "Bono por hito",
+    "各阶段额外加成",
+    "各階段額外加成"
+  ],
+  "totalBonus": [
+    "Cumulative bonus",
+    "누적 보너스",
+    "累積ボーナス",
+    "Bono acumulado",
+    "累计加成",
+    "累計加成"
+  ],
+  "maxActiveBonus": [
+    "Highest active XP bonus",
+    "활성 경험치 보너스 중 최댓값",
+    "有効な経験値ボーナスの最大値",
+    "Mayor bono de EXP activo",
+    "生效经验加成中的最大值",
+    "生效經驗加成中的最大值"
+  ],
+  "specialRank": [
+    "Special Exchange rank",
+    "특수 거래 숙련도",
+    "特殊取引の熟練度",
+    "Rango de intercambio especial",
+    "特殊交易熟练度",
+    "特殊交易熟練度"
+  ],
+  "price": [
+    "Price / reward",
+    "가격 / 보상",
+    "価格／報酬",
+    "Precio / recompensa",
+    "价格／奖励",
+    "價格／獎勵"
+  ],
+  "priceConditions": [
+    "Price by condition",
+    "조건별 가격",
+    "条件別価格",
+    "Precio según condiciones",
+    "各条件下的价格",
+    "各條件下的價格"
+  ],
+  "successChance": [
+    "Success chance",
+    "성공 확률",
+    "成功率",
+    "Probabilidad de éxito",
+    "成功率",
+    "成功率"
+  ],
+  "dexterityBonus": [
+    "Dexterity bonus",
+    "손재주 보너스",
+    "器用さボーナス",
+    "Bonificación de destreza",
+    "灵巧加成",
+    "靈巧加成"
+  ],
+  "assignedSkills": [
+    "Assigned skills",
+    "배정 스킬",
+    "割当スキル",
+    "Habilidades asignadas",
+    "指定技能",
+    "指定技能"
+  ],
+  "autoRerollThreshold": [
+    "Completions until automatic reroll",
+    "자동 재배정 기준 수행 횟수",
+    "自動再抽選までの完了回数",
+    "Ejecuciones para cambio automático",
+    "自动重新分配所需完成次数",
+    "自動重新分配所需完成次數"
+  ],
+  "rankConversion": [
+    "Rank conversion multiplier",
+    "숙련도별 환산 배율",
+    "熟練度別の換算倍率",
+    "Multiplicador de conversión por rango",
+    "熟练度换算倍率",
+    "熟練度換算倍率"
+  ]
+}

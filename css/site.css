@@ -5,7 +5,8 @@
   --muted: #645d65;
   --accent: #65415f;
   --rule: #d8cfc5;
-  font-family: "Pixelify Sans", system-ui, sans-serif;
+  font-family: "Silver", system-ui, sans-serif;
+  font-size-adjust: .5;
   color: var(--ink);
   background: var(--paper);
   font-synthesis: none;

@@ -1,0 +1,102 @@
+{
+  "panel": {
+    "sprite": "UI pack 1_17",
+    "border": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "image": {
+      "path": "assets/37c8e7330d0dad2a3424214a.png",
+      "width": 24,
+      "height": 24
+    }
+  },
+  "inset": {
+    "sprite": "UI pack 1_98",
+    "border": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "image": {
+      "path": "assets/3cb7281ee12b793636c07d4d.png",
+      "width": 18,
+      "height": 18
+    }
+  },
+  "slot": {
+    "sprite": "UI pack 1_61",
+    "border": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "image": {
+      "path": "assets/37d5b86f319a5fa6343865d6.png",
+      "width": 22,
+      "height": 22
+    }
+  },
+  "button": {
+    "sprite": "UI pack 1_30",
+    "border": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "image": {
+      "path": "assets/0bb37526aad40f56550a4d0e.png",
+      "width": 24,
+      "height": 24
+    }
+  },
+  "selected": {
+    "sprite": "UI pack 1_31",
+    "border": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "image": {
+      "path": "assets/50f7465e9eb3366bd43acedb.png",
+      "width": 24,
+      "height": 24
+    }
+  },
+  "background": {
+    "texture": "UI BG 1",
+    "sourceRevision": "fd02bba2d2e4e677e39a0334461c3a9d61d5f0ee",
+    "sha256": "3319c269bdfb45e67de8a6f9c17bcc89fcf529f10df0846214651c2a12e43acf",
+    "usage": "Standalone repeating background; used with permission from game owner."
+  },
+  "ui-logo-3.png": {
+    "texture": "UI Logo3",
+    "sha256": "d86eb23957eb385977431a9c9456b4a3ddff7b45df80de2827c86b9abcb802ed",
+    "usage": "User-supplied 64x64 sheet; upper-left Statistics, upper-right Museum; embedded unchanged into 32x32 SVG viewports."
+  },
+  "hero-scene.png": {
+    "texture": "MainImage",
+    "sha256": "05f54b9d0fb68d38aa53e43fcc518553bb1ef319a808d15631908e3239430656",
+    "usage": "User-approved home hero; SVG viewport only displays the upper 341x220 scenery, without the character."
+  },
+  "irisSmile": {
+    "sprite": "0001_1",
+    "sourceTexture": "0001",
+    "sourceSha256": "607fea9bd61f43b1fe2de0baf450f5ec07791ac864467f48544dec0b19c7f719",
+    "file": "iris-smile-b9ee5c08ca37.png",
+    "sha256": "b9ee5c08ca37a55b5db5228464311d1be06888cb032f61018302d564cc17a0be",
+    "sourceRectTopLeft": {
+      "x": 104,
+      "y": 0,
+      "width": 104,
+      "height": 152
+    },
+    "usage": "User-selected top-row second smiling portrait, extracted at native resolution; other sprite cells are not included."
+  }
+}

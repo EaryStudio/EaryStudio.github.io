@@ -1,0 +1,2757 @@
+[
+  {
+    "wikiId": "combat-actions:alertstance",
+    "gameId": "AlertStance",
+    "kind": "combat-actions",
+    "slug": "alertstance",
+    "type": "PlayerActionDefinitionSO",
+    "names": {
+      "en": "Reflex Readiness",
+      "ko": "반사 태세 훈련",
+      "ja": "反射態勢",
+      "es": "Reflejos listos",
+      "zh-Hans": "反应戒备",
+      "zh-Hant": "反應戒備"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/a5924035bfe9458a6b5c2b5b.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionType": "AlertStance",
+      "levels": [
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 30.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Evasion",
+              "value": 1.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 28.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Evasion",
+              "value": 2.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 26.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Evasion",
+              "value": 3.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 24.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Evasion",
+              "value": 4.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 23.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Evasion",
+              "value": 5.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 22.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Evasion",
+              "value": 6.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 21.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Evasion",
+              "value": 7.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 20.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Evasion",
+              "value": 10.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        }
+      ],
+      "traitB": {
+        "level": {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 20.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Evasion",
+              "value": 20.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 5.0,
+          "$type": "PlayerActionLevel"
+        },
+        "chargedAttackMultiplier": 1.5,
+        "chargeSeconds": 5.0,
+        "afterimageSpeedPercent": 30.0,
+        "afterimageSeconds": 5.0,
+        "$type": "PlayerActionTraitBDefinitionSO"
+      },
+      "$type": "PlayerActionDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Action",
+            "key": "ACTION3_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Action",
+            "key": "ACTION3_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Action",
+            "key": "ACTION3_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Action",
+            "key": "ACTION3_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Action",
+            "key": "ACTION3_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Action",
+            "key": "ACTION3_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:evasion",
+        "field": "data.levels[0].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Evasion",
+          "value": 1.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:evasion",
+        "field": "data.levels[1].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Evasion",
+          "value": 2.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:evasion",
+        "field": "data.levels[2].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Evasion",
+          "value": 3.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:evasion",
+        "field": "data.levels[3].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Evasion",
+          "value": 4.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:evasion",
+        "field": "data.levels[4].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Evasion",
+          "value": 5.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:evasion",
+        "field": "data.levels[5].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Evasion",
+          "value": 6.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:evasion",
+        "field": "data.levels[6].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Evasion",
+          "value": 7.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:evasion",
+        "field": "data.levels[7].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Evasion",
+          "value": 10.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:evasion",
+        "field": "data.traitB.level.statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Evasion",
+          "value": 20.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "combat-actions:block",
+    "gameId": "Block",
+    "kind": "combat-actions",
+    "slug": "block",
+    "type": "PlayerActionDefinitionSO",
+    "names": {
+      "en": "Iron Wall Defense",
+      "ko": "철벽 방어 수련",
+      "ja": "鉄壁防御",
+      "es": "Defensa férrea",
+      "zh-Hans": "铁壁防御",
+      "zh-Hant": "鐵壁防禦"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/12a519ea216bb0461db23154.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionType": "Block",
+      "levels": [
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 24.0,
+          "immunityDuringAction": "Melee",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 22.0,
+          "immunityDuringAction": "Melee",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 20.0,
+          "immunityDuringAction": "Melee",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 18.0,
+          "immunityDuringAction": "Melee",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 15.0,
+          "immunityDuringAction": "Melee",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.8,
+          "cooldownSeconds": 13.0,
+          "immunityDuringAction": "Melee",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 11.0,
+          "immunityDuringAction": "Melee",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 9.0,
+          "immunityDuringAction": "Melee",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        }
+      ],
+      "traitB": {
+        "level": {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 12.0,
+          "immunityDuringAction": "Melee",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        "chargedAttackMultiplier": 1.5,
+        "chargeSeconds": 5.0,
+        "afterimageSpeedPercent": 30.0,
+        "afterimageSeconds": 5.0,
+        "$type": "PlayerActionTraitBDefinitionSO"
+      },
+      "$type": "PlayerActionDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Action",
+            "key": "ACTION4_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Action",
+            "key": "ACTION4_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Action",
+            "key": "ACTION4_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Action",
+            "key": "ACTION4_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Action",
+            "key": "ACTION4_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Action",
+            "key": "ACTION4_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "combat-actions:breath",
+    "gameId": "Breath",
+    "kind": "combat-actions",
+    "slug": "breath",
+    "type": "PlayerActionDefinitionSO",
+    "names": {
+      "en": "Zen Respiration",
+      "ko": "선도 호흡",
+      "ja": "仙道呼吸",
+      "es": "Respiración zen",
+      "zh-Hans": "禅息",
+      "zh-Hant": "禪息"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/24624f88dd2173c877191e30.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionType": "Breath",
+      "levels": [
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 25.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 10.0,
+          "healAtStart": true,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 27.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 50.0,
+          "healAtStart": true,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 30.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 200.0,
+          "healAtStart": true,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 28.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 400.0,
+          "healAtStart": true,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 26.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 700.0,
+          "healAtStart": true,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 24.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 900.0,
+          "healAtStart": true,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 22.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 1200.0,
+          "healAtStart": true,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 20.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 1500.0,
+          "healAtStart": true,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        }
+      ],
+      "traitB": {
+        "level": {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 25.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 2250.0,
+          "healAtStart": true,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        "chargedAttackMultiplier": 1.5,
+        "chargeSeconds": 5.0,
+        "afterimageSpeedPercent": 30.0,
+        "afterimageSeconds": 5.0,
+        "$type": "PlayerActionTraitBDefinitionSO"
+      },
+      "$type": "PlayerActionDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Action",
+            "key": "ACTION1_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Action",
+            "key": "ACTION1_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Action",
+            "key": "ACTION1_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Action",
+            "key": "ACTION1_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Action",
+            "key": "ACTION1_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Action",
+            "key": "ACTION1_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "combat-actions:combatmastery",
+    "gameId": "CombatMastery",
+    "kind": "combat-actions",
+    "slug": "combatmastery",
+    "type": "PlayerActionDefinitionSO",
+    "names": {
+      "en": "Combat Mastery",
+      "ko": "전투 숙련",
+      "ja": "戦闘熟練",
+      "es": "Dominio de combate",
+      "zh-Hans": "战斗精通",
+      "zh-Hant": "戰鬥精通"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/44b734d96abb93e588977a54.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionType": "CombatMastery",
+      "levels": [
+        {
+          "durationSeconds": 0.5,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "AttackInterval",
+              "value": -10.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 5.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.5,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "AttackInterval",
+              "value": -12.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 5.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.5,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "AttackInterval",
+              "value": -15.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 5.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.5,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "AttackInterval",
+              "value": -18.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.5,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "AttackInterval",
+              "value": -20.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.5,
+          "cooldownSeconds": 55.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "AttackInterval",
+              "value": -22.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 15.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.5,
+          "cooldownSeconds": 50.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "AttackInterval",
+              "value": -25.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 15.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.5,
+          "cooldownSeconds": 40.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "AttackInterval",
+              "value": -30.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 15.0,
+          "$type": "PlayerActionLevel"
+        }
+      ],
+      "traitB": {
+        "level": {
+          "durationSeconds": 0.5,
+          "cooldownSeconds": 40.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "AttackInterval",
+              "value": -45.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 9.0,
+          "$type": "PlayerActionLevel"
+        },
+        "chargedAttackMultiplier": 1.5,
+        "chargeSeconds": 5.0,
+        "afterimageSpeedPercent": 30.0,
+        "afterimageSeconds": 5.0,
+        "$type": "PlayerActionTraitBDefinitionSO"
+      },
+      "$type": "PlayerActionDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Action",
+            "key": "ACTION10_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Action",
+            "key": "ACTION10_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Action",
+            "key": "ACTION10_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Action",
+            "key": "ACTION10_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Action",
+            "key": "ACTION10_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Action",
+            "key": "ACTION10_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:attackinterval",
+        "field": "data.levels[0].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "value": -10.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackinterval",
+        "field": "data.levels[1].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "value": -12.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackinterval",
+        "field": "data.levels[2].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "value": -15.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackinterval",
+        "field": "data.levels[3].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "value": -18.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackinterval",
+        "field": "data.levels[4].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "value": -20.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackinterval",
+        "field": "data.levels[5].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "value": -22.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackinterval",
+        "field": "data.levels[6].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "value": -25.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackinterval",
+        "field": "data.levels[7].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "value": -30.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackinterval",
+        "field": "data.traitB.level.statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "value": -45.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "combat-actions:dodge",
+    "gameId": "Dodge",
+    "kind": "combat-actions",
+    "slug": "dodge",
+    "type": "PlayerActionDefinitionSO",
+    "names": {
+      "en": "Agility Footwork",
+      "ko": "민첩성 보법",
+      "ja": "敏捷の歩法",
+      "es": "Pies ágiles",
+      "zh-Hans": "敏捷步法",
+      "zh-Hant": "敏捷步法"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/962620fc5c281eb5a0616b18.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionType": "Dodge",
+      "levels": [
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 25.0,
+          "immunityDuringAction": "Magic",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 22.0,
+          "immunityDuringAction": "Magic",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 20.0,
+          "immunityDuringAction": "Magic",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 18.0,
+          "immunityDuringAction": "Magic",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 15.0,
+          "immunityDuringAction": "Magic",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.8,
+          "cooldownSeconds": 12.0,
+          "immunityDuringAction": "Magic",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 10.0,
+          "immunityDuringAction": "Magic",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 7.0,
+          "immunityDuringAction": "Magic",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        }
+      ],
+      "traitB": {
+        "level": {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 8.0,
+          "immunityDuringAction": "Magic",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        "chargedAttackMultiplier": 1.5,
+        "chargeSeconds": 5.0,
+        "afterimageSpeedPercent": 30.0,
+        "afterimageSeconds": 5.0,
+        "$type": "PlayerActionTraitBDefinitionSO"
+      },
+      "$type": "PlayerActionDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Action",
+            "key": "ACTION5_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Action",
+            "key": "ACTION5_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Action",
+            "key": "ACTION5_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Action",
+            "key": "ACTION5_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Action",
+            "key": "ACTION5_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Action",
+            "key": "ACTION5_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "combat-actions:focus",
+    "gameId": "Focus",
+    "kind": "combat-actions",
+    "slug": "focus",
+    "type": "PlayerActionDefinitionSO",
+    "names": {
+      "en": "Mind Unification",
+      "ko": "정신 통일",
+      "ja": "精神統一",
+      "es": "Mente unificada",
+      "zh-Hans": "心神合一",
+      "zh-Hant": "心神合一"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/c13a3faf2d554fcaeff88037.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionType": "Focus",
+      "levels": [
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 30.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Accuracy",
+              "value": 1.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 28.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Accuracy",
+              "value": 2.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 26.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Accuracy",
+              "value": 3.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 24.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Accuracy",
+              "value": 4.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 23.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Accuracy",
+              "value": 5.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 22.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Accuracy",
+              "value": 6.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 21.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Accuracy",
+              "value": 7.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 20.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Accuracy",
+              "value": 10.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 12.0,
+          "$type": "PlayerActionLevel"
+        }
+      ],
+      "traitB": {
+        "level": {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 15.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Accuracy",
+              "value": 20.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 6.0,
+          "$type": "PlayerActionLevel"
+        },
+        "chargedAttackMultiplier": 1.5,
+        "chargeSeconds": 5.0,
+        "afterimageSpeedPercent": 30.0,
+        "afterimageSeconds": 5.0,
+        "$type": "PlayerActionTraitBDefinitionSO"
+      },
+      "$type": "PlayerActionDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Action",
+            "key": "ACTION2_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Action",
+            "key": "ACTION2_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Action",
+            "key": "ACTION2_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Action",
+            "key": "ACTION2_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Action",
+            "key": "ACTION2_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Action",
+            "key": "ACTION2_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:accuracy",
+        "field": "data.levels[0].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Accuracy",
+          "value": 1.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:accuracy",
+        "field": "data.levels[1].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Accuracy",
+          "value": 2.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:accuracy",
+        "field": "data.levels[2].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Accuracy",
+          "value": 3.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:accuracy",
+        "field": "data.levels[3].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Accuracy",
+          "value": 4.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:accuracy",
+        "field": "data.levels[4].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Accuracy",
+          "value": 5.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:accuracy",
+        "field": "data.levels[5].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Accuracy",
+          "value": 6.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:accuracy",
+        "field": "data.levels[6].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Accuracy",
+          "value": 7.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:accuracy",
+        "field": "data.levels[7].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Accuracy",
+          "value": 10.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:accuracy",
+        "field": "data.traitB.level.statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Accuracy",
+          "value": 20.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "combat-actions:leap",
+    "gameId": "Leap",
+    "kind": "combat-actions",
+    "slug": "leap",
+    "type": "PlayerActionDefinitionSO",
+    "names": {
+      "en": "Leap",
+      "ko": "도약",
+      "ja": "跳躍",
+      "es": "Salto",
+      "zh-Hans": "飞跃",
+      "zh-Hant": "飛躍"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/761f78718a42cb7898126b53.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionType": "Leap",
+      "levels": [
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 25.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 20.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 15.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 13.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 12.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 10.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 9.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 7.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        }
+      ],
+      "traitB": {
+        "level": {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 8.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        "chargedAttackMultiplier": 1.5,
+        "chargeSeconds": 5.0,
+        "afterimageSpeedPercent": 30.0,
+        "afterimageSeconds": 5.0,
+        "$type": "PlayerActionTraitBDefinitionSO"
+      },
+      "$type": "PlayerActionDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Action",
+            "key": "ACTION9_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Action",
+            "key": "ACTION9_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Action",
+            "key": "ACTION9_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Action",
+            "key": "ACTION9_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Action",
+            "key": "ACTION9_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Action",
+            "key": "ACTION9_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "combat-actions:pray",
+    "gameId": "Pray",
+    "kind": "combat-actions",
+    "slug": "pray",
+    "type": "PlayerActionDefinitionSO",
+    "names": {
+      "en": "Devotional Silence",
+      "ko": "경건한 침묵",
+      "ja": "敬虔なる沈黙",
+      "es": "Silencio devoto",
+      "zh-Hans": "虔诚静默",
+      "zh-Hant": "虔誠靜默"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/38aca495403bf7143e5c93b1.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionType": "Pray",
+      "levels": [
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Luck",
+              "value": 5.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 5.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Luck",
+              "value": 10.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 5.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Luck",
+              "value": 20.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 5.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Luck",
+              "value": 30.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 6.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Luck",
+              "value": 40.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 7.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Luck",
+              "value": 50.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 8.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Luck",
+              "value": 62.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 9.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Luck",
+              "value": 77.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        }
+      ],
+      "traitB": {
+        "level": {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "Luck",
+              "value": 154.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 5.0,
+          "$type": "PlayerActionLevel"
+        },
+        "chargedAttackMultiplier": 1.5,
+        "chargeSeconds": 5.0,
+        "afterimageSpeedPercent": 30.0,
+        "afterimageSeconds": 5.0,
+        "$type": "PlayerActionTraitBDefinitionSO"
+      },
+      "$type": "PlayerActionDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Action",
+            "key": "ACTION7_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Action",
+            "key": "ACTION7_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Action",
+            "key": "ACTION7_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Action",
+            "key": "ACTION7_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Action",
+            "key": "ACTION7_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Action",
+            "key": "ACTION7_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:luck",
+        "field": "data.levels[0].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "value": 5.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.levels[1].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "value": 10.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.levels[2].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "value": 20.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.levels[3].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "value": 30.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.levels[4].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "value": 40.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.levels[5].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "value": 50.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.levels[6].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "value": 62.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.levels[7].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "value": 77.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.traitB.level.statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "value": 154.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "combat-actions:roll",
+    "gameId": "Roll",
+    "kind": "combat-actions",
+    "slug": "roll",
+    "type": "PlayerActionDefinitionSO",
+    "names": {
+      "en": "Kinetic Landing",
+      "ko": "운동 낙법",
+      "ja": "体術受け身",
+      "es": "Caída cinética",
+      "zh-Hans": "动能着地",
+      "zh-Hant": "動能著地"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/414dbf1030d7f77b72a32c55.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionType": "Roll",
+      "levels": [
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 25.0,
+          "immunityDuringAction": "Ranged",
+          "moveDistance": -1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 22.0,
+          "immunityDuringAction": "Ranged",
+          "moveDistance": -1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 20.0,
+          "immunityDuringAction": "Ranged",
+          "moveDistance": -1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 18.0,
+          "immunityDuringAction": "Ranged",
+          "moveDistance": -1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 15.0,
+          "immunityDuringAction": "Ranged",
+          "moveDistance": -1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.8,
+          "cooldownSeconds": 12.0,
+          "immunityDuringAction": "Ranged",
+          "moveDistance": -1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 10.0,
+          "immunityDuringAction": "Ranged",
+          "moveDistance": -1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 1.0,
+          "cooldownSeconds": 7.0,
+          "immunityDuringAction": "Ranged",
+          "moveDistance": -1.5,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        }
+      ],
+      "traitB": {
+        "level": {
+          "durationSeconds": 0.5,
+          "cooldownSeconds": 5.0,
+          "immunityDuringAction": "Ranged",
+          "moveDistance": -0.75,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [],
+          "buffDurationSeconds": 0.0,
+          "$type": "PlayerActionLevel"
+        },
+        "chargedAttackMultiplier": 1.5,
+        "chargeSeconds": 5.0,
+        "afterimageSpeedPercent": 30.0,
+        "afterimageSeconds": 5.0,
+        "$type": "PlayerActionTraitBDefinitionSO"
+      },
+      "$type": "PlayerActionDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Action",
+            "key": "ACTION6_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Action",
+            "key": "ACTION6_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Action",
+            "key": "ACTION6_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Action",
+            "key": "ACTION6_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Action",
+            "key": "ACTION6_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Action",
+            "key": "ACTION6_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "combat-actions:run",
+    "gameId": "Run",
+    "kind": "combat-actions",
+    "slug": "run",
+    "type": "PlayerActionDefinitionSO",
+    "names": {
+      "en": "Interval Sprinting",
+      "ko": "인터벌 질주",
+      "ja": "インターバル疾走",
+      "es": "Sprint intervalos",
+      "zh-Hans": "间歇冲刺",
+      "zh-Hant": "間歇衝刺"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/76ca5cdf1a646b88ca4a988a.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "actionType": "Run",
+      "levels": [
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "MoveSpeed",
+              "value": 20.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 5.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "MoveSpeed",
+              "value": 20.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 6.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "MoveSpeed",
+              "value": 20.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 7.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "MoveSpeed",
+              "value": 20.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 8.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 60.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "MoveSpeed",
+              "value": 20.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 9.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 55.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "MoveSpeed",
+              "value": 20.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 10.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 50.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "MoveSpeed",
+              "value": 25.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 11.0,
+          "$type": "PlayerActionLevel"
+        },
+        {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 40.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "MoveSpeed",
+              "value": 30.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 12.0,
+          "$type": "PlayerActionLevel"
+        }
+      ],
+      "traitB": {
+        "level": {
+          "durationSeconds": 0.66,
+          "cooldownSeconds": 40.0,
+          "immunityDuringAction": "None",
+          "moveDistance": 0.0,
+          "instantHealAmount": 0.0,
+          "healAtStart": false,
+          "statModifiers": [
+            {
+              "statType": "MoveSpeed",
+              "value": 60.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "buffDurationSeconds": 6.0,
+          "$type": "PlayerActionLevel"
+        },
+        "chargedAttackMultiplier": 1.5,
+        "chargeSeconds": 5.0,
+        "afterimageSpeedPercent": 30.0,
+        "afterimageSeconds": 5.0,
+        "$type": "PlayerActionTraitBDefinitionSO"
+      },
+      "$type": "PlayerActionDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Action",
+            "key": "ACTION8_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Action",
+            "key": "ACTION8_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Action",
+            "key": "ACTION8_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Action",
+            "key": "ACTION8_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Action",
+            "key": "ACTION8_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Action",
+            "key": "ACTION8_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "stats:movespeed",
+        "field": "data.levels[0].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "value": 20.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:movespeed",
+        "field": "data.levels[1].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "value": 20.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:movespeed",
+        "field": "data.levels[2].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "value": 20.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:movespeed",
+        "field": "data.levels[3].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "value": 20.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:movespeed",
+        "field": "data.levels[4].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "value": 20.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:movespeed",
+        "field": "data.levels[5].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "value": 20.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:movespeed",
+        "field": "data.levels[6].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "value": 25.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:movespeed",
+        "field": "data.levels[7].statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "value": 30.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:movespeed",
+        "field": "data.traitB.level.statModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "value": 60.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      }
+    ],
+    "aliases": []
+  }
+]

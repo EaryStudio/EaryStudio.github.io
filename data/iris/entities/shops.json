@@ -1,0 +1,954 @@
+[
+  {
+    "wikiId": "shops:shopoffercatalog_challenge",
+    "gameId": "ShopOfferCatalog_Challenge",
+    "kind": "shops",
+    "slug": "shopoffercatalog_challenge",
+    "type": "ShopOfferCatalogSO",
+    "names": {
+      "en": "Shop Offer Catalog Challenge",
+      "ko": "Shop Offer Catalog Challenge",
+      "ja": "Shop Offer Catalog Challenge",
+      "es": "Shop Offer Catalog Challenge",
+      "zh-Hans": "Shop Offer Catalog Challenge",
+      "zh-Hant": "Shop Offer Catalog Challenge"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "offers": [
+        {
+          "ref": "offers:chshop_spechal_0001"
+        },
+        {
+          "ref": "offers:chshop_spechal_0002"
+        },
+        {
+          "ref": "offers:chshop_spechal_0003"
+        },
+        {
+          "ref": "offers:chshop_spechal_0004"
+        },
+        {
+          "ref": "offers:chshop_spechal_0005"
+        },
+        {
+          "ref": "offers:chshop_ticket_0001"
+        },
+        {
+          "ref": "offers:chshop_spechal_0012"
+        },
+        {
+          "ref": "offers:chshop_spechal_0013"
+        },
+        {
+          "ref": "offers:chshop_spechal_0006"
+        },
+        {
+          "ref": "offers:chshop_spechal_0007"
+        },
+        {
+          "ref": "offers:chshop_spechal_0008"
+        },
+        {
+          "ref": "offers:chshop_spechal_0009"
+        },
+        {
+          "ref": "offers:chshop_spechal_0010"
+        },
+        {
+          "ref": "offers:chshop_spechal_0011"
+        },
+        {
+          "ref": "offers:chshop_skill_cap_105"
+        },
+        {
+          "ref": "offers:chshop_skill_cap_110"
+        },
+        {
+          "ref": "offers:chshop_skill_cap_115"
+        },
+        {
+          "ref": "offers:chshop_skill_cap_120"
+        }
+      ],
+      "$type": "ShopOfferCatalogSO",
+      "textReferences": {
+        "names": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": [
+        "ko",
+        "ja",
+        "es",
+        "zh-Hans",
+        "zh-Hant"
+      ]
+    },
+    "relations": [
+      {
+        "target": "offers:chshop_spechal_0001",
+        "field": "data.offers[0]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0001"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0002",
+        "field": "data.offers[1]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0002"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0003",
+        "field": "data.offers[2]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0003"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0004",
+        "field": "data.offers[3]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0004"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0005",
+        "field": "data.offers[4]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0005"
+        }
+      },
+      {
+        "target": "offers:chshop_ticket_0001",
+        "field": "data.offers[5]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_ticket_0001"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0012",
+        "field": "data.offers[6]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0012"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0013",
+        "field": "data.offers[7]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0013"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0006",
+        "field": "data.offers[8]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0006"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0007",
+        "field": "data.offers[9]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0007"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0008",
+        "field": "data.offers[10]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0008"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0009",
+        "field": "data.offers[11]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0009"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0010",
+        "field": "data.offers[12]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0010"
+        }
+      },
+      {
+        "target": "offers:chshop_spechal_0011",
+        "field": "data.offers[13]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_spechal_0011"
+        }
+      },
+      {
+        "target": "offers:chshop_skill_cap_105",
+        "field": "data.offers[14]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_skill_cap_105"
+        }
+      },
+      {
+        "target": "offers:chshop_skill_cap_110",
+        "field": "data.offers[15]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_skill_cap_110"
+        }
+      },
+      {
+        "target": "offers:chshop_skill_cap_115",
+        "field": "data.offers[16]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_skill_cap_115"
+        }
+      },
+      {
+        "target": "offers:chshop_skill_cap_120",
+        "field": "data.offers[17]",
+        "role": "related",
+        "context": {
+          "ref": "offers:chshop_skill_cap_120"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "shops:shopoffercatalog_ducarin",
+    "gameId": "ShopOfferCatalog_Ducarin",
+    "kind": "shops",
+    "slug": "shopoffercatalog_ducarin",
+    "type": "ShopOfferCatalogSO",
+    "names": {
+      "en": "Shop Offer Catalog Ducarin",
+      "ko": "Shop Offer Catalog Ducarin",
+      "ja": "Shop Offer Catalog Ducarin",
+      "es": "Shop Offer Catalog Ducarin",
+      "zh-Hans": "Shop Offer Catalog Ducarin",
+      "zh-Hant": "Shop Offer Catalog Ducarin"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "offers": [
+        {
+          "ref": "offers:d0001"
+        },
+        {
+          "ref": "offers:d0002"
+        },
+        {
+          "ref": "offers:d0003"
+        },
+        {
+          "ref": "offers:d0004"
+        },
+        {
+          "ref": "offers:d0005"
+        },
+        {
+          "ref": "offers:d0006"
+        },
+        {
+          "ref": "offers:d0007"
+        },
+        {
+          "ref": "offers:d0008"
+        },
+        {
+          "ref": "offers:d0009"
+        },
+        {
+          "ref": "offers:d0010"
+        },
+        {
+          "ref": "offers:d0011"
+        },
+        {
+          "ref": "offers:d0012"
+        },
+        {
+          "ref": "offers:d0013"
+        },
+        {
+          "ref": "offers:d0014"
+        },
+        {
+          "ref": "offers:d0015"
+        },
+        {
+          "ref": "offers:d0101"
+        },
+        {
+          "ref": "offers:d0102"
+        },
+        {
+          "ref": "offers:d0103"
+        },
+        {
+          "ref": "offers:d0104"
+        },
+        {
+          "ref": "offers:d0105"
+        },
+        {
+          "ref": "offers:d0106"
+        },
+        {
+          "ref": "offers:d0107"
+        },
+        {
+          "ref": "offers:d0108"
+        },
+        {
+          "ref": "offers:d0109"
+        },
+        {
+          "ref": "offers:d0110"
+        },
+        {
+          "ref": "offers:d0111"
+        },
+        {
+          "ref": "offers:d0112"
+        },
+        {
+          "ref": "offers:d0113"
+        },
+        {
+          "ref": "offers:d0201"
+        },
+        {
+          "ref": "offers:d0202"
+        },
+        {
+          "ref": "offers:d0203"
+        },
+        {
+          "ref": "offers:d0204"
+        },
+        {
+          "ref": "offers:d0205"
+        },
+        {
+          "ref": "offers:d0206"
+        },
+        {
+          "ref": "offers:d0207"
+        },
+        {
+          "ref": "offers:d0208"
+        },
+        {
+          "ref": "offers:d0209"
+        },
+        {
+          "ref": "offers:d0210"
+        },
+        {
+          "ref": "offers:d0211"
+        },
+        {
+          "ref": "offers:d0212"
+        },
+        {
+          "ref": "offers:d0213"
+        },
+        {
+          "ref": "offers:d0214"
+        }
+      ],
+      "$type": "ShopOfferCatalogSO",
+      "textReferences": {
+        "names": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": [
+        "ko",
+        "ja",
+        "es",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "dailyOfferCount": 3,
+      "dailyRefreshHourLocal": 21,
+      "goldPurchaseBundleCounts": [
+        1,
+        5,
+        10,
+        25,
+        100,
+        250,
+        500
+      ]
+    },
+    "relations": [
+      {
+        "target": "offers:d0001",
+        "field": "data.offers[0]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0001"
+        }
+      },
+      {
+        "target": "offers:d0002",
+        "field": "data.offers[1]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0002"
+        }
+      },
+      {
+        "target": "offers:d0003",
+        "field": "data.offers[2]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0003"
+        }
+      },
+      {
+        "target": "offers:d0004",
+        "field": "data.offers[3]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0004"
+        }
+      },
+      {
+        "target": "offers:d0005",
+        "field": "data.offers[4]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0005"
+        }
+      },
+      {
+        "target": "offers:d0006",
+        "field": "data.offers[5]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0006"
+        }
+      },
+      {
+        "target": "offers:d0007",
+        "field": "data.offers[6]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0007"
+        }
+      },
+      {
+        "target": "offers:d0008",
+        "field": "data.offers[7]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0008"
+        }
+      },
+      {
+        "target": "offers:d0009",
+        "field": "data.offers[8]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0009"
+        }
+      },
+      {
+        "target": "offers:d0010",
+        "field": "data.offers[9]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0010"
+        }
+      },
+      {
+        "target": "offers:d0011",
+        "field": "data.offers[10]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0011"
+        }
+      },
+      {
+        "target": "offers:d0012",
+        "field": "data.offers[11]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0012"
+        }
+      },
+      {
+        "target": "offers:d0013",
+        "field": "data.offers[12]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0013"
+        }
+      },
+      {
+        "target": "offers:d0014",
+        "field": "data.offers[13]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0014"
+        }
+      },
+      {
+        "target": "offers:d0015",
+        "field": "data.offers[14]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0015"
+        }
+      },
+      {
+        "target": "offers:d0101",
+        "field": "data.offers[15]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0101"
+        }
+      },
+      {
+        "target": "offers:d0102",
+        "field": "data.offers[16]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0102"
+        }
+      },
+      {
+        "target": "offers:d0103",
+        "field": "data.offers[17]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0103"
+        }
+      },
+      {
+        "target": "offers:d0104",
+        "field": "data.offers[18]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0104"
+        }
+      },
+      {
+        "target": "offers:d0105",
+        "field": "data.offers[19]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0105"
+        }
+      },
+      {
+        "target": "offers:d0106",
+        "field": "data.offers[20]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0106"
+        }
+      },
+      {
+        "target": "offers:d0107",
+        "field": "data.offers[21]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0107"
+        }
+      },
+      {
+        "target": "offers:d0108",
+        "field": "data.offers[22]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0108"
+        }
+      },
+      {
+        "target": "offers:d0109",
+        "field": "data.offers[23]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0109"
+        }
+      },
+      {
+        "target": "offers:d0110",
+        "field": "data.offers[24]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0110"
+        }
+      },
+      {
+        "target": "offers:d0111",
+        "field": "data.offers[25]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0111"
+        }
+      },
+      {
+        "target": "offers:d0112",
+        "field": "data.offers[26]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0112"
+        }
+      },
+      {
+        "target": "offers:d0113",
+        "field": "data.offers[27]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0113"
+        }
+      },
+      {
+        "target": "offers:d0201",
+        "field": "data.offers[28]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0201"
+        }
+      },
+      {
+        "target": "offers:d0202",
+        "field": "data.offers[29]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0202"
+        }
+      },
+      {
+        "target": "offers:d0203",
+        "field": "data.offers[30]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0203"
+        }
+      },
+      {
+        "target": "offers:d0204",
+        "field": "data.offers[31]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0204"
+        }
+      },
+      {
+        "target": "offers:d0205",
+        "field": "data.offers[32]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0205"
+        }
+      },
+      {
+        "target": "offers:d0206",
+        "field": "data.offers[33]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0206"
+        }
+      },
+      {
+        "target": "offers:d0207",
+        "field": "data.offers[34]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0207"
+        }
+      },
+      {
+        "target": "offers:d0208",
+        "field": "data.offers[35]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0208"
+        }
+      },
+      {
+        "target": "offers:d0209",
+        "field": "data.offers[36]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0209"
+        }
+      },
+      {
+        "target": "offers:d0210",
+        "field": "data.offers[37]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0210"
+        }
+      },
+      {
+        "target": "offers:d0211",
+        "field": "data.offers[38]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0211"
+        }
+      },
+      {
+        "target": "offers:d0212",
+        "field": "data.offers[39]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0212"
+        }
+      },
+      {
+        "target": "offers:d0213",
+        "field": "data.offers[40]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0213"
+        }
+      },
+      {
+        "target": "offers:d0214",
+        "field": "data.offers[41]",
+        "role": "related",
+        "context": {
+          "ref": "offers:d0214"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "shops:shopoffercatalog_gold",
+    "gameId": "ShopOfferCatalog_Gold",
+    "kind": "shops",
+    "slug": "shopoffercatalog_gold",
+    "type": "ShopOfferCatalogSO",
+    "names": {
+      "en": "Shop Offer Catalog Gold",
+      "ko": "Shop Offer Catalog Gold",
+      "ja": "Shop Offer Catalog Gold",
+      "es": "Shop Offer Catalog Gold",
+      "zh-Hans": "Shop Offer Catalog Gold",
+      "zh-Hant": "Shop Offer Catalog Gold"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "offers": [
+        {
+          "ref": "offers:g0001"
+        },
+        {
+          "ref": "offers:g0002"
+        },
+        {
+          "ref": "offers:g0003"
+        },
+        {
+          "ref": "offers:g0004"
+        },
+        {
+          "ref": "offers:g0005"
+        },
+        {
+          "ref": "offers:g0006"
+        },
+        {
+          "ref": "offers:g0007"
+        },
+        {
+          "ref": "offers:g0008"
+        },
+        {
+          "ref": "offers:g0009"
+        }
+      ],
+      "$type": "ShopOfferCatalogSO",
+      "textReferences": {
+        "names": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": [
+        "ko",
+        "ja",
+        "es",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "dailyOfferCount": 3,
+      "dailyRefreshHourLocal": 21,
+      "goldPurchaseBundleCounts": [
+        1,
+        5,
+        10,
+        25,
+        100,
+        250,
+        500
+      ]
+    },
+    "relations": [
+      {
+        "target": "offers:g0001",
+        "field": "data.offers[0]",
+        "role": "related",
+        "context": {
+          "ref": "offers:g0001"
+        }
+      },
+      {
+        "target": "offers:g0002",
+        "field": "data.offers[1]",
+        "role": "related",
+        "context": {
+          "ref": "offers:g0002"
+        }
+      },
+      {
+        "target": "offers:g0003",
+        "field": "data.offers[2]",
+        "role": "related",
+        "context": {
+          "ref": "offers:g0003"
+        }
+      },
+      {
+        "target": "offers:g0004",
+        "field": "data.offers[3]",
+        "role": "related",
+        "context": {
+          "ref": "offers:g0004"
+        }
+      },
+      {
+        "target": "offers:g0005",
+        "field": "data.offers[4]",
+        "role": "related",
+        "context": {
+          "ref": "offers:g0005"
+        }
+      },
+      {
+        "target": "offers:g0006",
+        "field": "data.offers[5]",
+        "role": "related",
+        "context": {
+          "ref": "offers:g0006"
+        }
+      },
+      {
+        "target": "offers:g0007",
+        "field": "data.offers[6]",
+        "role": "related",
+        "context": {
+          "ref": "offers:g0007"
+        }
+      },
+      {
+        "target": "offers:g0008",
+        "field": "data.offers[7]",
+        "role": "related",
+        "context": {
+          "ref": "offers:g0008"
+        }
+      },
+      {
+        "target": "offers:g0009",
+        "field": "data.offers[8]",
+        "role": "related",
+        "context": {
+          "ref": "offers:g0009"
+        }
+      }
+    ],
+    "aliases": []
+  }
+]

@@ -1,0 +1,84 @@
+// Optional local visual/accessibility smoke test. PLAYWRIGHT_MODULE points to a
+// bundled Playwright installation; it is not required for the static CI build.
+const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const fs = require('node:fs/promises');
+const assert = require('node:assert/strict');
+(async () => {
+  const browser = await chromium.launch({ headless: true, channel: process.env.PLAYWRIGHT_CHANNEL || 'chrome' });
+  try {
+    const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+    const errors = []; page.on('pageerror', e => errors.push(e.message));
+    await page.goto('http://127.0.0.1:8088/iris/wiki/ko/');
+    await page.evaluate(() => document.fonts.ready);
+    assert.ok(await page.evaluate(() => document.fonts.check('24px Silver')));
+    assert.match(await page.locator('body').evaluate(e => getComputedStyle(e).fontFamily), /Silver/);
+    await page.screenshot({ path: 'reports/wiki-desktop.png', fullPage: true });
+    await page.getByRole('searchbox').fill('철'); await page.getByRole('button', { name: '검색', exact: true }).click();
+    await page.waitForSelector('.search-results a');
+    await page.locator('.search-results a').first().click();
+    assert.match(await page.locator('h1').innerText(), /\S/);
+    assert.equal(await page.locator('.entity-id').count(), 0, 'detail heading must not show a game ID');
+    await page.screenshot({ path: 'reports/wiki-detail.png', fullPage: true });
+    await page.locator('.languages summary').click(); await page.locator('.languages a[lang="ja"]').click();
+    assert.match(page.url(), /\/ja\//);
+    await page.goto('http://127.0.0.1:8088/iris/wiki/en/items/');
+    await page.waitForSelector('[data-filters]:not([hidden])');
+    assert.equal(await page.locator('.entity-list .entity-id').count(), 0, 'list rows must not show game IDs');
+    const rarity = page.locator('[data-facet="rarity"]');
+    const rarityValue = await rarity.locator('option').nth(1).getAttribute('value');
+    await rarity.selectOption(rarityValue);
+    const filtered = page.locator('[data-entity-list] > :not([hidden])');
+    assert.ok(await filtered.count() > 0 && await filtered.count() < 941);
+    assert.equal(await filtered.evaluateAll((rows, value) => rows.every(row => JSON.parse(row.dataset.facets).rarity.includes(value)), rarityValue), true);
+    await rarity.selectOption('');
+    await page.locator('[data-list-query]').fill('zzzz-no-matching-item');
+    assert.equal(await filtered.count(), 0);
+    await page.locator('[data-list-query]').fill('');
+    assert.equal(await filtered.count(), 50);
+    assert.equal(await page.locator('[data-list-count]').textContent(), '941 / 941');
+    await page.goto('http://127.0.0.1:8088/iris/wiki/ko/skills/life.cooking/');
+    await page.waitForSelector('[data-filters]:not([hidden])');
+    assert.equal(await page.locator('#skill-actions .entity-list a').count(), 36);
+    assert.ok(await page.locator('#game-guide blockquote').count() > 0);
+    for (const removed of ['actions', 'guides', 'rules']) assert.equal(await page.locator(`.sidebar a[href$="/ko/${removed}/"]`).count(), 0);
+    assert.match(await page.locator('body').evaluate(e => getComputedStyle(e).backgroundImage), /background-bricks/);
+    assert.equal(await page.locator('.masthead button').evaluate(e => getComputedStyle(e).borderImageRepeat), 'repeat');
+    await page.screenshot({ path: 'reports/wiki-skill.png', fullPage: true });
+    await page.locator('#skill-actions .entity-list a').first().click();
+    assert.equal(await page.locator('.breadcrumb a[href$="/skills/life.cooking/"]').count(), 1);
+    assert.match(await page.locator('.sidebar a[aria-current="page"]').getAttribute('href'), /\/skills\/$/);
+    await page.goto('http://127.0.0.1:8088/iris/wiki/ko/skills/life.farming/');
+    assert.equal(await page.locator('#skill-actions .entity-list a').count(), 70);
+    for (const locale of ['en', 'ko', 'ja', 'es', 'zh-Hans', 'zh-Hant']) {
+      await page.goto(`http://127.0.0.1:8088/iris/wiki/${locale}/stats/`);
+      await page.evaluate(() => document.fonts.ready);
+      await page.locator('.entity-list img').first().evaluate(image => image.decode());
+      assert.equal(await page.locator('.entity-list img').first().evaluate(image => image.naturalWidth > 0), true);
+      assert.ok(await page.locator('.entity-list img').evaluateAll(images => images.filter(image => !image.src.endsWith('placeholder.svg')).length) >= 18);
+      if (locale === 'ko') await page.screenshot({ path: 'reports/wiki-stats.png', fullPage: true });
+    }
+    await page.setViewportSize({ width: 320, height: 740 }); await page.goto('http://127.0.0.1:8088/iris/wiki/ko/');
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, '320px horizontal overflow');
+    await page.screenshot({ path: 'reports/wiki-mobile.png', fullPage: true });
+    await page.keyboard.press('Tab'); assert.equal(await page.locator('.skip').evaluate(e => e === document.activeElement), true);
+    await page.setViewportSize({ width: 640, height: 500 }); await page.evaluate(() => document.documentElement.style.fontSize = `${parseFloat(getComputedStyle(document.documentElement).fontSize) * 2}px`);
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, '200% text overflow');
+    const noJs = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 320, height: 740 } });
+    const staticPage = await noJs.newPage(); await staticPage.goto('http://127.0.0.1:8088/iris/wiki/en/items/');
+    assert.equal(await staticPage.locator('.entity-list a').count(), 50);
+    await staticPage.locator('[data-pagination] a[href$="/page/2/"]').click();
+    assert.equal(await staticPage.locator('.entity-list a').count(), 50);
+    await staticPage.locator('.entity-list a').first().click(); assert.ok(await staticPage.locator('#values').innerText());
+    await page.setViewportSize({ width: 1440, height: 1000 });
+    await page.goto('http://127.0.0.1:8088/'); await page.evaluate(() => document.fonts.ready);
+    assert.equal(await page.locator('header a[href="/iris/wiki/"]').count(), 0);
+    assert.deepEqual(await page.locator('.inline-links').first().locator('a').allTextContents(), ['Press Kit ↗', 'Discord ↗', 'Wiki ↗']);
+    assert.match(await page.locator('body').evaluate(e => getComputedStyle(e).fontFamily), /Silver/);
+    await page.screenshot({ path: 'reports/homepage-silver.png', fullPage: true });
+    await page.setViewportSize({ width: 320, height: 740 });
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, 'Silver homepage mobile overflow');
+    assert.deepEqual(errors, []);
+    await fs.writeFile('reports/browser.json', JSON.stringify({ desktop: true, mobile320: true, keyboard: true, textZoom200: true, withoutJavaScript: true, languageSwitch: true, cjkSearch: true, filters: true, sixLocaleStatImages: true, silverFont: true, errors }, null, 2));
+    console.log('Browser smoke checks passed. Screenshots saved in reports/.');
+  } finally { await browser.close(); }
+})();

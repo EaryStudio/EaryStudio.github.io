@@ -1,0 +1,1868 @@
+[
+  {
+    "wikiId": "museum:milestone-0001",
+    "gameId": "milestone-0001",
+    "kind": "museum",
+    "slug": "milestone-0001",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 5",
+      "ko": "Museum · 5",
+      "ja": "Museum · 5",
+      "es": "Museum · 5",
+      "zh-Hans": "Museum · 5",
+      "zh-Hant": "Museum · 5"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0001",
+      "categoryId": "",
+      "requiredSubmittedCount": 5,
+      "itemRewards": [
+        {
+          "itemId": "TICKET0001",
+          "amount": 3,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      ],
+      "statRewards": [
+        {
+          "statType": "MaxHP",
+          "modType": "Flat",
+          "value": 3.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      ],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "items:ticket0001",
+        "field": "data.itemRewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "itemId": "TICKET0001",
+          "amount": 3,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      },
+      {
+        "target": "stats:maxhp",
+        "field": "data.statRewards[0].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "MaxHP",
+          "modType": "Flat",
+          "value": 3.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0002",
+    "gameId": "milestone-0002",
+    "kind": "museum",
+    "slug": "milestone-0002",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 10",
+      "ko": "Museum · 10",
+      "ja": "Museum · 10",
+      "es": "Museum · 10",
+      "zh-Hans": "Museum · 10",
+      "zh-Hant": "Museum · 10"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0002",
+      "categoryId": "",
+      "requiredSubmittedCount": 10,
+      "itemRewards": [
+        {
+          "itemId": "TICKET0001",
+          "amount": 3,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      ],
+      "statRewards": [],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "items:ticket0001",
+        "field": "data.itemRewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "itemId": "TICKET0001",
+          "amount": 3,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0003",
+    "gameId": "milestone-0003",
+    "kind": "museum",
+    "slug": "milestone-0003",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 20",
+      "ko": "Museum · 20",
+      "ja": "Museum · 20",
+      "es": "Museum · 20",
+      "zh-Hans": "Museum · 20",
+      "zh-Hant": "Museum · 20"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0003",
+      "categoryId": "",
+      "requiredSubmittedCount": 20,
+      "itemRewards": [
+        {
+          "itemId": "POE0001",
+          "amount": 1,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        },
+        {
+          "itemId": "POE0002",
+          "amount": 1,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      ],
+      "statRewards": [
+        {
+          "statType": "Luck",
+          "modType": "Flat",
+          "value": 5.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      ],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "items:poe0001",
+        "field": "data.itemRewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "itemId": "POE0001",
+          "amount": 1,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      },
+      {
+        "target": "items:poe0002",
+        "field": "data.itemRewards[1].itemId",
+        "role": "rewards",
+        "context": {
+          "itemId": "POE0002",
+          "amount": 1,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.statRewards[0].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "Luck",
+          "modType": "Flat",
+          "value": 5.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0004",
+    "gameId": "milestone-0004",
+    "kind": "museum",
+    "slug": "milestone-0004",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 50",
+      "ko": "Museum · 50",
+      "ja": "Museum · 50",
+      "es": "Museum · 50",
+      "zh-Hans": "Museum · 50",
+      "zh-Hant": "Museum · 50"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0004",
+      "categoryId": "",
+      "requiredSubmittedCount": 50,
+      "itemRewards": [],
+      "statRewards": [
+        {
+          "statType": "MoveSpeed",
+          "modType": "Flat",
+          "value": 5.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      ],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:movespeed",
+        "field": "data.statRewards[0].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "MoveSpeed",
+          "modType": "Flat",
+          "value": 5.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0005",
+    "gameId": "milestone-0005",
+    "kind": "museum",
+    "slug": "milestone-0005",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 100",
+      "ko": "Museum · 100",
+      "ja": "Museum · 100",
+      "es": "Museum · 100",
+      "zh-Hans": "Museum · 100",
+      "zh-Hant": "Museum · 100"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0005",
+      "categoryId": "",
+      "requiredSubmittedCount": 100,
+      "itemRewards": [
+        {
+          "itemId": "TICKET0002",
+          "amount": 1,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      ],
+      "statRewards": [],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "items:ticket0002",
+        "field": "data.itemRewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "itemId": "TICKET0002",
+          "amount": 1,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0006",
+    "gameId": "milestone-0006",
+    "kind": "museum",
+    "slug": "milestone-0006",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 150",
+      "ko": "Museum · 150",
+      "ja": "Museum · 150",
+      "es": "Museum · 150",
+      "zh-Hans": "Museum · 150",
+      "zh-Hant": "Museum · 150"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0006",
+      "categoryId": "",
+      "requiredSubmittedCount": 150,
+      "itemRewards": [],
+      "statRewards": [
+        {
+          "statType": "AttackInterval",
+          "modType": "Flat",
+          "value": -0.1,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      ],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:attackinterval",
+        "field": "data.statRewards[0].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "AttackInterval",
+          "modType": "Flat",
+          "value": -0.1,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0007",
+    "gameId": "milestone-0007",
+    "kind": "museum",
+    "slug": "milestone-0007",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 200",
+      "ko": "Museum · 200",
+      "ja": "Museum · 200",
+      "es": "Museum · 200",
+      "zh-Hans": "Museum · 200",
+      "zh-Hant": "Museum · 200"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0007",
+      "categoryId": "",
+      "requiredSubmittedCount": 200,
+      "itemRewards": [
+        {
+          "itemId": "TICKET0003",
+          "amount": 1,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      ],
+      "statRewards": [
+        {
+          "statType": "Sight",
+          "modType": "Flat",
+          "value": 5.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      ],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "items:ticket0003",
+        "field": "data.itemRewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "itemId": "TICKET0003",
+          "amount": 1,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      },
+      {
+        "target": "stats:sight",
+        "field": "data.statRewards[0].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "Sight",
+          "modType": "Flat",
+          "value": 5.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0008",
+    "gameId": "milestone-0008",
+    "kind": "museum",
+    "slug": "milestone-0008",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 300",
+      "ko": "Museum · 300",
+      "ja": "Museum · 300",
+      "es": "Museum · 300",
+      "zh-Hans": "Museum · 300",
+      "zh-Hant": "Museum · 300"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0008",
+      "categoryId": "",
+      "requiredSubmittedCount": 300,
+      "itemRewards": [
+        {
+          "itemId": "TICKET0001",
+          "amount": 10,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      ],
+      "statRewards": [],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "items:ticket0001",
+        "field": "data.itemRewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "itemId": "TICKET0001",
+          "amount": 10,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0009",
+    "gameId": "milestone-0009",
+    "kind": "museum",
+    "slug": "milestone-0009",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 400",
+      "ko": "Museum · 400",
+      "ja": "Museum · 400",
+      "es": "Museum · 400",
+      "zh-Hans": "Museum · 400",
+      "zh-Hant": "Museum · 400"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0009",
+      "categoryId": "",
+      "requiredSubmittedCount": 400,
+      "itemRewards": [],
+      "statRewards": [
+        {
+          "statType": "Accuracy",
+          "modType": "Flat",
+          "value": 3.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        },
+        {
+          "statType": "MoveSpeed",
+          "modType": "Percent",
+          "value": 3.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        },
+        {
+          "statType": "HpRegen",
+          "modType": "Flat",
+          "value": 5.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      ],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:accuracy",
+        "field": "data.statRewards[0].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "Accuracy",
+          "modType": "Flat",
+          "value": 3.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      },
+      {
+        "target": "stats:movespeed",
+        "field": "data.statRewards[1].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "MoveSpeed",
+          "modType": "Percent",
+          "value": 3.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      },
+      {
+        "target": "stats:hpregen",
+        "field": "data.statRewards[2].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "HpRegen",
+          "modType": "Flat",
+          "value": 5.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0010",
+    "gameId": "milestone-0010",
+    "kind": "museum",
+    "slug": "milestone-0010",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 450",
+      "ko": "Museum · 450",
+      "ja": "Museum · 450",
+      "es": "Museum · 450",
+      "zh-Hans": "Museum · 450",
+      "zh-Hant": "Museum · 450"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0010",
+      "categoryId": "",
+      "requiredSubmittedCount": 450,
+      "itemRewards": [],
+      "statRewards": [
+        {
+          "statType": "Sight",
+          "modType": "Flat",
+          "value": 10.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        },
+        {
+          "statType": "Luck",
+          "modType": "Flat",
+          "value": 10.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      ],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:sight",
+        "field": "data.statRewards[0].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "Sight",
+          "modType": "Flat",
+          "value": 10.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.statRewards[1].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "Luck",
+          "modType": "Flat",
+          "value": 10.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0011",
+    "gameId": "milestone-0011",
+    "kind": "museum",
+    "slug": "milestone-0011",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 500",
+      "ko": "Museum · 500",
+      "ja": "Museum · 500",
+      "es": "Museum · 500",
+      "zh-Hans": "Museum · 500",
+      "zh-Hant": "Museum · 500"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0011",
+      "categoryId": "",
+      "requiredSubmittedCount": 500,
+      "itemRewards": [
+        {
+          "itemId": "TICKET0001",
+          "amount": 10,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      ],
+      "statRewards": [],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "items:ticket0001",
+        "field": "data.itemRewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "itemId": "TICKET0001",
+          "amount": 10,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:milestone-0012",
+    "gameId": "milestone-0012",
+    "kind": "museum",
+    "slug": "milestone-0012",
+    "type": "MuseumMilestoneDefinition",
+    "names": {
+      "en": "Museum · 600",
+      "ko": "Museum · 600",
+      "ja": "Museum · 600",
+      "es": "Museum · 600",
+      "zh-Hans": "Museum · 600",
+      "zh-Hant": "Museum · 600"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "milestoneId": "0012",
+      "categoryId": "",
+      "requiredSubmittedCount": 600,
+      "itemRewards": [
+        {
+          "itemId": "TICKET0001",
+          "amount": 10,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      ],
+      "statRewards": [
+        {
+          "statType": "MinDamage",
+          "modType": "FinalPercent",
+          "value": 2.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        },
+        {
+          "statType": "MaxDamage",
+          "modType": "FinalPercent",
+          "value": 2.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      ],
+      "$type": "MuseumMilestoneDefinition"
+    },
+    "relations": [
+      {
+        "target": "items:ticket0001",
+        "field": "data.itemRewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "itemId": "TICKET0001",
+          "amount": 10,
+          "enchantLevel": 0,
+          "sellLocked": false,
+          "$type": "MuseumItemReward"
+        }
+      },
+      {
+        "target": "stats:mindamage",
+        "field": "data.statRewards[0].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "MinDamage",
+          "modType": "FinalPercent",
+          "value": 2.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      },
+      {
+        "target": "stats:maxdamage",
+        "field": "data.statRewards[1].statType",
+        "role": "rewards",
+        "context": {
+          "statType": "MaxDamage",
+          "modType": "FinalPercent",
+          "value": 2.0,
+          "order": 0,
+          "$type": "MuseumStatReward"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "museum:museum",
+    "gameId": "Museum",
+    "kind": "museum",
+    "slug": "museum",
+    "type": "MuseumSettingsSO",
+    "names": {
+      "en": "Museum",
+      "ko": "Museum",
+      "ja": "Museum",
+      "es": "Museum",
+      "zh-Hans": "Museum",
+      "zh-Hant": "Museum"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "unlockObjectiveId": "MO0010",
+      "autoSubmitOnObtainedItemIds": [
+        "TICKET0001",
+        "TICKET0002",
+        "TICKET0003",
+        "TICKET0004",
+        "TICKET0005",
+        "TICKET0006",
+        "TICKET0007",
+        "POE0005",
+        "POE0006"
+      ],
+      "milestones": [
+        {
+          "ref": "museum:milestone-0001"
+        },
+        {
+          "ref": "museum:milestone-0002"
+        },
+        {
+          "ref": "museum:milestone-0003"
+        },
+        {
+          "ref": "museum:milestone-0004"
+        },
+        {
+          "ref": "museum:milestone-0005"
+        },
+        {
+          "ref": "museum:milestone-0006"
+        },
+        {
+          "ref": "museum:milestone-0007"
+        },
+        {
+          "ref": "museum:milestone-0008"
+        },
+        {
+          "ref": "museum:milestone-0009"
+        },
+        {
+          "ref": "museum:milestone-0010"
+        },
+        {
+          "ref": "museum:milestone-0011"
+        },
+        {
+          "ref": "museum:milestone-0012"
+        }
+      ],
+      "$type": "MuseumSettingsSO",
+      "textReferences": {
+        "names": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": [
+        "ko",
+        "ja",
+        "es",
+        "zh-Hans",
+        "zh-Hant"
+      ]
+    },
+    "relations": [
+      {
+        "target": "objectives:mo0010",
+        "field": "data.unlockObjectiveId",
+        "role": "unlock",
+        "context": {
+          "unlockObjectiveId": "MO0010",
+          "autoSubmitOnObtainedItemIds": [
+            "TICKET0001",
+            "TICKET0002",
+            "TICKET0003",
+            "TICKET0004",
+            "TICKET0005",
+            "TICKET0006",
+            "TICKET0007",
+            "POE0005",
+            "POE0006"
+          ],
+          "milestones": [
+            {
+              "ref": "museum:milestone-0001"
+            },
+            {
+              "ref": "museum:milestone-0002"
+            },
+            {
+              "ref": "museum:milestone-0003"
+            },
+            {
+              "ref": "museum:milestone-0004"
+            },
+            {
+              "ref": "museum:milestone-0005"
+            },
+            {
+              "ref": "museum:milestone-0006"
+            },
+            {
+              "ref": "museum:milestone-0007"
+            },
+            {
+              "ref": "museum:milestone-0008"
+            },
+            {
+              "ref": "museum:milestone-0009"
+            },
+            {
+              "ref": "museum:milestone-0010"
+            },
+            {
+              "ref": "museum:milestone-0011"
+            },
+            {
+              "ref": "museum:milestone-0012"
+            }
+          ],
+          "$type": "MuseumSettingsSO",
+          "textReferences": {
+            "names": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": [
+            "ko",
+            "ja",
+            "es",
+            "zh-Hans",
+            "zh-Hant"
+          ]
+        }
+      },
+      {
+        "target": "items:ticket0001",
+        "field": "data.autoSubmitOnObtainedItemIds",
+        "role": "related",
+        "context": {
+          "unlockObjectiveId": "MO0010",
+          "autoSubmitOnObtainedItemIds": [
+            "TICKET0001",
+            "TICKET0002",
+            "TICKET0003",
+            "TICKET0004",
+            "TICKET0005",
+            "TICKET0006",
+            "TICKET0007",
+            "POE0005",
+            "POE0006"
+          ],
+          "milestones": [
+            {
+              "ref": "museum:milestone-0001"
+            },
+            {
+              "ref": "museum:milestone-0002"
+            },
+            {
+              "ref": "museum:milestone-0003"
+            },
+            {
+              "ref": "museum:milestone-0004"
+            },
+            {
+              "ref": "museum:milestone-0005"
+            },
+            {
+              "ref": "museum:milestone-0006"
+            },
+            {
+              "ref": "museum:milestone-0007"
+            },
+            {
+              "ref": "museum:milestone-0008"
+            },
+            {
+              "ref": "museum:milestone-0009"
+            },
+            {
+              "ref": "museum:milestone-0010"
+            },
+            {
+              "ref": "museum:milestone-0011"
+            },
+            {
+              "ref": "museum:milestone-0012"
+            }
+          ],
+          "$type": "MuseumSettingsSO",
+          "textReferences": {
+            "names": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": [
+            "ko",
+            "ja",
+            "es",
+            "zh-Hans",
+            "zh-Hant"
+          ]
+        }
+      },
+      {
+        "target": "items:ticket0002",
+        "field": "data.autoSubmitOnObtainedItemIds",
+        "role": "related",
+        "context": {
+          "unlockObjectiveId": "MO0010",
+          "autoSubmitOnObtainedItemIds": [
+            "TICKET0001",
+            "TICKET0002",
+            "TICKET0003",
+            "TICKET0004",
+            "TICKET0005",
+            "TICKET0006",
+            "TICKET0007",
+            "POE0005",
+            "POE0006"
+          ],
+          "milestones": [
+            {
+              "ref": "museum:milestone-0001"
+            },
+            {
+              "ref": "museum:milestone-0002"
+            },
+            {
+              "ref": "museum:milestone-0003"
+            },
+            {
+              "ref": "museum:milestone-0004"
+            },
+            {
+              "ref": "museum:milestone-0005"
+            },
+            {
+              "ref": "museum:milestone-0006"
+            },
+            {
+              "ref": "museum:milestone-0007"
+            },
+            {
+              "ref": "museum:milestone-0008"
+            },
+            {
+              "ref": "museum:milestone-0009"
+            },
+            {
+              "ref": "museum:milestone-0010"
+            },
+            {
+              "ref": "museum:milestone-0011"
+            },
+            {
+              "ref": "museum:milestone-0012"
+            }
+          ],
+          "$type": "MuseumSettingsSO",
+          "textReferences": {
+            "names": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": [
+            "ko",
+            "ja",
+            "es",
+            "zh-Hans",
+            "zh-Hant"
+          ]
+        }
+      },
+      {
+        "target": "items:ticket0003",
+        "field": "data.autoSubmitOnObtainedItemIds",
+        "role": "related",
+        "context": {
+          "unlockObjectiveId": "MO0010",
+          "autoSubmitOnObtainedItemIds": [
+            "TICKET0001",
+            "TICKET0002",
+            "TICKET0003",
+            "TICKET0004",
+            "TICKET0005",
+            "TICKET0006",
+            "TICKET0007",
+            "POE0005",
+            "POE0006"
+          ],
+          "milestones": [
+            {
+              "ref": "museum:milestone-0001"
+            },
+            {
+              "ref": "museum:milestone-0002"
+            },
+            {
+              "ref": "museum:milestone-0003"
+            },
+            {
+              "ref": "museum:milestone-0004"
+            },
+            {
+              "ref": "museum:milestone-0005"
+            },
+            {
+              "ref": "museum:milestone-0006"
+            },
+            {
+              "ref": "museum:milestone-0007"
+            },
+            {
+              "ref": "museum:milestone-0008"
+            },
+            {
+              "ref": "museum:milestone-0009"
+            },
+            {
+              "ref": "museum:milestone-0010"
+            },
+            {
+              "ref": "museum:milestone-0011"
+            },
+            {
+              "ref": "museum:milestone-0012"
+            }
+          ],
+          "$type": "MuseumSettingsSO",
+          "textReferences": {
+            "names": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": [
+            "ko",
+            "ja",
+            "es",
+            "zh-Hans",
+            "zh-Hant"
+          ]
+        }
+      },
+      {
+        "target": "items:ticket0004",
+        "field": "data.autoSubmitOnObtainedItemIds",
+        "role": "related",
+        "context": {
+          "unlockObjectiveId": "MO0010",
+          "autoSubmitOnObtainedItemIds": [
+            "TICKET0001",
+            "TICKET0002",
+            "TICKET0003",
+            "TICKET0004",
+            "TICKET0005",
+            "TICKET0006",
+            "TICKET0007",
+            "POE0005",
+            "POE0006"
+          ],
+          "milestones": [
+            {
+              "ref": "museum:milestone-0001"
+            },
+            {
+              "ref": "museum:milestone-0002"
+            },
+            {
+              "ref": "museum:milestone-0003"
+            },
+            {
+              "ref": "museum:milestone-0004"
+            },
+            {
+              "ref": "museum:milestone-0005"
+            },
+            {
+              "ref": "museum:milestone-0006"
+            },
+            {
+              "ref": "museum:milestone-0007"
+            },
+            {
+              "ref": "museum:milestone-0008"
+            },
+            {
+              "ref": "museum:milestone-0009"
+            },
+            {
+              "ref": "museum:milestone-0010"
+            },
+            {
+              "ref": "museum:milestone-0011"
+            },
+            {
+              "ref": "museum:milestone-0012"
+            }
+          ],
+          "$type": "MuseumSettingsSO",
+          "textReferences": {
+            "names": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": [
+            "ko",
+            "ja",
+            "es",
+            "zh-Hans",
+            "zh-Hant"
+          ]
+        }
+      },
+      {
+        "target": "items:ticket0005",
+        "field": "data.autoSubmitOnObtainedItemIds",
+        "role": "related",
+        "context": {
+          "unlockObjectiveId": "MO0010",
+          "autoSubmitOnObtainedItemIds": [
+            "TICKET0001",
+            "TICKET0002",
+            "TICKET0003",
+            "TICKET0004",
+            "TICKET0005",
+            "TICKET0006",
+            "TICKET0007",
+            "POE0005",
+            "POE0006"
+          ],
+          "milestones": [
+            {
+              "ref": "museum:milestone-0001"
+            },
+            {
+              "ref": "museum:milestone-0002"
+            },
+            {
+              "ref": "museum:milestone-0003"
+            },
+            {
+              "ref": "museum:milestone-0004"
+            },
+            {
+              "ref": "museum:milestone-0005"
+            },
+            {
+              "ref": "museum:milestone-0006"
+            },
+            {
+              "ref": "museum:milestone-0007"
+            },
+            {
+              "ref": "museum:milestone-0008"
+            },
+            {
+              "ref": "museum:milestone-0009"
+            },
+            {
+              "ref": "museum:milestone-0010"
+            },
+            {
+              "ref": "museum:milestone-0011"
+            },
+            {
+              "ref": "museum:milestone-0012"
+            }
+          ],
+          "$type": "MuseumSettingsSO",
+          "textReferences": {
+            "names": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": [
+            "ko",
+            "ja",
+            "es",
+            "zh-Hans",
+            "zh-Hant"
+          ]
+        }
+      },
+      {
+        "target": "items:ticket0006",
+        "field": "data.autoSubmitOnObtainedItemIds",
+        "role": "related",
+        "context": {
+          "unlockObjectiveId": "MO0010",
+          "autoSubmitOnObtainedItemIds": [
+            "TICKET0001",
+            "TICKET0002",
+            "TICKET0003",
+            "TICKET0004",
+            "TICKET0005",
+            "TICKET0006",
+            "TICKET0007",
+            "POE0005",
+            "POE0006"
+          ],
+          "milestones": [
+            {
+              "ref": "museum:milestone-0001"
+            },
+            {
+              "ref": "museum:milestone-0002"
+            },
+            {
+              "ref": "museum:milestone-0003"
+            },
+            {
+              "ref": "museum:milestone-0004"
+            },
+            {
+              "ref": "museum:milestone-0005"
+            },
+            {
+              "ref": "museum:milestone-0006"
+            },
+            {
+              "ref": "museum:milestone-0007"
+            },
+            {
+              "ref": "museum:milestone-0008"
+            },
+            {
+              "ref": "museum:milestone-0009"
+            },
+            {
+              "ref": "museum:milestone-0010"
+            },
+            {
+              "ref": "museum:milestone-0011"
+            },
+            {
+              "ref": "museum:milestone-0012"
+            }
+          ],
+          "$type": "MuseumSettingsSO",
+          "textReferences": {
+            "names": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": [
+            "ko",
+            "ja",
+            "es",
+            "zh-Hans",
+            "zh-Hant"
+          ]
+        }
+      },
+      {
+        "target": "items:ticket0007",
+        "field": "data.autoSubmitOnObtainedItemIds",
+        "role": "related",
+        "context": {
+          "unlockObjectiveId": "MO0010",
+          "autoSubmitOnObtainedItemIds": [
+            "TICKET0001",
+            "TICKET0002",
+            "TICKET0003",
+            "TICKET0004",
+            "TICKET0005",
+            "TICKET0006",
+            "TICKET0007",
+            "POE0005",
+            "POE0006"
+          ],
+          "milestones": [
+            {
+              "ref": "museum:milestone-0001"
+            },
+            {
+              "ref": "museum:milestone-0002"
+            },
+            {
+              "ref": "museum:milestone-0003"
+            },
+            {
+              "ref": "museum:milestone-0004"
+            },
+            {
+              "ref": "museum:milestone-0005"
+            },
+            {
+              "ref": "museum:milestone-0006"
+            },
+            {
+              "ref": "museum:milestone-0007"
+            },
+            {
+              "ref": "museum:milestone-0008"
+            },
+            {
+              "ref": "museum:milestone-0009"
+            },
+            {
+              "ref": "museum:milestone-0010"
+            },
+            {
+              "ref": "museum:milestone-0011"
+            },
+            {
+              "ref": "museum:milestone-0012"
+            }
+          ],
+          "$type": "MuseumSettingsSO",
+          "textReferences": {
+            "names": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": [
+            "ko",
+            "ja",
+            "es",
+            "zh-Hans",
+            "zh-Hant"
+          ]
+        }
+      },
+      {
+        "target": "items:poe0005",
+        "field": "data.autoSubmitOnObtainedItemIds",
+        "role": "related",
+        "context": {
+          "unlockObjectiveId": "MO0010",
+          "autoSubmitOnObtainedItemIds": [
+            "TICKET0001",
+            "TICKET0002",
+            "TICKET0003",
+            "TICKET0004",
+            "TICKET0005",
+            "TICKET0006",
+            "TICKET0007",
+            "POE0005",
+            "POE0006"
+          ],
+          "milestones": [
+            {
+              "ref": "museum:milestone-0001"
+            },
+            {
+              "ref": "museum:milestone-0002"
+            },
+            {
+              "ref": "museum:milestone-0003"
+            },
+            {
+              "ref": "museum:milestone-0004"
+            },
+            {
+              "ref": "museum:milestone-0005"
+            },
+            {
+              "ref": "museum:milestone-0006"
+            },
+            {
+              "ref": "museum:milestone-0007"
+            },
+            {
+              "ref": "museum:milestone-0008"
+            },
+            {
+              "ref": "museum:milestone-0009"
+            },
+            {
+              "ref": "museum:milestone-0010"
+            },
+            {
+              "ref": "museum:milestone-0011"
+            },
+            {
+              "ref": "museum:milestone-0012"
+            }
+          ],
+          "$type": "MuseumSettingsSO",
+          "textReferences": {
+            "names": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": [
+            "ko",
+            "ja",
+            "es",
+            "zh-Hans",
+            "zh-Hant"
+          ]
+        }
+      },
+      {
+        "target": "items:poe0006",
+        "field": "data.autoSubmitOnObtainedItemIds",
+        "role": "related",
+        "context": {
+          "unlockObjectiveId": "MO0010",
+          "autoSubmitOnObtainedItemIds": [
+            "TICKET0001",
+            "TICKET0002",
+            "TICKET0003",
+            "TICKET0004",
+            "TICKET0005",
+            "TICKET0006",
+            "TICKET0007",
+            "POE0005",
+            "POE0006"
+          ],
+          "milestones": [
+            {
+              "ref": "museum:milestone-0001"
+            },
+            {
+              "ref": "museum:milestone-0002"
+            },
+            {
+              "ref": "museum:milestone-0003"
+            },
+            {
+              "ref": "museum:milestone-0004"
+            },
+            {
+              "ref": "museum:milestone-0005"
+            },
+            {
+              "ref": "museum:milestone-0006"
+            },
+            {
+              "ref": "museum:milestone-0007"
+            },
+            {
+              "ref": "museum:milestone-0008"
+            },
+            {
+              "ref": "museum:milestone-0009"
+            },
+            {
+              "ref": "museum:milestone-0010"
+            },
+            {
+              "ref": "museum:milestone-0011"
+            },
+            {
+              "ref": "museum:milestone-0012"
+            }
+          ],
+          "$type": "MuseumSettingsSO",
+          "textReferences": {
+            "names": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": [
+            "ko",
+            "ja",
+            "es",
+            "zh-Hans",
+            "zh-Hant"
+          ]
+        }
+      },
+      {
+        "target": "museum:milestone-0001",
+        "field": "data.milestones[0]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0001"
+        }
+      },
+      {
+        "target": "museum:milestone-0002",
+        "field": "data.milestones[1]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0002"
+        }
+      },
+      {
+        "target": "museum:milestone-0003",
+        "field": "data.milestones[2]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0003"
+        }
+      },
+      {
+        "target": "museum:milestone-0004",
+        "field": "data.milestones[3]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0004"
+        }
+      },
+      {
+        "target": "museum:milestone-0005",
+        "field": "data.milestones[4]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0005"
+        }
+      },
+      {
+        "target": "museum:milestone-0006",
+        "field": "data.milestones[5]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0006"
+        }
+      },
+      {
+        "target": "museum:milestone-0007",
+        "field": "data.milestones[6]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0007"
+        }
+      },
+      {
+        "target": "museum:milestone-0008",
+        "field": "data.milestones[7]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0008"
+        }
+      },
+      {
+        "target": "museum:milestone-0009",
+        "field": "data.milestones[8]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0009"
+        }
+      },
+      {
+        "target": "museum:milestone-0010",
+        "field": "data.milestones[9]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0010"
+        }
+      },
+      {
+        "target": "museum:milestone-0011",
+        "field": "data.milestones[10]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0011"
+        }
+      },
+      {
+        "target": "museum:milestone-0012",
+        "field": "data.milestones[11]",
+        "role": "related",
+        "context": {
+          "ref": "museum:milestone-0012"
+        }
+      }
+    ],
+    "aliases": []
+  }
+]

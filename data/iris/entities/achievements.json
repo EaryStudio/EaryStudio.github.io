@@ -1,0 +1,2844 @@
+[
+  {
+    "wikiId": "achievements:ach_3star_dg0003",
+    "gameId": "ACH_3STAR_DG0003",
+    "kind": "achievements",
+    "slug": "ach_3star_dg0003",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Star of the Abyss I",
+      "ko": "심연의 별 I",
+      "ja": "深淵の星 I",
+      "es": "Estrella abisal I",
+      "zh-Hans": "深渊之星 I",
+      "zh-Hant": "深淵之星 I"
+    },
+    "descriptions": {
+      "en": "Clear Polluted Tidepool Cave with 3 stars.",
+      "ko": "오염된 웅덩이 동굴을 3성으로 클리어합니다.",
+      "ja": "汚染された潮だまり洞窟を星3でクリアします。",
+      "es": "Completa Cueva de marea tóxica con 3★.",
+      "zh-Hans": "以 3 星通关污染潮池洞窟。",
+      "zh-Hant": "以 3 星通關汙染潮池洞窟。"
+    },
+    "image": {
+      "path": "assets/9d4afeb102162ecc0dfdde61.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SpecificAreaThreeStar",
+      "counterKey": "",
+      "targetId": "DG0003",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SpecificAreaThreeStar",
+          "counterKey": "",
+          "targetId": "DG0003",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_3star_dg0008",
+    "gameId": "ACH_3STAR_DG0008",
+    "kind": "achievements",
+    "slug": "ach_3star_dg0008",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Star of the Abyss II",
+      "ko": "심연의 별 II",
+      "ja": "深淵の星 II",
+      "es": "Estrella abisal II",
+      "zh-Hans": "深渊之星 II",
+      "zh-Hant": "深淵之星 II"
+    },
+    "descriptions": {
+      "en": "Clear Blinding Light Excavation with 3 stars.",
+      "ko": "눈먼 빛의 채굴장을 3성으로 클리어합니다.",
+      "ja": "眩光の採掘場を星3でクリアします。",
+      "es": "Completa Excavación cegadora con 3★.",
+      "zh-Hans": "以 3 星通关眩光采掘场。",
+      "zh-Hant": "以 3 星通關眩光採掘場。"
+    },
+    "image": {
+      "path": "assets/1a2510cde3f288a1f8b281f0.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SpecificAreaThreeStar",
+      "counterKey": "",
+      "targetId": "DG0008",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SpecificAreaThreeStar",
+          "counterKey": "",
+          "targetId": "DG0008",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_3star_dg0013",
+    "gameId": "ACH_3STAR_DG0013",
+    "kind": "achievements",
+    "slug": "ach_3star_dg0013",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Star of the Abyss III",
+      "ko": "심연의 별 III",
+      "ja": "深淵の星 III",
+      "es": "Estrella abisal III",
+      "zh-Hans": "深渊之星 III",
+      "zh-Hant": "深淵之星 III"
+    },
+    "descriptions": {
+      "en": "Clear Maelstrom Center with 3 stars.",
+      "ko": "해류 소용돌이 중심을 3성으로 클리어합니다.",
+      "ja": "海流渦の中心を星3でクリアします。",
+      "es": "Completa Centro vorágine con 3★.",
+      "zh-Hans": "以 3 星通关漩涡之心。",
+      "zh-Hant": "以 3 星通關漩渦之心。"
+    },
+    "image": {
+      "path": "assets/c9fcad245f3b6f0aa8278a79.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SpecificAreaThreeStar",
+      "counterKey": "",
+      "targetId": "DG0013",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SpecificAreaThreeStar",
+          "counterKey": "",
+          "targetId": "DG0013",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_3star_dg0018",
+    "gameId": "ACH_3STAR_DG0018",
+    "kind": "achievements",
+    "slug": "ach_3star_dg0018",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Star of the Abyss IV",
+      "ko": "심연의 별 IV",
+      "ja": "深淵の星 IV",
+      "es": "Estrella abisal IV",
+      "zh-Hans": "深渊之星 IV",
+      "zh-Hant": "深淵之星 IV"
+    },
+    "descriptions": {
+      "en": "Clear Deepshadow Sanctum with 3 stars.",
+      "ko": "심연 그늘의 성소를 3성으로 클리어합니다.",
+      "ja": "深淵影の聖所を星3でクリアします。",
+      "es": "Completa Santuario umbrío con 3★.",
+      "zh-Hans": "以 3 星通关深影圣所。",
+      "zh-Hant": "以 3 星通關深影聖所。"
+    },
+    "image": {
+      "path": "assets/a450075aeafef14674069711.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SpecificAreaThreeStar",
+      "counterKey": "",
+      "targetId": "DG0018",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SpecificAreaThreeStar",
+          "counterKey": "",
+          "targetId": "DG0018",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_3star_dg0020",
+    "gameId": "ACH_3STAR_DG0020",
+    "kind": "achievements",
+    "slug": "ach_3star_dg0020",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Star of the Abyss V",
+      "ko": "심연의 별 V",
+      "ja": "深淵の星 V",
+      "es": "Estrella abisal V",
+      "zh-Hans": "深渊之星 V",
+      "zh-Hant": "深淵之星 V"
+    },
+    "descriptions": {
+      "en": "Clear Severed Rift Abyss with 3 stars.",
+      "ko": "단절된 균열의 나락을 3성으로 클리어합니다.",
+      "ja": "断絶した裂け目の奈落を星3でクリアします。",
+      "es": "Completa Abismo cercenado con 3★.",
+      "zh-Hans": "以 3 星通关断裂深渊。",
+      "zh-Hant": "以 3 星通關斷裂深淵。"
+    },
+    "image": {
+      "path": "assets/1a0bd4be0dacaa9cb4678945.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SpecificAreaThreeStar",
+      "counterKey": "",
+      "targetId": "DG0020",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SpecificAreaThreeStar",
+          "counterKey": "",
+          "targetId": "DG0020",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_3star_nm0005",
+    "gameId": "ACH_3STAR_NM0005",
+    "kind": "achievements",
+    "slug": "ach_3star_nm0005",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Star-Etched Path I",
+      "ko": "별이 새긴 길 I",
+      "ja": "星が刻んだ道 I",
+      "es": "Camino estelar I",
+      "zh-Hans": "星痕之路 I",
+      "zh-Hant": "星痕之路 I"
+    },
+    "descriptions": {
+      "en": "Clear Rusted Tunnels with 3 stars.",
+      "ko": "녹슨 갱도를 3성으로 클리어합니다.",
+      "ja": "錆びた坑道を星3でクリアします。",
+      "es": "Completa Túneles oxidados con 3★.",
+      "zh-Hans": "以 3 星通关锈蚀坑道。",
+      "zh-Hant": "以 3 星通關鏽蝕坑道。"
+    },
+    "image": {
+      "path": "assets/6cf0dfd63b7a77fb940d8338.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SpecificAreaThreeStar",
+      "counterKey": "",
+      "targetId": "NM0005",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SpecificAreaThreeStar",
+          "counterKey": "",
+          "targetId": "NM0005",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_3star_nm0010",
+    "gameId": "ACH_3STAR_NM0010",
+    "kind": "achievements",
+    "slug": "ach_3star_nm0010",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Star-Etched Path II",
+      "ko": "별이 새긴 길 II",
+      "ja": "星が刻んだ道 II",
+      "es": "Camino estelar II",
+      "zh-Hans": "星痕之路 II",
+      "zh-Hant": "星痕之路 II"
+    },
+    "descriptions": {
+      "en": "Clear Sapphire Lagoon with 3 stars.",
+      "ko": "사파이어 석호를 3성으로 클리어합니다.",
+      "ja": "サファイアの潟湖を星3でクリアします。",
+      "es": "Completa Laguna zafiro con 3★.",
+      "zh-Hans": "以 3 星通关蓝宝石泻湖。",
+      "zh-Hant": "以 3 星通關藍寶石潟湖。"
+    },
+    "image": {
+      "path": "assets/244310042334988905560261.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SpecificAreaThreeStar",
+      "counterKey": "",
+      "targetId": "NM0010",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SpecificAreaThreeStar",
+          "counterKey": "",
+          "targetId": "NM0010",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_3star_nm0015",
+    "gameId": "ACH_3STAR_NM0015",
+    "kind": "achievements",
+    "slug": "ach_3star_nm0015",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Star-Etched Path III",
+      "ko": "별이 새긴 길 III",
+      "ja": "星が刻んだ道 III",
+      "es": "Camino estelar III",
+      "zh-Hans": "星痕之路 III",
+      "zh-Hant": "星痕之路 III"
+    },
+    "descriptions": {
+      "en": "Clear Ancient Wilds with 3 stars.",
+      "ko": "고대 황야숲을 3성으로 클리어합니다.",
+      "ja": "古代の荒野林を星3でクリアします。",
+      "es": "Completa Tierras antiguas con 3★.",
+      "zh-Hans": "以 3 星通关远古荒野。",
+      "zh-Hant": "以 3 星通關遠古荒野。"
+    },
+    "image": {
+      "path": "assets/57b4698d581c3ffd709885d5.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SpecificAreaThreeStar",
+      "counterKey": "",
+      "targetId": "NM0015",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SpecificAreaThreeStar",
+          "counterKey": "",
+          "targetId": "NM0015",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_3star_nm0020",
+    "gameId": "ACH_3STAR_NM0020",
+    "kind": "achievements",
+    "slug": "ach_3star_nm0020",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Star-Etched Path IV",
+      "ko": "별이 새긴 길 IV",
+      "ja": "星が刻んだ道 IV",
+      "es": "Camino estelar IV",
+      "zh-Hans": "星痕之路 IV",
+      "zh-Hant": "星痕之路 IV"
+    },
+    "descriptions": {
+      "en": "Clear Abyssal Rift with 3 stars.",
+      "ko": "심해 균열을 3성으로 클리어합니다.",
+      "ja": "深海の裂け目を星3でクリアします。",
+      "es": "Completa Grieta abisal con 3★.",
+      "zh-Hans": "以 3 星通关深渊裂谷。",
+      "zh-Hant": "以 3 星通關深淵裂谷。"
+    },
+    "image": {
+      "path": "assets/b385cb0bd60c44dc014769f0.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SpecificAreaThreeStar",
+      "counterKey": "",
+      "targetId": "NM0020",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SpecificAreaThreeStar",
+          "counterKey": "",
+          "targetId": "NM0020",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_action_10",
+    "gameId": "ACH_ACTION_10",
+    "kind": "achievements",
+    "slug": "ach_action_10",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Start of Life Skills",
+      "ko": "생활의 시작",
+      "ja": "生活の始まり",
+      "es": "Inicio de vida",
+      "zh-Hans": "生活技艺启程",
+      "zh-Hant": "生活技藝啟程"
+    },
+    "descriptions": {
+      "en": "Perform actions 10 times.",
+      "ko": "액션을 10회 수행합니다.",
+      "ja": "アクションを10回実行します。",
+      "es": "Acciones x10.",
+      "zh-Hans": "完成 10 次行动。",
+      "zh-Hant": "完成 10 次行動。"
+    },
+    "image": {
+      "path": "assets/d5cf18b7523083e766e74876.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Action.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 10,
+      "targetFloatValue": 10.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Action.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 10,
+          "targetFloatValue": 10.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_action_1000",
+    "gameId": "ACH_ACTION_1000",
+    "kind": "achievements",
+    "slug": "ach_action_1000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Artisan's Day",
+      "ko": "장인의 하루",
+      "ja": "職人の一日",
+      "es": "Día artesano",
+      "zh-Hans": "工匠的一天",
+      "zh-Hant": "匠人的一日"
+    },
+    "descriptions": {
+      "en": "Perform actions 1,000 times.",
+      "ko": "액션을 1,000회 수행합니다.",
+      "ja": "アクションを1,000回実行します。",
+      "es": "Acciones x1,000.",
+      "zh-Hans": "完成 1,000 次行动。",
+      "zh-Hant": "完成 1,000 次行動。"
+    },
+    "image": {
+      "path": "assets/9ba576ddd77e98619e2bd3b1.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Action.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1000,
+      "targetFloatValue": 1000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Action.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1000,
+          "targetFloatValue": 1000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_action_100000",
+    "gameId": "ACH_ACTION_100000",
+    "kind": "achievements",
+    "slug": "ach_action_100000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Endless Handwork",
+      "ko": "끝없는 손놀림",
+      "ja": "果てなき手仕事",
+      "es": "Labor sin fin",
+      "zh-Hans": "永不停歇的双手",
+      "zh-Hant": "永不停歇的雙手"
+    },
+    "descriptions": {
+      "en": "Perform actions 100,000 times.",
+      "ko": "액션을 100,000회 수행합니다.",
+      "ja": "アクションを100,000回実行します。",
+      "es": "Acciones x100,000.",
+      "zh-Hans": "完成 100,000 次行动。",
+      "zh-Hant": "完成 100,000 次行動。"
+    },
+    "image": {
+      "path": "assets/c251d0e31030bc8b5196dc57.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Action.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 100000,
+      "targetFloatValue": 100000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Action.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 100000,
+          "targetFloatValue": 100000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_ammo_20000",
+    "gameId": "ACH_AMMO_20000",
+    "kind": "achievements",
+    "slug": "ach_ammo_20000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Barrage Ready",
+      "ko": "탄막 준비 완료",
+      "ja": "弾幕準備完了",
+      "es": "Andanada lista",
+      "zh-Hans": "弹幕蓄势",
+      "zh-Hant": "彈幕蓄勢"
+    },
+    "descriptions": {
+      "en": "Consume 20,000 ammo.",
+      "ko": "탄약을 20,000개 소모합니다.",
+      "ja": "弾薬を20,000個消費します。",
+      "es": "Consume munición x20,000.",
+      "zh-Hans": "消耗 20,000 弹药。",
+      "zh-Hant": "消耗 20,000 彈藥。"
+    },
+    "image": {
+      "path": "assets/9a83aa54f118d4f6bffd1518.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Consumable.Ammo.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 20000,
+      "targetFloatValue": 20000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Consumable.Ammo.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 20000,
+          "targetFloatValue": 20000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_any_clear_1",
+    "gameId": "ACH_ANY_CLEAR_1",
+    "kind": "achievements",
+    "slug": "ach_any_clear_1",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "First Step",
+      "ko": "첫 발자국",
+      "ja": "初めの一歩",
+      "es": "Primer paso",
+      "zh-Hans": "初次启程",
+      "zh-Hant": "初次啟程"
+    },
+    "descriptions": {
+      "en": "Clear any area 1 time.",
+      "ko": "아무 지역을 1회 클리어합니다.",
+      "ja": "任意の地域を1回クリアします。",
+      "es": "Completa cualquier área x1.",
+      "zh-Hans": "通关任意区域 1 次。",
+      "zh-Hant": "通關任意區域 1 次。"
+    },
+    "image": {
+      "path": "assets/aaf17d8becc02eba037ca059.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Any",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Any",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_any_clear_250",
+    "gameId": "ACH_ANY_CLEAR_250",
+    "kind": "achievements",
+    "slug": "ach_any_clear_250",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Familiar Road",
+      "ko": "익숙한 길",
+      "ja": "慣れた道",
+      "es": "Camino familiar",
+      "zh-Hans": "熟门熟路",
+      "zh-Hant": "熟門熟路"
+    },
+    "descriptions": {
+      "en": "Clear any area 250 times.",
+      "ko": "아무 지역을 250회 클리어합니다.",
+      "ja": "任意の地域を250回クリアします。",
+      "es": "Completa cualquier área x250.",
+      "zh-Hans": "通关任意区域 250 次。",
+      "zh-Hant": "通關任意區域 250 次。"
+    },
+    "image": {
+      "path": "assets/4e6dfe2aabc5b6794ba8f9e1.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Any",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 250,
+      "targetFloatValue": 250.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Any",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 250,
+          "targetFloatValue": 250.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_any_clear_5000",
+    "gameId": "ACH_ANY_CLEAR_5000",
+    "kind": "achievements",
+    "slug": "ach_any_clear_5000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Endless Journey",
+      "ko": "끝없는 여정",
+      "ja": "終わりなき旅",
+      "es": "Viaje sin fin",
+      "zh-Hans": "无尽旅途",
+      "zh-Hant": "無盡旅途"
+    },
+    "descriptions": {
+      "en": "Clear any area 5,000 times.",
+      "ko": "아무 지역을 5,000회 클리어합니다.",
+      "ja": "任意の地域を5,000回クリアします。",
+      "es": "Completa cualquier área x5,000.",
+      "zh-Hans": "通关任意区域 5,000 次。",
+      "zh-Hant": "通關任意區域 5,000 次。"
+    },
+    "image": {
+      "path": "assets/85c9b6e559b23ca400e5a643.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Any",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 5000,
+      "targetFloatValue": 5000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Any",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 5000,
+          "targetFloatValue": 5000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_any_clear_50000",
+    "gameId": "ACH_ANY_CLEAR_50000",
+    "kind": "achievements",
+    "slug": "ach_any_clear_50000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Worldwalker",
+      "ko": "세계의 답파자",
+      "ja": "世界を踏破する者",
+      "es": "Caminante del mundo",
+      "zh-Hans": "世界行者",
+      "zh-Hant": "世界行者"
+    },
+    "descriptions": {
+      "en": "Clear any area 50,000 times.",
+      "ko": "아무 지역을 50,000회 클리어합니다.",
+      "ja": "任意の地域を50,000回クリアします。",
+      "es": "Completa cualquier área x50,000.",
+      "zh-Hans": "通关任意区域 50,000 次。",
+      "zh-Hant": "通關任意區域 50,000 次。"
+    },
+    "image": {
+      "path": "assets/401aaeb4cb9662ede672af05.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Any",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 50000,
+      "targetFloatValue": 50000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Any",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 50000,
+          "targetFloatValue": 50000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_charm_5000",
+    "gameId": "ACH_CHARM_5000",
+    "kind": "achievements",
+    "slug": "ach_charm_5000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Traces of Charms",
+      "ko": "부적의 흔적",
+      "ja": "お守りの痕跡",
+      "es": "Rastros talismán",
+      "zh-Hans": "护符余痕",
+      "zh-Hant": "護符餘痕"
+    },
+    "descriptions": {
+      "en": "Consume 5,000 charms.",
+      "ko": "부적을 5,000개 소모합니다.",
+      "ja": "お守りを5,000個消費します。",
+      "es": "Consume talismanes x5,000.",
+      "zh-Hans": "消耗 5,000 个护符。",
+      "zh-Hant": "消耗 5,000 個護符。"
+    },
+    "image": {
+      "path": "assets/1703be25cd3db7ac088ef08e.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Consumable.Charm.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 5000,
+      "targetFloatValue": 5000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Consumable.Charm.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 5000,
+          "targetFloatValue": 5000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_dungeon_clear_1",
+    "gameId": "ACH_DUNGEON_CLEAR_1",
+    "kind": "achievements",
+    "slug": "ach_dungeon_clear_1",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Dungeon Initiate",
+      "ko": "던전 입문",
+      "ja": "ダンジョン入門",
+      "es": "Iniciado mazmorra",
+      "zh-Hans": "地下城新手",
+      "zh-Hant": "地下城新手"
+    },
+    "descriptions": {
+      "en": "Clear a dungeon 1 time.",
+      "ko": "던전을 1회 클리어합니다.",
+      "ja": "ダンジョンを1回クリアします。",
+      "es": "Mazmorra x1.",
+      "zh-Hans": "通关地下城 1 次。",
+      "zh-Hant": "通關地下城 1 次。"
+    },
+    "image": {
+      "path": "assets/618b86918df5df103f9dc45c.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Dungeon",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Dungeon",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_dungeon_clear_30000",
+    "gameId": "ACH_DUNGEON_CLEAR_30000",
+    "kind": "achievements",
+    "slug": "ach_dungeon_clear_30000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Abyss Walker",
+      "ko": "심연을 넘나드는 자",
+      "ja": "深淵を渡る者",
+      "es": "Caminante del abismo",
+      "zh-Hans": "深渊行者",
+      "zh-Hant": "深淵行者"
+    },
+    "descriptions": {
+      "en": "Clear dungeons 30,000 times.",
+      "ko": "던전을 30,000회 클리어합니다.",
+      "ja": "ダンジョンを30,000回クリアします。",
+      "es": "Mazmorras x30,000.",
+      "zh-Hans": "通关地下城 30,000 次。",
+      "zh-Hant": "通關地下城 30,000 次。"
+    },
+    "image": {
+      "path": "assets/41b9fa8f1a68377bd381d4e3.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Dungeon",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 30000,
+      "targetFloatValue": 30000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Dungeon",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 30000,
+          "targetFloatValue": 30000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_dungeon_clear_500",
+    "gameId": "ACH_DUNGEON_CLEAR_500",
+    "kind": "achievements",
+    "slug": "ach_dungeon_clear_500",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Beyond the Deep Gate",
+      "ko": "깊은 문 너머",
+      "ja": "深き門の向こう",
+      "es": "Puerta profunda",
+      "zh-Hans": "越过深渊之门",
+      "zh-Hant": "越過深淵之門"
+    },
+    "descriptions": {
+      "en": "Clear dungeons 500 times.",
+      "ko": "던전을 500회 클리어합니다.",
+      "ja": "ダンジョンを500回クリアします。",
+      "es": "Mazmorras x500.",
+      "zh-Hans": "通关地下城 500 次。",
+      "zh-Hant": "通關地下城 500 次。"
+    },
+    "image": {
+      "path": "assets/a5adb576511d3aedf1bef2f7.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Dungeon",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 500,
+      "targetFloatValue": 500.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Dungeon",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 500,
+          "targetFloatValue": 500.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_food_1",
+    "gameId": "ACH_FOOD_1",
+    "kind": "achievements",
+    "slug": "ach_food_1",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "First Feast",
+      "ko": "첫 만찬",
+      "ja": "初めての宴",
+      "es": "Primer festín",
+      "zh-Hans": "初次盛宴",
+      "zh-Hant": "初次盛宴"
+    },
+    "descriptions": {
+      "en": "Eat food 1 time.",
+      "ko": "음식을 1회 먹습니다.",
+      "ja": "食べ物を1回食べます。",
+      "es": "Come comida x1.",
+      "zh-Hans": "食用料理 1 次。",
+      "zh-Hant": "食用料理 1 次。"
+    },
+    "image": {
+      "path": "assets/1e5b9ba7b9044edd96161368.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Consumable.Food.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Consumable.Food.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_food_1000",
+    "gameId": "ACH_FOOD_1000",
+    "kind": "achievements",
+    "slug": "ach_food_1000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Battlefield Table",
+      "ko": "전장의 식탁",
+      "ja": "戦場の食卓",
+      "es": "Mesa de batalla",
+      "zh-Hans": "战地餐桌",
+      "zh-Hant": "戰地餐桌"
+    },
+    "descriptions": {
+      "en": "Eat food 1,000 times.",
+      "ko": "음식을 1,000회 먹습니다.",
+      "ja": "食べ物を1,000回食べます。",
+      "es": "Come comida x1,000.",
+      "zh-Hans": "食用料理 1,000 次。",
+      "zh-Hant": "食用料理 1,000 次。"
+    },
+    "image": {
+      "path": "assets/06742115bd1e6177adb3afcf.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Consumable.Food.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1000,
+      "targetFloatValue": 1000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Consumable.Food.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1000,
+          "targetFloatValue": 1000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_forest_clear_1",
+    "gameId": "ACH_FOREST_CLEAR_1",
+    "kind": "achievements",
+    "slug": "ach_forest_clear_1",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Forest Stroller",
+      "ko": "숲의 산책자",
+      "ja": "森の散策者",
+      "es": "Paseo forestal",
+      "zh-Hans": "林间漫步者",
+      "zh-Hant": "林間漫步者"
+    },
+    "descriptions": {
+      "en": "Clear forest areas 1 time.",
+      "ko": "숲 지역을 1회 클리어합니다.",
+      "ja": "森地域を1回クリアします。",
+      "es": "Bosques x1.",
+      "zh-Hans": "通关森林区域 1 次。",
+      "zh-Hant": "通關森林區域 1 次。"
+    },
+    "image": {
+      "path": "assets/a0283b7c3ab9ec1ed77a11cb.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Forest",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Forest",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_forest_clear_777",
+    "gameId": "ACH_FOREST_CLEAR_777",
+    "kind": "achievements",
+    "slug": "ach_forest_clear_777",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Master of Forest Paths",
+      "ko": "숲길의 주인",
+      "ja": "森道の主",
+      "es": "Maestro del bosque",
+      "zh-Hans": "林径大师",
+      "zh-Hant": "林徑大師"
+    },
+    "descriptions": {
+      "en": "Clear forest areas 777 times.",
+      "ko": "숲 지역을 777회 클리어합니다.",
+      "ja": "森地域を777回クリアします。",
+      "es": "Bosques x777.",
+      "zh-Hans": "通关森林区域 777 次。",
+      "zh-Hant": "通關森林區域 777 次。"
+    },
+    "image": {
+      "path": "assets/d9ceee900f238a2b4e6e97c1.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Forest",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 777,
+      "targetFloatValue": 777.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Forest",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 777,
+          "targetFloatValue": 777.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_item_kind_150",
+    "gameId": "ACH_ITEM_KIND_150",
+    "kind": "achievements",
+    "slug": "ach_item_kind_150",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Codex Collector",
+      "ko": "도감 수집가",
+      "ja": "図鑑収集家",
+      "es": "Coleccionista códice",
+      "zh-Hans": "图鉴收藏家",
+      "zh-Hant": "圖鑑收藏家"
+    },
+    "descriptions": {
+      "en": "Obtain 150 different item kinds.",
+      "ko": "획득한 아이템 가짓수 150개를 달성합니다.",
+      "ja": "獲得したアイテム種類数150個を達成します。",
+      "es": "Obtén 150 tipos de objeto.",
+      "zh-Hans": "获得 150 种不同物品。",
+      "zh-Hant": "獲得 150 種不同物品。"
+    },
+    "image": {
+      "path": "assets/b3bc00921317e79fffefb07e.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "ItemKindCount",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 150,
+      "targetFloatValue": 150.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "ItemKindCount",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 150,
+          "targetFloatValue": 150.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_item_kind_30",
+    "gameId": "ACH_ITEM_KIND_30",
+    "kind": "achievements",
+    "slug": "ach_item_kind_30",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Start of Collection",
+      "ko": "수집의 시작",
+      "ja": "収集の始まり",
+      "es": "Inicio colección",
+      "zh-Hans": "收藏启程",
+      "zh-Hant": "收藏啟程"
+    },
+    "descriptions": {
+      "en": "Obtain 30 different item kinds.",
+      "ko": "획득한 아이템 가짓수 30개를 달성합니다.",
+      "ja": "獲得したアイテム種類数30個を達成します。",
+      "es": "Obtén 30 tipos de objeto.",
+      "zh-Hans": "获得 30 种不同物品。",
+      "zh-Hant": "獲得 30 種不同物品。"
+    },
+    "image": {
+      "path": "assets/daf7fbc758303a2a369e90fc.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "ItemKindCount",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 30,
+      "targetFloatValue": 30.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "ItemKindCount",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 30,
+          "targetFloatValue": 30.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_item_kind_666",
+    "gameId": "ACH_ITEM_KIND_666",
+    "kind": "achievements",
+    "slug": "ach_item_kind_666",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Almost Complete Codex",
+      "ko": "거의 완성된 도감",
+      "ja": "完成間近の図鑑",
+      "es": "Códice casi completo",
+      "zh-Hans": "图鉴将满",
+      "zh-Hant": "圖鑑將滿"
+    },
+    "descriptions": {
+      "en": "Obtain 666 different item kinds.",
+      "ko": "획득한 아이템 가짓수 666개를 달성합니다.",
+      "ja": "獲得したアイテム種類数666個を達成します。",
+      "es": "Obtén 666 tipos de objeto.",
+      "zh-Hans": "获得 666 种不同物品。",
+      "zh-Hant": "獲得 666 種不同物品。"
+    },
+    "image": {
+      "path": "assets/3fa6644e0d47718cd7aeb2ca.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "ItemKindCount",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 666,
+      "targetFloatValue": 666.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "ItemKindCount",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 666,
+          "targetFloatValue": 666.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_mine_clear_1",
+    "gameId": "ACH_MINE_CLEAR_1",
+    "kind": "achievements",
+    "slug": "ach_mine_clear_1",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Hand That Opens Veins",
+      "ko": "광맥을 여는 손",
+      "ja": "鉱脈を開く手",
+      "es": "Abrevetas",
+      "zh-Hans": "开脉之手",
+      "zh-Hant": "開脈之手"
+    },
+    "descriptions": {
+      "en": "Clear mining areas 1 time.",
+      "ko": "채광 지역을 1회 클리어합니다.",
+      "ja": "採掘地域を1回クリアします。",
+      "es": "Áreas mineras x1.",
+      "zh-Hans": "通关采矿区域 1 次。",
+      "zh-Hant": "通關採礦區域 1 次。"
+    },
+    "image": {
+      "path": "assets/e3406c4898740cf81e793d62.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Mine",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Mine",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_mine_clear_777",
+    "gameId": "ACH_MINE_CLEAR_777",
+    "kind": "achievements",
+    "slug": "ach_mine_clear_777",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Deep Miner",
+      "ko": "깊은 채굴꾼",
+      "ja": "深き採掘師",
+      "es": "Minero profundo",
+      "zh-Hans": "地底矿工",
+      "zh-Hant": "地底礦工"
+    },
+    "descriptions": {
+      "en": "Clear mining areas 777 times.",
+      "ko": "채광 지역을 777회 클리어합니다.",
+      "ja": "採掘地域を777回クリアします。",
+      "es": "Áreas mineras x777.",
+      "zh-Hans": "通关采矿区域 777 次。",
+      "zh-Hant": "通關採礦區域 777 次。"
+    },
+    "image": {
+      "path": "assets/305038142a0f11d44665b7bb.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Mine",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 777,
+      "targetFloatValue": 777.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Mine",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 777,
+          "targetFloatValue": 777.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_monster_kill_10",
+    "gameId": "ACH_MONSTER_KILL_10",
+    "kind": "achievements",
+    "slug": "ach_monster_kill_10",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Spark of Battle",
+      "ko": "전투의 불씨",
+      "ja": "戦いの火種",
+      "es": "Chispa bélica",
+      "zh-Hans": "战火初燃",
+      "zh-Hant": "戰火初燃"
+    },
+    "descriptions": {
+      "en": "Defeat 10 monsters.",
+      "ko": "몬스터를 10마리 처치합니다.",
+      "ja": "モンスターを10体倒します。",
+      "es": "Derrota 10 monstruos.",
+      "zh-Hans": "击败 10 只怪物。",
+      "zh-Hant": "擊敗 10 隻怪物。"
+    },
+    "image": {
+      "path": "assets/9157698926540699fa858bbc.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Monster.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 10,
+      "targetFloatValue": 10.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Monster.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 10,
+          "targetFloatValue": 10.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_monster_kill_3000",
+    "gameId": "ACH_MONSTER_KILL_3000",
+    "kind": "achievements",
+    "slug": "ach_monster_kill_3000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Flow of the Hunt",
+      "ko": "사냥의 흐름",
+      "ja": "狩りの流れ",
+      "es": "Flujo de caza",
+      "zh-Hans": "狩猎如流",
+      "zh-Hant": "狩獵如流"
+    },
+    "descriptions": {
+      "en": "Defeat 3,000 monsters.",
+      "ko": "몬스터를 3,000마리 처치합니다.",
+      "ja": "モンスターを3,000体倒します。",
+      "es": "Derrota 3,000 monstruos.",
+      "zh-Hans": "击败 3,000 只怪物。",
+      "zh-Hant": "擊敗 3,000 隻怪物。"
+    },
+    "image": {
+      "path": "assets/9025bac4be47c0a90921dc2c.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Monster.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 3000,
+      "targetFloatValue": 3000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Monster.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 3000,
+          "targetFloatValue": 3000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_monster_kill_44444",
+    "gameId": "ACH_MONSTER_KILL_44444",
+    "kind": "achievements",
+    "slug": "ach_monster_kill_44444",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Record of the Battlefield",
+      "ko": "전장의 기록",
+      "ja": "戦場の記録",
+      "es": "Registro bélico",
+      "zh-Hans": "战场留名",
+      "zh-Hant": "戰場留名"
+    },
+    "descriptions": {
+      "en": "Defeat 44,444 monsters.",
+      "ko": "몬스터를 44,444마리 처치합니다.",
+      "ja": "モンスターを44,444体倒します。",
+      "es": "Derrota 44,444 monstruos.",
+      "zh-Hans": "击败 44,444 只怪物。",
+      "zh-Hant": "擊敗 44,444 隻怪物。"
+    },
+    "image": {
+      "path": "assets/0a984bc8b6b20aa78bd18442.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Monster.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 44444,
+      "targetFloatValue": 44444.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Monster.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 44444,
+          "targetFloatValue": 44444.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_monster_kill_500000",
+    "gameId": "ACH_MONSTER_KILL_500000",
+    "kind": "achievements",
+    "slug": "ach_monster_kill_500000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Legendary Slayer",
+      "ko": "전설의 토벌자",
+      "ja": "伝説の討伐者",
+      "es": "Exterminador legendario",
+      "zh-Hans": "传奇屠魔者",
+      "zh-Hant": "傳奇屠魔者"
+    },
+    "descriptions": {
+      "en": "Defeat 500,000 monsters.",
+      "ko": "몬스터를 500,000마리 처치합니다.",
+      "ja": "モンスターを500,000体倒します。",
+      "es": "Derrota 500,000 monstruos.",
+      "zh-Hans": "击败 500,000 只怪物。",
+      "zh-Hant": "擊敗 500,000 隻怪物。"
+    },
+    "image": {
+      "path": "assets/b146b775ac81d2e19efa145c.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Monster.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 500000,
+      "targetFloatValue": 500000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Monster.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 500000,
+          "targetFloatValue": 500000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_normal_clear_10",
+    "gameId": "ACH_NORMAL_CLEAR_10",
+    "kind": "achievements",
+    "slug": "ach_normal_clear_10",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Plain Beginnings",
+      "ko": "평원의 시작",
+      "ja": "平原の始まり",
+      "es": "Inicio llano",
+      "zh-Hans": "平凡启程",
+      "zh-Hant": "平凡啟程"
+    },
+    "descriptions": {
+      "en": "Clear normal areas 10 times.",
+      "ko": "일반 지역을 10회 클리어합니다.",
+      "ja": "通常地域を10回クリアします。",
+      "es": "Áreas normales x10.",
+      "zh-Hans": "通关普通区域 10 次。",
+      "zh-Hant": "通關普通區域 10 次。"
+    },
+    "image": {
+      "path": "assets/b6bb4a54f932cbb0183e7dbf.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Normal",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 10,
+      "targetFloatValue": 10.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Normal",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 10,
+          "targetFloatValue": 10.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_normal_clear_3000",
+    "gameId": "ACH_NORMAL_CLEAR_3000",
+    "kind": "achievements",
+    "slug": "ach_normal_clear_3000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Walker of the Plains",
+      "ko": "평원을 걷는 자",
+      "ja": "平原を歩む者",
+      "es": "Caminante llano",
+      "zh-Hans": "平原行者",
+      "zh-Hant": "平原行者"
+    },
+    "descriptions": {
+      "en": "Clear normal areas 3,000 times.",
+      "ko": "일반 지역을 3,000회 클리어합니다.",
+      "ja": "通常地域を3,000回クリアします。",
+      "es": "Áreas normales x3,000.",
+      "zh-Hans": "通关普通区域 3,000 次。",
+      "zh-Hant": "通關普通區域 3,000 次。"
+    },
+    "image": {
+      "path": "assets/9eee6c4af654f299225825a1.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Normal",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 3000,
+      "targetFloatValue": 3000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Normal",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 3000,
+          "targetFloatValue": 3000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_potion_1",
+    "gameId": "ACH_POTION_1",
+    "kind": "achievements",
+    "slug": "ach_potion_1",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "A Sip of Potion",
+      "ko": "물약 한 모금",
+      "ja": "ポーションを一口",
+      "es": "Sorbo de poción",
+      "zh-Hans": "药水初尝",
+      "zh-Hant": "藥水初嚐"
+    },
+    "descriptions": {
+      "en": "Drink a potion 1 time.",
+      "ko": "포션을 1회 마십니다.",
+      "ja": "ポーションを1回飲みます。",
+      "es": "Bebe poción x1.",
+      "zh-Hans": "饮用药水 1 次。",
+      "zh-Hant": "飲用藥水 1 次。"
+    },
+    "image": {
+      "path": "assets/b5b505efce57257b248db10e.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Consumable.Potion.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Consumable.Potion.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_potion_1000",
+    "gameId": "ACH_POTION_1000",
+    "kind": "achievements",
+    "slug": "ach_potion_1000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Alchemy Enthusiast",
+      "ko": "연금술 애호가",
+      "ja": "錬金術愛好家",
+      "es": "Alquimista devoto",
+      "zh-Hans": "炼金爱好者",
+      "zh-Hant": "煉金愛好者"
+    },
+    "descriptions": {
+      "en": "Drink potions 1,000 times.",
+      "ko": "포션을 1,000회 마십니다.",
+      "ja": "ポーションを1,000回飲みます。",
+      "es": "Bebe pociones x1,000.",
+      "zh-Hans": "饮用药水 1,000 次。",
+      "zh-Hant": "飲用藥水 1,000 次。"
+    },
+    "image": {
+      "path": "assets/7f2f80e5a7fd349abd69a9db.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Consumable.Potion.Total",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1000,
+      "targetFloatValue": 1000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Consumable.Potion.Total",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1000,
+          "targetFloatValue": 1000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_sea_clear_1",
+    "gameId": "ACH_SEA_CLEAR_1",
+    "kind": "achievements",
+    "slug": "ach_sea_clear_1",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Waterside Touch",
+      "ko": "물가의 손맛",
+      "ja": "水辺の手応え",
+      "es": "Toque ribereño",
+      "zh-Hans": "初探水岸",
+      "zh-Hant": "初探水岸"
+    },
+    "descriptions": {
+      "en": "Clear sea areas 1 time.",
+      "ko": "바다 지역을 1회 클리어합니다.",
+      "ja": "海地域を1回クリアします。",
+      "es": "Áreas marinas x1.",
+      "zh-Hans": "通关海洋区域 1 次。",
+      "zh-Hant": "通關海洋區域 1 次。"
+    },
+    "image": {
+      "path": "assets/61b8409f06dd53a25cfcc582.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Sea",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1,
+      "targetFloatValue": 1.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Sea",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1,
+          "targetFloatValue": 1.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_sea_clear_777",
+    "gameId": "ACH_SEA_CLEAR_777",
+    "kind": "achievements",
+    "slug": "ach_sea_clear_777",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Calm Master",
+      "ko": "잔잔한 달인",
+      "ja": "静かな達人",
+      "es": "Maestro sereno",
+      "zh-Hans": "御浪大师",
+      "zh-Hant": "御浪大師"
+    },
+    "descriptions": {
+      "en": "Clear sea areas 777 times.",
+      "ko": "바다 지역을 777회 클리어합니다.",
+      "ja": "海地域を777回クリアします。",
+      "es": "Áreas marinas x777.",
+      "zh-Hans": "通关海洋区域 777 次。",
+      "zh-Hant": "通關海洋區域 777 次。"
+    },
+    "image": {
+      "path": "assets/93f474be38b049cef85fb993.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "CounterThreshold",
+      "counterKey": "Clear.Attribute.Sea",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 777,
+      "targetFloatValue": 777.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "CounterThreshold",
+          "counterKey": "Clear.Attribute.Sea",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 777,
+          "targetFloatValue": 777.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_skill_total_1000",
+    "gameId": "ACH_SKILL_TOTAL_1000",
+    "kind": "achievements",
+    "slug": "ach_skill_total_1000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Threshold of Mastery",
+      "ko": "경지의 문턱",
+      "ja": "熟達の入口",
+      "es": "Umbral maestro",
+      "zh-Hans": "精通之境",
+      "zh-Hant": "精通之境"
+    },
+    "descriptions": {
+      "en": "Reach a total skill level of 1,000.",
+      "ko": "스킬 레벨 합계 1,000을 달성합니다.",
+      "ja": "スキルレベル合計1,000を達成します。",
+      "es": "Nivel total: 1,000.",
+      "zh-Hans": "总计技能等级达到 1,000。",
+      "zh-Hant": "總計技能等級達到 1,000。"
+    },
+    "image": {
+      "path": "assets/a5e7015ff8b4310c0d5115d4.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SkillLevelTotal",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1000,
+      "targetFloatValue": 1000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SkillLevelTotal",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1000,
+          "targetFloatValue": 1000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_skill_total_200",
+    "gameId": "ACH_SKILL_TOTAL_200",
+    "kind": "achievements",
+    "slug": "ach_skill_total_200",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Growing Soul",
+      "ko": "성장하는 영혼",
+      "ja": "成長する魂",
+      "es": "Alma en crecimiento",
+      "zh-Hans": "成长之魂",
+      "zh-Hant": "成長之魂"
+    },
+    "descriptions": {
+      "en": "Reach a total skill level of 200.",
+      "ko": "스킬 레벨 합계 200을 달성합니다.",
+      "ja": "スキルレベル合計200を達成します。",
+      "es": "Nivel total: 200.",
+      "zh-Hans": "总计技能等级达到 200。",
+      "zh-Hant": "總計技能等級達到 200。"
+    },
+    "image": {
+      "path": "assets/ecba069dde430fca94e9a0c8.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SkillLevelTotal",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 200,
+      "targetFloatValue": 200.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SkillLevelTotal",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 200,
+          "targetFloatValue": 200.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_skill_total_40",
+    "gameId": "ACH_SKILL_TOTAL_40",
+    "kind": "achievements",
+    "slug": "ach_skill_total_40",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Apprentice's Wall",
+      "ko": "견습의 벽",
+      "ja": "見習いの壁",
+      "es": "Muro aprendiz",
+      "zh-Hans": "学徒之壁",
+      "zh-Hant": "學徒之壁"
+    },
+    "descriptions": {
+      "en": "Reach a total skill level of 40.",
+      "ko": "스킬 레벨 합계 40을 달성합니다.",
+      "ja": "スキルレベル合計40を達成します。",
+      "es": "Nivel total: 40.",
+      "zh-Hans": "总计技能等级达到 40。",
+      "zh-Hant": "總計技能等級達到 40。"
+    },
+    "image": {
+      "path": "assets/3e411fc47bac672371c7b598.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "SkillLevelTotal",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 40,
+      "targetFloatValue": 40.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "SkillLevelTotal",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 40,
+          "targetFloatValue": 40.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_stat_attack_interval_2_2",
+    "gameId": "ACH_STAT_ATTACK_INTERVAL_2_2",
+    "kind": "achievements",
+    "slug": "ach_stat_attack_interval_2_2",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Flawless Hands",
+      "ko": "빈틈 없는 손",
+      "ja": "隙なき手",
+      "es": "Manos perfectas",
+      "zh-Hans": "无瑕之手",
+      "zh-Hant": "無瑕之手"
+    },
+    "descriptions": {
+      "en": "Reach an attack interval of 2.2 seconds or lower for the first time.",
+      "ko": "공격 주기 2.2초 이하를 최초 달성합니다.",
+      "ja": "攻撃間隔2.2秒以下を初めて達成します。",
+      "es": "Intervalo ataque ≤2.2 s por 1.ª vez.",
+      "zh-Hans": "首次达到 2.2 秒或更低的攻击间隔。",
+      "zh-Hant": "首次達到 2.2 秒或更低的攻擊間隔。"
+    },
+    "image": {
+      "path": "assets/1f6bff6a54f98221d7a77024.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "StatThreshold",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "AttackInterval",
+      "comparison": "LessOrEqual",
+      "targetValue": 2,
+      "targetFloatValue": 2.2,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:attackinterval",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "StatThreshold",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "AttackInterval",
+          "comparison": "LessOrEqual",
+          "targetValue": 2,
+          "targetFloatValue": 2.2,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_stat_crit_100",
+    "gameId": "ACH_STAT_CRIT_100",
+    "kind": "achievements",
+    "slug": "ach_stat_crit_100",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Critical Sense",
+      "ko": "치명적인 감각",
+      "ja": "致命の感覚",
+      "es": "Sentido crítico",
+      "zh-Hans": "致命直觉",
+      "zh-Hant": "致命直覺"
+    },
+    "descriptions": {
+      "en": "Reach critical chance 100% or higher for the first time.",
+      "ko": "치명타 확률 100% 이상을 최초 달성합니다.",
+      "ja": "クリティカル率100%以上を初めて達成します。",
+      "es": "Crítico 100%+ por 1.ª vez.",
+      "zh-Hans": "首次达到 100% 或更高的暴击率。",
+      "zh-Hant": "首次達到 100% 或更高的暴擊率。"
+    },
+    "image": {
+      "path": "assets/51e7d6a943427d52caac3416.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "StatThreshold",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "CritChance",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 100,
+      "targetFloatValue": 100.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:critchance",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "StatThreshold",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "CritChance",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 100,
+          "targetFloatValue": 100.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_stat_luck_100",
+    "gameId": "ACH_STAT_LUCK_100",
+    "kind": "achievements",
+    "slug": "ach_stat_luck_100",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Threshold of Luck",
+      "ko": "행운의 문턱",
+      "ja": "幸運の入口",
+      "es": "Umbral suerte",
+      "zh-Hans": "幸运的门槛",
+      "zh-Hant": "幸運的門檻"
+    },
+    "descriptions": {
+      "en": "Reach luck 100% or higher for the first time.",
+      "ko": "운 100% 이상을 최초 달성합니다.",
+      "ja": "運100%以上を初めて達成します。",
+      "es": "Suerte 100%+ por 1.ª vez.",
+      "zh-Hans": "首次达到幸运 100% 或更高。",
+      "zh-Hant": "首次達到幸運 100% 或更高。"
+    },
+    "image": {
+      "path": "assets/e29eaa2cdfe743ece9eec98b.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "StatThreshold",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "Luck",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 100,
+      "targetFloatValue": 100.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:luck",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "StatThreshold",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "Luck",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 100,
+          "targetFloatValue": 100.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_stat_maxhp_1000",
+    "gameId": "ACH_STAT_MAXHP_1000",
+    "kind": "achievements",
+    "slug": "ach_stat_maxhp_1000",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Unbroken Body",
+      "ko": "꺾이지 않는 몸",
+      "ja": "折れない身体",
+      "es": "Cuerpo intacto",
+      "zh-Hans": "不屈之躯",
+      "zh-Hant": "不屈之軀"
+    },
+    "descriptions": {
+      "en": "Reach Max HP 1,000 or higher for the first time.",
+      "ko": "최대체력 1,000 이상을 최초 달성합니다.",
+      "ja": "最大HP 1,000以上を初めて達成します。",
+      "es": "PV máx. 1,000+ por 1.ª vez.",
+      "zh-Hans": "首次达到最大生命值 1,000 或更高。",
+      "zh-Hant": "首次達到最大生命值 1,000 或更高。"
+    },
+    "image": {
+      "path": "assets/b8d88a22c215717b5f64979d.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "StatThreshold",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MaxHP",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 1000,
+      "targetFloatValue": 1000.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:maxhp",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "StatThreshold",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MaxHP",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 1000,
+          "targetFloatValue": 1000.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_stat_min_damage_67",
+    "gameId": "ACH_STAT_MIN_DAMAGE_67",
+    "kind": "achievements",
+    "slug": "ach_stat_min_damage_67",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Sharp Strike",
+      "ko": "날카로운 일격",
+      "ja": "鋭い一撃",
+      "es": "Golpe afilado",
+      "zh-Hans": "锐利打击",
+      "zh-Hant": "銳利打擊"
+    },
+    "descriptions": {
+      "en": "Reach minimum damage 67 or higher for the first time.",
+      "ko": "최소대미지 67 이상을 최초 달성합니다.",
+      "ja": "最小ダメージ67以上を初めて達成します。",
+      "es": "Daño mín. 67+ por 1.ª vez.",
+      "zh-Hans": "首次达到最低伤害 67 或更高。",
+      "zh-Hant": "首次達到最低傷害 67 或更高。"
+    },
+    "image": {
+      "path": "assets/43f3fc26d2c3ca9856a28c3e.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "StatThreshold",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MinDamage",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 67,
+      "targetFloatValue": 67.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:mindamage",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "StatThreshold",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MinDamage",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 67,
+          "targetFloatValue": 67.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "achievements:ach_stat_move_speed_100",
+    "gameId": "ACH_STAT_MOVE_SPEED_100",
+    "kind": "achievements",
+    "slug": "ach_stat_move_speed_100",
+    "type": "AchievementDefinition",
+    "names": {
+      "en": "Swift Feet",
+      "ko": "빠른 발",
+      "ja": "俊足",
+      "es": "Pies veloces",
+      "zh-Hans": "迅捷的脚步",
+      "zh-Hant": "迅捷的腳步"
+    },
+    "descriptions": {
+      "en": "Reach movement speed 100 or higher for the first time.",
+      "ko": "이동속도 100 이상을 최초 달성합니다.",
+      "ja": "移動速度100以上を初めて達成します。",
+      "es": "Vel. movimiento 100+ por 1.ª vez.",
+      "zh-Hans": "首次达到移动速度 100 或更高。",
+      "zh-Hant": "首次達到移動速度 100 或更高。"
+    },
+    "image": {
+      "path": "assets/c43c5092e0ef2bd6aa8aa1f8.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "conditionType": "StatThreshold",
+      "counterKey": "",
+      "targetId": "",
+      "areaAttribute": "Normal",
+      "statType": "MoveSpeed",
+      "comparison": "GreaterOrEqual",
+      "targetValue": 100,
+      "targetFloatValue": 100.0,
+      "$type": "AchievementDefinition"
+    },
+    "relations": [
+      {
+        "target": "stats:movespeed",
+        "field": "data.statType",
+        "role": "related",
+        "context": {
+          "conditionType": "StatThreshold",
+          "counterKey": "",
+          "targetId": "",
+          "areaAttribute": "Normal",
+          "statType": "MoveSpeed",
+          "comparison": "GreaterOrEqual",
+          "targetValue": 100,
+          "targetFloatValue": 100.0,
+          "$type": "AchievementDefinition"
+        }
+      }
+    ],
+    "aliases": []
+  }
+]

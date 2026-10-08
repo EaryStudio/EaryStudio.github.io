@@ -1,0 +1,147 @@
+[
+  {
+    "wikiId": "rules:baseline-values",
+    "gameId": "baseline-values",
+    "kind": "rules",
+    "slug": "baseline-values",
+    "type": "ReleaseRule",
+    "names": {
+      "en": "Reading base values",
+      "ko": "Reading base values",
+      "ja": "Reading base values",
+      "es": "Reading base values",
+      "zh-Hans": "Reading base values",
+      "zh-Hant": "Reading base values"
+    },
+    "descriptions": {
+      "en": "Values are source definitions for release 0.56. Equipment, proficiency, buffs, progression, area modifiers and runtime state can change effective values. Passive recipes distinguish start, production and harvest. No player save is used to calculate the wiki.",
+      "ko": "Values are source definitions for release 0.56. Equipment, proficiency, buffs, progression, area modifiers and runtime state can change effective values. Passive recipes distinguish start, production and harvest. No player save is used to calculate the wiki.",
+      "ja": "Values are source definitions for release 0.56. Equipment, proficiency, buffs, progression, area modifiers and runtime state can change effective values. Passive recipes distinguish start, production and harvest. No player save is used to calculate the wiki.",
+      "es": "Values are source definitions for release 0.56. Equipment, proficiency, buffs, progression, area modifiers and runtime state can change effective values. Passive recipes distinguish start, production and harvest. No player save is used to calculate the wiki.",
+      "zh-Hans": "Values are source definitions for release 0.56. Equipment, proficiency, buffs, progression, area modifiers and runtime state can change effective values. Passive recipes distinguish start, production and harvest. No player save is used to calculate the wiki.",
+      "zh-Hant": "Values are source definitions for release 0.56. Equipment, proficiency, buffs, progression, area modifiers and runtime state can change effective values. Passive recipes distinguish start, production and harvest. No player save is used to calculate the wiki."
+    },
+    "image": null,
+    "data": {
+      "editorialLanguage": "en"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "rules:encounter-rewards",
+    "gameId": "encounter-rewards",
+    "kind": "rules",
+    "slug": "encounter-rewards",
+    "type": "ReleaseRule",
+    "names": {
+      "en": "Encounter and expedition rewards",
+      "ko": "Encounter and expedition rewards",
+      "ja": "Encounter and expedition rewards",
+      "es": "Encounter and expedition rewards",
+      "zh-Hans": "Encounter and expedition rewards",
+      "zh-Hant": "Encounter and expedition rewards"
+    },
+    "descriptions": {
+      "en": "Area modifiers apply to encounters in that area. Challenge rewards belong to the challenge, not to monster drops. Summoned enemies can grant no rewards or progress. Expeditions require two stars and use the area's two-star or three-star time. Each spawned enemy/resource and the area clear table contribute rewards; resource requirements select the success or failure table.",
+      "ko": "Area modifiers apply to encounters in that area. Challenge rewards belong to the challenge, not to monster drops. Summoned enemies can grant no rewards or progress. Expeditions require two stars and use the area's two-star or three-star time. Each spawned enemy/resource and the area clear table contribute rewards; resource requirements select the success or failure table.",
+      "ja": "Area modifiers apply to encounters in that area. Challenge rewards belong to the challenge, not to monster drops. Summoned enemies can grant no rewards or progress. Expeditions require two stars and use the area's two-star or three-star time. Each spawned enemy/resource and the area clear table contribute rewards; resource requirements select the success or failure table.",
+      "es": "Area modifiers apply to encounters in that area. Challenge rewards belong to the challenge, not to monster drops. Summoned enemies can grant no rewards or progress. Expeditions require two stars and use the area's two-star or three-star time. Each spawned enemy/resource and the area clear table contribute rewards; resource requirements select the success or failure table.",
+      "zh-Hans": "Area modifiers apply to encounters in that area. Challenge rewards belong to the challenge, not to monster drops. Summoned enemies can grant no rewards or progress. Expeditions require two stars and use the area's two-star or three-star time. Each spawned enemy/resource and the area clear table contribute rewards; resource requirements select the success or failure table.",
+      "zh-Hant": "Area modifiers apply to encounters in that area. Challenge rewards belong to the challenge, not to monster drops. Summoned enemies can grant no rewards or progress. Expeditions require two stars and use the area's two-star or three-star time. Each spawned enemy/resource and the area clear table contribute rewards; resource requirements select the success or failure table."
+    },
+    "image": null,
+    "data": {
+      "editorialLanguage": "en"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "rules:objective-unlocks",
+    "gameId": "objective-unlocks",
+    "kind": "rules",
+    "slug": "objective-unlocks",
+    "type": "ReleaseRule",
+    "names": {
+      "en": "Objective progression",
+      "ko": "Objective progression",
+      "ja": "Objective progression",
+      "es": "Objective progression",
+      "zh-Hans": "Objective progression",
+      "zh-Hant": "Objective progression"
+    },
+    "descriptions": {
+      "en": "Main objectives follow database order. Non-main objectives unlock after MO0010. Unlock data describes declared effects; area-unlock execution has an unimplemented code path in 0.56 and must not be treated as a confirmed unlock.",
+      "ko": "Main objectives follow database order. Non-main objectives unlock after MO0010. Unlock data describes declared effects; area-unlock execution has an unimplemented code path in 0.56 and must not be treated as a confirmed unlock.",
+      "ja": "Main objectives follow database order. Non-main objectives unlock after MO0010. Unlock data describes declared effects; area-unlock execution has an unimplemented code path in 0.56 and must not be treated as a confirmed unlock.",
+      "es": "Main objectives follow database order. Non-main objectives unlock after MO0010. Unlock data describes declared effects; area-unlock execution has an unimplemented code path in 0.56 and must not be treated as a confirmed unlock.",
+      "zh-Hans": "Main objectives follow database order. Non-main objectives unlock after MO0010. Unlock data describes declared effects; area-unlock execution has an unimplemented code path in 0.56 and must not be treated as a confirmed unlock.",
+      "zh-Hant": "Main objectives follow database order. Non-main objectives unlock after MO0010. Unlock data describes declared effects; area-unlock execution has an unimplemented code path in 0.56 and must not be treated as a confirmed unlock."
+    },
+    "image": null,
+    "data": {
+      "editorialLanguage": "en"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "rules:reward-models",
+    "gameId": "reward-models",
+    "kind": "rules",
+    "slug": "reward-models",
+    "type": "ReleaseRule",
+    "names": {
+      "en": "Reward models",
+      "ko": "Reward models",
+      "ja": "Reward models",
+      "es": "Reward models",
+      "zh-Hans": "Reward models",
+      "zh-Hant": "Reward models"
+    },
+    "descriptions": {
+      "en": "Independent item and gold entries roll separately. Luck grants floor(luck/100) additional attempts and one fractional attempt after failure: p = 1 − (1−p0)^(1+floor(luck/100)) × (1−(luck%100)/100×p0). Weighted choice selects one eligible item by normalized weight; it does not make a second item chance roll. Chest entries use one cumulative roll; remaining probability gives no item.",
+      "ko": "Independent item and gold entries roll separately. Luck grants floor(luck/100) additional attempts and one fractional attempt after failure: p = 1 − (1−p0)^(1+floor(luck/100)) × (1−(luck%100)/100×p0). Weighted choice selects one eligible item by normalized weight; it does not make a second item chance roll. Chest entries use one cumulative roll; remaining probability gives no item.",
+      "ja": "Independent item and gold entries roll separately. Luck grants floor(luck/100) additional attempts and one fractional attempt after failure: p = 1 − (1−p0)^(1+floor(luck/100)) × (1−(luck%100)/100×p0). Weighted choice selects one eligible item by normalized weight; it does not make a second item chance roll. Chest entries use one cumulative roll; remaining probability gives no item.",
+      "es": "Independent item and gold entries roll separately. Luck grants floor(luck/100) additional attempts and one fractional attempt after failure: p = 1 − (1−p0)^(1+floor(luck/100)) × (1−(luck%100)/100×p0). Weighted choice selects one eligible item by normalized weight; it does not make a second item chance roll. Chest entries use one cumulative roll; remaining probability gives no item.",
+      "zh-Hans": "Independent item and gold entries roll separately. Luck grants floor(luck/100) additional attempts and one fractional attempt after failure: p = 1 − (1−p0)^(1+floor(luck/100)) × (1−(luck%100)/100×p0). Weighted choice selects one eligible item by normalized weight; it does not make a second item chance roll. Chest entries use one cumulative roll; remaining probability gives no item.",
+      "zh-Hant": "Independent item and gold entries roll separately. Luck grants floor(luck/100) additional attempts and one fractional attempt after failure: p = 1 − (1−p0)^(1+floor(luck/100)) × (1−(luck%100)/100×p0). Weighted choice selects one eligible item by normalized weight; it does not make a second item chance roll. Chest entries use one cumulative roll; remaining probability gives no item."
+    },
+    "image": null,
+    "data": {
+      "editorialLanguage": "en"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "rules:shop-prices",
+    "gameId": "shop-prices",
+    "kind": "rules",
+    "slug": "shop-prices",
+    "type": "ReleaseRule",
+    "names": {
+      "en": "Shop prices",
+      "ko": "Shop prices",
+      "ja": "Shop prices",
+      "es": "Shop prices",
+      "zh-Hans": "Shop prices",
+      "zh-Hant": "Shop prices"
+    },
+    "descriptions": {
+      "en": "For PurchaseCountIncrease prices, steps = floor(purchaseCount / purchasesPerStep). Starting from basePrice, apply ceil(price × multiplierPerStep) + additivePerStep once per step, capped by maxPrice when configured. Commodity trading has its own supply and demand settings; it is separate from ordinary item selling.",
+      "ko": "For PurchaseCountIncrease prices, steps = floor(purchaseCount / purchasesPerStep). Starting from basePrice, apply ceil(price × multiplierPerStep) + additivePerStep once per step, capped by maxPrice when configured. Commodity trading has its own supply and demand settings; it is separate from ordinary item selling.",
+      "ja": "For PurchaseCountIncrease prices, steps = floor(purchaseCount / purchasesPerStep). Starting from basePrice, apply ceil(price × multiplierPerStep) + additivePerStep once per step, capped by maxPrice when configured. Commodity trading has its own supply and demand settings; it is separate from ordinary item selling.",
+      "es": "For PurchaseCountIncrease prices, steps = floor(purchaseCount / purchasesPerStep). Starting from basePrice, apply ceil(price × multiplierPerStep) + additivePerStep once per step, capped by maxPrice when configured. Commodity trading has its own supply and demand settings; it is separate from ordinary item selling.",
+      "zh-Hans": "For PurchaseCountIncrease prices, steps = floor(purchaseCount / purchasesPerStep). Starting from basePrice, apply ceil(price × multiplierPerStep) + additivePerStep once per step, capped by maxPrice when configured. Commodity trading has its own supply and demand settings; it is separate from ordinary item selling.",
+      "zh-Hant": "For PurchaseCountIncrease prices, steps = floor(purchaseCount / purchasesPerStep). Starting from basePrice, apply ceil(price × multiplierPerStep) + additivePerStep once per step, capped by maxPrice when configured. Commodity trading has its own supply and demand settings; it is separate from ordinary item selling."
+    },
+    "image": null,
+    "data": {
+      "editorialLanguage": "en"
+    },
+    "relations": [],
+    "aliases": []
+  }
+]

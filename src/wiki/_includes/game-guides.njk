@@ -1,0 +1,3 @@
+{% if entry.contextualGuideIds.length %}
+<section id="game-guide"><h2>{{ ui.guides }}</h2>{% for guideId in entry.contextualGuideIds %}{% set gameGuide = guideId | entityById %}<details class="game-guide"><summary>{{ entry.title }}</summary><div class="data-grid">{{ gameGuide | dataHtml(lang) | safe }}</div></details>{% endfor %}</section>
+{% endif %}

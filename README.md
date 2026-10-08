@@ -1,12 +1,14 @@
 # Eary Studio
 
-Static, English-only official website: https://earystudio.github.io/
+Official English homepage: https://earystudio.github.io/
+Six-language Iris’s Idle Log wiki: https://earystudio.github.io/iris/wiki/
 
 Featured game: **Iris’s Idle Log**, Steam Full AppID **5062420**. Android package:
 `com.earystudio.irissidlelog`. Contact: earystudio@gmail.com.
 
-HTML, CSS, and a small callback script. No framework, build step, analytics,
-site cookies, remote fonts, embedded video, or service worker. The existing
+The homepage uses HTML, CSS, and a small callback script. Eleventy generates the
+wiki and preserves the original public paths. No analytics, site cookies, remote
+fonts, embedded video, or service worker. The existing
 [Press Kit](https://drive.google.com/drive/folders/1_2j7zdcYDuD3dST7jrg1R6I6BNgDSDdI?usp=drive_link)
 is linked, not recreated. External services load only when their links are followed.
 
@@ -66,9 +68,10 @@ The external existing game policy is bilingual and is labeled as the game’s po
 
 ## Asset sources
 
-Typography uses locally hosted **Pixelify Sans** (variable weights 400–700),
-from the [Google Fonts source repository](https://github.com/google/fonts/tree/main/ofl/pixelifysans).
-The original font and SIL Open Font License are included in `assets/fonts/`.
+Typography uses locally hosted **Silver**, the same pixel font used by the game,
+by [Poppy Works](https://poppyworks.itch.io/silver). WOFF2 files, attribution, source
+hashes and the game's CJK fallback font licenses are included in `assets/fonts/game/`.
+The earlier Pixelify Sans files remain available for historical pages.
 No third-party font request is made. `assets/icons/eary-studio-logo.png` is the
 unchanged official logo supplied by Eary (`Eary studio Logo large.png`) for the
 About section, displayed proportionally at 128×128. The earlier channel avatar
@@ -103,16 +106,17 @@ margins on each side. No artwork is reconstructed or repainted.
 
 ## Publication
 
-Publication requires a separately authorized push/settings change after preview
-review. Expected settings in this existing repository:
+Publish reviewed changes only with an authorized push. The first wiki publication
+and Pages source switch were authorized on 2026-10-08. Deployment configuration:
 
-- Settings → Pages → **Deploy from a branch**, **main**, **/(root)**.
+- Settings → Pages → **GitHub Actions**.
 - Custom domain blank; HTTPS enforced.
-- Preserve `.nojekyll`; no custom deployment workflow or Jekyll build is needed.
+- `.github/workflows/pages.yml` verifies and builds `main`, then deploys `_site`.
+- Preserve `.nojekyll`, authentication callbacks, config and `.well-known` files.
 
-The audit found a successful built-in Pages deployment from `main`, source `.`,
-and a live HTTPS homepage. A generated Pages run in Actions is normal. Verify
-settings before changing them. README and tests are public source documents.
+PRs run the same verification without deploying. A failed build leaves the previous
+deployment serving. Roll back by reverting the website change and redeploying
+through the same workflow. README and tests are public source documents.
 
 After deployment verify HTTP status, content type, and cache headers for `/`,
 `/config/iris.json`, and `/steam-auth/`; all images/styles; external links; a nested
@@ -358,6 +362,15 @@ Client approval and website association do not enable public Cross Save themselv
   the supported Android build for success/denial/cancel/replay/expiry,
   verification failures, unsupported browsers, and intact normal/GPGS gameplay.
 - Enable only after readiness testing and user approval.
+
+## Iris’s Idle Log wiki
+
+The six-language 0.56 wiki is generated with Eleventy. See
+[wiki maintenance](docs/wiki-maintenance.md) for export/import, validation, preview,
+publication review and rollback. Use Node.js 24 and `npm ci`, then `npm run verify`.
+The game repository remains separate; this repository commits only its approved
+public snapshot. Updates to `main` run verification and publish through GitHub
+Actions after the authorized first publication.
 
 ## Future custom domain
 

@@ -1,0 +1,640 @@
+[
+  {
+    "wikiId": "statistics:stat_action_total",
+    "gameId": "STAT_ACTION_TOTAL",
+    "kind": "statistics",
+    "slug": "stat_action_total",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Total Actions Performed",
+      "ko": "액션 총 수행 수",
+      "ja": "アクション総実行数",
+      "es": "Acciones totales",
+      "zh-Hans": "行动完成总次数",
+      "zh-Hant": "行動完成總次數"
+    },
+    "descriptions": {
+      "en": "Total number of life skill/action completions.",
+      "ko": "생활/액션 수행 합계",
+      "ja": "生活/アクション実行の合計",
+      "es": "Total acciones/habilidades completadas.",
+      "zh-Hans": "生活技能／行动的完成总次数。",
+      "zh-Hant": "生活技能／行動的完成總次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_ammo_total",
+    "gameId": "STAT_AMMO_TOTAL",
+    "kind": "statistics",
+    "slug": "stat_ammo_total",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Ammo Consumed",
+      "ko": "탄약 소모수",
+      "ja": "弾薬消費数",
+      "es": "Munición usada",
+      "zh-Hans": "弹药消耗量",
+      "zh-Hant": "彈藥消耗量"
+    },
+    "descriptions": {
+      "en": "Number of ammo items consumed.",
+      "ko": "탄약 아이템 소모 수",
+      "ja": "弾薬アイテムの消費数",
+      "es": "Munición consumida.",
+      "zh-Hans": "消耗弹药数量。",
+      "zh-Hant": "消耗彈藥數量。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_charm_total",
+    "gameId": "STAT_CHARM_TOTAL",
+    "kind": "statistics",
+    "slug": "stat_charm_total",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Charms Consumed",
+      "ko": "부적 소모량",
+      "ja": "お守り消費数",
+      "es": "Talismanes usados",
+      "zh-Hans": "护符消耗量",
+      "zh-Hant": "護符消耗量"
+    },
+    "descriptions": {
+      "en": "Number of charm items consumed.",
+      "ko": "부적 아이템 소모 수",
+      "ja": "お守りアイテムの消費数",
+      "es": "Talismanes consumidos.",
+      "zh-Hans": "消耗护符数量。",
+      "zh-Hant": "消耗護符數量。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_dungeon_clear",
+    "gameId": "STAT_DUNGEON_CLEAR",
+    "kind": "statistics",
+    "slug": "stat_dungeon_clear",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Dungeon Clears",
+      "ko": "던전 클리어",
+      "ja": "ダンジョンクリア",
+      "es": "Mazmorras",
+      "zh-Hans": "地下城通关次数",
+      "zh-Hant": "地下城通關次數"
+    },
+    "descriptions": {
+      "en": "Number of dungeon clears.",
+      "ko": "던전 클리어 횟수",
+      "ja": "ダンジョンのクリア回数",
+      "es": "Mazmorras completadas.",
+      "zh-Hans": "地下城通关次数。",
+      "zh-Hant": "地下城通關次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_food_total",
+    "gameId": "STAT_FOOD_TOTAL",
+    "kind": "statistics",
+    "slug": "stat_food_total",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Food Eaten",
+      "ko": "음식 먹은 횟수",
+      "ja": "食べ物を食べた回数",
+      "es": "Comida consumida",
+      "zh-Hans": "食物食用次数",
+      "zh-Hant": "食物食用次數"
+    },
+    "descriptions": {
+      "en": "Number of food items used.",
+      "ko": "음식 사용 횟수",
+      "ja": "食べ物の使用回数",
+      "es": "Objetos de comida usados.",
+      "zh-Hans": "食物使用次数。",
+      "zh-Hant": "食物使用次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_forest_clear",
+    "gameId": "STAT_FOREST_CLEAR",
+    "kind": "statistics",
+    "slug": "stat_forest_clear",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Forest Area Clears",
+      "ko": "숲 지역 클리어",
+      "ja": "森地域クリア",
+      "es": "Bosques",
+      "zh-Hans": "森林区域通关次数",
+      "zh-Hant": "森林區域通關次數"
+    },
+    "descriptions": {
+      "en": "Number of forest area clears.",
+      "ko": "숲 지역 클리어 횟수",
+      "ja": "森地域のクリア回数",
+      "es": "Bosques completados.",
+      "zh-Hans": "森林区域的通关次数。",
+      "zh-Hant": "森林區域的通關次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_item_kind_count",
+    "gameId": "STAT_ITEM_KIND_COUNT",
+    "kind": "statistics",
+    "slug": "stat_item_kind_count",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Obtained Item Kinds",
+      "ko": "획득한 아이템 가짓수",
+      "ja": "獲得アイテム種類数",
+      "es": "Tipos de objeto",
+      "zh-Hans": "已获得物品种类",
+      "zh-Hant": "已取得物品種類"
+    },
+    "descriptions": {
+      "en": "Obtained item kinds / total item kinds.",
+      "ko": "획득한 아이템 가짓수 / 전체 아이템 가짓수",
+      "ja": "獲得したアイテム種類数 / 全アイテム種類数",
+      "es": "Tipos obtenidos / total.",
+      "zh-Hans": "已获得物品种类／物品总种类。",
+      "zh-Hant": "已取得物品種類／物品總種類。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_lifetime_playtime",
+    "gameId": "STAT_LIFETIME_PLAYTIME",
+    "kind": "statistics",
+    "slug": "stat_lifetime_playtime",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Lifetime Playtime",
+      "ko": "누적 접속시간",
+      "ja": "累積プレイ時間",
+      "es": "Tiempo total",
+      "zh-Hans": "累计游玩时间",
+      "zh-Hant": "累計遊玩時間"
+    },
+    "descriptions": {
+      "en": "Total play time since this save first started.",
+      "ko": "게임을 처음 시작한 뒤 누적된 전체 플레이 시간",
+      "ja": "このセーブを開始してからの累積プレイ時間",
+      "es": "Tiempo jugado desde crear este guardado.",
+      "zh-Hans": "从建立此存档起累计的游玩时间。",
+      "zh-Hant": "自建立此存檔起累計的遊玩時間。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_mine_clear",
+    "gameId": "STAT_MINE_CLEAR",
+    "kind": "statistics",
+    "slug": "stat_mine_clear",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Mining Area Clears",
+      "ko": "채광 지역 클리어",
+      "ja": "採掘地域クリア",
+      "es": "Áreas mineras",
+      "zh-Hans": "采矿区域通关次数",
+      "zh-Hant": "採礦區域通關次數"
+    },
+    "descriptions": {
+      "en": "Number of mining area clears.",
+      "ko": "채광 지역 클리어 횟수",
+      "ja": "採掘地域のクリア回数",
+      "es": "Áreas mineras completadas.",
+      "zh-Hans": "采矿区域的通关次数。",
+      "zh-Hant": "採礦區域的通關次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_monster_kill_total",
+    "gameId": "STAT_MONSTER_KILL_TOTAL",
+    "kind": "statistics",
+    "slug": "stat_monster_kill_total",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Monsters Defeated",
+      "ko": "몬스터 처치수",
+      "ja": "モンスター討伐数",
+      "es": "Monstruos derrotados",
+      "zh-Hans": "已击败怪物",
+      "zh-Hant": "已擊敗怪物"
+    },
+    "descriptions": {
+      "en": "Total number of monsters defeated.",
+      "ko": "전체 몬스터 처치 수",
+      "ja": "倒したモンスターの合計数",
+      "es": "Monstruos derrotados en total.",
+      "zh-Hans": "击败怪物总数。",
+      "zh-Hant": "擊敗怪物總數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_normal_clear",
+    "gameId": "STAT_NORMAL_CLEAR",
+    "kind": "statistics",
+    "slug": "stat_normal_clear",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Normal Area Clears",
+      "ko": "일반 지역 클리어",
+      "ja": "通常地域クリア",
+      "es": "Áreas normales",
+      "zh-Hans": "普通区域通关次数",
+      "zh-Hant": "普通區域通關次數"
+    },
+    "descriptions": {
+      "en": "Number of normal area clears.",
+      "ko": "일반 지역 클리어 횟수",
+      "ja": "通常地域のクリア回数",
+      "es": "Completados de áreas normales.",
+      "zh-Hans": "普通区域的通关次数。",
+      "zh-Hant": "普通區域的通關次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_potion_total",
+    "gameId": "STAT_POTION_TOTAL",
+    "kind": "statistics",
+    "slug": "stat_potion_total",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Potions Drunk",
+      "ko": "포션 마신 횟수",
+      "ja": "ポーションを飲んだ回数",
+      "es": "Pociones bebidas",
+      "zh-Hans": "药水饮用次数",
+      "zh-Hant": "藥水飲用次數"
+    },
+    "descriptions": {
+      "en": "Number of potions activated.",
+      "ko": "포션 발동 횟수",
+      "ja": "ポーションの発動回数",
+      "es": "Pociones activadas.",
+      "zh-Hans": "药水使用次数。",
+      "zh-Hant": "藥水使用次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_sea_clear",
+    "gameId": "STAT_SEA_CLEAR",
+    "kind": "statistics",
+    "slug": "stat_sea_clear",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Sea Area Clears",
+      "ko": "바다 지역 클리어",
+      "ja": "海地域クリア",
+      "es": "Áreas marinas",
+      "zh-Hans": "海洋区域通关次数",
+      "zh-Hant": "海洋區域通關次數"
+    },
+    "descriptions": {
+      "en": "Number of sea area clears.",
+      "ko": "바다 지역 클리어 횟수",
+      "ja": "海地域のクリア回数",
+      "es": "Áreas marinas completadas.",
+      "zh-Hans": "海洋区域的通关次数。",
+      "zh-Hant": "海洋區域的通關次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_skill_level_total",
+    "gameId": "STAT_SKILL_LEVEL_TOTAL",
+    "kind": "statistics",
+    "slug": "stat_skill_level_total",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Total Skill Level",
+      "ko": "스킬 레벨 합계",
+      "ja": "スキルレベル合計",
+      "es": "Nivel total",
+      "zh-Hans": "技能总等级",
+      "zh-Hant": "技能總等級"
+    },
+    "descriptions": {
+      "en": "Sum of current skill levels.",
+      "ko": "현재 스킬 레벨의 합계",
+      "ja": "現在のスキルレベルの合計",
+      "es": "Suma de niveles actuales.",
+      "zh-Hans": "当前所有技能等级的总和。",
+      "zh-Hant": "目前所有技能等級的總和。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_top_action",
+    "gameId": "STAT_TOP_ACTION",
+    "kind": "statistics",
+    "slug": "stat_top_action",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Most Performed Action",
+      "ko": "가장 많이 수행한 액션",
+      "ja": "最も多く実行したアクション",
+      "es": "Acción más usada",
+      "zh-Hans": "最常用动作",
+      "zh-Hant": "最常用動作"
+    },
+    "descriptions": {
+      "en": "Highest completion count among actions.",
+      "ko": "액션별 수행 수 중 최고 기록",
+      "ja": "アクション別実行数の最高記録",
+      "es": "Máx. completados por acción.",
+      "zh-Hans": "单个行动中的最高完成次数。",
+      "zh-Hant": "單一行動中的最高完成次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_top_ammo",
+    "gameId": "STAT_TOP_AMMO",
+    "kind": "statistics",
+    "slug": "stat_top_ammo",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Most Used Ammo",
+      "ko": "가장 많이 쓴 탄약",
+      "ja": "最も多く使った弾薬",
+      "es": "Munición más usada",
+      "zh-Hans": "最常用的弹药",
+      "zh-Hant": "最常用的彈藥"
+    },
+    "descriptions": {
+      "en": "Highest consumption count among ammo items.",
+      "ko": "탄약별 소모 수 중 최고 기록",
+      "ja": "弾薬別消費数の最高記録",
+      "es": "Mayor consumo entre munición.",
+      "zh-Hans": "单种弹药中的最高消耗次数。",
+      "zh-Hant": "單種彈藥中的最高消耗次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_top_area_clear",
+    "gameId": "STAT_TOP_AREA_CLEAR",
+    "kind": "statistics",
+    "slug": "stat_top_area_clear",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Most Cleared Area",
+      "ko": "가장 많이 클리어한 지역",
+      "ja": "最も多くクリアした地域",
+      "es": "Área más repetida",
+      "zh-Hans": "通关次数最多的区域",
+      "zh-Hant": "通關次數最多的區域"
+    },
+    "descriptions": {
+      "en": "Highest clear count among individual areas.",
+      "ko": "지역별 클리어 횟수 중 최고 기록",
+      "ja": "地域別クリア回数の最高記録",
+      "es": "Máx. completados por área.",
+      "zh-Hans": "单个区域中的最高通关次数。",
+      "zh-Hant": "單一區域中的最高通關次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_top_charm",
+    "gameId": "STAT_TOP_CHARM",
+    "kind": "statistics",
+    "slug": "stat_top_charm",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Most Used Charm",
+      "ko": "가장 많이 쓴 부적",
+      "ja": "最も多く使ったお守り",
+      "es": "Talismán más usado",
+      "zh-Hans": "最常用的护符",
+      "zh-Hant": "最常用的護符"
+    },
+    "descriptions": {
+      "en": "Highest consumption count among charms.",
+      "ko": "부적별 소모 수 중 최고 기록",
+      "ja": "お守り別消費数の最高記録",
+      "es": "Mayor consumo entre talismanes.",
+      "zh-Hans": "单种护符中的最高消耗次数。",
+      "zh-Hant": "單種護符中的最高消耗次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_top_food",
+    "gameId": "STAT_TOP_FOOD",
+    "kind": "statistics",
+    "slug": "stat_top_food",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Most Eaten Food",
+      "ko": "가장 많이 먹은 음식",
+      "ja": "最も多く食べた食べ物",
+      "es": "Comida más usada",
+      "zh-Hans": "最常吃的食物",
+      "zh-Hant": "最常吃的食物"
+    },
+    "descriptions": {
+      "en": "Highest use count among food items.",
+      "ko": "음식별 사용 횟수 중 최고 기록",
+      "ja": "食べ物別使用回数の最高記録",
+      "es": "Mayor uso entre comidas.",
+      "zh-Hans": "单种食物中的最高使用次数。",
+      "zh-Hant": "單種食物中的最高使用次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_top_monster_kill",
+    "gameId": "STAT_TOP_MONSTER_KILL",
+    "kind": "statistics",
+    "slug": "stat_top_monster_kill",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Most Defeated Monster",
+      "ko": "가장 많이 처치한 몬스터",
+      "ja": "最も多く倒したモンスター",
+      "es": "Monstruo más derrotado",
+      "zh-Hans": "击败次数最多的怪物",
+      "zh-Hant": "擊敗次數最多的怪物"
+    },
+    "descriptions": {
+      "en": "Highest defeat count among monsters.",
+      "ko": "몬스터별 처치 수 중 최고 기록",
+      "ja": "モンスター別討伐数の最高記録",
+      "es": "Máx. derrotas por monstruo.",
+      "zh-Hans": "单个怪物中的最高击败次数。",
+      "zh-Hant": "單一怪物中的最高擊敗次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_top_potion",
+    "gameId": "STAT_TOP_POTION",
+    "kind": "statistics",
+    "slug": "stat_top_potion",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Most Drunk Potion",
+      "ko": "가장 많이 마신 포션",
+      "ja": "最も多く飲んだポーション",
+      "es": "Poción más usada",
+      "zh-Hans": "饮用最多的药水",
+      "zh-Hant": "飲用最多的藥水"
+    },
+    "descriptions": {
+      "en": "Highest activation count among potions.",
+      "ko": "포션별 사용 횟수 중 최고 기록",
+      "ja": "ポーション別発動回数の最高記録",
+      "es": "Mayor activación entre pociones.",
+      "zh-Hans": "单种药水中的最高使用次数。",
+      "zh-Hant": "單種藥水中的最高使用次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "statistics:stat_top_skill_action",
+    "gameId": "STAT_TOP_SKILL_ACTION",
+    "kind": "statistics",
+    "slug": "stat_top_skill_action",
+    "type": "StatisticDescription",
+    "names": {
+      "en": "Most Performed Skill",
+      "ko": "가장 많이 수행한 스킬",
+      "ja": "最も多く実行したスキル",
+      "es": "Habilidad más usada",
+      "zh-Hans": "最常用技能",
+      "zh-Hant": "最常用技能"
+    },
+    "descriptions": {
+      "en": "Highest action completion count among skills.",
+      "ko": "스킬별 액션 수행 수 중 최고 기록",
+      "ja": "スキル別アクション実行数の最高記録",
+      "es": "Máx. acciones por habilidad.",
+      "zh-Hans": "单个技能中的最高行动完成次数。",
+      "zh-Hant": "單一技能中的最高行動完成次數。"
+    },
+    "image": null,
+    "data": {
+      "scope": "Save lifetime; no personal values are exported."
+    },
+    "relations": [],
+    "aliases": []
+  }
+]

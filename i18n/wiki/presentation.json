@@ -1,0 +1,2498 @@
+{
+  "overview": [
+    "Overview",
+    "개요",
+    "概要",
+    "Resumen",
+    "概览",
+    "概覽"
+  ],
+  "submitted": [
+    "items submitted",
+    "종 제출 보상",
+    "種類の提出報酬",
+    "objetos entregados",
+    "种提交奖励",
+    "種提交獎勵"
+  ],
+  "tower": [
+    "Tower",
+    "시련의 탑",
+    "試練の塔",
+    "Torre",
+    "试炼之塔",
+    "試煉之塔"
+  ],
+  "maze": [
+    "Maze",
+    "미궁",
+    "迷宮",
+    "Laberinto",
+    "迷宫",
+    "迷宮"
+  ],
+  "milestones": [
+    "Milestone rewards",
+    "단계별 보상",
+    "段階報酬",
+    "Recompensas por hitos",
+    "阶段奖励",
+    "階段獎勵"
+  ],
+  "details": [
+    "Details",
+    "상세 정보",
+    "詳細",
+    "Detalles",
+    "详细信息",
+    "詳細資訊"
+  ],
+  "page": [
+    "Page",
+    "페이지",
+    "ページ",
+    "Página",
+    "页",
+    "頁"
+  ],
+  "defaultOrder": [
+    "Default order",
+    "기본 순서",
+    "標準順",
+    "Orden predeterminado",
+    "默认排序",
+    "預設排序"
+  ],
+  "filterScope": [
+    "Filters search every page.",
+    "필터는 모든 페이지에서 검색합니다.",
+    "全ページを対象に絞り込みます。",
+    "Los filtros buscan en todas las páginas.",
+    "筛选范围为所有页面。",
+    "篩選範圍為所有頁面。"
+  ],
+  "previousVersions": [
+    "Other versions",
+    "다른 버전",
+    "他のバージョン",
+    "Otras versiones",
+    "其他版本",
+    "其他版本"
+  ],
+  "relatedLocations": [
+    "Locations and rewards",
+    "출현 지역과 보상",
+    "出現地域と報酬",
+    "Zonas y recompensas",
+    "出现区域与奖励",
+    "出現區域與獎勵"
+  ],
+  "relatedSkills": [
+    "Related actions and equipment",
+    "관련 액션과 장비",
+    "関連アクションと装備",
+    "Acciones y equipo relacionados",
+    "相关行动与装备",
+    "相關行動與裝備"
+  ],
+  "relatedEffects": [
+    "Related equipment and effects",
+    "관련 장비와 효과",
+    "関連装備と効果",
+    "Equipo y efectos relacionados",
+    "相关装备与效果",
+    "相關裝備與效果"
+  ],
+  "definition": [
+    "What is counted",
+    "집계 기준",
+    "集計基準",
+    "Criterio de recuento",
+    "统计规则",
+    "統計規則"
+  ],
+  "lifetime": [
+    "Cumulative for the current save.",
+    "현재 저장 데이터에서 누적 집계합니다.",
+    "現在のセーブデータで累計されます。",
+    "Se acumula en la partida guardada actual.",
+    "在当前存档中累计统计。",
+    "在目前存檔中累計統計。"
+  ],
+  "effectivePrice": [
+    "Purchase price",
+    "구매 가격",
+    "購入価格",
+    "Precio de compra",
+    "购买价格",
+    "購買價格"
+  ],
+  "priceRules": [
+    "Price changes",
+    "가격 변동 규칙",
+    "価格変動",
+    "Cambios de precio",
+    "价格变化规则",
+    "價格變動規則"
+  ],
+  "normalEncounter": [
+    "Normal encounter",
+    "일반 조우",
+    "通常の遭遇",
+    "Encuentro normal",
+    "普通遭遇",
+    "一般遭遇"
+  ],
+  "areaClear": [
+    "Area clear",
+    "지역 클리어",
+    "地域クリア",
+    "Zona completada",
+    "区域通关",
+    "區域通關"
+  ],
+  "resourceLevel": [
+    "Gathering level",
+    "채집 레벨",
+    "採集レベル",
+    "Nivel de recolección",
+    "采集等级",
+    "採集等級"
+  ],
+  "distinctContexts": [
+    "Separate reward entries; not a guaranteed quantity.",
+    "서로 다른 보상 항목이며 확정 수량이 아닙니다.",
+    "別々の報酬枠です。確定数量ではありません。",
+    "Entradas de recompensa distintas; no es una cantidad garantizada.",
+    "不同奖励条目，并非保底数量。",
+    "不同獎勵項目，並非保證數量。"
+  ],
+  "start": [
+    "Start",
+    "시작",
+    "開始",
+    "Inicio",
+    "开始",
+    "開始"
+  ],
+  "production": [
+    "Production",
+    "생산",
+    "生産",
+    "Producción",
+    "生产",
+    "生產"
+  ],
+  "harvest": [
+    "Harvest",
+    "수확",
+    "収穫",
+    "Cosecha",
+    "收获",
+    "收穫"
+  ],
+  "perAction": [
+    "Per eligible action",
+    "해당 액션 수행 시",
+    "対象アクションの実行時",
+    "Por acción válida",
+    "执行对应行动时",
+    "執行對應行動時"
+  ],
+  "perAttack": [
+    "Per eligible combat attack",
+    "해당 전투 공격 시",
+    "対象の戦闘攻撃時",
+    "Por ataque válido",
+    "进行对应战斗攻击时",
+    "進行對應戰鬥攻擊時"
+  ],
+  "perObjective": [
+    "On completing a non-main objective",
+    "메인 외 목표 완료 시",
+    "メイン以外の目標達成時",
+    "Al completar un objetivo no principal",
+    "完成非主线目标时",
+    "完成非主線目標時"
+  ],
+  "skillExp": [
+    "Skill experience",
+    "스킬 경험치",
+    "スキル経験値",
+    "Experiencia de habilidad",
+    "技能经验",
+    "技能經驗"
+  ],
+  "mainHandAttackKind": [
+    "Attack type",
+    "공격 유형",
+    "攻撃タイプ",
+    "Tipo de ataque",
+    "攻击类型",
+    "攻擊類型"
+  ],
+  "multiplierAt99": [
+    "Multiplier at +99",
+    "+99 강화 시 배율",
+    "強化+99の倍率",
+    "Multiplicador a +99",
+    "强化+99时倍率",
+    "強化+99時倍率"
+  ],
+  "enchantScaleRules": [
+    "Equipment enhancement",
+    "장비 강화",
+    "装備強化",
+    "Mejora de equipo",
+    "装备强化",
+    "裝備強化"
+  ],
+  "enchantIdleSkillBonusScaleRules": [
+    "Skill bonus enhancement",
+    "생활 보너스 강화",
+    "生活ボーナス強化",
+    "Mejora de bonificaciones",
+    "生活加成强化",
+    "生活加成強化"
+  ],
+  "bonusType": [
+    "Bonus",
+    "보너스 종류",
+    "ボーナス",
+    "Bonificación",
+    "加成类型",
+    "加成類型"
+  ],
+  "percent": [
+    "Bonus",
+    "보너스",
+    "ボーナス",
+    "Bonificación",
+    "加成",
+    "加成"
+  ],
+  "availability": [
+    "Content type",
+    "콘텐츠 유형",
+    "コンテンツ種別",
+    "Tipo de contenido",
+    "内容类型",
+    "內容類型"
+  ],
+  "entryConsumeCount": [
+    "Entry cost quantity",
+    "입장 소모 수량",
+    "入場消費数",
+    "Cantidad de entrada",
+    "入场消耗数量",
+    "入場消耗數量"
+  ],
+  "clearTargetDistance": [
+    "Clear distance",
+    "클리어 거리",
+    "クリア距離",
+    "Distancia de finalización",
+    "通关距离",
+    "通關距離"
+  ],
+  "canEscape": [
+    "Can escape",
+    "탈출 가능",
+    "脱出可能",
+    "Se puede escapar",
+    "可否逃离",
+    "可否逃離"
+  ],
+  "target": [
+    "Target",
+    "대상",
+    "対象",
+    "Objetivo",
+    "目标",
+    "目標"
+  ],
+  "modifiers": [
+    "Stat effects",
+    "능력치 효과",
+    "能力値効果",
+    "Efectos de atributos",
+    "属性效果",
+    "屬性效果"
+  ],
+  "unlockedByDefault": [
+    "Initially unlocked",
+    "처음부터 해금",
+    "初期解放",
+    "Desbloqueada al inicio",
+    "初始解锁",
+    "初始解鎖"
+  ],
+  "baseSpeedMultiplier": [
+    "Base speed multiplier",
+    "기본 속도 배율",
+    "基本速度倍率",
+    "Multiplicador de velocidad base",
+    "基础速度倍率",
+    "基礎速度倍率"
+  ],
+  "baseXpMultiplier": [
+    "Base experience multiplier",
+    "기본 경험치 배율",
+    "基本経験値倍率",
+    "Multiplicador de experiencia base",
+    "基础经验倍率",
+    "基礎經驗倍率"
+  ],
+  "goldReward": [
+    "Gold reward",
+    "골드 보상",
+    "ゴールド報酬",
+    "Recompensa de oro",
+    "金币奖励",
+    "金幣獎勵"
+  ],
+  "skillSpeedMultiplier": [
+    "Skill speed multiplier",
+    "스킬 속도 배율",
+    "スキル速度倍率",
+    "Multiplicador de velocidad",
+    "技能速度倍率",
+    "技能速度倍率"
+  ],
+  "skillXpMultiplier": [
+    "Skill experience multiplier",
+    "스킬 경험치 배율",
+    "スキル経験値倍率",
+    "Multiplicador de experiencia",
+    "技能经验倍率",
+    "技能經驗倍率"
+  ],
+  "rankStatBonuses": [
+    "Stat bonus by rank",
+    "등급별 능력치 보너스",
+    "ランク別能力値ボーナス",
+    "Atributos por rango",
+    "各品阶属性加成",
+    "各品階屬性加成"
+  ],
+  "rankSkillSpeedBonuses": [
+    "Skill speed by rank",
+    "등급별 스킬 속도",
+    "ランク別スキル速度",
+    "Velocidad por rango",
+    "各品阶技能速度",
+    "各品階技能速度"
+  ],
+  "consecutiveBuffByRank": [
+    "Consecutive action bonus",
+    "연속 수행 보너스",
+    "連続実行ボーナス",
+    "Bonificación consecutiva",
+    "连续行动加成",
+    "連續行動加成"
+  ],
+  "bonuses": [
+    "Bonuses",
+    "보너스",
+    "ボーナス",
+    "Bonificaciones",
+    "加成",
+    "加成"
+  ],
+  "speedPercent": [
+    "Action speed",
+    "액션 속도",
+    "アクション速度",
+    "Velocidad de acción",
+    "行动速度",
+    "行動速度"
+  ],
+  "runMode": [
+    "Production mode",
+    "생산 방식",
+    "生産方式",
+    "Modo de producción",
+    "生产方式",
+    "生產方式"
+  ],
+  "consumeMode": [
+    "Material consumption",
+    "재료 소모 시점",
+    "素材消費のタイミング",
+    "Consumo de materiales",
+    "材料消耗时机",
+    "材料消耗時機"
+  ],
+  "maxStoredOutputCount": [
+    "Storage limit",
+    "보관 한도",
+    "保管上限",
+    "Límite de almacenamiento",
+    "储存上限",
+    "儲存上限"
+  ],
+  "xpMultiplier": [
+    "Experience multiplier",
+    "경험치 배율",
+    "経験値倍率",
+    "Multiplicador de experiencia",
+    "经验倍率",
+    "經驗倍率"
+  ],
+  "storageCapOverride": [
+    "Slot storage limit",
+    "슬롯 보관 한도",
+    "スロット保管上限",
+    "Límite de la ranura",
+    "槽位储存上限",
+    "欄位儲存上限"
+  ],
+  "unlockRequiredSkillLevel": [
+    "Unlock level",
+    "해금 레벨",
+    "解放レベル",
+    "Nivel de desbloqueo",
+    "解锁等级",
+    "解鎖等級"
+  ],
+  "unlockGoldCost": [
+    "Unlock cost (gold)",
+    "해금 비용 (골드)",
+    "解放費用（ゴールド）",
+    "Coste de desbloqueo (oro)",
+    "解锁费用（金币）",
+    "解鎖費用（金幣）"
+  ],
+  "unlockedWithFamiliarTrainingSkill": [
+    "Unlocked with Familiar Training",
+    "소환수 훈련과 함께 해금",
+    "召喚獣訓練と同時に解放",
+    "Se desbloquea con el entrenamiento de invocaciones",
+    "随召唤兽训练解锁",
+    "隨召喚獸訓練解鎖"
+  ],
+  "idleUnlockChance01": [
+    "Chance per eligible action",
+    "해당 액션의 기본 획득 확률",
+    "対象アクションの基本獲得確率",
+    "Probabilidad base por acción válida",
+    "对应行动的基础获得概率",
+    "對應行動的基礎獲得機率"
+  ],
+  "combatUnlockChance01": [
+    "Chance per eligible attack",
+    "해당 공격의 기본 획득 확률",
+    "対象攻撃の基本獲得確率",
+    "Probabilidad base por ataque válido",
+    "对应攻击的基础获得概率",
+    "對應攻擊的基礎獲得機率"
+  ],
+  "objectiveUnlockChance01": [
+    "Chance per non-main objective",
+    "메인 외 목표의 기본 획득 확률",
+    "メイン以外の目標の基本獲得確率",
+    "Probabilidad base por objetivo no principal",
+    "非主线目标的基础获得概率",
+    "非主線目標的基礎獲得機率"
+  ],
+  "effectType": [
+    "Effect",
+    "효과",
+    "効果",
+    "Efecto",
+    "效果",
+    "效果"
+  ],
+  "targetCombatAttackType": [
+    "Affected attack type",
+    "효과 적용 공격",
+    "効果対象の攻撃",
+    "Tipo de ataque afectado",
+    "生效的攻击类型",
+    "生效的攻擊類型"
+  ],
+  "unlockCombatAttackType": [
+    "Unlock attack type",
+    "획득 조건 공격",
+    "獲得条件の攻撃",
+    "Ataque para desbloquear",
+    "获得所需攻击类型",
+    "獲得所需攻擊類型"
+  ],
+  "amountPercent": [
+    "Effect amount",
+    "효과 수치",
+    "効果量",
+    "Magnitud del efecto",
+    "效果数值",
+    "效果數值"
+  ],
+  "targetInsight": [
+    "Target awareness",
+    "대상의 통찰력",
+    "対象の洞察力",
+    "Percepción del objetivo",
+    "目标洞察力",
+    "目標洞察力"
+  ],
+  "levels": [
+    "Level effects",
+    "레벨별 효과",
+    "レベル別効果",
+    "Efectos por nivel",
+    "各等级效果",
+    "各等級效果"
+  ],
+  "durationSeconds": [
+    "Duration",
+    "지속 시간",
+    "持続時間",
+    "Duración",
+    "持续时间",
+    "持續時間"
+  ],
+  "cooldownSeconds": [
+    "Cooldown",
+    "재사용 대기시간",
+    "クールダウン",
+    "Tiempo de reutilización",
+    "冷却时间",
+    "冷卻時間"
+  ],
+  "immunityDuringAction": [
+    "Immunity",
+    "행동 중 면역",
+    "行動中の免疫",
+    "Inmunidad",
+    "行动期间免疫",
+    "行動期間免疫"
+  ],
+  "moveDistance": [
+    "Movement distance",
+    "이동 거리",
+    "移動距離",
+    "Distancia de movimiento",
+    "移动距离",
+    "移動距離"
+  ],
+  "instantHealAmount": [
+    "Immediate healing",
+    "즉시 회복량",
+    "即時回復量",
+    "Curación inmediata",
+    "即时恢复量",
+    "即時恢復量"
+  ],
+  "buffDurationSeconds": [
+    "Buff duration",
+    "버프 지속 시간",
+    "バフ持続時間",
+    "Duración de la mejora",
+    "增益持续时间",
+    "增益持續時間"
+  ],
+  "traitB": [
+    "Alternate trait",
+    "대체 특성",
+    "別の特性",
+    "Rasgo alternativo",
+    "替代特性",
+    "替代特性"
+  ],
+  "chargedAttackMultiplier": [
+    "Charged attack multiplier",
+    "모으기 공격 배율",
+    "チャージ攻撃倍率",
+    "Multiplicador de ataque cargado",
+    "蓄力攻击倍率",
+    "蓄力攻擊倍率"
+  ],
+  "chargeSeconds": [
+    "Charge time",
+    "모으기 시간",
+    "チャージ時間",
+    "Tiempo de carga",
+    "蓄力时间",
+    "蓄力時間"
+  ],
+  "afterimageSpeedPercent": [
+    "Afterimage speed",
+    "잔상 속도",
+    "残像速度",
+    "Velocidad de imagen residual",
+    "残影速度",
+    "殘影速度"
+  ],
+  "afterimageSeconds": [
+    "Afterimage duration",
+    "잔상 지속 시간",
+    "残像持続時間",
+    "Duración de imagen residual",
+    "残影持续时间",
+    "殘影持續時間"
+  ],
+  "maximumEffectivePercent": [
+    "Effective upper limit",
+    "적용 상한",
+    "有効上限",
+    "Límite efectivo superior",
+    "生效上限",
+    "生效上限"
+  ],
+  "minimumEffectiveSeconds": [
+    "Minimum interval",
+    "최소 적용 주기",
+    "最小有効間隔",
+    "Intervalo mínimo",
+    "最小生效间隔",
+    "最小生效間隔"
+  ],
+  "conditionType": [
+    "Condition",
+    "조건",
+    "条件",
+    "Condición",
+    "条件",
+    "條件"
+  ],
+  "targetCount": [
+    "Required count",
+    "목표 수량",
+    "必要数",
+    "Cantidad requerida",
+    "目标数量",
+    "目標數量"
+  ],
+  "rewardType": [
+    "Reward type",
+    "보상 종류",
+    "報酬種別",
+    "Tipo de recompensa",
+    "奖励类型",
+    "獎勵類型"
+  ],
+  "unlockKind": [
+    "Unlocks",
+    "해금 항목",
+    "解放項目",
+    "Desbloquea",
+    "解锁项目",
+    "解鎖項目"
+  ],
+  "generalReveal": [
+    "Appearance requirements",
+    "등장 조건",
+    "出現条件",
+    "Requisitos de aparición",
+    "出现条件",
+    "出現條件"
+  ],
+  "dailyReveal": [
+    "Daily appearance requirements",
+    "일일 목표 등장 조건",
+    "デイリー目標の出現条件",
+    "Requisitos de objetivos diarios",
+    "每日目标出现条件",
+    "每日目標出現條件"
+  ],
+  "revealConditionType": [
+    "Appearance condition",
+    "등장 조건 종류",
+    "出現条件の種類",
+    "Condición de aparición",
+    "出现条件类型",
+    "出現條件類型"
+  ],
+  "minCount": [
+    "Minimum",
+    "최솟값",
+    "最小値",
+    "Mínimo",
+    "最小值",
+    "最小值"
+  ],
+  "maxCount": [
+    "Maximum",
+    "최댓값",
+    "最大値",
+    "Máximo",
+    "最大值",
+    "最大值"
+  ],
+  "additionalAndConditions": [
+    "Additional requirements",
+    "추가 충족 조건",
+    "追加条件",
+    "Requisitos adicionales",
+    "附加条件",
+    "附加條件"
+  ],
+  "comparison": [
+    "Comparison",
+    "비교 조건",
+    "比較条件",
+    "Comparación",
+    "比较条件",
+    "比較條件"
+  ],
+  "targetValue": [
+    "Target value",
+    "목표 값",
+    "目標値",
+    "Valor objetivo",
+    "目标值",
+    "目標值"
+  ],
+  "targetFloatValue": [
+    "Target value",
+    "목표 값",
+    "目標値",
+    "Valor objetivo",
+    "目标值",
+    "目標值"
+  ],
+  "areaAttribute": [
+    "Area type",
+    "지역 유형",
+    "地域種別",
+    "Tipo de zona",
+    "区域类型",
+    "區域類型"
+  ],
+  "dailyOfferCount": [
+    "Daily offers",
+    "일일 판매 상품 수",
+    "日替わり商品数",
+    "Ofertas diarias",
+    "每日商品数",
+    "每日商品數"
+  ],
+  "dailyRefreshHourLocal": [
+    "Daily refresh (local time)",
+    "일일 갱신 (현지 시각)",
+    "毎日の更新（現地時刻）",
+    "Renovación diaria (hora local)",
+    "每日刷新（本地时间）",
+    "每日刷新（當地時間）"
+  ],
+  "ducarinPool": [
+    "Rotation group",
+    "순환 판매 그룹",
+    "ローテーション区分",
+    "Grupo de rotación",
+    "轮换组",
+    "輪換組"
+  ],
+  "basePrice": [
+    "Base price",
+    "기본 가격",
+    "基本価格",
+    "Precio base",
+    "基础价格",
+    "基礎價格"
+  ],
+  "purchasesPerStep": [
+    "Purchases per price step",
+    "가격 변경까지 구매 횟수",
+    "価格変動ごとの購入回数",
+    "Compras por cambio de precio",
+    "每次价格变化所需购买次数",
+    "每次價格變化所需購買次數"
+  ],
+  "multiplierPerStep": [
+    "Multiplier per step",
+    "단계별 가격 배율",
+    "段階ごとの価格倍率",
+    "Multiplicador por paso",
+    "每阶段价格倍率",
+    "每階段價格倍率"
+  ],
+  "additivePerStep": [
+    "Increase per step",
+    "단계별 가격 증가",
+    "段階ごとの価格増加",
+    "Aumento por paso",
+    "每阶段价格增加",
+    "每階段價格增加"
+  ],
+  "maxPrice": [
+    "Price cap",
+    "가격 상한",
+    "価格上限",
+    "Precio máximo",
+    "价格上限",
+    "價格上限"
+  ],
+  "requiredEnduranceLevel": [
+    "Required endurance level",
+    "필요 지구력 레벨",
+    "必要な持久力レベル",
+    "Nivel de resistencia requerido",
+    "所需耐力等级",
+    "所需耐力等級"
+  ],
+  "dailyResetHourLocal": [
+    "Daily reset (local time)",
+    "일일 초기화 (현지 시각)",
+    "毎日のリセット（現地時刻）",
+    "Reinicio diario (hora local)",
+    "每日重置（本地时间）",
+    "每日重置（當地時間）"
+  ],
+  "towerDailyLimit": [
+    "Daily tower entries",
+    "시련의 탑 일일 입장 횟수",
+    "試練の塔の一日入場回数",
+    "Entradas diarias a la torre",
+    "试炼之塔每日进入次数",
+    "試煉之塔每日進入次數"
+  ],
+  "mazeDailyLimit": [
+    "Daily maze entries",
+    "미궁 일일 입장 횟수",
+    "迷宮の一日入場回数",
+    "Entradas diarias al laberinto",
+    "迷宫每日进入次数",
+    "迷宮每日進入次數"
+  ],
+  "floor": [
+    "Floor",
+    "층",
+    "階",
+    "Piso",
+    "层",
+    "層"
+  ],
+  "difficulty": [
+    "Difficulty",
+    "난이도",
+    "難易度",
+    "Dificultad",
+    "难度",
+    "難度"
+  ],
+  "fixedItems": [
+    "Fixed item rewards",
+    "고정 아이템 보상",
+    "固定アイテム報酬",
+    "Objetos fijos de recompensa",
+    "固定物品奖励",
+    "固定物品獎勵"
+  ],
+  "currencies": [
+    "Currency rewards",
+    "재화 보상",
+    "通貨報酬",
+    "Recompensas de moneda",
+    "货币奖励",
+    "貨幣獎勵"
+  ],
+  "currency": [
+    "Currency",
+    "통화",
+    "通貨",
+    "Moneda",
+    "货币",
+    "貨幣"
+  ],
+  "chancePercent": [
+    "Activation chance",
+    "발동 확률",
+    "発動確率",
+    "Probabilidad de activación",
+    "触发概率",
+    "觸發機率"
+  ],
+  "attackKind": [
+    "Attack type",
+    "공격 유형",
+    "攻撃タイプ",
+    "Tipo de ataque",
+    "攻击类型",
+    "攻擊類型"
+  ],
+  "attackIntervalOverride": [
+    "Attack interval",
+    "공격 주기",
+    "攻撃間隔",
+    "Intervalo de ataque",
+    "攻击间隔",
+    "攻擊間隔"
+  ],
+  "attackRangeOverride": [
+    "Attack range",
+    "공격 범위",
+    "攻撃範囲",
+    "Alcance de ataque",
+    "攻击范围",
+    "攻擊範圍"
+  ],
+  "selectionWeight": [
+    "Relative selection weight",
+    "선택 가중치",
+    "選択の相対重み",
+    "Peso relativo de selección",
+    "选择权重",
+    "選擇權重"
+  ],
+  "minimumHealthRatio": [
+    "Minimum HP ratio",
+    "최소 체력 비율",
+    "最小HP割合",
+    "Proporción mínima de vida",
+    "最低生命比例",
+    "最低生命比例"
+  ],
+  "maximumHealthRatio": [
+    "Maximum HP ratio",
+    "최대 체력 비율",
+    "最大HP割合",
+    "Proporción máxima de vida",
+    "最高生命比例",
+    "最高生命比例"
+  ],
+  "individualCooldownSeconds": [
+    "Skill cooldown",
+    "기술 재사용 대기시간",
+    "技のクールダウン",
+    "Reutilización de habilidad",
+    "技能冷却时间",
+    "技能冷卻時間"
+  ],
+  "effects": [
+    "Effects",
+    "효과",
+    "効果",
+    "Efectos",
+    "效果",
+    "效果"
+  ],
+  "delaySeconds": [
+    "Delay",
+    "발동 지연",
+    "発動遅延",
+    "Retraso",
+    "触发延迟",
+    "觸發延遲"
+  ],
+  "summon": [
+    "Summoned enemies",
+    "소환 적",
+    "召喚される敵",
+    "Enemigos invocados",
+    "召唤敌人",
+    "召喚敵人"
+  ],
+  "count": [
+    "Count",
+    "수량",
+    "数",
+    "Cantidad",
+    "数量",
+    "數量"
+  ],
+  "maximumAlive": [
+    "Maximum active summons",
+    "최대 동시 소환 수",
+    "最大同時召喚数",
+    "Máximo de invocaciones activas",
+    "最大同时召唤数",
+    "最大同時召喚數"
+  ],
+  "areaAttack": [
+    "Area attack",
+    "범위 공격",
+    "範囲攻撃",
+    "Ataque de área",
+    "范围攻击",
+    "範圍攻擊"
+  ],
+  "damageKind": [
+    "Damage type",
+    "피해 유형",
+    "ダメージ種別",
+    "Tipo de daño",
+    "伤害类型",
+    "傷害類型"
+  ],
+  "damageMultiplier": [
+    "Damage multiplier",
+    "피해 배율",
+    "ダメージ倍率",
+    "Multiplicador de daño",
+    "伤害倍率",
+    "傷害倍率"
+  ],
+  "minimumPlayerMaxHpDamagePercent": [
+    "Minimum damage (% of player max HP)",
+    "최소 피해 (플레이어 최대 체력 비율)",
+    "最小ダメージ（プレイヤー最大HP比）",
+    "Daño mínimo (% de vida máxima)",
+    "最低伤害（玩家生命上限比例）",
+    "最低傷害（玩家生命上限比例）"
+  ],
+  "targetMode": [
+    "Targeting",
+    "대상 선정",
+    "対象選択",
+    "Selección de objetivo",
+    "目标选择",
+    "目標選擇"
+  ],
+  "areaCount": [
+    "Attack area count",
+    "공격 구역 수",
+    "攻撃範囲の数",
+    "Número de áreas de ataque",
+    "攻击区域数",
+    "攻擊區域數"
+  ],
+  "shape": [
+    "Area shape",
+    "공격 형태",
+    "攻撃範囲の形",
+    "Forma del área",
+    "攻击形状",
+    "攻擊形狀"
+  ],
+  "radius": [
+    "Radius",
+    "반경",
+    "半径",
+    "Radio",
+    "半径",
+    "半徑"
+  ],
+  "boxSize": [
+    "Width × height",
+    "너비 × 높이",
+    "幅 × 高さ",
+    "Ancho × alto",
+    "宽 × 高",
+    "寬 × 高"
+  ],
+  "warningSeconds": [
+    "Warning duration",
+    "공격 예고 시간",
+    "攻撃予告時間",
+    "Duración del aviso",
+    "攻击预警时间",
+    "攻擊預警時間"
+  ],
+  "heal": [
+    "Healing",
+    "회복",
+    "回復",
+    "Curación",
+    "恢复",
+    "恢復"
+  ],
+  "amountMode": [
+    "Healing unit",
+    "회복량 단위",
+    "回復量の単位",
+    "Unidad de curación",
+    "恢复量单位",
+    "恢復量單位"
+  ],
+  "timedBuff": [
+    "Temporary buff",
+    "일시적 버프",
+    "一時的な強化",
+    "Mejora temporal",
+    "临时增益",
+    "暫時增益"
+  ],
+  "consumableCategory": [
+    "Consumable type",
+    "소모품 종류",
+    "消耗品種別",
+    "Tipo de consumible",
+    "消耗品类型",
+    "消耗品類型"
+  ],
+  "useTiming": [
+    "Use timing",
+    "사용 시점",
+    "使用タイミング",
+    "Momento de uso",
+    "使用时机",
+    "使用時機"
+  ],
+  "periodicIntervalSeconds": [
+    "Use interval",
+    "사용 주기",
+    "使用間隔",
+    "Intervalo de uso",
+    "使用间隔",
+    "使用間隔"
+  ],
+  "requiredSubmittedCount": [
+    "Required submissions",
+    "필요 제출 개수",
+    "必要提出数",
+    "Entregas requeridas",
+    "所需提交数量",
+    "所需提交數量"
+  ],
+  "autoSubmitOnObtainedItemIds": [
+    "Automatically submitted on acquisition",
+    "획득 시 자동 제출",
+    "獲得時に自動提出",
+    "Entrega automática al obtener",
+    "获得时自动提交",
+    "獲得時自動提交"
+  ],
+  "maxHpPerLevel": [
+    "Max HP per level",
+    "레벨당 최대 체력",
+    "レベルごとの最大HP",
+    "Vida máxima por nivel",
+    "每级生命上限",
+    "每級生命上限"
+  ],
+  "minDamagePerLevel": [
+    "Minimum damage per level",
+    "레벨당 최소 피해",
+    "レベルごとの最小ダメージ",
+    "Daño mínimo por nivel",
+    "每级最低伤害",
+    "每級最低傷害"
+  ],
+  "maxDamagePerLevel": [
+    "Maximum damage per level",
+    "레벨당 최대 피해",
+    "レベルごとの最大ダメージ",
+    "Daño máximo por nivel",
+    "每级最高伤害",
+    "每級最高傷害"
+  ],
+  "randomTargetCount": [
+    "Random target count",
+    "무작위 대상 수",
+    "ランダム対象数",
+    "Número de objetivos aleatorios",
+    "随机目标数",
+    "隨機目標數"
+  ],
+  "xpBonusPercent": [
+    "Experience bonus",
+    "경험치 보너스",
+    "経験値ボーナス",
+    "Bonificación de experiencia",
+    "经验加成",
+    "經驗加成"
+  ],
+  "specificSkills": [
+    "Affected skills",
+    "대상 스킬",
+    "対象スキル",
+    "Habilidades afectadas",
+    "目标技能",
+    "目標技能"
+  ],
+  "globalSkillSpeedPercent": [
+    "All skill speed",
+    "전체 스킬 속도",
+    "全スキル速度",
+    "Velocidad de todas las habilidades",
+    "所有技能速度",
+    "所有技能速度"
+  ],
+  "configByRank": [
+    "Effects by rank",
+    "등급별 효과",
+    "ランク別効果",
+    "Efectos por rango",
+    "各品阶效果",
+    "各品階效果"
+  ],
+  "autoRestTriggerSeconds": [
+    "Automatic rest interval",
+    "자동 휴식 주기",
+    "自動休息間隔",
+    "Intervalo de descanso automático",
+    "自动休息间隔",
+    "自動休息間隔"
+  ],
+  "targetPlayerAction": [
+    "Combat action",
+    "전투 액션",
+    "戦闘アクション",
+    "Acción de combate",
+    "战斗行动",
+    "戰鬥行動"
+  ],
+  "hour": [
+    "h",
+    "시간",
+    "時間",
+    "h",
+    "小时",
+    "小時"
+  ],
+  "minute": [
+    "min",
+    "분",
+    "分",
+    "min",
+    "分钟",
+    "分鐘"
+  ],
+  "second": [
+    "s",
+    "초",
+    "秒",
+    "s",
+    "秒",
+    "秒"
+  ],
+  "enum.None": [
+    "None",
+    "없음",
+    "なし",
+    "Ninguno",
+    "无",
+    "無"
+  ],
+  "enum.Any": [
+    "Any",
+    "모든 유형",
+    "すべて",
+    "Cualquiera",
+    "所有类型",
+    "所有類型"
+  ],
+  "enum.Flat": [
+    "Flat amount",
+    "고정 수치",
+    "固定値",
+    "Cantidad fija",
+    "固定数值",
+    "固定數值"
+  ],
+  "enum.Percent": [
+    "Percentage",
+    "비율 증가",
+    "割合増加",
+    "Porcentaje",
+    "比例增加",
+    "比例增加"
+  ],
+  "enum.PercentAdd": [
+    "Additive percentage",
+    "비율 가산",
+    "割合加算",
+    "Porcentaje aditivo",
+    "百分比相加",
+    "百分比相加"
+  ],
+  "enum.PercentMult": [
+    "Multiplicative percentage",
+    "비율 곱산",
+    "割合乗算",
+    "Porcentaje multiplicativo",
+    "百分比相乘",
+    "百分比相乘"
+  ],
+  "enum.Normal": [
+    "Normal",
+    "일반",
+    "通常",
+    "Normal",
+    "普通",
+    "普通"
+  ],
+  "enum.Rare": [
+    "Rare",
+    "희귀",
+    "レア",
+    "Raro",
+    "稀有",
+    "稀有"
+  ],
+  "enum.Epic": [
+    "Epic",
+    "영웅",
+    "エピック",
+    "Épico",
+    "史诗",
+    "史詩"
+  ],
+  "enum.Mythic": [
+    "Mythic",
+    "신화",
+    "神話",
+    "Mítico",
+    "神话",
+    "神話"
+  ],
+  "enum.Artifact": [
+    "Artifact",
+    "유물",
+    "遺物",
+    "Artefacto",
+    "遗物",
+    "遺物"
+  ],
+  "enum.Melee": [
+    "Melee",
+    "근접",
+    "近接",
+    "Cuerpo a cuerpo",
+    "近战",
+    "近戰"
+  ],
+  "enum.Ranged": [
+    "Ranged",
+    "원거리",
+    "遠距離",
+    "A distancia",
+    "远程",
+    "遠程"
+  ],
+  "enum.Magic": [
+    "Magic",
+    "마법",
+    "魔法",
+    "Magia",
+    "魔法",
+    "魔法"
+  ],
+  "enum.Combat": [
+    "Combat",
+    "전투",
+    "戦闘",
+    "Combate",
+    "战斗",
+    "戰鬥"
+  ],
+  "enum.IdleSkill": [
+    "Life skill",
+    "생활 스킬",
+    "生活スキル",
+    "Habilidad de vida",
+    "生活技能",
+    "生活技能"
+  ],
+  "enum.Life": [
+    "Life skill",
+    "생활 스킬",
+    "生活スキル",
+    "Habilidad de vida",
+    "生活技能",
+    "生活技能"
+  ],
+  "enum.Objectives": [
+    "Objectives",
+    "목표",
+    "目標",
+    "Objetivos",
+    "目标",
+    "目標"
+  ],
+  "enum.Main": [
+    "Main",
+    "메인",
+    "メイン",
+    "Principal",
+    "主线",
+    "主線"
+  ],
+  "enum.General": [
+    "General",
+    "일반",
+    "一般",
+    "General",
+    "一般",
+    "一般"
+  ],
+  "enum.Daily": [
+    "Daily",
+    "일일",
+    "デイリー",
+    "Diario",
+    "每日",
+    "每日"
+  ],
+  "enum.Novice": [
+    "Novice",
+    "초급",
+    "初級",
+    "Principiante",
+    "初级",
+    "初級"
+  ],
+  "enum.Adept": [
+    "Adept",
+    "중급",
+    "中級",
+    "Intermedio",
+    "中级",
+    "中級"
+  ],
+  "enum.Elite": [
+    "Elite",
+    "상급",
+    "上級",
+    "Avanzado",
+    "高级",
+    "高級"
+  ],
+  "enum.Ammo": [
+    "Ammunition",
+    "탄약",
+    "弾薬",
+    "Munición",
+    "弹药",
+    "彈藥"
+  ],
+  "enum.Charm": [
+    "Charm",
+    "부적",
+    "お守り",
+    "Amuleto",
+    "护符",
+    "護符"
+  ],
+  "enum.Potion": [
+    "Potion",
+    "물약",
+    "ポーション",
+    "Poción",
+    "药水",
+    "藥水"
+  ],
+  "enum.OnAttack": [
+    "On attack",
+    "공격 시",
+    "攻撃時",
+    "Al atacar",
+    "攻击时",
+    "攻擊時"
+  ],
+  "enum.Periodic": [
+    "Periodically",
+    "주기적으로",
+    "定期的",
+    "Periódicamente",
+    "定期",
+    "定期"
+  ],
+  "enum.ChallengeOnly": [
+    "Challenge",
+    "도전 지역",
+    "挑戦地域",
+    "Desafío",
+    "挑战区域",
+    "挑戰區域"
+  ],
+  "enum.StandardExploration": [
+    "Exploration",
+    "일반 탐험",
+    "通常探索",
+    "Exploración",
+    "普通探索",
+    "一般探索"
+  ],
+  "enum.Dungeon": [
+    "Dungeon",
+    "던전",
+    "ダンジョン",
+    "Mazmorra",
+    "地下城",
+    "地下城"
+  ],
+  "enum.Forest": [
+    "Forest",
+    "숲",
+    "森",
+    "Bosque",
+    "森林",
+    "森林"
+  ],
+  "enum.Sea": [
+    "Sea",
+    "바다",
+    "海",
+    "Mar",
+    "海洋",
+    "海洋"
+  ],
+  "enum.Mine": [
+    "Mine",
+    "광산",
+    "鉱山",
+    "Mina",
+    "矿山",
+    "礦山"
+  ],
+  "enum.Rock": [
+    "Ore deposit",
+    "광맥",
+    "鉱脈",
+    "Yacimiento",
+    "矿脉",
+    "礦脈"
+  ],
+  "enum.FishingSpot": [
+    "Fishing spot",
+    "낚시터",
+    "釣り場",
+    "Zona de pesca",
+    "钓鱼点",
+    "釣魚點"
+  ],
+  "enum.Tree": [
+    "Tree",
+    "나무",
+    "木",
+    "Árbol",
+    "树木",
+    "樹木"
+  ],
+  "enum.CombatEnemies": [
+    "Combat enemies",
+    "전투 적",
+    "戦闘の敵",
+    "Enemigos de combate",
+    "战斗敌人",
+    "戰鬥敵人"
+  ],
+  "enum.BossEnemy": [
+    "Boss",
+    "보스",
+    "ボス",
+    "Jefe",
+    "首领",
+    "首領"
+  ],
+  "enum.NormalEnemy": [
+    "Normal enemy",
+    "일반 적",
+    "通常の敵",
+    "Enemigo normal",
+    "普通敌人",
+    "一般敵人"
+  ],
+  "enum.ChallengeBossEnemy": [
+    "Challenge boss",
+    "도전 보스",
+    "挑戦ボス",
+    "Jefe de desafío",
+    "挑战首领",
+    "挑戰首領"
+  ],
+  "enum.Resource": [
+    "Resource",
+    "자원",
+    "資源",
+    "Recurso",
+    "资源",
+    "資源"
+  ],
+  "enum.Continuous": [
+    "Continuous",
+    "연속 생산",
+    "連続生産",
+    "Continuo",
+    "连续生产",
+    "連續生產"
+  ],
+  "enum.SingleHarvest": [
+    "Single harvest",
+    "단일 수확",
+    "一回収穫",
+    "Una cosecha",
+    "单次收获",
+    "單次收穫"
+  ],
+  "enum.OnStart": [
+    "At start",
+    "시작 시",
+    "開始時",
+    "Al iniciar",
+    "开始时",
+    "開始時"
+  ],
+  "enum.OnHarvest": [
+    "At harvest",
+    "수확 시",
+    "収穫時",
+    "Al cosechar",
+    "收获时",
+    "收穫時"
+  ],
+  "enum.OnProduction": [
+    "On production",
+    "생산 시",
+    "生産時",
+    "Al producir",
+    "生产时",
+    "生產時"
+  ],
+  "enum.Item": [
+    "Item",
+    "아이템",
+    "アイテム",
+    "Objeto",
+    "物品",
+    "物品"
+  ],
+  "enum.Currency": [
+    "Currency",
+    "통화",
+    "通貨",
+    "Moneda",
+    "货币",
+    "貨幣"
+  ],
+  "enum.Skill": [
+    "Skill",
+    "스킬",
+    "スキル",
+    "Habilidad",
+    "技能",
+    "技能"
+  ],
+  "enum.Unlock": [
+    "Unlock",
+    "해금",
+    "解放",
+    "Desbloqueo",
+    "解锁",
+    "解鎖"
+  ],
+  "enum.InventoryItemSell": [
+    "Item selling",
+    "아이템 판매",
+    "アイテム売却",
+    "Venta de objetos",
+    "出售物品",
+    "出售物品"
+  ],
+  "enum.GreaterOrEqual": [
+    "At least",
+    "이상",
+    "以上",
+    "Al menos",
+    "至少",
+    "至少"
+  ],
+  "enum.LessOrEqual": [
+    "At most",
+    "이하",
+    "以下",
+    "Como máximo",
+    "至多",
+    "至多"
+  ],
+  "enum.Summon": [
+    "Summon",
+    "적 소환",
+    "敵召喚",
+    "Invocación",
+    "召唤敌人",
+    "召喚敵人"
+  ],
+  "enum.AreaAttack": [
+    "Area attack",
+    "범위 공격",
+    "範囲攻撃",
+    "Ataque de área",
+    "范围攻击",
+    "範圍攻擊"
+  ],
+  "enum.Heal": [
+    "Healing",
+    "회복",
+    "回復",
+    "Curación",
+    "恢复",
+    "恢復"
+  ],
+  "enum.TimedBuff": [
+    "Temporary buff",
+    "일시적 버프",
+    "一時的強化",
+    "Mejora temporal",
+    "临时增益",
+    "暫時增益"
+  ],
+  "enum.TargetSnapshot": [
+    "Target position at cast",
+    "시전 시 대상 위치",
+    "発動時の対象位置",
+    "Posición inicial del objetivo",
+    "施放时的目标位置",
+    "施放時的目標位置"
+  ],
+  "enum.CasterSnapshot": [
+    "Caster position at cast",
+    "시전 시 시전자 위치",
+    "発動時の使用者位置",
+    "Posición inicial del lanzador",
+    "施放时的施法者位置",
+    "施放時的施法者位置"
+  ],
+  "enum.CasterRelative": [
+    "Relative to caster",
+    "시전자 기준 위치",
+    "使用者基準の位置",
+    "Relativo al lanzador",
+    "相对施法者的位置",
+    "相對施法者的位置"
+  ],
+  "enum.TargetFollow": [
+    "Follow target",
+    "대상 추적",
+    "対象を追尾",
+    "Seguir al objetivo",
+    "跟踪目标",
+    "追蹤目標"
+  ],
+  "enum.SpecificSkills": [
+    "Selected skills",
+    "지정 스킬",
+    "指定スキル",
+    "Habilidades seleccionadas",
+    "指定技能",
+    "指定技能"
+  ],
+  "enum.RandomUnlockedLifeSkillsExceptCamping": [
+    "Random unlocked life skills (except Camping)",
+    "해금된 생활 스킬 중 무작위 (야영 제외)",
+    "解放済み生活スキルからランダム（野営を除く）",
+    "Habilidades de vida desbloqueadas al azar (excepto acampada)",
+    "随机已解锁生活技能（野营除外）",
+    "隨機已解鎖生活技能（野營除外）"
+  ],
+  "enum.Circle": [
+    "Circle",
+    "원형",
+    "円形",
+    "Círculo",
+    "圆形",
+    "圓形"
+  ],
+  "enum.Box": [
+    "Rectangle",
+    "사각형",
+    "矩形",
+    "Rectángulo",
+    "矩形",
+    "矩形"
+  ],
+  "enum.MaxHpPercent": [
+    "Percent of max HP",
+    "최대 체력 비율",
+    "最大HP割合",
+    "Porcentaje de vida máxima",
+    "生命上限比例",
+    "生命上限比例"
+  ],
+  "enum.MainHand": [
+    "Main hand",
+    "주무기",
+    "メイン武器",
+    "Mano principal",
+    "主手",
+    "主手"
+  ],
+  "enum.OffHand": [
+    "Off hand",
+    "보조 장비",
+    "補助装備",
+    "Mano secundaria",
+    "副手",
+    "副手"
+  ],
+  "enum.Head": [
+    "Head",
+    "머리",
+    "頭",
+    "Cabeza",
+    "头部",
+    "頭部"
+  ],
+  "enum.Chest": [
+    "Chest",
+    "상의",
+    "胴",
+    "Torso",
+    "上身",
+    "上身"
+  ],
+  "enum.Legs": [
+    "Legs",
+    "하의",
+    "脚",
+    "Piernas",
+    "下身",
+    "下身"
+  ],
+  "enum.Gloves": [
+    "Gloves",
+    "장갑",
+    "手袋",
+    "Guantes",
+    "手套",
+    "手套"
+  ],
+  "enum.Boots": [
+    "Boots",
+    "신발",
+    "靴",
+    "Botas",
+    "鞋子",
+    "鞋子"
+  ],
+  "enum.Cape": [
+    "Cape",
+    "망토",
+    "マント",
+    "Capa",
+    "披风",
+    "披風"
+  ],
+  "enum.Necklace": [
+    "Necklace",
+    "목걸이",
+    "首飾り",
+    "Collar",
+    "项链",
+    "項鍊"
+  ],
+  "enum.Ring1": [
+    "Ring 1",
+    "반지 1",
+    "指輪1",
+    "Anillo 1",
+    "戒指1",
+    "戒指1"
+  ],
+  "enum.Ring2": [
+    "Ring 2",
+    "반지 2",
+    "指輪2",
+    "Anillo 2",
+    "戒指2",
+    "戒指2"
+  ],
+  "enum.Pickaxe": [
+    "Pickaxe",
+    "곡괭이",
+    "つるはし",
+    "Pico",
+    "镐",
+    "鎬"
+  ],
+  "enum.FishingRod": [
+    "Fishing rod",
+    "낚싯대",
+    "釣り竿",
+    "Caña de pescar",
+    "钓鱼竿",
+    "釣魚竿"
+  ],
+  "enum.Axe": [
+    "Axe",
+    "도끼",
+    "斧",
+    "Hacha",
+    "斧头",
+    "斧頭"
+  ],
+  "areaId": [
+    "Area",
+    "지역",
+    "地域",
+    "Zona",
+    "区域",
+    "區域"
+  ],
+  "enemyId": [
+    "Enemy",
+    "적",
+    "敵",
+    "Enemigo",
+    "敌人",
+    "敵人"
+  ],
+  "skillId": [
+    "Skill",
+    "스킬",
+    "スキル",
+    "Habilidad",
+    "技能",
+    "技能"
+  ],
+  "timeLimitSeconds": [
+    "Time limit",
+    "제한 시간",
+    "制限時間",
+    "Tiempo límite",
+    "时间限制",
+    "時間限制"
+  ],
+  "consumeAmountPerUse": [
+    "Amount consumed per use",
+    "사용당 소모 수량",
+    "使用ごとの消費量",
+    "Consumo por uso",
+    "每次使用消耗数量",
+    "每次使用消耗數量"
+  ],
+  "consumeChance01": [
+    "Consumption chance",
+    "소모 확률",
+    "消費確率",
+    "Probabilidad de consumo",
+    "消耗概率",
+    "消耗機率"
+  ],
+  "ammoUsageType": [
+    "Ammunition restrictions",
+    "탄약 사용 조건",
+    "弾薬の使用条件",
+    "Restricciones de munición",
+    "弹药使用条件",
+    "彈藥使用條件"
+  ],
+  "outputMultiplier": [
+    "Production multiplier",
+    "생산량 배율",
+    "生産量倍率",
+    "Multiplicador de producción",
+    "产量倍率",
+    "產量倍率"
+  ],
+  "cycleMultiplier": [
+    "Production time multiplier",
+    "생산 시간 배율",
+    "生産時間倍率",
+    "Multiplicador de tiempo",
+    "生产时间倍率",
+    "生產時間倍率"
+  ],
+  "foodHealAmount": [
+    "Health restored",
+    "체력 회복량",
+    "HP回復量",
+    "Vida recuperada",
+    "生命恢复量",
+    "生命恢復量"
+  ],
+  "foodCooldownSeconds": [
+    "Food cooldown",
+    "음식 재사용 시간",
+    "食べ物のクールダウン",
+    "Reutilización de comida",
+    "食物冷却时间",
+    "食物冷卻時間"
+  ],
+  "fromMaxLevel": [
+    "Previous level cap",
+    "기존 레벨 상한",
+    "変更前のレベル上限",
+    "Límite anterior",
+    "原等级上限",
+    "原等級上限"
+  ],
+  "toMaxLevel": [
+    "New level cap",
+    "변경 후 레벨 상한",
+    "変更後のレベル上限",
+    "Nuevo límite",
+    "新等级上限",
+    "新等級上限"
+  ],
+  "itemRewards": [
+    "Item rewards",
+    "아이템 보상",
+    "アイテム報酬",
+    "Objetos de recompensa",
+    "物品奖励",
+    "物品獎勵"
+  ],
+  "statRewards": [
+    "Stat rewards",
+    "능력치 보상",
+    "能力値報酬",
+    "Atributos de recompensa",
+    "属性奖励",
+    "屬性獎勵"
+  ],
+  "primaryOutputItem": [
+    "Primary product",
+    "주 생산물",
+    "主な生産物",
+    "Producto principal",
+    "主要产物",
+    "主要產物"
+  ],
+  "compostOutputItem": [
+    "Compost product",
+    "퇴비 사용 시 생산물",
+    "堆肥使用時の生産物",
+    "Producto con compost",
+    "使用堆肥时的产物",
+    "使用堆肥時的產物"
+  ],
+  "effectiveEnemySpawns": [
+    "Encountered enemies",
+    "출현하는 적",
+    "出現する敵",
+    "Enemigos encontrados",
+    "出现的敌人",
+    "出現的敵人"
+  ],
+  "levelMilestones": [
+    "Level milestone rewards",
+    "레벨별 달성 보상",
+    "レベル到達報酬",
+    "Recompensas por nivel",
+    "等级达成奖励",
+    "等級達成獎勵"
+  ],
+  "addSlots": [
+    "Additional slots",
+    "추가 슬롯 수",
+    "追加スロット数",
+    "Ranuras adicionales",
+    "增加槽位数",
+    "增加欄位數"
+  ],
+  "potionCombatSkillExpPercent": [
+    "Combat experience bonus",
+    "전투 경험치 보너스",
+    "戦闘経験値ボーナス",
+    "Bonificación de experiencia de combate",
+    "战斗经验加成",
+    "戰鬥經驗加成"
+  ],
+  "potionNonCombatSkillExpPercent": [
+    "Life skill experience bonus",
+    "생활 스킬 경험치 보너스",
+    "生活スキル経験値ボーナス",
+    "Experiencia adicional de habilidades de vida",
+    "生活技能经验加成",
+    "生活技能經驗加成"
+  ],
+  "potionDurationSeconds": [
+    "Potion duration",
+    "물약 지속 시간",
+    "ポーション持続時間",
+    "Duración de poción",
+    "药水持续时间",
+    "藥水持續時間"
+  ],
+  "potionIdleSkillBonuses": [
+    "Potion skill bonuses",
+    "물약의 스킬 보너스",
+    "ポーションのスキルボーナス",
+    "Bonificaciones de habilidad de la poción",
+    "药水技能加成",
+    "藥水技能加成"
+  ],
+  "potionPassiveOutputPercent": [
+    "Passive production bonus",
+    "패시브 생산량 보너스",
+    "パッシブ生産量ボーナス",
+    "Bonificación de producción pasiva",
+    "被动产量加成",
+    "被動產量加成"
+  ],
+  "potionStatModifiers": [
+    "Potion stat effects",
+    "물약 능력치 효과",
+    "ポーションの能力値効果",
+    "Efectos de atributos de poción",
+    "药水属性效果",
+    "藥水屬性效果"
+  ],
+  "centerOffset": [
+    "Position offset",
+    "위치 오프셋",
+    "位置オフセット",
+    "Desplazamiento de posición",
+    "位置偏移",
+    "位置偏移"
+  ],
+  "spacing": [
+    "Spacing",
+    "배치 간격",
+    "配置間隔",
+    "Espaciado",
+    "排列间距",
+    "排列間距"
+  ],
+  "enum.ObjectiveRewardDoubleChancePercent": [
+    "Chance of double objective rewards",
+    "목표 보상 2배 확률",
+    "目標報酬2倍確率",
+    "Probabilidad de duplicar recompensas de objetivos",
+    "目标奖励翻倍概率",
+    "目標獎勵翻倍機率"
+  ],
+  "enum.InputNoConsumeChancePercent": [
+    "Chance to preserve materials",
+    "재료를 소모하지 않을 확률",
+    "素材を消費しない確率",
+    "Probabilidad de conservar materiales",
+    "不消耗材料的概率",
+    "不消耗材料的機率"
+  ],
+  "enum.OutputDoubleChancePercent": [
+    "Chance of double production",
+    "생산량 2배 확률",
+    "生産量2倍確率",
+    "Probabilidad de producción doble",
+    "产量翻倍概率",
+    "產量翻倍機率"
+  ],
+  "enum.SkillXpPercent": [
+    "Skill experience bonus",
+    "스킬 경험치 보너스",
+    "スキル経験値ボーナス",
+    "Bonificación de experiencia de habilidad",
+    "技能经验加成",
+    "技能經驗加成"
+  ],
+  "enum.SkillActionSpeedPercent": [
+    "Skill action speed bonus",
+    "스킬 액션 속도 보너스",
+    "スキル行動速度ボーナス",
+    "Bonificación de velocidad de habilidad",
+    "技能行动速度加成",
+    "技能行動速度加成"
+  ],
+  "enum.CombatCritChancePercent": [
+    "Combat critical chance",
+    "전투 치명타 확률",
+    "戦闘クリティカル確率",
+    "Probabilidad crítica en combate",
+    "战斗暴击概率",
+    "戰鬥暴擊機率"
+  ],
+  "enum.Misc": [
+    "Miscellaneous",
+    "기타",
+    "その他",
+    "Varios",
+    "杂项",
+    "雜項"
+  ],
+  "enum.CombatEquipment": [
+    "Exploration equipment",
+    "탐험 장비",
+    "探索装備",
+    "Equipo de exploración",
+    "探索装备",
+    "探索裝備"
+  ],
+  "enum.NonCombatEquipment": [
+    "Life equipment",
+    "생활 장비",
+    "生活装備",
+    "Equipo de vida",
+    "生活装备",
+    "生活裝備"
+  ],
+  "enum.Consumable": [
+    "Consumable",
+    "소모품",
+    "消耗品",
+    "Consumible",
+    "消耗品",
+    "消耗品"
+  ],
+  "enum.Food": [
+    "Food",
+    "음식",
+    "食べ物",
+    "Comida",
+    "食物",
+    "食物"
+  ],
+  "enum.Ticket": [
+    "Ticket",
+    "티켓",
+    "チケット",
+    "Boleto",
+    "票券",
+    "票券"
+  ],
+  "enum.FinalPercent": [
+    "Final percentage multiplier",
+    "최종 비율 배율",
+    "最終割合倍率",
+    "Multiplicador porcentual final",
+    "最终百分比倍率",
+    "最終百分比倍率"
+  ],
+  "enum.KillMonster": [
+    "Defeat enemies",
+    "몬스터 처치",
+    "モンスター討伐",
+    "Derrotar enemigos",
+    "击败怪物",
+    "擊敗怪物"
+  ],
+  "enum.SubmitItem": [
+    "Submit items",
+    "아이템 제출",
+    "アイテム提出",
+    "Entregar objetos",
+    "提交物品",
+    "提交物品"
+  ],
+  "enum.PerformNonCombatSkill": [
+    "Perform life skill actions",
+    "생활 스킬 수행",
+    "生活スキル実行",
+    "Realizar habilidades de vida",
+    "执行生活技能",
+    "執行生活技能"
+  ],
+  "enum.ClearArea": [
+    "Clear an area",
+    "지역 클리어",
+    "地域クリア",
+    "Completar una zona",
+    "区域通关",
+    "區域通關"
+  ],
+  "enum.EquipItem": [
+    "Equip items",
+    "아이템 장착",
+    "アイテム装備",
+    "Equipar objetos",
+    "装备物品",
+    "裝備物品"
+  ],
+  "enum.SkillExp": [
+    "Skill experience",
+    "스킬 경험치",
+    "スキル経験値",
+    "Experiencia de habilidad",
+    "技能经验",
+    "技能經驗"
+  ],
+  "enum.SkillLevelAtLeast": [
+    "Minimum skill level",
+    "스킬 레벨 이상",
+    "スキルレベル以上",
+    "Nivel mínimo de habilidad",
+    "技能最低等级",
+    "技能最低等級"
+  ],
+  "enum.SkillLevelInRange": [
+    "Skill level range",
+    "스킬 레벨 범위",
+    "スキルレベル範囲",
+    "Rango de nivel de habilidad",
+    "技能等级范围",
+    "技能等級範圍"
+  ],
+  "enum.AreaClearedInRange": [
+    "Area completion range",
+    "지역 클리어 범위",
+    "地域クリア範囲",
+    "Rango de zonas completadas",
+    "区域通关范围",
+    "區域通關範圍"
+  ],
+  "enum.InventorySlot": [
+    "Inventory slot",
+    "가방칸",
+    "かばん枠",
+    "Ranura de inventario",
+    "背包栏位",
+    "背包欄位"
+  ],
+  "enum.BattleRewardSlot": [
+    "Reward slot",
+    "획득칸",
+    "獲得枠",
+    "Ranura de recompensa",
+    "奖励栏位",
+    "獎勵欄位"
+  ],
+  "enum.EquipmentLoadoutSlot": [
+    "Equipment loadout slot",
+    "장비 로드아웃칸",
+    "装備ロードアウト枠",
+    "Ranura de equipamiento",
+    "装备配置栏位",
+    "裝備配置欄位"
+  ],
+  "enum.MagicOnly": [
+    "Magic attacks only",
+    "마법 공격 전용",
+    "魔法攻撃専用",
+    "Solo ataques mágicos",
+    "仅限魔法攻击",
+    "僅限魔法攻擊"
+  ],
+  "enum.RangedOnly": [
+    "Ranged attacks only",
+    "원거리 공격 전용",
+    "遠距離攻撃専用",
+    "Solo ataques a distancia",
+    "仅限远程攻击",
+    "僅限遠程攻擊"
+  ],
+  "activationRangeMode": [
+    "Activation range",
+    "사용 사거리 기준",
+    "発動距離の基準",
+    "Alcance de activación",
+    "发动距离依据",
+    "發動距離依據"
+  ],
+  "activationRangeOverride": [
+    "Activation range",
+    "사용 사거리",
+    "発動距離",
+    "Distancia de activación",
+    "发动距离",
+    "發動距離"
+  ],
+  "releaseDelaySeconds": [
+    "Cast delay",
+    "시전 후 발동 지연",
+    "発動までの遅延",
+    "Demora de lanzamiento",
+    "施放延迟",
+    "施放延遲"
+  ],
+  "motionLockSeconds": [
+    "Movement and attack lock",
+    "이동·공격 제한 시간",
+    "移動・攻撃の制限時間",
+    "Bloqueo de movimiento y ataque",
+    "移动与攻击限制时间",
+    "移動與攻擊限制時間"
+  ],
+  "enum.AttackRange": [
+    "Attack range",
+    "공격 범위",
+    "攻撃範囲",
+    "Alcance de ataque",
+    "攻击范围",
+    "攻擊範圍"
+  ],
+  "enum.Sight": [
+    "Sight",
+    "시야",
+    "視界",
+    "Visión",
+    "视野",
+    "視野"
+  ],
+  "acquisition": [
+    "Sources",
+    "획득처",
+    "入手先",
+    "Dónde obtener",
+    "获取来源",
+    "取得來源"
+  ],
+  "usage": [
+    "Uses",
+    "사용처",
+    "用途",
+    "Usos",
+    "用途",
+    "用途"
+  ],
+  "mergedPage": [
+    "This content is now part of its skill or shop page.",
+    "이 내용은 해당 스킬 또는 상점 페이지로 통합되었습니다.",
+    "この内容は対応するスキルまたはショップのページに統合されました。",
+    "Este contenido se ha integrado en su página de habilidad o tienda.",
+    "此内容已整合到对应的技能或商店页面。",
+    "此內容已整合至對應的技能或商店頁面。"
+  ],
+  "openMergedPage": [
+    "Open the combined page",
+    "통합된 페이지 보기",
+    "統合先のページを開く",
+    "Abrir la página integrada",
+    "打开整合页面",
+    "開啟整合頁面"
+  ],
+  "recipeStorage": [
+    "Use recipe storage limit",
+    "레시피 설정 따름",
+    "レシピの保管上限に従う",
+    "Usar el límite de la receta",
+    "遵循配方存储上限",
+    "遵循配方儲存上限"
+  ],
+  "dailyOffersPerPool": [
+    "Daily offers per group",
+    "그룹별 일일 판매 상품 수",
+    "グループごとの日替わり商品数",
+    "Ofertas diarias por grupo",
+    "每组每日商品数",
+    "每組每日商品數"
+  ],
+  "offerCandidates": [
+    "Rotation candidates",
+    "순환 판매 후보",
+    "入れ替え候補",
+    "Candidatos de rotación",
+    "轮换候选商品",
+    "輪換候選商品"
+  ],
+  "fullGameRequired": [
+    "Full game required",
+    "본편 이용 권한 필요",
+    "製品版の利用権が必要",
+    "Requiere el juego completo",
+    "需要完整版权限",
+    "需要完整版權限"
+  ],
+  "rerollCost": [
+    "Reroll cost",
+    "다시 굴리기 비용",
+    "再抽選費用",
+    "Coste de cambio",
+    "重新抽取费用",
+    "重新抽取費用"
+  ],
+  "priceConditions": [
+    "Price / reward by condition",
+    "조건별 가격 / 보상",
+    "条件別の価格／報酬",
+    "Precio / recompensa según condiciones",
+    "各条件下的价格／奖励",
+    "各條件下的價格／獎勵"
+  ],
+  "sharedSkillData": [
+    "Shared skill data",
+    "스킬 공통 정보",
+    "スキル共通情報",
+    "Datos comunes de la habilidad",
+    "技能共通信息",
+    "技能共通資訊"
+  ],
+  "showingRange": [
+    "Showing {start}–{end} of {total}",
+    "{total}개 중 {start}–{end}개 표시",
+    "{total}件中 {start}–{end}件を表示",
+    "Mostrando {start}–{end} de {total}",
+    "显示 {start}–{end}，共 {total} 项",
+    "顯示 {start}–{end}，共 {total} 項"
+  ],
+  "equipmentRequirement": [
+    "Equipment requirement",
+    "장비 착용 조건",
+    "装備条件",
+    "Requisito de equipo",
+    "装备条件",
+    "裝備條件"
+  ]
+}
