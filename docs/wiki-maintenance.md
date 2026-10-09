@@ -6,6 +6,10 @@ navigation. Every content route is an actual `index.html` and remains readable
 without JavaScript. The first snapshot is game release **0.56**, revision
 `fd02bba2d2e4e677e39a0334461c3a9d61d5f0ee`.
 
+The current snapshot is **0.57**, revision
+`12ae9600ef534462fe440c2a1fa78b01cfd5168f`; see the
+[0.57 update record](wiki-release-0.57.md) for the source changes and checks.
+
 ## Local workflow
 
 Use Node.js 24 (minimum 22) and the committed npm lockfile:

@@ -3977,7 +3977,13 @@
           "zh-Hant": null
         }
       },
-      "fallbackLocales": []
+      "fallbackLocales": [],
+      "slotPurchaseLimit": {
+        "maximumSlots": 450,
+        "slotsPerTicket": 1,
+        "ownedTicketsCountTowardLimit": true,
+        "purchaseOnlyRestriction": true
+      }
     },
     "relations": [
       {
@@ -4046,7 +4052,13 @@
               "zh-Hant": null
             }
           },
-          "fallbackLocales": []
+          "fallbackLocales": [],
+          "slotPurchaseLimit": {
+            "maximumSlots": 450,
+            "slotsPerTicket": 1,
+            "ownedTicketsCountTowardLimit": true,
+            "purchaseOnlyRestriction": true
+          }
         }
       },
       {
@@ -4115,7 +4127,13 @@
               "zh-Hant": null
             }
           },
-          "fallbackLocales": []
+          "fallbackLocales": [],
+          "slotPurchaseLimit": {
+            "maximumSlots": 450,
+            "slotsPerTicket": 1,
+            "ownedTicketsCountTowardLimit": true,
+            "purchaseOnlyRestriction": true
+          }
         }
       }
     ],
@@ -8572,7 +8590,13 @@
           "zh-Hant": null
         }
       },
-      "fallbackLocales": []
+      "fallbackLocales": [],
+      "slotPurchaseLimit": {
+        "maximumSlots": 450,
+        "slotsPerTicket": 1,
+        "ownedTicketsCountTowardLimit": true,
+        "purchaseOnlyRestriction": true
+      }
     },
     "relations": [
       {
@@ -8639,7 +8663,13 @@
               "zh-Hant": null
             }
           },
-          "fallbackLocales": []
+          "fallbackLocales": [],
+          "slotPurchaseLimit": {
+            "maximumSlots": 450,
+            "slotsPerTicket": 1,
+            "ownedTicketsCountTowardLimit": true,
+            "purchaseOnlyRestriction": true
+          }
         }
       }
     ],
@@ -8728,7 +8758,13 @@
           "zh-Hant": null
         }
       },
-      "fallbackLocales": []
+      "fallbackLocales": [],
+      "slotPurchaseLimit": {
+        "maximumSlots": 18,
+        "slotsPerTicket": 1,
+        "ownedTicketsCountTowardLimit": true,
+        "purchaseOnlyRestriction": true
+      }
     },
     "relations": [
       {
@@ -8795,7 +8831,13 @@
               "zh-Hant": null
             }
           },
-          "fallbackLocales": []
+          "fallbackLocales": [],
+          "slotPurchaseLimit": {
+            "maximumSlots": 18,
+            "slotsPerTicket": 1,
+            "ownedTicketsCountTowardLimit": true,
+            "purchaseOnlyRestriction": true
+          }
         }
       }
     ],
@@ -10600,7 +10642,13 @@
           "zh-Hant": null
         }
       },
-      "fallbackLocales": []
+      "fallbackLocales": [],
+      "slotPurchaseLimit": {
+        "maximumSlots": 9,
+        "slotsPerTicket": 1,
+        "ownedTicketsCountTowardLimit": true,
+        "purchaseOnlyRestriction": true
+      }
     },
     "relations": [
       {
@@ -10667,7 +10715,13 @@
               "zh-Hant": null
             }
           },
-          "fallbackLocales": []
+          "fallbackLocales": [],
+          "slotPurchaseLimit": {
+            "maximumSlots": 9,
+            "slotsPerTicket": 1,
+            "ownedTicketsCountTowardLimit": true,
+            "purchaseOnlyRestriction": true
+          }
         }
       }
     ],
@@ -11692,7 +11746,13 @@
           "zh-Hant": null
         }
       },
-      "fallbackLocales": []
+      "fallbackLocales": [],
+      "slotPurchaseLimit": {
+        "maximumSlots": 450,
+        "slotsPerTicket": 1,
+        "ownedTicketsCountTowardLimit": true,
+        "purchaseOnlyRestriction": true
+      }
     },
     "relations": [
       {
@@ -11759,7 +11819,13 @@
               "zh-Hant": null
             }
           },
-          "fallbackLocales": []
+          "fallbackLocales": [],
+          "slotPurchaseLimit": {
+            "maximumSlots": 450,
+            "slotsPerTicket": 1,
+            "ownedTicketsCountTowardLimit": true,
+            "purchaseOnlyRestriction": true
+          }
         }
       }
     ],
@@ -11848,7 +11914,13 @@
           "zh-Hant": null
         }
       },
-      "fallbackLocales": []
+      "fallbackLocales": [],
+      "slotPurchaseLimit": {
+        "maximumSlots": 18,
+        "slotsPerTicket": 1,
+        "ownedTicketsCountTowardLimit": true,
+        "purchaseOnlyRestriction": true
+      }
     },
     "relations": [
       {
@@ -11915,7 +11987,13 @@
               "zh-Hant": null
             }
           },
-          "fallbackLocales": []
+          "fallbackLocales": [],
+          "slotPurchaseLimit": {
+            "maximumSlots": 18,
+            "slotsPerTicket": 1,
+            "ownedTicketsCountTowardLimit": true,
+            "purchaseOnlyRestriction": true
+          }
         }
       }
     ],

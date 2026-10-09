@@ -7,7 +7,7 @@ import { loadWiki } from '../../scripts/wiki/model.mjs';
 test('patch notes replace systems in all published routes, navigation and search', async () => {
   const wiki = await loadWiki();
   const notes = wiki.groups['patch-notes'];
-  assert.equal(notes.length, 23);
+  assert.equal(notes.length, 24);
   assert.equal(notes[0].data.version, wiki.manifest.release);
   assert.equal(notes.at(-1).data.version, '0.34');
   assert.equal(wiki.navigationKinds.at(-1), 'patch-notes');

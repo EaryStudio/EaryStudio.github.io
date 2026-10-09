@@ -128066,7 +128066,13 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "type:Ticket"
+      "museumCategory": "type:Ticket",
+      "slotPurchaseLimit": {
+        "maximumSlots": 450,
+        "slotsPerTicket": 1,
+        "ownedTicketsCountTowardLimit": true,
+        "purchaseOnlyRestriction": true
+      }
     },
     "relations": [],
     "aliases": []
@@ -128179,7 +128185,13 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "type:Ticket"
+      "museumCategory": "type:Ticket",
+      "slotPurchaseLimit": {
+        "maximumSlots": 18,
+        "slotsPerTicket": 1,
+        "ownedTicketsCountTowardLimit": true,
+        "purchaseOnlyRestriction": true
+      }
     },
     "relations": [],
     "aliases": []
@@ -128292,7 +128304,13 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "type:Ticket"
+      "museumCategory": "type:Ticket",
+      "slotPurchaseLimit": {
+        "maximumSlots": 9,
+        "slotsPerTicket": 1,
+        "ownedTicketsCountTowardLimit": true,
+        "purchaseOnlyRestriction": true
+      }
     },
     "relations": [],
     "aliases": []

@@ -26,7 +26,7 @@
     "relations": [],
     "data": {
       "version": "0.34",
-      "order": 22,
+      "order": 23,
       "bodies": {
         "en": "Combat / Familiars\n\n- Changed combat familiar unlock mechanics.\n- Fixed an issue where the unlock chance was much lower than intended.\n\nCamping / Objectives\n\n- Updated Camping skill and main objectives.\n\nCrafting\n\n- Fixed Magic Armor subcategory order in Crafting.\n\nDialogue / UI\n\n- Adjusted dialogue page text limits by language.\n- Fixed some Farming scroll view clipping issues.\n\nAuto Explore / Performance\n\n- Simplified Auto Explore item reward popups.\n- Reduced lag caused by reward popups.",
         "ko": "전투 / 소환수\n\n- 전투 관련 소환수 해금 메커니즘을 변경했습니다.\n- 의도된 확률보다 지나치게 낮게 해금되던 문제를 수정했습니다.\n\n야영 / 목표\n\n- 야영 스킬 및 메인 목표를 업데이트했습니다.\n\n제작\n\n- 제작 내 마법사용 방어구 하위분류 순서를 수정했습니다.\n\n대화 / UI\n\n- 대화 출력 시 언어별 페이지 글자 수를 조절했습니다.\n- 농사 스크롤 화면 일부가 잘리던 현상을 수정했습니다.\n\n자동 탐험 / 성능\n\n- 자동 탐험 아이템 보상 팝업창을 간소화했습니다.\n- 보상 팝업 간소화로 렉 유발을 감소시켰습니다.",
@@ -97,7 +97,7 @@
     "relations": [],
     "data": {
       "version": "0.35",
-      "order": 21,
+      "order": 22,
       "bodies": {
         "en": "Language Addition\n\n- Spanish language support has been added.\n\nRest / Familiars\n\n- Increased the unlock chance for Rest-related familiars.\n\nGold Shop\n\n- Reduced the price scaling for Inventory Expansion Tickets in the Gold Shop.\n- Before: x1.4 every 5 purchases\n- After: x1.2 every 5 purchases\n\nCrafting / Smithing\n\n- Increased the EXP gained from Crafting and Smithing items that consume more of the same material.\n- Adjusted crafting actions that use more materials so their EXP gain is reflected more naturally.\n\nStealth\n\n- Adjusted early Stealth balance.\n- Adjusted action times for actions with the same EXP but different required levels.\n\nWriting\n\n- Fixed the max queue count display issue for Writing (Drama).\n- Before: 3000\n- After: 1\n\nPatch Notes\n\n- Patch notes can now be viewed in game.",
         "ko": "언어 추가\n\n- 스페인어 지원이 추가되었습니다.\n\n휴식 / 소환수\n\n- 휴식 관련 소환수 해금 확률을 상향했습니다.\n\n골드 상점\n\n- 골드 상점의 인벤토리 추가 티켓 가격 상승폭을 낮췄습니다.\n- 기존: 5회 구매마다 1.4배 증가\n- 변경: 5회 구매마다 1.2배 증가\n\n제작 / 제련\n\n- 제작 및 제련에서 동일 재료를 더 많이 소모하는 아이템의 경험치 획득량을 증가시켰습니다.\n- 재료를 많이 사용하는 제작 행동이 경험치 측면에서도 더 자연스럽게 반영되도록 조정했습니다.\n\n절도\n\n- 절도 초반 구간 밸런스를 조정했습니다.\n- 경험치가 같지만 필요 레벨이 다른 행동들의 행동 시간을 조정했습니다.\n\n글쓰기\n\n- 글쓰기(희곡) 대기열 등록 최대 개수 표시 오류를 수정했습니다.\n- 기존 표시: 3000\n- 수정 후: 1\n\n패치노트\n\n- 이제 패치노트를 게임 내에서 확인할 수 있습니다.",
@@ -168,7 +168,7 @@
     "relations": [],
     "data": {
       "version": "0.36",
-      "order": 20,
+      "order": 21,
       "bodies": {
         "en": "Google Play Games\n\n- Improved excessive Google Play Games re-login attempts.\n\nActions\n\n- Added actions for Leap and Combat Mastery.\n- Leap: leaps forward toward the enemy.\n- Combat Mastery: increases attack speed by reducing Attack Interval.\n\nSale Confirmation\n\n- Sale price is now shown again on the sale confirmation screen.\n\nExploration\n\n- Equipped items are now also checked for consumption requirements during Exploration.\n\nInventory\n\n- Added the option to drink potions from the Inventory.",
         "ko": "구글 플레이 게임즈\n\n- 구글 플레이 게임즈의 지나친 재로그인 시도를 개선했습니다.\n\n액션\n\n- 도약과 전투 숙련 액션을 추가했습니다.\n- 도약: 적 앞으로 도약합니다.\n- 전투 숙련: 공격 주기가 빨라집니다.\n\n판매 확인\n\n- 판매 확인 시 판매 가격을 다시 표시하도록 개선했습니다.\n\n탐험\n\n- 탐험 시 장착된 아이템도 소비 조건으로 체크하도록 변경했습니다.\n\n인벤토리\n\n- 인벤토리에서 포션을 마실 수 있는 기능을 추가했습니다.",
@@ -239,7 +239,7 @@
     "relations": [],
     "data": {
       "version": "0.37",
-      "order": 19,
+      "order": 20,
       "bodies": {
         "en": "Familiars / Exploration\n\n- Fixed an issue where Exploration familiars were not applying critical chance.\n\nPotions\n\n- Added sound and popup effects when potions are used automatically.\n\nCommerce\n\n- Added Commodity Trade to the Commerce skill.",
         "ko": "소환수 / 탐험\n\n- 탐험용 소환수에 치명타 확률이 적용되지 않던 문제를 수정했습니다.\n\n포션\n\n- 포션을 자동으로 마실 때도 소리 및 팝업이 출력되도록 추가했습니다.\n\n상업\n\n- 상업 스킬에 상품 거래를 추가했습니다.",
@@ -310,7 +310,7 @@
     "relations": [],
     "data": {
       "version": "0.38",
-      "order": 18,
+      "order": 19,
       "bodies": {
         "en": "Ducarin Shop\n\n- Updated the Ducarin Shop description.\n- Clarified Commerce skills: Special Exchange and Commodity Trade.\n\nData Loading\n\n- Added data load validation when starting the game.\n- Fixed issues caused by incorrect data loading.\n\nItems\n\n- Separated plant tomatoes / fruit tomatoes and their seeds, and added descriptions.\n- Added detailed views for item source and usage information.\n- Fixed an issue where item materials were not refreshing properly.\n\nObjectives\n\n- Relaxed the clear condition for Skill Expansion 7 (Rest).\n\nSettings\n\n- Added a setting to show or hide item acquisition popups.",
         "ko": "두카린 상점\n\n- 두카린 상점 설명을 수정했습니다.\n- 상업 스킬 설명에 특수 거래 및 상품 거래 내용을 반영했습니다.\n\n데이터 불러오기\n\n- 게임 시작 시 데이터 불러오기 검증을 추가했습니다.\n- 잘못된 불러오기 오류를 해결했습니다.\n\n아이템\n\n- 식물 토마토 / 과일 토마토 및 씨앗을 분리하고 설명을 추가했습니다.\n- 아이템 획득 정보 / 사용처 상세보기 기능을 추가했습니다.\n- 아이템 재료가 갱신되지 않던 오류를 수정했습니다.\n\n목표\n\n- 스킬의 확장 7 (휴식) 클리어 조건을 완화했습니다.\n\n설정\n\n- 획득 팝업 표시 / 미표시 설정을 추가했습니다.",
@@ -381,7 +381,7 @@
     "relations": [],
     "data": {
       "version": "0.39",
-      "order": 17,
+      "order": 18,
       "bodies": {
         "en": "Queue\n\n- Holding a queue button can now move it to the top or bottom.\n\nPotions\n\n- Potion popups now show whether the same potion buff is already active.\n\nSkill Locks\n\n- Fixed an issue where some skill lock windows could temporarily unlock while the skill was still locked.\n\nExploration\n\n- EXP gained can now be checked when Exploration is completed.\n\nUI / Text\n\n- Added outlines to some text to improve readability.",
         "ko": "대기열\n\n- 대기열 버튼을 꾹 누르면 맨 위 또는 맨 아래로 이동할 수 있도록 추가했습니다.\n\n포션\n\n- 포션을 마실 때 팝업창에서 현재 동일한 포션 버프가 적용 중인지 확인할 수 있도록 개선했습니다.\n\n스킬 잠금\n\n- 일부 스킬이 잠금 상태일 때 잠금 창이 일시적으로 해제되던 문제를 수정했습니다.\n\n탐험\n\n- 탐험 완료 시 획득한 경험치를 확인할 수 있도록 추가했습니다.\n\nUI / 텍스트\n\n- 일부 텍스트에 외곽선을 적용하여 시인성을 높였습니다.",
@@ -452,7 +452,7 @@
     "relations": [],
     "data": {
       "version": "0.40",
-      "order": 16,
+      "order": 17,
       "bodies": {
         "en": "Potion Name\n\n- Updated the Creativity Potion name to sound more natural.\n\nItem Info\n\n- Item Info now shows owned quantity.\n\nInventory\n\n- Added inventory categories and related explanations.\n\nSound Effects\n\n- Added sound effects for toggle buttons.\n\nOffline Progress\n\n- Fixed display issues in the offline progress summary.\n- Fixed an issue where the Life window sometimes did not appear.\n- Fixed an Expedition EXP display issue.",
         "ko": "물약 이름\n\n- 창의력 물약 이름을 더 자연스럽게 수정했습니다.\n\n아이템 정보\n\n- 아이템 정보 창에서 보유량을 확인할 수 있도록 추가했습니다.\n\n인벤토리\n\n- 인벤토리 분류 및 관련 설명을 추가했습니다.\n\n효과음\n\n- 토글 버튼 효과음을 추가했습니다.\n\n오프라인 진행\n\n- 오프라인 진행 요약창의 표기 문제를 수정했습니다.\n- 생활 창이 가끔 표시되지 않던 문제를 수정했습니다.\n- 원정 경험치 표기 오류를 수정했습니다.",
@@ -523,7 +523,7 @@
     "relations": [],
     "data": {
       "version": "0.41",
-      "order": 15,
+      "order": 16,
       "bodies": {
         "en": "Item Info\n\n- Improved the detailed view format for item sources and uses.\n- Added images and adjusted the UI layout.\n\nPainting / Farming\n\n- Fixed some incorrect images in Painting.\n- Fixed some incorrect names in Farming.\n\nSkills\n\n- Actions within each skill are now sorted primarily by their skill level requirements.\n\nCommerce\n\n- Fixed an issue where the Commerce button could become disabled.\n\nCharacter Appearance\n\n- Updated the hero's colors during Exploration to match the original illustration.\n- Updated the hero's appearance in some Life skills to match the original illustration.\n\nInventory\n\n- Added a warning when changing equipment while the Inventory is full.",
         "ko": "아이템 정보\n\n- 아이템 사용처 및 획득처 상세보기 형식을 개선했습니다.\n- 이미지를 추가하고 UI 위치를 조정했습니다.\n\n그림그리기 / 농사\n\n- 그림그리기의 일부 이미지 오류를 수정했습니다.\n- 농사의 일부 이름 오류를 수정했습니다.\n\n스킬\n\n- 각 스킬 내 액션을 해당 스킬의 필요 레벨을 우선으로 정렬하도록 수정했습니다.\n\n상업\n\n- 상업 버튼이 비활성화되던 문제를 해결했습니다.\n\n캐릭터 외형\n\n- 탐험 시 주인공 캐릭터의 색상을 실제 일러스트와 일치하도록 수정했습니다.\n- 일부 생활 스킬 속 주인공의 모습을 실제 일러스트와 일치하도록 수정했습니다.\n\n인벤토리\n\n- 인벤토리가 꽉 찬 상태에서 장비를 변경할 때 경고 메시지가 표시되도록 추가했습니다.",
@@ -594,7 +594,7 @@
     "relations": [],
     "data": {
       "version": "0.42",
-      "order": 14,
+      "order": 15,
       "bodies": {
         "en": "Challenge\n\n- Added Challenge content: Trial Tower, Rewinding Labyrinth, and Challenge Shop.\n- Available at Endurance Lv. 15 or higher.\n\nSkills\n\n- Level caps for all skills can now be raised with tickets from the Challenge Shop.\n- Additional actions for higher skill levels will be added in future updates.\n\nItem Info\n\n- Added the maximum slot counts to the descriptions of Loadout Slot Tickets and Reward Slot Tickets.",
         "ko": "도전\n\n- 순환의 시련탑, 되감기는 미궁, 도전 상점 콘텐츠가 추가되었습니다.\n- 지구력 Lv. 15 이상부터 이용할 수 있습니다.\n\n스킬\n\n- 모든 스킬의 레벨 한도를 도전 상점 티켓으로 늘릴 수 있도록 추가했습니다.\n- 확장된 레벨 구간의 스킬별 추가 액션은 추후 업데이트될 예정입니다.\n\n아이템 정보\n\n- 로드아웃칸 티켓과 획득칸 티켓의 아이템 설명에 최대 확장 한도를 추가했습니다.",
@@ -665,7 +665,7 @@
     "relations": [],
     "data": {
       "version": "0.43",
-      "order": 13,
+      "order": 14,
       "bodies": {
         "en": "Challenge\n\n- Fixed equipment and loadout change issues in Challenge content.\n- Fixed issues where equipment effects were not applied or items could be deleted or duplicated.\n\nExploration\n\n- Fixed an issue where equipped items could occasionally become invisible during Exploration.",
         "ko": "도전\n\n- 도전 콘텐츠에서 장비 및 로드아웃 변경 관련 문제를 수정했습니다.\n- 장비 효과가 적용되지 않거나 아이템이 삭제 또는 복제되던 문제를 수정했습니다.\n\n탐험\n\n- 탐험 중 장착한 장비가 가끔 보이지 않던 문제를 수정했습니다.",
@@ -736,7 +736,7 @@
     "relations": [],
     "data": {
       "version": "0.44",
-      "order": 12,
+      "order": 13,
       "bodies": {
         "en": "Potions\n\n- Fixed an issue where potions were not consumed automatically after changing equipment.\n\nWriting\n\n- Skills that have not been unlocked are now excluded from Writing candidates.\n\nEnchanting\n\n- Fixed an issue where the material-saving chance was not applied during Enchanting.\n\nStealth / Meditation\n\n- Fixed an issue where some data was not refreshed after ranking up Stealth or Meditation.\n\nCombat\n\n- Fixed an issue where ranged attacks could occasionally hit more than one enemy.",
         "ko": "포션\n\n- 포션 장비 교체 후 포션이 자동으로 소모되지 않던 문제를 수정했습니다.\n\n글쓰기\n\n- 아직 해금되지 않은 스킬은 글쓰기 후보에서 제외되도록 변경했습니다.\n\n마법 부여\n\n- 마법 부여 시 재료 미소모 확률이 적용되지 않던 문제를 수정했습니다.\n\n절도 / 명상\n\n- 절도 및 명상 랭크 업 시 일부 데이터가 갱신되지 않던 문제를 수정했습니다.\n\n전투\n\n- 원거리 공격이 가끔 두 명 이상의 적을 공격하던 문제를 수정했습니다.",
@@ -807,7 +807,7 @@
     "relations": [],
     "data": {
       "version": "0.45",
-      "order": 11,
+      "order": 12,
       "bodies": {
         "en": "Language\n\n- Added Simplified Chinese and Traditional Chinese support.\n\nDucarin Shop\n\n- Reduced the prices of some items in the Ducarin Shop.\n\nCommerce\n\n- Improved Commodity Trade in the Commerce Life skill.\n- Separated buying and selling.\n- Adjusted Ducarin price balance.",
         "ko": "언어\n\n- 중국어(간체/번체) 지원을 추가했습니다.\n\n두카린 상점\n\n- 두카린 상점 일부 품목의 가격을 인하했습니다.\n\n상업\n\n- 상업 생활 스킬의 상품 거래를 개선했습니다.\n- 구매와 판매를 분리했습니다.\n- 두카린 가격 밸런스를 조정했습니다.",
@@ -878,7 +878,7 @@
     "relations": [],
     "data": {
       "version": "0.46",
-      "order": 10,
+      "order": 11,
       "bodies": {
         "en": "Combat Balance\n\n- Increased the attack power of arrows and mana stones.\n\nChests\n\n- Item drop rates in chests are now displayed to two decimal places.\n- Adjusted the drop rates of some chest items.\n- Corrected rewards that could require more than 10 inventory slots because their drop rates were below 100%.\n\nContent Expansion\n\n- Added exploration areas and items up to level 120.\n- Added actions up to level 120 for most skills, greatly expanding the available content.",
         "ko": "전투 밸런스\n\n- 화살과 마나석의 공격력을 상향했습니다.\n\n상자\n\n- 상자 내 아이템 획득 확률을 소수점 둘째 자리까지 표시하도록 개선했습니다.\n- 일부 상자 내 아이템의 획득 확률을 조정했습니다.\n- 획득 확률이 100%가 아니어서 보상에 필요한 인벤토리 공간이 10칸을 초과하던 항목을 보정했습니다.\n\n콘텐츠 확장\n\n- 120레벨까지의 탐험 지역과 아이템을 추가했습니다.\n- 대부분의 스킬에 120레벨까지의 신규 액션을 추가해 콘텐츠를 대폭 확장했습니다.",
@@ -949,7 +949,7 @@
     "relations": [],
     "data": {
       "version": "0.47",
-      "order": 9,
+      "order": 10,
       "bodies": {
         "en": "Exploration\n\n- Changed the target location image displayed during Exploration.\n- Fixed an issue where the abandon button and camera lock were linked during Exploration.\n\nCartography\n\n- Fixed an issue where the wrong queue image was displayed after level 100.\n\nFarming\n\n- Fixed a slight discrepancy between reaching 100% progress and crops becoming available to harvest.\n\nTraining\n\n- Swapped the stats of two special Training items (Speed and Experience Multiplier).",
         "ko": "탐험\n\n- 탐험 시 표시되는 목표 지점 이미지를 변경했습니다.\n- 탐험 시 포기 버튼과 카메라 잠금이 연동되던 오류를 수정했습니다.\n\n지도학\n\n- 지도학 100레벨 이후 대기열 이미지가 잘못 표시되던 오류를 수정했습니다.\n\n농사\n\n- 농사 진행도 100% 시점과 수확 가능 시점이 약간 어긋나던 문제를 수정했습니다.\n\n훈련\n\n- 훈련 특별 아이템 2종의 스탯(스피드와 경험치 배율)을 서로 교환했습니다.",
@@ -1020,7 +1020,7 @@
     "relations": [],
     "data": {
       "version": "0.48",
-      "order": 8,
+      "order": 9,
       "bodies": {
         "en": "Queue\n\n- Fixed an issue where clicking a queued icon for Painting and some other skills did not navigate to the correct action.\n- Fixed an issue where required materials and currency were not shown for some queued actions.\n- Actions can now be added to the queue even without enough materials or currency. If they are still insufficient when the action's turn arrives, it will wait until enough are available.\n\nLocalization\n\n- Localized the game logo for each supported language.\n\nEnchanting\n\n- Increased Enchanting mastery and EXP gains.\n- Fixed issues with the Enchanting queue.\n\nPotions\n\n- Improved automatic potion use so each potion is consumed only when its effects can actually apply.\n\nCommerce\n\n- Fixed item prices wrapping onto another line when the values grew longer.\n\nCamping\n\n- Reduced the load caused by Camping during offline progress simulation.\n\nInventory\n\n- Added a “Use All” button for Inventory Slot Tickets.",
         "ko": "대기열\n\n- 그림 등 일부 스킬에서 대기열 아이콘을 클릭했을 때 해당 액션으로 정확히 이동하지 않던 문제를 수정했습니다.\n- 일부 대기열 액션에 필요한 재료와 재화가 표시되지 않던 문제를 수정했습니다.\n- 모든 스킬에서 재료나 재화가 부족해도 액션을 미리 대기열에 등록할 수 있도록 개선했습니다. 실행 차례에도 부족하면 필요한 수량이 모일 때까지 대기합니다.\n\n현지화\n\n- 게임 로고를 지원 언어별로 현지화했습니다.\n\n마법 부여\n\n- 마법 부여 숙련도와 경험치 획득량을 상향했습니다.\n- 마법 부여 대기열에서 발생하던 오류를 수정했습니다.\n\n포션\n\n- 포션 종류에 따라 실제 효과가 적용되는 상황에서만 자동 소모되도록 개선했습니다.\n\n상업\n\n- 아이템 가격의 자릿수가 길어지면 줄바꿈되던 현상을 수정했습니다.\n\n야영\n\n- 야영 스킬이 오프라인 진행을 계산할 때 과도한 부하를 일으키던 문제를 개선했습니다.\n\n인벤토리\n\n- 인벤토리 슬롯 확장권에 ‘모두 사용’ 버튼을 추가했습니다.",
@@ -1091,7 +1091,7 @@
     "relations": [],
     "data": {
       "version": "0.49",
-      "order": 7,
+      "order": 8,
       "bodies": {
         "en": "Tutorial\n\n- Improved the tutorial guide so it points to the correct target more accurately.\n\nCombat\n\n- Increased the hero's base HP at level 1 from 20 to 25.\n\nChallenge\n\n- Added five new Challenge bosses.\n\nCommerce\n\n- When Masterpiece Appraisal or Special Exchange reaches rank S or higher, you can now jump directly to that Commerce action from the item sale window.",
         "ko": "튜토리얼\n\n- 상황에 맞는 대상을 더 정확하게 안내하도록 튜토리얼 가이드를 개선했습니다.\n\n전투\n\n- 주인공의 1레벨 기본 체력을 20에서 25로 상향했습니다.\n\n도전\n\n- 신규 도전 보스 5종을 추가했습니다.\n\n상업\n\n- 명품 감정 또는 특수 거래 액션이 S랭크 이상일 때, 아이템 판매창에서 해당 상업 액션으로 바로 이동할 수 있도록 개선했습니다.",
@@ -1162,7 +1162,7 @@
     "relations": [],
     "data": {
       "version": "0.50",
-      "order": 6,
+      "order": 7,
       "bodies": {
         "en": "Exploration\n\n- Added an arrow button to collapse or expand active buff icons.\n- Added a Levels tab to the stats panel where you can view levels and EXP for Exploration-related skills.\n\nMuseum\n\n- Added Auto Sell for donated items. When enabled in the Museum, newly acquired copies are automatically sold for Gold.\n\nChallenge\n\n- Fixed an issue where Challenge currency rewards were not clearly displayed in the Clear Bonus section after completion.",
         "ko": "탐험\n\n- 활성 버프 아이콘을 접거나 펼칠 수 있는 화살표 버튼을 추가했습니다.\n- 스탯 패널에 탐험 관련 스킬의 레벨과 경험치를 확인할 수 있는 레벨 탭을 추가했습니다.\n\n박물관\n\n- 기부를 완료한 아이템에 자동 판매를 설정할 수 있는 기능을 추가했습니다. 박물관에서 설정하면 이후 획득한 같은 아이템이 자동으로 골드로 판매됩니다.\n\n도전\n\n- 도전 완료 시 재화 보상이 완료 보너스 영역에 제대로 표시되지 않던 문제를 수정했습니다.",
@@ -1233,7 +1233,7 @@
     "relations": [],
     "data": {
       "version": "0.51",
-      "order": 5,
+      "order": 6,
       "bodies": {
         "en": "Equipment\n\n- Fixed an issue where some items could not be equipped even when their requirements were met.\n\nFarming\n\n- The Farming button now glows green when crops are ready to harvest.\n- Moved the Farming button higher in the Action window.\n- Increased herb harvest yields and added more ways to obtain some herbs.\n- Increased both growth times and corresponding rewards by 2–6 times, depending on the crop, to make harvesting more convenient.\n\nMining\n\n- Increased the amounts of Stone and Coal obtained from mines.\n\nEnchanting\n\n- Added Mana Attunement, a new Enchanting action.\n\nPainting\n\n- Doubled Painting rank EXP gains and increased the prices of perfectly painted works.\n\nSmelting / Cooking\n\n- Reduced Coal requirements for Smelting.\n- Corrected the calculation for Coal rewards from failed Cooking attempts so the 95% success / 5% failure probabilities are applied correctly.\n\nGold Shop / Commerce\n\n- Rebalanced Gold Shop prices and added a cap on price increases.\n- Commerce skill shortcuts are now available when selling a single item.",
         "ko": "장비\n\n- 일부 아이템이 장착 조건을 만족해도 장착되지 않던 문제를 수정했습니다.\n\n농사\n\n- 농작물을 수확할 수 있을 때 농사 버튼이 녹색으로 빛나도록 변경했습니다.\n- 액션 창에서 농사 버튼의 위치를 위로 올렸습니다.\n- 허브 수확량을 늘리고 일부 허브의 획득 경로를 확대했습니다.\n- 수확이 더 편리해지도록 농작물별 성장 시간과 그에 따른 보상을 함께 2~6배 늘렸습니다.\n\n채광\n\n- 광산에서 획득하는 돌과 석탄의 양을 늘렸습니다.\n\n마법부여\n\n- 마법부여에 새로운 액션인 마력 조율을 추가했습니다.\n\n그림\n\n- 그림 랭크 경험치 획득량을 2배로 늘리고, 완벽하게 그린 그림의 가격을 높였습니다.\n\n제련 / 요리\n\n- 제련에 필요한 석탄의 양을 줄였습니다.\n- 요리 실패 시 석탄 보상 계산을 수정해 성공 95% / 실패 5% 확률이 정확히 반영되도록 했습니다.\n\n골드 상점 / 상업\n\n- 골드 상점의 가격 밸런스를 조정하고 가격 상승 한도를 설정했습니다.\n- 아이템을 1개 판매할 때도 상업 스킬 바로가기를 사용할 수 있습니다.",
@@ -1304,7 +1304,7 @@
     "relations": [],
     "data": {
       "version": "0.52",
-      "order": 4,
+      "order": 5,
       "bodies": {
         "en": "Challenge / Combat\n\n- Added a screen transition when clearing a Challenge.\n- Fixed an issue where advancing or retreating during an action in a Challenge reset its cooldown.\n- Adjusted the levels of some dungeon and regular monsters so dungeon bosses have higher levels.\n\nPurchase / Offline Play\n\n- Players who have purchased the game can now play the purchased version without an internet connection.\n\nEquipment / Enchanting\n\n- Improved data for some equipment whose stats did not change when enchanted.\n- Fixed the display and application of Life Action Speed enchantment effects.\n\nInstrument Performance\n\n- Improved the Instrument Performance UI and rewards.\n\nPotions\n\n- Added descriptions for experience potions.\n\nCrafting\n\n- Adjusted level requirements for crafted items.\n\nAuto Exploration / Expedition\n\n- Familiars can now also be unlocked through Auto Exploration and Expeditions.\n\nCommerce\n\n- Fixed an issue where Commerce progress stopped during offline simulation.\n\nMuseum / Inventory\n\n- Improved item classification and sorting by type in the Museum and Inventory.\n\nSaving / Performance\n\n- Improved saving and reduced system load.",
         "ko": "도전 / 전투\n\n- 도전 클리어 시 화면 전환을 추가했습니다.\n- 도전에서 액션 사용 중 전진하거나 후퇴하면 쿨타임이 초기화되던 문제를 수정했습니다.\n- 던전 보스의 레벨이 더 높도록 일부 던전 및 일반 몬스터의 레벨을 조정했습니다.\n\n구매 / 오프라인 플레이\n\n- 게임을 구매한 유저는 인터넷 연결 없이도 구매한 버전으로 플레이할 수 있도록 개선했습니다.\n\n장비 / 마법부여\n\n- 마법부여 시 수치가 변하지 않던 일부 장비의 데이터를 개선했습니다.\n- 생활 행동 속도(Life Action Speed) 마법부여 효과가 올바르게 표시되고 적용되도록 수정했습니다.\n\n악기연주\n\n- 악기연주 UI와 보상을 개선했습니다.\n\n포션\n\n- 경험치 포션의 설명을 추가했습니다.\n\n제작\n\n- 제작 아이템의 레벨 조건을 조정했습니다.\n\n자동 탐험 / 원정\n\n- 자동 탐험과 원정에서도 소환수를 해금할 수 있도록 개선했습니다.\n\n상업\n\n- 오프라인 시뮬레이션 중 상업 스킬의 진행이 끊기던 문제를 수정했습니다.\n\n박물관 / 가방\n\n- 박물관과 가방의 아이템이 종류별로 더 정확하게 분류되고 정렬되도록 개선했습니다.\n\n저장 / 성능\n\n- 저장 처리를 개선하고 시스템 부하를 줄였습니다.",
@@ -1375,7 +1375,7 @@
     "relations": [],
     "data": {
       "version": "0.53",
-      "order": 3,
+      "order": 4,
       "bodies": {
         "en": "Training\n\n- New traits can now be selected for existing Training actions upon reaching SSS rank.\n\nTerminology (English Only)\n\n- Renamed \"Idle Action Speed\" to \"Life Action Speed\" in the English text only. The wording in other languages remains unchanged.\n\nFarming\n\n- Added four types of compost for use in Farming.",
         "ko": "훈련\n\n- 기존 액션을 SSS 등급까지 훈련하면 새로운 특성을 선택할 수 있습니다.\n\n용어 변경 (영어만)\n\n- 영어 원문의 \"Idle Action Speed\"를 \"Life Action Speed\"로 변경했습니다. 다른 언어의 표기는 변경하지 않았습니다.\n\n농사\n\n- 농사에 사용할 수 있는 비료 4종을 추가했습니다.",
@@ -1446,7 +1446,7 @@
     "relations": [],
     "data": {
       "version": "0.54",
-      "order": 2,
+      "order": 3,
       "bodies": {
         "en": "Farming\n\n- Failed results are now shown first when starting all Farming activities, and a results summary has been added.\n- Livestock Pens now occasionally yield compost.\n- Improved the compost assignment UI.\n\nMuseum\n\n- Fixed a bug that caused the auto-sell list to be cleared.",
         "ko": "농사\n\n- 농사 일괄 시작 시 실패한 결과가 먼저 표시되도록 변경하고 결과 요약을 추가했습니다.\n- 축사에서 가끔 비료를 획득할 수 있도록 변경했습니다.\n- 비료 등록 UI를 개선했습니다.\n\n박물관\n\n- 자동 판매 목록이 지워지던 버그를 수정했습니다.",
@@ -1517,7 +1517,7 @@
     "relations": [],
     "data": {
       "version": "0.55",
-      "order": 1,
+      "order": 2,
       "bodies": {
         "en": "Farming\n\n- Fixed an issue where the Yellow Tomato image reverted to a red tomato.\n- Added more ways to obtain seeds and some Farming harvests.\n\nInstrument Performance\n\n- Changed the Inspiration amount display in the Instrument Performance UI to K/M/B notation.\n\nCommerce / Enchanting\n\n- Increased the bonus values on some equipment items related to Commerce and Enchanting.\n\nPC Demo Only\n\n- Added a companion popup window.",
         "ko": "농사\n\n- 노란 토마토의 이미지가 빨간 토마토로 되돌아가던 문제를 수정했습니다.\n- 씨앗 및 일부 농사 수확물의 획득처를 추가했습니다.\n\n악기 연주\n\n- 악기 연주 UI의 영감 보유량 표시를 K/M/B 형식으로 변경했습니다.\n\n상업 / 마법 부여\n\n- 일부 상업 및 마법 부여 관련 장비 아이템의 수치 보너스를 높였습니다.\n\nPC 데모 전용\n\n- 보조 팝업 창을 추가했습니다.",
@@ -1588,7 +1588,7 @@
     "relations": [],
     "data": {
       "version": "0.56",
-      "order": 0,
+      "order": 1,
       "bodies": {
         "en": "Writing\n\n- Fixed an issue that prevented Reroll from working in Writing.\n\nKorean Text\n\n- Korean text now wraps at spaces between words.\n\nBestiary\n\n- Added the Bestiary.",
         "ko": "글쓰기\n\n- 글쓰기의 다시 굴리기가 작동하지 않던 문제를 수정했습니다.\n\n한국어 텍스트\n\n- 한국어 텍스트가 띄어쓰기 단위로 줄바꿈되도록 변경했습니다.\n\n몬스터 도감\n\n- 몬스터 도감을 추가했습니다.",
@@ -1627,6 +1627,77 @@
         "zh-Hant": {
           "table": "PatchNotes",
           "key": "PATCH_NOTES_BODY_0_56",
+          "locale": "zh-Hant"
+        }
+      }
+    }
+  },
+  {
+    "wikiId": "patch-notes:0.57",
+    "gameId": "0.57",
+    "kind": "patch-notes",
+    "slug": "0.57",
+    "type": "PatchNotesEntry",
+    "names": {
+      "en": "Patch Notes (0.57)",
+      "ko": "패치노트 (0.57)",
+      "ja": "パッチノート (0.57)",
+      "es": "Notas del parche (0.57)",
+      "zh-Hans": "更新说明（0.57）",
+      "zh-Hant": "更新說明（0.57）"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "aliases": [],
+    "relations": [],
+    "data": {
+      "version": "0.57",
+      "order": 0,
+      "bodies": {
+        "en": "Life Skills\n\n- Improved the level display in the top-right corner. It now sparkles when the current level cap is reached, and selecting it opens that skill's information.\n\nSlot Tickets\n\n- Purchases of Bag Slot Tickets, Loadout Slot Tickets, and Reward Slot Tickets are now limited to each slot type's maximum capacity.\n\nOfficial Wiki\n\n- Added the official game wiki, which can also be opened from the start screen.",
+        "ko": "생활 스킬\n\n- 우측 상단의 레벨 표시를 개선했습니다. 현재 레벨 한도에 도달하면 반짝이는 효과가 나타나며, 누르면 해당 스킬 정보 화면으로 이동합니다.\n\n슬롯 티켓\n\n- 가방칸 티켓, 로드아웃칸 티켓, 획득칸 티켓을 각 슬롯의 최대 확장 한도까지만 구매할 수 있도록 개선했습니다.\n\n공식 위키\n\n- 게임 공식 위키를 추가했습니다. 시작 화면에서도 위키로 이동할 수 있습니다.",
+        "ja": "生活スキル\n\n- 右上のレベル表示を改善しました。現在のレベル上限に達すると輝くエフェクトが表示され、押すと該当スキルの情報画面に移動します。\n\n枠チケット\n\n- バッグ枠チケット、ロードアウト枠チケット、報酬枠チケットを、それぞれの枠の最大拡張数を超えて購入できないようにしました。\n\n公式ウィキ\n\n- ゲームの公式ウィキを追加しました。スタート画面からもアクセスできます。",
+        "es": "Habilidades de vida\n\n- Se ha mejorado el indicador de nivel de la esquina superior derecha. Ahora brilla al alcanzar el límite de nivel actual y, al pulsarlo, abre la información de esa habilidad.\n\nTickets de ranuras\n\n- Las compras de «Ticket bolsa», «Ticket equipamiento» y «Ticket recompensa» ahora se limitan a la capacidad máxima de cada tipo de ranura.\n\nWiki oficial\n\n- Se ha añadido la wiki oficial del juego. También se puede acceder desde la pantalla de inicio.",
+        "zh-Hans": "生活技能\n\n- 改进了右上角的等级显示。达到当前等级上限时会出现闪光效果，点击后可打开该技能的信息界面。\n\n栏位券\n\n- 背包栏位券、配装栏位券和奖励栏位券现在只能购买至各类栏位的最大扩展上限。\n\n官方维基\n\n- 新增了游戏官方维基，也可从开始界面打开。",
+        "zh-Hant": "生活技能\n\n- 改善了右上角的等級顯示。達到目前等級上限時會出現閃亮效果，點擊後可開啟該技能的資訊畫面。\n\n欄位券\n\n- 背包欄位券、配裝欄位券及獎勵欄位券現在只能購買至各類欄位的最大擴充上限。\n\n官方維基\n\n- 新增了遊戲官方維基，也可從開始畫面開啟。"
+      },
+      "fallbackLocales": [],
+      "textReferences": {
+        "en": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_57",
+          "locale": "en"
+        },
+        "ko": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_57",
+          "locale": "ko"
+        },
+        "ja": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_57",
+          "locale": "ja"
+        },
+        "es": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_57",
+          "locale": "es"
+        },
+        "zh-Hans": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_57",
+          "locale": "zh-Hans"
+        },
+        "zh-Hant": {
+          "table": "PatchNotes",
+          "key": "PATCH_NOTES_BODY_0_57",
           "locale": "zh-Hant"
         }
       }

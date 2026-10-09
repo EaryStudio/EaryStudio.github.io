@@ -70,7 +70,8 @@ export function offerPrice(e,l,w){return `${link(effectiveCurrency(e.data),l,w,t
 function catalogData(e,l,w){const ui=w.dictionaries[l],d=e.data;
  if(e.kind==='shops'){
   const offers=(d.offers??[]).map(x=>w.ids.get(x.ref));
-  const rows=items=>table([ui.fields.itemId,ui.fields.amount,term('effectivePrice',l,w),term('priceRules',l,w)],items.map(o=>[link(o.wikiId,l,w,true),number(o.data.amount,l),offerPrice(o,l,w),o.data.price.priceKind==='Fixed'?'—':fold(term('priceRules',l,w),valueHtml(projectValue(o.data.price),l,w))]));
+  const limited=offers.some(o=>o.data.slotPurchaseLimit);
+  const rows=items=>table([ui.fields.itemId,ui.fields.amount,term('effectivePrice',l,w),term('priceRules',l,w),...(limited?[ui.fields.slotPurchaseLimit]:[])],items.map(o=>[link(o.wikiId,l,w,true),number(o.data.amount,l),offerPrice(o,l,w),o.data.price.priceKind==='Fixed'?'—':fold(term('priceRules',l,w),valueHtml(projectValue(o.data.price),l,w)),...(limited?[o.data.slotPurchaseLimit?fold(ui.fields.slotPurchaseLimit,valueHtml(o.data.slotPurchaseLimit,l,w)):'—']:[])]));
   const head=valueHtml(projectValue(pick(d,'dailyRefreshHourLocal')),l,w);
   if(e.wikiId!=='shops:shopoffercatalog_ducarin')return head+rows(offers);
   return head+`<p>${escape(term('dailyOffersPerPool',l,w))}: <strong>${number(d.dailyOfferCount,l)}</strong></p>`+Object.entries(Object.groupBy(offers,o=>o.data.ducarinPool)).map(([pool,items])=>`<h3>${escape(term('ducarinPool',l,w))} ${escape(pool)}</h3>${['C','D'].includes(pool)?`<p>${escape(term('fullGameRequired',l,w))}</p>`:''}${fold(`${term('offerCandidates',l,w)} (${items.length})`,rows(items))}`).join('');

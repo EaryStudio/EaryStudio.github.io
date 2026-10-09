@@ -59,11 +59,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -230,11 +230,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -401,11 +401,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -572,11 +572,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -743,11 +743,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -914,11 +914,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -1085,11 +1085,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -1256,11 +1256,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -1427,11 +1427,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -1598,11 +1598,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -1769,11 +1769,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -1940,11 +1940,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "b",
@@ -2111,11 +2111,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -2282,11 +2282,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -2453,11 +2453,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -2624,11 +2624,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -2795,11 +2795,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -2966,11 +2966,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -3137,11 +3137,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -3308,11 +3308,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -3479,11 +3479,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -3650,11 +3650,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -3821,11 +3821,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -3992,11 +3992,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "c",
@@ -4163,11 +4163,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -4334,11 +4334,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -4505,11 +4505,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -4676,11 +4676,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -4847,11 +4847,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -5018,11 +5018,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -5189,11 +5189,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -5360,11 +5360,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -5531,11 +5531,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -5702,11 +5702,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -5873,11 +5873,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -6044,11 +6044,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "d",
@@ -15502,11 +15502,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -15710,11 +15710,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -15918,11 +15918,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -16126,11 +16126,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -16334,11 +16334,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -16542,11 +16542,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -16750,11 +16750,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -16958,11 +16958,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -17166,11 +17166,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -17374,11 +17374,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -17582,11 +17582,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -17790,11 +17790,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -17998,11 +17998,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -18206,11 +18206,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -18414,11 +18414,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -18622,11 +18622,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -18830,11 +18830,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -19038,11 +19038,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -19246,11 +19246,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -19454,11 +19454,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -19652,11 +19652,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -19835,11 +19835,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -20018,11 +20018,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -20201,11 +20201,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -20384,11 +20384,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -20567,11 +20567,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -20750,11 +20750,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -20933,11 +20933,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -21116,11 +21116,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -21299,11 +21299,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -21482,11 +21482,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -21665,11 +21665,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -21848,11 +21848,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -22031,11 +22031,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -22214,11 +22214,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -22397,11 +22397,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -22580,11 +22580,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -22763,11 +22763,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -22946,11 +22946,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -23129,11 +23129,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -23312,11 +23312,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -23495,11 +23495,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -23678,11 +23678,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -23861,11 +23861,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -24044,11 +24044,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -24227,11 +24227,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -24410,11 +24410,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -24593,11 +24593,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -24776,11 +24776,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -24959,11 +24959,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -25142,11 +25142,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -25325,11 +25325,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -25518,11 +25518,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -25692,11 +25692,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -25869,11 +25869,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -26100,11 +26100,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -26254,11 +26254,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -26402,11 +26402,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -26554,11 +26554,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -26676,11 +26676,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -26824,11 +26824,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -26976,11 +26976,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -27098,11 +27098,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -27246,11 +27246,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -27398,11 +27398,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -27520,11 +27520,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -27688,11 +27688,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -27905,11 +27905,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -28047,11 +28047,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -28195,11 +28195,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -28347,11 +28347,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -28469,11 +28469,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -28629,11 +28629,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -28810,11 +28810,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -28944,11 +28944,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -29092,11 +29092,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -29244,11 +29244,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -29366,11 +29366,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -29534,11 +29534,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -29721,11 +29721,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -29863,11 +29863,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -30021,11 +30021,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -30198,11 +30198,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -30330,11 +30330,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -30488,11 +30488,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -30665,11 +30665,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -30797,11 +30797,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -30955,11 +30955,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -31132,11 +31132,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -31264,11 +31264,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -31422,11 +31422,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -31599,11 +31599,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -31731,11 +31731,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -31879,11 +31879,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -32031,11 +32031,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -32153,11 +32153,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -32301,11 +32301,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -32453,11 +32453,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -32575,11 +32575,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -32733,11 +32733,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -32910,11 +32910,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -33042,11 +33042,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -33190,11 +33190,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -33342,11 +33342,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -33464,11 +33464,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -33622,11 +33622,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -33799,11 +33799,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -33931,11 +33931,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -34089,11 +34089,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -34266,11 +34266,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -34398,11 +34398,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -34546,11 +34546,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -34698,11 +34698,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -34820,11 +34820,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -34978,11 +34978,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -35155,11 +35155,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -35287,11 +35287,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -35435,11 +35435,11 @@
       },
       "dailyReveal": {
         "revealConditionType": "None",
-        "skillId": null,
-        "areaId": null,
+        "skillId": "",
+        "areaId": "",
         "minCount": 0,
         "maxCount": 0,
-        "additionalAndConditions": null,
+        "additionalAndConditions": [],
         "$type": "ObjectiveDailyRevealConditionData"
       },
       "dailyPoolTag": "",
@@ -35587,11 +35587,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",
@@ -35709,11 +35709,11 @@
           },
           "dailyReveal": {
             "revealConditionType": "None",
-            "skillId": null,
-            "areaId": null,
+            "skillId": "",
+            "areaId": "",
             "minCount": 0,
             "maxCount": 0,
-            "additionalAndConditions": null,
+            "additionalAndConditions": [],
             "$type": "ObjectiveDailyRevealConditionData"
           },
           "dailyPoolTag": "",

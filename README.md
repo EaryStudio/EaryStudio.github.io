@@ -365,7 +365,7 @@ Client approval and website association do not enable public Cross Save themselv
 
 ## Iris’s Idle Log wiki
 
-The six-language 0.56 wiki is generated with Eleventy. See
+The six-language wiki (currently release 0.57) is generated with Eleventy. See
 [wiki maintenance](docs/wiki-maintenance.md) for export/import, validation, preview,
 publication review and rollback. Use Node.js 24 and `npm ci`, then `npm run verify`.
 The game repository remains separate; this repository commits only its approved

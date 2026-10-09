@@ -630,5 +630,45 @@
     "Conexiones del sistema",
     "系统关联",
     "系統關聯"
+  ],
+  "slotPurchaseLimit": [
+    "Slot ticket purchase limit",
+    "슬롯 티켓 구매 제한",
+    "枠チケットの購入制限",
+    "Límite de compra de tickets de ranuras",
+    "栏位券购买限制",
+    "欄位券購買限制"
+  ],
+  "maximumSlots": [
+    "Maximum total slots",
+    "최대 총 슬롯 수",
+    "合計枠数の上限",
+    "Máximo total de ranuras",
+    "最大栏位总数",
+    "最大欄位總數"
+  ],
+  "slotsPerTicket": [
+    "Slots per ticket",
+    "티켓당 확장 슬롯 수",
+    "チケット1枚あたりの拡張枠数",
+    "Ranuras por ticket",
+    "每张券扩展栏位数",
+    "每張券擴充欄位數"
+  ],
+  "ownedTicketsCountTowardLimit": [
+    "Owned tickets count toward the purchase limit",
+    "보유 티켓도 구매 한도에 포함",
+    "所持チケットも購入上限に含む",
+    "Los tickets en posesión cuentan para el límite",
+    "已有栏位券计入购买上限",
+    "持有欄位券計入購買上限"
+  ],
+  "purchaseOnlyRestriction": [
+    "Restriction applies to purchases only",
+    "구매에만 적용되는 제한",
+    "購入のみに適用される制限",
+    "La restricción solo se aplica a compras",
+    "限制仅适用于购买",
+    "限制僅適用於購買"
   ]
 }
