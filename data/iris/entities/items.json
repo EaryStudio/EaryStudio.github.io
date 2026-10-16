@@ -12193,7 +12193,18 @@
               1,
               1
             ],
-            "probability": 0.05,
+            "probability": 0.046,
+            "$type": "ChestRewardEntry"
+          },
+          {
+            "item": {
+              "ref": "items:spenonc0050"
+            },
+            "quantityRange": [
+              1,
+              1
+            ],
+            "probability": 0.004,
             "$type": "ChestRewardEntry"
           }
         ],
@@ -12343,7 +12354,23 @@
             1,
             1
           ],
-          "probability": 0.05,
+          "probability": 0.046,
+          "$type": "ChestRewardEntry"
+        }
+      },
+      {
+        "target": "items:spenonc0050",
+        "field": "data.rewards.entries[6].item",
+        "role": "rewards",
+        "context": {
+          "item": {
+            "ref": "items:spenonc0050"
+          },
+          "quantityRange": [
+            1,
+            1
+          ],
+          "probability": 0.004,
           "$type": "ChestRewardEntry"
         }
       }
@@ -13176,7 +13203,7 @@
               100,
               100
             ],
-            "probability": 0.1,
+            "probability": 0.096,
             "$type": "ChestRewardEntry"
           },
           {
@@ -13188,6 +13215,17 @@
               1
             ],
             "probability": 0.008,
+            "$type": "ChestRewardEntry"
+          },
+          {
+            "item": {
+              "ref": "items:spenonc0051"
+            },
+            "quantityRange": [
+              1,
+              1
+            ],
+            "probability": 0.004,
             "$type": "ChestRewardEntry"
           }
         ],
@@ -13331,7 +13369,7 @@
             100,
             100
           ],
-          "probability": 0.1,
+          "probability": 0.096,
           "$type": "ChestRewardEntry"
         }
       },
@@ -13348,6 +13386,22 @@
             1
           ],
           "probability": 0.008,
+          "$type": "ChestRewardEntry"
+        }
+      },
+      {
+        "target": "items:spenonc0051",
+        "field": "data.rewards.entries[6].item",
+        "role": "rewards",
+        "context": {
+          "item": {
+            "ref": "items:spenonc0051"
+          },
+          "quantityRange": [
+            1,
+            1
+          ],
+          "probability": 0.004,
           "$type": "ChestRewardEntry"
         }
       },
@@ -45947,6 +46001,2762 @@
     "aliases": []
   },
   {
+    "wikiId": "items:cnp0001",
+    "gameId": "CNP0001",
+    "kind": "items",
+    "slug": "cnp0001",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Oak Plank",
+      "ko": "참나무 판재",
+      "ja": "オークの板材",
+      "es": "Tabla de roble",
+      "zh-Hans": "橡木板材",
+      "zh-Hant": "橡木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/f0827337876f99748ab5ae45.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 2,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0001_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0001_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0001_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0001_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0001_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0001_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0001_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0001_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0001_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0001_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0001_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0001_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0002",
+    "gameId": "CNP0002",
+    "kind": "items",
+    "slug": "cnp0002",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Maple Plank",
+      "ko": "단풍나무 판재",
+      "ja": "カエデの板材",
+      "es": "Tabla de arce",
+      "zh-Hans": "枫木板材",
+      "zh-Hant": "楓木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/d8f80a43f5b7cdf26df107e6.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 4,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0002_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0002_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0002_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0002_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0002_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0002_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0002_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0002_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0002_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0002_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0002_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0002_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0003",
+    "gameId": "CNP0003",
+    "kind": "items",
+    "slug": "cnp0003",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Pine Plank",
+      "ko": "소나무 판재",
+      "ja": "松の板材",
+      "es": "Tabla de pino",
+      "zh-Hans": "松木板材",
+      "zh-Hant": "松木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/b6c6d176ce83a1008f634f58.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 6,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0003_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0003_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0003_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0003_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0003_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0003_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0003_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0003_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0003_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0003_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0003_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0003_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0004",
+    "gameId": "CNP0004",
+    "kind": "items",
+    "slug": "cnp0004",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Birch Plank",
+      "ko": "자작나무 판재",
+      "ja": "白樺の板材",
+      "es": "Tabla de abedul",
+      "zh-Hans": "桦木板材",
+      "zh-Hant": "樺木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/0dfdf786b4a9016c743bc8a5.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 8,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0004_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0004_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0004_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0004_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0004_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0004_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0004_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0004_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0004_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0004_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0004_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0004_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0005",
+    "gameId": "CNP0005",
+    "kind": "items",
+    "slug": "cnp0005",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Elm Plank",
+      "ko": "느릅나무 판재",
+      "ja": "ニレの板材",
+      "es": "Tabla de olmo",
+      "zh-Hans": "榆木板材",
+      "zh-Hant": "榆木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/200723cb64aef28f16077ef5.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 10,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0005_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0005_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0005_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0005_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0005_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0005_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0005_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0005_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0005_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0005_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0005_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0005_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0006",
+    "gameId": "CNP0006",
+    "kind": "items",
+    "slug": "cnp0006",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Ash Plank",
+      "ko": "물푸레나무 판재",
+      "ja": "トネリコの板材",
+      "es": "Tabla de fresno",
+      "zh-Hans": "白蜡木板材",
+      "zh-Hant": "白蠟木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/4fb94f9f65245b7a3556b987.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 12,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0006_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0006_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0006_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0006_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0006_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0006_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0006_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0006_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0006_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0006_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0006_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0006_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0007",
+    "gameId": "CNP0007",
+    "kind": "items",
+    "slug": "cnp0007",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Walnut Plank",
+      "ko": "호두나무 판재",
+      "ja": "クルミの板材",
+      "es": "Tabla de nogal",
+      "zh-Hans": "胡桃木板材",
+      "zh-Hant": "胡桃木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/bb5ed4d2d9bba55676c91d03.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 14,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0007_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0007_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0007_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0007_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0007_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0007_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0007_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0007_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0007_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0007_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0007_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0007_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0008",
+    "gameId": "CNP0008",
+    "kind": "items",
+    "slug": "cnp0008",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Teak Plank",
+      "ko": "티크 판재",
+      "ja": "チークの板材",
+      "es": "Tabla de teca",
+      "zh-Hans": "柚木板材",
+      "zh-Hant": "柚木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/594484f05106fe1fad161c3b.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 16,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0008_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0008_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0008_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0008_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0008_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0008_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0008_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0008_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0008_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0008_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0008_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0008_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0009",
+    "gameId": "CNP0009",
+    "kind": "items",
+    "slug": "cnp0009",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Mahogany Plank",
+      "ko": "마호가니 판재",
+      "ja": "マホガニーの板材",
+      "es": "Tabla de caoba",
+      "zh-Hans": "桃花心木板材",
+      "zh-Hant": "桃花心木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/1618b8a6df960169d945807a.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 18,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0009_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0009_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0009_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0009_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0009_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0009_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0009_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0009_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0009_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0009_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0009_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0009_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0010",
+    "gameId": "CNP0010",
+    "kind": "items",
+    "slug": "cnp0010",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Redwood Plank",
+      "ko": "레드우드 판재",
+      "ja": "レッドウッドの板材",
+      "es": "Tabla de secuoya",
+      "zh-Hans": "红杉木板材",
+      "zh-Hant": "紅杉木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/b65f25fa7762ff2b8808bad7.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 20,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0010_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0010_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0010_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0010_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0010_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0010_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0010_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0010_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0010_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0010_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0010_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0010_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0011",
+    "gameId": "CNP0011",
+    "kind": "items",
+    "slug": "cnp0011",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Ebony Plank",
+      "ko": "흑단 판재",
+      "ja": "黒檀の板材",
+      "es": "Tabla de ébano",
+      "zh-Hans": "乌木板材",
+      "zh-Hant": "烏木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/a89d95bc817c29f01f036c91.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 22,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0011_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0011_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0011_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0011_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0011_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0011_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0011_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0011_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0011_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0011_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0011_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0011_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0012",
+    "gameId": "CNP0012",
+    "kind": "items",
+    "slug": "cnp0012",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Yew Plank",
+      "ko": "주목 판재",
+      "ja": "イチイの板材",
+      "es": "Tabla de tejo",
+      "zh-Hans": "紫杉木板材",
+      "zh-Hant": "紫杉木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/fb55fa69732be7fce6341961.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 24,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0012_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0012_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0012_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0012_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0012_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0012_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0012_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0012_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0012_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0012_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0012_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0012_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnp0013",
+    "gameId": "CNP0013",
+    "kind": "items",
+    "slug": "cnp0013",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Ironwood Plank",
+      "ko": "철목 판재",
+      "ja": "アイアンウッドの板材",
+      "es": "Tabla de palo de hierro",
+      "zh-Hans": "铁木板材",
+      "zh-Hant": "鐵木板材"
+    },
+    "descriptions": {
+      "en": "A straight plank used to craft furniture and improve your living space.",
+      "ko": "가구 제작과 생활 공간 정비에 쓰는 반듯한 판재입니다.",
+      "ja": "家具作りや生活空間の整備に使う、まっすぐな板材。",
+      "es": "Tabla recta para fabricar muebles y mejorar el espacio de vida.",
+      "zh-Hans": "用于制作家具和整备生活空间的平整木板。",
+      "zh-Hant": "用於製作家具和整備生活空間的平整木板。"
+    },
+    "image": {
+      "path": "assets/95abfb6c19b958f8255954b2.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 26,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0013_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0013_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0013_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0013_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0013_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0013_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNP0013_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNP0013_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNP0013_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNP0013_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNP0013_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNP0013_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0001",
+    "gameId": "CNT0001",
+    "kind": "items",
+    "slug": "cnt0001",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Oak Beam",
+      "ko": "참나무 각재",
+      "ja": "オークの角材",
+      "es": "Viga de roble",
+      "zh-Hans": "橡木方材",
+      "zh-Hant": "橡木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/f32b584c83d642a0b0c13460.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 8,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0001_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0001_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0001_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0001_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0001_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0001_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0001_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0001_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0001_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0001_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0001_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0001_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0002",
+    "gameId": "CNT0002",
+    "kind": "items",
+    "slug": "cnt0002",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Maple Beam",
+      "ko": "단풍나무 각재",
+      "ja": "カエデの角材",
+      "es": "Viga de arce",
+      "zh-Hans": "枫木方材",
+      "zh-Hant": "楓木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/7afd9e079b3b46aa31e650f7.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 16,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0002_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0002_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0002_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0002_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0002_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0002_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0002_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0002_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0002_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0002_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0002_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0002_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0003",
+    "gameId": "CNT0003",
+    "kind": "items",
+    "slug": "cnt0003",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Pine Beam",
+      "ko": "소나무 각재",
+      "ja": "松の角材",
+      "es": "Viga de pino",
+      "zh-Hans": "松木方材",
+      "zh-Hant": "松木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/97565138964b1b7c588f9cbd.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 24,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0003_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0003_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0003_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0003_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0003_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0003_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0003_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0003_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0003_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0003_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0003_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0003_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0004",
+    "gameId": "CNT0004",
+    "kind": "items",
+    "slug": "cnt0004",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Birch Beam",
+      "ko": "자작나무 각재",
+      "ja": "白樺の角材",
+      "es": "Viga de abedul",
+      "zh-Hans": "桦木方材",
+      "zh-Hant": "樺木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/a2b2260e084d5969b912c06a.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 32,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0004_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0004_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0004_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0004_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0004_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0004_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0004_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0004_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0004_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0004_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0004_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0004_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0005",
+    "gameId": "CNT0005",
+    "kind": "items",
+    "slug": "cnt0005",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Elm Beam",
+      "ko": "느릅나무 각재",
+      "ja": "ニレの角材",
+      "es": "Viga de olmo",
+      "zh-Hans": "榆木方材",
+      "zh-Hant": "榆木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/b775155370a8acba41f32b4b.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 40,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0005_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0005_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0005_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0005_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0005_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0005_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0005_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0005_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0005_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0005_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0005_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0005_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0006",
+    "gameId": "CNT0006",
+    "kind": "items",
+    "slug": "cnt0006",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Ash Beam",
+      "ko": "물푸레나무 각재",
+      "ja": "トネリコの角材",
+      "es": "Viga de fresno",
+      "zh-Hans": "白蜡木方材",
+      "zh-Hant": "白蠟木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/64741783b9a622f3482d6896.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 48,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0006_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0006_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0006_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0006_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0006_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0006_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0006_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0006_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0006_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0006_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0006_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0006_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0007",
+    "gameId": "CNT0007",
+    "kind": "items",
+    "slug": "cnt0007",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Walnut Beam",
+      "ko": "호두나무 각재",
+      "ja": "クルミの角材",
+      "es": "Viga de nogal",
+      "zh-Hans": "胡桃木方材",
+      "zh-Hant": "胡桃木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/92ba62b019c8870cfb580d90.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 56,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0007_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0007_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0007_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0007_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0007_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0007_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0007_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0007_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0007_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0007_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0007_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0007_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0008",
+    "gameId": "CNT0008",
+    "kind": "items",
+    "slug": "cnt0008",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Teak Beam",
+      "ko": "티크 각재",
+      "ja": "チークの角材",
+      "es": "Viga de teca",
+      "zh-Hans": "柚木方材",
+      "zh-Hant": "柚木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/ee2818372c49773b138325e1.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 64,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0008_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0008_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0008_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0008_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0008_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0008_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0008_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0008_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0008_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0008_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0008_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0008_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0009",
+    "gameId": "CNT0009",
+    "kind": "items",
+    "slug": "cnt0009",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Mahogany Beam",
+      "ko": "마호가니 각재",
+      "ja": "マホガニーの角材",
+      "es": "Viga de caoba",
+      "zh-Hans": "桃花心木方材",
+      "zh-Hant": "桃花心木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/c0889b50a6af292bed149e07.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 72,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0009_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0009_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0009_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0009_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0009_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0009_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0009_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0009_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0009_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0009_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0009_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0009_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0010",
+    "gameId": "CNT0010",
+    "kind": "items",
+    "slug": "cnt0010",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Redwood Beam",
+      "ko": "레드우드 각재",
+      "ja": "レッドウッドの角材",
+      "es": "Viga de secuoya",
+      "zh-Hans": "红杉木方材",
+      "zh-Hant": "紅杉木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/765cebb4536faea3a4ceaba3.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 80,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0010_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0010_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0010_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0010_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0010_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0010_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0010_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0010_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0010_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0010_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0010_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0010_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0011",
+    "gameId": "CNT0011",
+    "kind": "items",
+    "slug": "cnt0011",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Ebony Beam",
+      "ko": "흑단 각재",
+      "ja": "黒檀の角材",
+      "es": "Viga de ébano",
+      "zh-Hans": "乌木方材",
+      "zh-Hant": "烏木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/e5f3ab2ff24d72923e3c531f.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 88,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0011_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0011_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0011_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0011_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0011_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0011_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0011_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0011_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0011_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0011_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0011_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0011_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0012",
+    "gameId": "CNT0012",
+    "kind": "items",
+    "slug": "cnt0012",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Yew Beam",
+      "ko": "주목 각재",
+      "ja": "イチイの角材",
+      "es": "Viga de tejo",
+      "zh-Hans": "紫杉木方材",
+      "zh-Hant": "紫杉木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/c3387e725bb29e1d1052702f.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 96,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0012_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0012_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0012_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0012_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0012_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0012_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0012_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0012_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0012_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0012_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0012_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0012_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:cnt0013",
+    "gameId": "CNT0013",
+    "kind": "items",
+    "slug": "cnt0013",
+    "type": "ItemDefinition",
+    "names": {
+      "en": "Ironwood Beam",
+      "ko": "철목 각재",
+      "ja": "アイアンウッドの角材",
+      "es": "Viga de palo de hierro",
+      "zh-Hans": "铁木方材",
+      "zh-Hant": "鐵木角材"
+    },
+    "descriptions": {
+      "en": "A sturdy beam used to craft furniture and expand your living space.",
+      "ko": "가구 제작과 생활 공간 확장에 쓰는 튼튼한 각재입니다.",
+      "ja": "家具作りや生活空間の拡張に使う丈夫な角材。",
+      "es": "Viga resistente para fabricar muebles y ampliar el espacio de vida.",
+      "zh-Hans": "用于制作家具和扩展生活空间的结实方材。",
+      "zh-Hant": "用於製作家具和擴展生活空間的堅固角材。"
+    },
+    "image": {
+      "path": "assets/3845dda2c1e38ee2046b99d8.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "itemType": "Misc",
+      "sellPrice": 104,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0013_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0013_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0013_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0013_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0013_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0013_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "CNT0013_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "CNT0013_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "CNT0013_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "CNT0013_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "CNT0013_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "CNT0013_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "misc:ProcessedMaterial"
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
     "wikiId": "items:compost0001",
     "gameId": "COMPOST0001",
     "kind": "items",
@@ -76170,7 +78980,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/216b386cb77b9f4eedba8c41.png",
+      "path": "assets/aba6f81c03e4fe93a1afcbef.png",
       "width": 32,
       "height": 32
     },
@@ -76286,7 +79096,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/66bb32bf3eba071f8965605b.png",
+      "path": "assets/e3f1eb7ae7ac312714b4697b.png",
       "width": 32,
       "height": 32
     },
@@ -76402,7 +79212,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/eabad175f04dd5987c26d28a.png",
+      "path": "assets/79c5e77c8d1dcc680817566a.png",
       "width": 32,
       "height": 32
     },
@@ -76518,7 +79328,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/5d49d46379c10fa58131cacf.png",
+      "path": "assets/6a4939da20ad69be3f134aad.png",
       "width": 32,
       "height": 32
     },
@@ -76634,7 +79444,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/d80c1e10c78b57783e8f790c.png",
+      "path": "assets/6a34c1e866955a6df31db69f.png",
       "width": 32,
       "height": 32
     },
@@ -76774,7 +79584,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/f2054843cec25e1d6b340a10.png",
+      "path": "assets/ce427a28ee80ad94f3c6c3ee.png",
       "width": 32,
       "height": 32
     },
@@ -76914,7 +79724,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/3f7671a12b9ef9f0d787e88a.png",
+      "path": "assets/1ceb09d01b36aa30635729bc.png",
       "width": 32,
       "height": 32
     },
@@ -77054,7 +79864,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/67f6d212f24d2ce04071a593.png",
+      "path": "assets/3f0a977872fa7bfc448e0c35.png",
       "width": 32,
       "height": 32
     },
@@ -77194,7 +80004,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/1390153f8b4ab226b034181f.png",
+      "path": "assets/5ae545a4cd4938a9c0404844.png",
       "width": 32,
       "height": 32
     },
@@ -78907,7 +81717,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/99a3f4ce695e1842afbc5a6f.png",
+      "path": "assets/47cb7f429d462f0848a86e43.png",
       "width": 32,
       "height": 32
     },
@@ -79747,7 +82557,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/c5fcb79ae7f33c58b4e2ad83.png",
+      "path": "assets/2e329f7670f09e01dab756ae.png",
       "width": 32,
       "height": 32
     },
@@ -79867,7 +82677,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/377bbe89dd2b01ec05fe0c9e.png",
+      "path": "assets/0c59975a45932f90639e0f1d.png",
       "width": 32,
       "height": 32
     },
@@ -80727,7 +83537,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/400daef8c839aa72c88c3d81.png",
+      "path": "assets/3c77f6e858cc36e96003f0c4.png",
       "width": 32,
       "height": 32
     },
@@ -80847,7 +83657,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/11da9349b9fd270e720c5118.png",
+      "path": "assets/8a01e9ab997765ace6bdf09d.png",
       "width": 32,
       "height": 32
     },
@@ -80934,6 +83744,126 @@
         "context": {
           "skill": {
             "ref": "skills:life.camping"
+          },
+          "skillId": "",
+          "speedPercent": 20.0,
+          "outputPercent": 0.0,
+          "$type": "PotionIdleSkillBonus"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:pon0018",
+    "gameId": "PON0018",
+    "kind": "items",
+    "slug": "pon0018",
+    "type": "ConsumableItemDefinition",
+    "names": {
+      "en": "Carpentry Speed Potion",
+      "ko": "목공 속도 물약",
+      "ja": "木工速度ポーション",
+      "es": "Poción de velocidad de carpintería",
+      "zh-Hans": "木工速度药水",
+      "zh-Hant": "木工速度藥水"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/71504b538726b62cd48de17e.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "consumableCategory": "Potion",
+      "useTiming": "Periodic",
+      "periodicIntervalSeconds": 300.0,
+      "consumeAmountPerUse": 1,
+      "consumeChance01": 1.0,
+      "ammoUsageType": "Any",
+      "equipmentModifiers": [],
+      "potionDurationSeconds": 300.0,
+      "potionStatModifiers": [],
+      "potionCombatSkillExpPercent": 0.0,
+      "potionNonCombatSkillExpPercent": 0.0,
+      "potionPassiveOutputPercent": 0.0,
+      "potionIdleSkillBonuses": [
+        {
+          "skill": {
+            "ref": "skills:life.carpentry"
+          },
+          "skillId": "",
+          "speedPercent": 20.0,
+          "outputPercent": 0.0,
+          "$type": "PotionIdleSkillBonus"
+        }
+      ],
+      "itemType": "Consumable",
+      "sellPrice": 5,
+      "rarity": "Normal",
+      "levelRequirements": [],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "ConsumableItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "PON0018_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "PON0018_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "PON0018_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "PON0018_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "PON0018_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "PON0018_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "type:Consumable"
+    },
+    "relations": [
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.potionIdleSkillBonuses[0].skill",
+        "role": "related",
+        "context": {
+          "skill": {
+            "ref": "skills:life.carpentry"
           },
           "skillId": "",
           "speedPercent": 20.0,
@@ -108815,7 +111745,7 @@
       "zh-Hant": "命中時會釋放芬多精。說不定反而會讓敵人更健康。"
     },
     "image": {
-      "path": "assets/8a3206f29503236b1f54d4a0.png",
+      "path": "assets/d198f8d929c8c401a3a5cec9.png",
       "width": 32,
       "height": 32
     },
@@ -112093,7 +115023,7 @@
       "zh-Hant": "很好，因為弓弦不會擦傷你的胸部。只能忍著臭味了。"
     },
     "image": {
-      "path": "assets/24fb51f688ba1ec3a3de5637.png",
+      "path": "assets/3eb9e9f415103860083a58ac.png",
       "width": 32,
       "height": 32
     },
@@ -112307,7 +115237,7 @@
       "zh-Hant": "感覺拉弦的手指上長出了觸手，噁心得不行。"
     },
     "image": {
-      "path": "assets/1ecc71ec29270ae0564cc9c3.png",
+      "path": "assets/012f367d22f91dc9eab2a1a4.png",
       "width": 32,
       "height": 32
     },
@@ -116167,7 +119097,7 @@
       "zh-Hant": "鞋底的根扎得太深，想移動就得把整塊泥土一起抬起來。"
     },
     "image": {
-      "path": "assets/704422ee82784abc4a0e6ae4.png",
+      "path": "assets/eae70fb10c7e06a35ebcd0aa.png",
       "width": 32,
       "height": 32
     },
@@ -116450,7 +119380,7 @@
       "zh-Hant": "揮舞一次就會衝到軌道盡頭。與其擔心敵人，不如擔心撞牆。"
     },
     "image": {
-      "path": "assets/8b53b7f2c9ad368c5d626fd5.png",
+      "path": "assets/a3ff0e025b870517113941f8.png",
       "width": 32,
       "height": 32
     },
@@ -116733,7 +119663,7 @@
       "zh-Hant": "敵人的武器會吸在胸甲上。問題是，自己的武器也會一起黏住不放。"
     },
     "image": {
-      "path": "assets/fb3a74c8ba43b63059f33ab8.png",
+      "path": "assets/39ab2d449cca95197f415a94.png",
       "width": 32,
       "height": 32
     },
@@ -116992,7 +119922,7 @@
       "zh-Hant": "口袋多得數不清，找到的舊失物比偷來的東西還多。"
     },
     "image": {
-      "path": "assets/26c23b4a3d7521600308a381.png",
+      "path": "assets/2c31fd84a5275a9e602b2357.png",
       "width": 32,
       "height": 32
     },
@@ -117275,7 +120205,7 @@
       "zh-Hant": "箭射偏時會倒回發射前，但出糗時尷尬的表情也會被永久記錄。"
     },
     "image": {
-      "path": "assets/4cc23e373c8a7c9fc0809608.png",
+      "path": "assets/84a0bc2846689c7b28f31e17.png",
       "width": 32,
       "height": 32
     },
@@ -117558,7 +120488,7 @@
       "zh-Hant": "它會指向最值錢的寶物，可要打倒的敵人總在相反方向。"
     },
     "image": {
-      "path": "assets/2596409a4a017e7cf93c4c1a.png",
+      "path": "assets/fceb938106409b522a134339.png",
       "width": 32,
       "height": 32
     },
@@ -117871,7 +120801,7 @@
       "zh-Hant": "射出的箭和帳篷樁都會自動吸回靴子。只希望腳背能撐得住。"
     },
     "image": {
-      "path": "assets/52902c744b245800c30980d8.png",
+      "path": "assets/74641bf8f6f30faaff5bdcbe.png",
       "width": 32,
       "height": 32
     },
@@ -118130,7 +121060,7 @@
       "zh-Hant": "它會強迫你按節拍射擊。錯拍時，手套會狠狠彈你的手指。"
     },
     "image": {
-      "path": "assets/85cc57fd55d31273488bad1a.png",
+      "path": "assets/8bba55e65d20bc6a98d202f1.png",
       "width": 32,
       "height": 32
     },
@@ -118413,7 +121343,7 @@
       "zh-Hant": "咒語寫錯時會倒回上一筆。同樣的錯誤犯多了，年輪都會嘆氣。"
     },
     "image": {
-      "path": "assets/915580baefbb09c04efbca74.png",
+      "path": "assets/f3909c3c6fd60f3c766e840f.png",
       "width": 32,
       "height": 32
     },
@@ -118696,7 +121626,7 @@
       "zh-Hant": "能反射魔法，也會把隊友嚇得扭曲的表情照得一清二楚。"
     },
     "image": {
-      "path": "assets/9cc01328b13fbd14abe081f4.png",
+      "path": "assets/7a1ada7175bcaa98729c93d4.png",
       "width": 32,
       "height": 32
     },
@@ -119027,7 +121957,7 @@
       "zh-Hant": "會把金屬碎片排列得整整齊齊。吃飯時連湯匙都可能飛來排隊。"
     },
     "image": {
-      "path": "assets/d436874a0365e123528a7148.png",
+      "path": "assets/6f094681647692eaf4d94f1e.png",
       "width": 32,
       "height": 32
     },
@@ -119310,7 +122240,7 @@
       "zh-Hant": "無論踩到什麼顏料，鞋底都乾乾淨淨，可走過的路卻會鋪滿五彩腳印。"
     },
     "image": {
-      "path": "assets/3fee5797fd17fff2f31981bb.png",
+      "path": "assets/b12a12451bead054fc495b09.png",
       "width": 32,
       "height": 32
     },
@@ -119593,7 +122523,7 @@
       "zh-Hant": "迷路後才找得到真正的路。當然，不是回家的路。"
     },
     "image": {
-      "path": "assets/88fbbadc19b75c87b6b0985e.png",
+      "path": "assets/70e8c6eea875819ccddb800d.png",
       "width": 32,
       "height": 32
     },
@@ -119761,7 +122691,7 @@
       "zh-Hant": "逃跑上千次，終於磨出了最完美的鞋底角度。"
     },
     "image": {
-      "path": "assets/e6c45aa4dd12e895e266d750.png",
+      "path": "assets/ffadeb074d43f0888de8e9fc.png",
       "width": 32,
       "height": 32
     },
@@ -119929,7 +122859,7 @@
       "zh-Hant": "夜間導航很好用，也能準確告訴敵人你在哪裡。"
     },
     "image": {
-      "path": "assets/26de83cc553ceac4b4b9bec1.png",
+      "path": "assets/7efd582c0d9a14084cc9bcfe.png",
       "width": 32,
       "height": 32
     },
@@ -120097,7 +123027,7 @@
       "zh-Hant": "被這個擊中並不會造成傷害，只會讓你感到飢餓。"
     },
     "image": {
-      "path": "assets/3267faf180d17627633caa26.png",
+      "path": "assets/a2789062d2e049c8adfe22be.png",
       "width": 32,
       "height": 32
     },
@@ -120288,7 +123218,7 @@
       "zh-Hant": "廚師才不會哭，只是眼睛出汗了。"
     },
     "image": {
-      "path": "assets/bf65df00f973aa1bd546e516.png",
+      "path": "assets/43ad8d22c6a1e5b8fee2f2ef.png",
       "width": 32,
       "height": 32
     },
@@ -120456,7 +123386,7 @@
       "zh-Hant": "食物被燒焦了，但圍裙卻一塵不染。"
     },
     "image": {
-      "path": "assets/24855f16e28f94036fb49659.png",
+      "path": "assets/91bc82ea7e7d8c53adbe1eb3.png",
       "width": 32,
       "height": 32
     },
@@ -120624,7 +123554,7 @@
       "zh-Hant": "讓你彷彿剛做完 500 個深蹲，連氣味也一樣。"
     },
     "image": {
-      "path": "assets/01a6f682cfcb4996ba609348.png",
+      "path": "assets/46ea7068e3cf4c27a0fd8657.png",
       "width": 32,
       "height": 32
     },
@@ -120792,7 +123722,7 @@
       "zh-Hant": "脫下它們時感覺自己都要飛起來了。其實只是膝蓋在痛。"
     },
     "image": {
-      "path": "assets/a3a6eb5dabf7b18cfb7c02cd.png",
+      "path": "assets/94b463b0cc9072fd5fac30f7.png",
       "width": 32,
       "height": 32
     },
@@ -120986,7 +123916,7 @@
       "zh-Hant": "耳邊不斷響起「再來一組！」的幻聽。快停下。"
     },
     "image": {
-      "path": "assets/bee4b4ba3ae82627b8c2fded.png",
+      "path": "assets/dfcd57ada2406f0779347cad.png",
       "width": 32,
       "height": 32
     },
@@ -121155,7 +124085,7 @@
       "zh-Hant": "種子會自己鑽進泥土，偶爾也會扎進你的腳。"
     },
     "image": {
-      "path": "assets/b0903bbe17b19da82cb42b7b.png",
+      "path": "assets/b13d293dd85739b0eaf90a71.png",
       "width": 32,
       "height": 32
     },
@@ -121323,7 +124253,7 @@
       "zh-Hant": "烏鴉飛過來和你做朋友。對收穫沒有太大幫助。"
     },
     "image": {
-      "path": "assets/db664da8128a5b6875e6abd3.png",
+      "path": "assets/dc029c6ba9ec708ce4358ce5.png",
       "width": 32,
       "height": 32
     },
@@ -121491,7 +124421,7 @@
       "zh-Hant": "水永遠不會用完，但它太重了，提不起來。"
     },
     "image": {
-      "path": "assets/d4a5d3883f362a6f0a1e0eb7.png",
+      "path": "assets/048658d2fd91dc9fa2b8e1ec.png",
       "width": 32,
       "height": 32
     },
@@ -121659,7 +124589,7 @@
       "zh-Hant": "完全消除腳步聲。除了大腳趾處的洞。"
     },
     "image": {
-      "path": "assets/b2811c96433eee8808429d1e.png",
+      "path": "assets/d47b7e7319b9015a5383a30c.png",
       "width": 32,
       "height": 32
     },
@@ -121847,7 +124777,7 @@
       "zh-Hant": "只有斗篷變得隱形。你的身體仍然清晰可見。"
     },
     "image": {
-      "path": "assets/0604b0081a102b0a2ba9a210.png",
+      "path": "assets/626f408e0bf2c93d4d6888de.png",
       "width": 32,
       "height": 32
     },
@@ -122035,7 +124965,7 @@
       "zh-Hant": "誇鎖長得漂亮，它就會打開。前提是你得真心實意。"
     },
     "image": {
-      "path": "assets/b9d192e1a1567167c39f516c.png",
+      "path": "assets/f621735a266591597251f5ff.png",
       "width": 32,
       "height": 32
     },
@@ -122223,7 +125153,7 @@
       "zh-Hant": "草莓味還是毒藥？人生就是一場賭博。"
     },
     "image": {
-      "path": "assets/1eeff0dcaca465b8fde5dda0.png",
+      "path": "assets/89cebcdfffd7b26c520e8634.png",
       "width": 32,
       "height": 32
     },
@@ -122391,7 +125321,7 @@
       "zh-Hant": "只能保護皮膚免受藥水爆炸的傷害——真的只有皮膚。"
     },
     "image": {
-      "path": "assets/5c11f4c93fd55800028951d5.png",
+      "path": "assets/091d35d2dea457ef08e1659b.png",
       "width": 32,
       "height": 32
     },
@@ -124913,7 +127843,7 @@
       "zh-Hant": "甚至讓怪物搖尾巴。我吃的時候也覺得味道不錯。"
     },
     "image": {
-      "path": "assets/6ebe6999f0d57714707586ee.png",
+      "path": "assets/f307bcfb9f05b908203831ac.png",
       "width": 32,
       "height": 32
     },
@@ -125081,7 +128011,7 @@
       "zh-Hant": "讓你感覺自己就像百獸之王。直到一隻流浪貓衝你哈氣。"
     },
     "image": {
-      "path": "assets/bcd63a8c8145cf08ef012bda.png",
+      "path": "assets/ceac4d4db447954fb4d7cf11.png",
       "width": 32,
       "height": 32
     },
@@ -127625,7 +130555,7 @@
       "zh-Hant": "無論怎麼掏，口袋裡都會繼續冒出種子。千萬別問它們從哪來。"
     },
     "image": {
-      "path": "assets/ce42760d9fdb2b98610693f8.png",
+      "path": "assets/def8a29ab9b313dcb02d4646.png",
       "width": 32,
       "height": 32
     },
@@ -127793,7 +130723,7 @@
       "zh-Hant": "能把臉遮得嚴嚴實實，可額頭上卻用金線繡著醒目的「傳奇大盜」。"
     },
     "image": {
-      "path": "assets/fd52cc962366506cc36efe06.png",
+      "path": "assets/cd6754538e979bae47dec844.png",
       "width": 32,
       "height": 32
     },
@@ -127952,6 +130882,342 @@
           "progressionSkill": null,
           "skillId": "",
           "minLevel": 80,
+          "$type": "LevelRequirement"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:spenonc0050",
+    "gameId": "SPENONC0050",
+    "kind": "items",
+    "slug": "spenonc0050",
+    "type": "EquipmentItemDefinition",
+    "names": {
+      "en": "Sawdust-Covered Cape",
+      "ko": "톱밥투성이 망토",
+      "ja": "おがくずまみれのマント",
+      "es": "Capa cubierta de serrín",
+      "zh-Hans": "沾满木屑的披风",
+      "zh-Hant": "沾滿木屑的披風"
+    },
+    "descriptions": {
+      "en": "A cape steeped in the scent of sawdust after years of work.",
+      "ko": "오랜 작업으로 톱밥 냄새가 밴 망토입니다.",
+      "ja": "長年の作業で木の香りが染みついたマント。",
+      "es": "Una capa impregnada del aroma del taller.",
+      "zh-Hans": "因常年劳作而染上木屑气息的披风。",
+      "zh-Hant": "因長年勞作而染上木屑氣息的披風。"
+    },
+    "image": {
+      "path": "assets/4cff2206d776f9980720e0d1.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "validSlots": [
+        "Cape"
+      ],
+      "isTwoHanded": false,
+      "mainHandAttackKind": "Melee",
+      "equipmentModifiers": [],
+      "idleSkillBonuses": [
+        {
+          "skill": {
+            "ref": "skills:life.carpentry"
+          },
+          "bonusType": "SkillXpPercent",
+          "percent": 20.0,
+          "$type": "IdleSkillBonus"
+        }
+      ],
+      "enchantScaleRules": [],
+      "enchantIdleSkillBonusScaleRules": [
+        {
+          "bonusIndex": 0,
+          "multiplierAt99": 2.0,
+          "$type": "EnchantIdleSkillBonusScaleRule"
+        }
+      ],
+      "itemType": "NonCombatEquipment",
+      "sellPrice": 1000,
+      "rarity": "Mythic",
+      "levelRequirements": [
+        {
+          "skill": {
+            "ref": "skills:life.carpentry"
+          },
+          "progressionSkill": null,
+          "skillId": "",
+          "minLevel": 20,
+          "$type": "LevelRequirement"
+        }
+      ],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "EquipmentItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "SPENONC0050_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "SPENONC0050_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "SPENONC0050_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "SPENONC0050_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "SPENONC0050_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "SPENONC0050_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "SPENONC0050_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "SPENONC0050_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "SPENONC0050_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "SPENONC0050_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "SPENONC0050_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "SPENONC0050_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "type:NonCombatEquipment"
+    },
+    "relations": [
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.idleSkillBonuses[0].skill",
+        "role": "related",
+        "context": {
+          "skill": {
+            "ref": "skills:life.carpentry"
+          },
+          "bonusType": "SkillXpPercent",
+          "percent": 20.0,
+          "$type": "IdleSkillBonus"
+        }
+      },
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.levelRequirements[0].skill",
+        "role": "requires",
+        "context": {
+          "skill": {
+            "ref": "skills:life.carpentry"
+          },
+          "progressionSkill": null,
+          "skillId": "",
+          "minLevel": 20,
+          "$type": "LevelRequirement"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "items:spenonc0051",
+    "gameId": "SPENONC0051",
+    "kind": "items",
+    "slug": "spenonc0051",
+    "type": "EquipmentItemDefinition",
+    "names": {
+      "en": "True Plumb Necklace",
+      "ko": "반듯한 다림추 목걸이",
+      "ja": "まっすぐな下げ振り首飾り",
+      "es": "Collar de plomada certera",
+      "zh-Hans": "精准铅垂项链",
+      "zh-Hant": "精準鉛垂項鍊"
+    },
+    "descriptions": {
+      "en": "A carpenter's plumb bob that keeps every post straight.",
+      "ko": "기둥을 반듯하게 세워 주는 목수의 다림추입니다.",
+      "ja": "柱をまっすぐ立てる大工の下げ振り。",
+      "es": "Una plomada que mantiene rectos los pilares.",
+      "zh-Hans": "帮助木匠把柱子立直的铅垂。",
+      "zh-Hant": "幫助木匠把柱子立直的鉛垂。"
+    },
+    "image": {
+      "path": "assets/8ebad879275d159d763b9d68.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "validSlots": [
+        "Necklace"
+      ],
+      "isTwoHanded": false,
+      "mainHandAttackKind": "Melee",
+      "equipmentModifiers": [],
+      "idleSkillBonuses": [
+        {
+          "skill": {
+            "ref": "skills:life.carpentry"
+          },
+          "bonusType": "SkillActionSpeedPercent",
+          "percent": 20.0,
+          "$type": "IdleSkillBonus"
+        }
+      ],
+      "enchantScaleRules": [],
+      "enchantIdleSkillBonusScaleRules": [
+        {
+          "bonusIndex": 0,
+          "multiplierAt99": 2.0,
+          "$type": "EnchantIdleSkillBonusScaleRule"
+        }
+      ],
+      "itemType": "NonCombatEquipment",
+      "sellPrice": 1000,
+      "rarity": "Mythic",
+      "levelRequirements": [
+        {
+          "skill": {
+            "ref": "skills:life.carpentry"
+          },
+          "progressionSkill": null,
+          "skillId": "",
+          "minLevel": 40,
+          "$type": "LevelRequirement"
+        }
+      ],
+      "combatEquipmentSortGroup": "Common",
+      "$type": "EquipmentItemDefinition",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Item",
+            "key": "SPENONC0051_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "SPENONC0051_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "SPENONC0051_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "SPENONC0051_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "SPENONC0051_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "SPENONC0051_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Item",
+            "key": "SPENONC0051_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Item",
+            "key": "SPENONC0051_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Item",
+            "key": "SPENONC0051_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Item",
+            "key": "SPENONC0051_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Item",
+            "key": "SPENONC0051_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Item",
+            "key": "SPENONC0051_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "museumCategory": "type:NonCombatEquipment"
+    },
+    "relations": [
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.idleSkillBonuses[0].skill",
+        "role": "related",
+        "context": {
+          "skill": {
+            "ref": "skills:life.carpentry"
+          },
+          "bonusType": "SkillActionSpeedPercent",
+          "percent": 20.0,
+          "$type": "IdleSkillBonus"
+        }
+      },
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.levelRequirements[0].skill",
+        "role": "requires",
+        "context": {
+          "skill": {
+            "ref": "skills:life.carpentry"
+          },
+          "progressionSkill": null,
+          "skillId": "",
+          "minLevel": 40,
           "$type": "LevelRequirement"
         }
       }

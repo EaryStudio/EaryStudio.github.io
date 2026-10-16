@@ -1006,6 +1006,438 @@
     "aliases": []
   },
   {
+    "wikiId": "guides:guides.life.carpentry",
+    "gameId": "Guides.Life.Carpentry",
+    "kind": "guides",
+    "slug": "guides.life.carpentry",
+    "type": "DialogueSequenceSO",
+    "names": {
+      "en": "Life Carpentry",
+      "ko": "Life Carpentry",
+      "ja": "Life Carpentry",
+      "es": "Life Carpentry",
+      "zh-Hans": "Life Carpentry",
+      "zh-Hant": "Life Carpentry"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": null,
+    "data": {
+      "lines": [
+        {
+          "text": {
+            "en": {
+              "speaker": "Iris",
+              "content": "Plankie, that thing on the workbench... Is that your arm?"
+            },
+            "ko": {
+              "speaker": "아이리스",
+              "content": "플랭키, 작업대에 올려둔 그거…… 네 팔이야?"
+            },
+            "ja": {
+              "speaker": "アイリス",
+              "content": "プランキー、作業台に置いてあるそれ……君の腕？"
+            },
+            "es": {
+              "speaker": "Iris",
+              "content": "Plankie, eso que tienes sobre el banco... ¿Es tu brazo?"
+            },
+            "zh-Hans": {
+              "speaker": "艾莉丝",
+              "content": "普兰奇，工作台上放的那个……是你的胳膊？"
+            },
+            "zh-Hant": {
+              "speaker": "艾莉絲",
+              "content": "普蘭奇，工作台上放的那個……是你的胳膊？"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Plankie",
+              "content": "Yep. Fixing the elbow. I can make perfectly straight furniture, but somehow I keep putting my own arm on crooked."
+            },
+            "ko": {
+              "speaker": "플랭키",
+              "content": "응. 팔꿈치 수리 중이야. 가구는 반듯하게 만들면서 내 팔은 자꾸 삐뚤게 끼운다니까."
+            },
+            "ja": {
+              "speaker": "プランキー",
+              "content": "うん。肘を修理してるんだ。家具はまっすぐ作れるのに、自分の腕はなぜか曲がってついちゃうんだよね。"
+            },
+            "es": {
+              "speaker": "Plankie",
+              "content": "Sí. Estoy arreglando el codo. Los muebles me salen bien rectos, pero siempre acabo poniéndome el brazo torcido."
+            },
+            "zh-Hans": {
+              "speaker": "普兰奇",
+              "content": "对，在修胳膊肘。家具倒是能做得端端正正，自己的胳膊却老装歪。"
+            },
+            "zh-Hant": {
+              "speaker": "普蘭奇",
+              "content": "對，在修胳膊肘。家具倒是能做得端端正正，自己的胳膊卻老裝歪。"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Bibi",
+              "content": "You can start with Wood Processing. Turn wood into planks and beams, check the required materials and level, then add the job to your queue."
+            },
+            "ko": {
+              "speaker": "비비",
+              "content": "먼저 '목재 가공'부터 해보자. 원목을 판재와 각재로 바꾸는 거야. 필요한 재료와 레벨을 확인하고 대기열에 등록하면 돼."
+            },
+            "ja": {
+              "speaker": "ビビ",
+              "content": "まずは「木材加工」から始めてごらん。木材を板材や角材にするんだ。必要な材料とレベルを確認して、キューに登録すればいいよ。"
+            },
+            "es": {
+              "speaker": "Bibi",
+              "content": "Empieza por el Procesado de madera: convierte la madera en tablas y vigas. Revisa los materiales y el nivel necesarios, y añade el trabajo a la cola."
+            },
+            "zh-Hans": {
+              "speaker": "比比",
+              "content": "你先从「木材加工」开始吧，把原木加工成板材和方材。确认所需材料和等级，再加入队列就行。"
+            },
+            "zh-Hant": {
+              "speaker": "比比",
+              "content": "妳先從「木材加工」開始吧，把原木加工成板材和角材。確認所需材料和等級，再加入佇列就行。"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Iris",
+              "content": "And I use those to add furniture to the space I already use?"
+            },
+            "ko": {
+              "speaker": "아이리스",
+              "content": "그걸로 지금 쓰는 공간에 가구를 들이면 되는 거야?"
+            },
+            "ja": {
+              "speaker": "アイリス",
+              "content": "それで、今使ってる場所に家具を置けるようにするんだね？"
+            },
+            "es": {
+              "speaker": "Iris",
+              "content": "¿Y con eso puedo poner muebles en el espacio que ya uso?"
+            },
+            "zh-Hans": {
+              "speaker": "艾莉丝",
+              "content": "然后用这些材料，给我现在用的地方添家具就行了？"
+            },
+            "zh-Hant": {
+              "speaker": "艾莉絲",
+              "content": "然後用這些材料，給我現在用的地方添家具就行了？"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Plankie",
+              "content": "Exactly. Open up furniture spaces through Space Improvement, then make what you need under Furniture & Upgrades. A place for everything beats tripping over everything."
+            },
+            "ko": {
+              "speaker": "플랭키",
+              "content": "맞아. '공간 정비'로 가구 놓을 자리를 열고, '가구 제작 및 개선'에서 필요한 걸 만들어. 뭐든 제자리가 있어야 발에 덜 걸리지."
+            },
+            "ja": {
+              "speaker": "プランキー",
+              "content": "そう。「空間整備」で家具を置く場所を開けて、「家具製作・改良」で必要なものを作るんだ。物の置き場所が決まってれば、足にも引っかかりにくいからね。"
+            },
+            "es": {
+              "speaker": "Plankie",
+              "content": "Exacto. Habilita sitios para muebles en Mejora del espacio y fabrica lo que necesites en Muebles y mejoras. Si todo tiene su sitio, tropiezas menos."
+            },
+            "zh-Hans": {
+              "speaker": "普兰奇",
+              "content": "没错。先通过「空间整备」开放家具位置，再到「家具制作与改良」里做需要的家具。东西各归各位，就没那么容易绊脚了。"
+            },
+            "zh-Hant": {
+              "speaker": "普蘭奇",
+              "content": "沒錯。先透過「空間整備」開放家具位置，再到「家具製作與改良」裡做需要的家具。東西各歸各位，就沒那麼容易絆腳了。"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Bibi",
+              "content": "You can repeat Wood Processing to make planks and beams while training Carpentry. Space improvements, furniture crafting and upgrades only need completing once per stage."
+            },
+            "ko": {
+              "speaker": "비비",
+              "content": "목재 가공은 반복해서 판재와 각재를 만들며 목공을 수련할 수 있어. 공간 정비와 가구 제작·개선은 단계마다 한 번씩만 완료하면 되고."
+            },
+            "ja": {
+              "speaker": "ビビ",
+              "content": "木材加工は繰り返して板材や角材を作りながら、木工を鍛えられるよ。空間整備や家具の製作・改良は、各段階につき一度完了すればいいんだ。"
+            },
+            "es": {
+              "speaker": "Bibi",
+              "content": "Puedes repetir el procesado para fabricar tablas y vigas mientras entrenas carpintería. Las obras del espacio, la fabricación de muebles y sus mejoras solo se completan una vez por etapa."
+            },
+            "zh-Hans": {
+              "speaker": "比比",
+              "content": "木材加工可以反复进行，一边制作板材和方材，一边练习木工。空间整备和家具制作、改良，则每个阶段只需完成一次。"
+            },
+            "zh-Hant": {
+              "speaker": "比比",
+              "content": "木材加工可以反覆進行，一邊製作板材和角材，一邊練習木工。空間整備和家具製作、改良，則每個階段只需完成一次。"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Iris",
+              "content": "Do the furniture pieces go in my bag too? It’s already full."
+            },
+            "ko": {
+              "speaker": "아이리스",
+              "content": "가구도 가방에 들어가? 벌써 꽉 찼는데."
+            },
+            "ja": {
+              "speaker": "アイリス",
+              "content": "家具もかばんに入るの？ もういっぱいなんだけど。"
+            },
+            "es": {
+              "speaker": "Iris",
+              "content": "¿Los muebles también van en mi bolsa? Ya está llena."
+            },
+            "zh-Hans": {
+              "speaker": "艾莉丝",
+              "content": "家具也要放进背包吗？已经装满了。"
+            },
+            "zh-Hant": {
+              "speaker": "艾莉絲",
+              "content": "家具也要放進背包嗎？已經裝滿了。"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Plankie",
+              "content": "Furniture stays in “Furniture”, not your inventory. Open it and choose a piece for each space. Keep your bag for wood... and spare screws."
+            },
+            "ko": {
+              "speaker": "플랭키",
+              "content": "가구는 인벤토리가 아니라 '가구 관리'에 보관돼. 거기서 자리를 눌러 쓸 가구를 고르면 돼. 가방은 나무랑…… 여분 나사 넣을 자리로 남겨둬."
+            },
+            "ja": {
+              "speaker": "プランキー",
+              "content": "家具はインベントリじゃなくて「家具管理」に保管されるよ。そこで置き場所を押して、使う家具を選べばいい。かばんは木材と……予備のねじを入れるために空けておこう。"
+            },
+            "es": {
+              "speaker": "Plankie",
+              "content": "Los muebles se guardan en «Muebles», no en el inventario. Pulsa un espacio y elige cuál usar. Deja la bolsa para madera... y tornillos de repuesto."
+            },
+            "zh-Hans": {
+              "speaker": "普兰奇",
+              "content": "家具存放在「家具管理」里，不占背包。在那里点选位置，再选要用的家具就行。背包还是留着装木头和……备用螺丝吧。"
+            },
+            "zh-Hant": {
+              "speaker": "普蘭奇",
+              "content": "家具存放在「家具管理」裡，不占背包。在那裡點選位置，再選要用的家具就行。背包還是留著裝木頭和……備用螺絲吧。"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Bibi",
+              "content": "Each space applies the effect of just one furniture type. Upgrading makes that piece stronger; only its current tier’s effect applies, not all its tiers added together."
+            },
+            "ko": {
+              "speaker": "비비",
+              "content": "같은 자리에서는 한 종류의 가구 효과만 적용돼. 개선하면 그 가구의 효과가 강해지고, 여러 단계의 효과가 합쳐지는 대신 현재 단계의 효과만 적용되는 거야."
+            },
+            "ja": {
+              "speaker": "ビビ",
+              "content": "同じ場所で有効になるのは、一種類の家具の効果だけだよ。改良すれば効果は強くなるけど、各段階の効果を足すんじゃなくて、今の段階の効果だけが適用されるんだ。"
+            },
+            "es": {
+              "speaker": "Bibi",
+              "content": "Cada espacio aplica el efecto de un solo tipo de mueble. Mejorarlo aumenta su efecto, pero solo cuenta su nivel actual: los efectos de los distintos niveles no se suman."
+            },
+            "zh-Hans": {
+              "speaker": "比比",
+              "content": "同一个位置只能生效一种家具的效果。改良会增强家具效果，但各阶段的效果不会相加，只应用当前阶段的效果。"
+            },
+            "zh-Hant": {
+              "speaker": "比比",
+              "content": "同一個位置只能生效一種家具的效果。改良會增強家具效果，但各階段的效果不會相加，只套用目前階段的效果。"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Iris",
+              "content": "Which furniture should I start with, then?"
+            },
+            "ko": {
+              "speaker": "아이리스",
+              "content": "그럼 어떤 가구부터 만들면 좋을까?"
+            },
+            "ja": {
+              "speaker": "アイリス",
+              "content": "じゃあ、どの家具から作ればいいかな？"
+            },
+            "es": {
+              "speaker": "Iris",
+              "content": "¿Por qué mueble debería empezar, entonces?"
+            },
+            "zh-Hans": {
+              "speaker": "艾莉丝",
+              "content": "那先做什么家具好呢？"
+            },
+            "zh-Hant": {
+              "speaker": "艾莉絲",
+              "content": "那先做什麼家具好呢？"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Plankie",
+              "content": "A workbench speeds up Carpentry, and an instrument case speeds up Instrument Performance. Read the furniture descriptions and choose what helps with the work you’re doing."
+            },
+            "ko": {
+              "speaker": "플랭키",
+              "content": "작업대는 목공 속도, 악기함은 악기 연주 속도를 올려줘. 가구 설명을 보고 지금 할 일에 맞게 고르면 돼."
+            },
+            "ja": {
+              "speaker": "プランキー",
+              "content": "作業台は木工の速度、楽器ケースは楽器演奏の速度を上げてくれるよ。家具の説明を見て、今やることに合うものを選べばいい。"
+            },
+            "es": {
+              "speaker": "Plankie",
+              "content": "El banco acelera la carpintería y el estuche de instrumentos acelera la interpretación instrumental. Lee las descripciones y elige lo que ayude con tu trabajo actual."
+            },
+            "zh-Hans": {
+              "speaker": "普兰奇",
+              "content": "工作台能提高木工速度，乐器盒能提高乐器演奏速度。看看家具说明，按你现在要做的事来选就好。"
+            },
+            "zh-Hant": {
+              "speaker": "普蘭奇",
+              "content": "工作台能提高木工速度，樂器盒能提高樂器演奏速度。看看家具說明，按妳現在要做的事來選就好。"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Iris",
+              "content": "So I process the wood, improve the space, then make the furniture I need. Got it!"
+            },
+            "ko": {
+              "speaker": "아이리스",
+              "content": "그럼 가공해서 재료를 모으고, 자리를 정비하고, 필요한 가구를 만들면 되겠네!"
+            },
+            "ja": {
+              "speaker": "アイリス",
+              "content": "じゃあ、加工して材料を集めて、場所を整えて、必要な家具を作ればいいんだね！"
+            },
+            "es": {
+              "speaker": "Iris",
+              "content": "¡Entonces proceso la madera, preparo el espacio y fabrico los muebles que necesite! ¡Entendido!"
+            },
+            "zh-Hans": {
+              "speaker": "艾莉丝",
+              "content": "明白了！先加工收集材料，再整理地方，最后做需要的家具！"
+            },
+            "zh-Hant": {
+              "speaker": "艾莉絲",
+              "content": "明白了！先加工收集材料，再整理地方，最後做需要的家具！"
+            }
+          },
+          "image": null
+        },
+        {
+          "text": {
+            "en": {
+              "speaker": "Plankie",
+              "content": "That’s it. Now, once I put this arm back on... Huh. Where did that last screw go?"
+            },
+            "ko": {
+              "speaker": "플랭키",
+              "content": "그거야. 이제 이 팔만 다시 끼우면…… 어라, 나사 하나 어디 갔지?"
+            },
+            "ja": {
+              "speaker": "プランキー",
+              "content": "その通り。さて、この腕をつけ直せば……あれ、ねじが一本どこへ行った？"
+            },
+            "es": {
+              "speaker": "Plankie",
+              "content": "Eso es. Ahora solo me falta volver a ponerme el brazo... Un momento, ¿dónde se ha metido ese tornillo?"
+            },
+            "zh-Hans": {
+              "speaker": "普兰奇",
+              "content": "就是这样。现在把这条胳膊装回去就……咦，怎么少了颗螺丝？"
+            },
+            "zh-Hant": {
+              "speaker": "普蘭奇",
+              "content": "就是這樣。現在把這條胳膊裝回去就……咦，怎麼少了顆螺絲？"
+            }
+          },
+          "image": null
+        }
+      ],
+      "textReferences": {
+        "names": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": [
+        "ko",
+        "ja",
+        "es",
+        "zh-Hans",
+        "zh-Hant"
+      ]
+    },
+    "relations": [],
+    "aliases": []
+  },
+  {
     "wikiId": "guides:guides.life.cartography",
     "gameId": "Guides.Life.Cartography",
     "kind": "guides",

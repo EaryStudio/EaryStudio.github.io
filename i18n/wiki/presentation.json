@@ -2494,5 +2494,13 @@
     "Requisito de equipo",
     "装备条件",
     "裝備條件"
+  ],
+  "enum.CompleteCarpentryProject": [
+    "Complete a carpentry project",
+    "목공 작업 완료",
+    "木工作業を完了",
+    "Completar un proyecto de carpintería",
+    "完成木工作业",
+    "完成木工作業"
   ]
 }

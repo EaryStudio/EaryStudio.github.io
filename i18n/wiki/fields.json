@@ -670,5 +670,13 @@
     "La restricción solo se aplica a compras",
     "限制仅适用于购买",
     "限制僅適用於購買"
+  ],
+  "requireCompletionForSkillUnlock": [
+    "Skill unlock requires objective completion",
+    "스킬 해금에 목표 완료 필요",
+    "スキル解放に目標達成が必要",
+    "El desbloqueo requiere completar el objetivo",
+    "解锁技能需要完成目标",
+    "解鎖技能需要完成目標"
   ]
 }

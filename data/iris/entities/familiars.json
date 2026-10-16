@@ -22,7 +22,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/d596b48613f17029f7b655a9.png",
+      "path": "assets/2cf9f7af87e33c437ab1f6d7.png",
       "width": 32,
       "height": 32
     },
@@ -156,7 +156,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/9a7a0425bc5b8fee98b31730.png",
+      "path": "assets/9a163a67d45699433b6933f6.png",
       "width": 32,
       "height": 32
     },
@@ -290,7 +290,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/c830b120a21d80e220c1e934.png",
+      "path": "assets/fab9ca19ddc3dd420672799d.png",
       "width": 32,
       "height": 32
     },
@@ -643,7 +643,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/3b75d892d71404d55504f263.png",
+      "path": "assets/c80c716ec13dc8d3ade61584.png",
       "width": 32,
       "height": 32
     },
@@ -996,7 +996,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/fee0219d193b69a702dfccdd.png",
+      "path": "assets/713898141e5352b6ca1f19ee.png",
       "width": 32,
       "height": 32
     },
@@ -1349,7 +1349,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/1342d56a88dff1a459b5bb67.png",
+      "path": "assets/5c6fe244ec67a2112e9d37d8.png",
       "width": 32,
       "height": 32
     },
@@ -1702,7 +1702,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/4f2ddfe03bded3c6d07e27a2.png",
+      "path": "assets/fda4036700662c12415f8c07.png",
       "width": 32,
       "height": 32
     },
@@ -2055,7 +2055,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/1ba4528c3be69ff0774a75e4.png",
+      "path": "assets/913fe50182298712e75930fe.png",
       "width": 32,
       "height": 32
     },
@@ -2408,7 +2408,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/f66de1443114eeb4503863ba.png",
+      "path": "assets/6c5fa27cecf547e94ed4b6a2.png",
       "width": 32,
       "height": 32
     },
@@ -4879,7 +4879,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/5fc60d3f5ec645142efce9dc.png",
+      "path": "assets/f8ec0729852559cd36a8802c.png",
       "width": 32,
       "height": 32
     },
@@ -5232,7 +5232,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/2809ff982e33ae90e14259cc.png",
+      "path": "assets/1866fc8ecafbc06529890b7b.png",
       "width": 32,
       "height": 32
     },
@@ -7703,7 +7703,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/c282100910026eeca06a8d92.png",
+      "path": "assets/a7b0ceb2f89131aa87e01e26.png",
       "width": 32,
       "height": 32
     },
@@ -8056,7 +8056,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/0620b3c70ea7491fbd9f280f.png",
+      "path": "assets/5c335da9174f6fb763c36c62.png",
       "width": 32,
       "height": 32
     },
@@ -10527,7 +10527,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/ed779e88b9a32a7187ffe0c6.png",
+      "path": "assets/6efad8b70fac9a424dd099b5.png",
       "width": 32,
       "height": 32
     },
@@ -10880,7 +10880,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/800f61a983763f626d9f0fd2.png",
+      "path": "assets/f86469aee99bfbfd34bc512f.png",
       "width": 32,
       "height": 32
     },
@@ -12256,7 +12256,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/0ea260b1654c9dd250249573.png",
+      "path": "assets/2dc0238e8116512617b9dc3d.png",
       "width": 32,
       "height": 32
     },
@@ -12390,7 +12390,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/e0b96541702f699230f1ef9b.png",
+      "path": "assets/5941dc6ae089cafc0f2fbd85.png",
       "width": 32,
       "height": 32
     },
@@ -12743,7 +12743,7 @@
       "zh-Hant": ""
     },
     "image": {
-      "path": "assets/29c130ff73fa63f3016d0449.png",
+      "path": "assets/f04c15bbe01f7d02da5afe45.png",
       "width": 32,
       "height": 32
     },
@@ -13055,6 +13055,712 @@
               "zh-Hant": {
                 "table": "Skill",
                 "key": "FAM0042_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "familiars:fam0043",
+    "gameId": "FAM0043",
+    "kind": "familiars",
+    "slug": "fam0043",
+    "type": "FamiliarDefinitionSO",
+    "names": {
+      "en": "Sawdust Beaver",
+      "ko": "톱밥 비버",
+      "ja": "おがくずビーバー",
+      "es": "Castor del serrín",
+      "zh-Hans": "木屑海狸",
+      "zh-Hant": "木屑河狸"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/99950cc8e6d592f051858eea.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "category": "IdleSkill",
+      "unlockedWithFamiliarTrainingSkill": false,
+      "unlockIdleSkillId": "Life.Carpentry",
+      "unlockIdleActionId": "",
+      "idleUnlockChance01": 0.002,
+      "unlockCombatAttackType": "Any",
+      "combatUnlockChance01": 0.01,
+      "objectiveUnlockChance01": 0.01,
+      "effectType": "SkillXpPercent",
+      "targetSkillId": "Life.Carpentry",
+      "targetCombatAttackType": "Any",
+      "rankBonuses": [
+        {
+          "rank": "F",
+          "amountPercent": 0.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "E",
+          "amountPercent": 1.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "D",
+          "amountPercent": 2.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "C",
+          "amountPercent": 3.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "B",
+          "amountPercent": 4.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "A",
+          "amountPercent": 5.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "S",
+          "amountPercent": 7.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "SS",
+          "amountPercent": 8.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "SSS",
+          "amountPercent": 10.0,
+          "$type": "RankBonus"
+        }
+      ],
+      "$type": "FamiliarDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "FamiliarTraining",
+            "key": "FAM0043_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "FamiliarTraining",
+            "key": "FAM0043_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "FamiliarTraining",
+            "key": "FAM0043_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "FamiliarTraining",
+            "key": "FAM0043_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "FamiliarTraining",
+            "key": "FAM0043_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "FamiliarTraining",
+            "key": "FAM0043_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.unlockIdleSkillId",
+        "role": "unlock",
+        "context": {
+          "category": "IdleSkill",
+          "unlockedWithFamiliarTrainingSkill": false,
+          "unlockIdleSkillId": "Life.Carpentry",
+          "unlockIdleActionId": "",
+          "idleUnlockChance01": 0.002,
+          "unlockCombatAttackType": "Any",
+          "combatUnlockChance01": 0.01,
+          "objectiveUnlockChance01": 0.01,
+          "effectType": "SkillXpPercent",
+          "targetSkillId": "Life.Carpentry",
+          "targetCombatAttackType": "Any",
+          "rankBonuses": [
+            {
+              "rank": "F",
+              "amountPercent": 0.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "E",
+              "amountPercent": 1.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "D",
+              "amountPercent": 2.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "C",
+              "amountPercent": 3.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "B",
+              "amountPercent": 4.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "A",
+              "amountPercent": 5.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "S",
+              "amountPercent": 7.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "SS",
+              "amountPercent": 8.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "SSS",
+              "amountPercent": 10.0,
+              "$type": "RankBonus"
+            }
+          ],
+          "$type": "FamiliarDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.targetSkillId",
+        "role": "related",
+        "context": {
+          "category": "IdleSkill",
+          "unlockedWithFamiliarTrainingSkill": false,
+          "unlockIdleSkillId": "Life.Carpentry",
+          "unlockIdleActionId": "",
+          "idleUnlockChance01": 0.002,
+          "unlockCombatAttackType": "Any",
+          "combatUnlockChance01": 0.01,
+          "objectiveUnlockChance01": 0.01,
+          "effectType": "SkillXpPercent",
+          "targetSkillId": "Life.Carpentry",
+          "targetCombatAttackType": "Any",
+          "rankBonuses": [
+            {
+              "rank": "F",
+              "amountPercent": 0.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "E",
+              "amountPercent": 1.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "D",
+              "amountPercent": 2.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "C",
+              "amountPercent": 3.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "B",
+              "amountPercent": 4.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "A",
+              "amountPercent": 5.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "S",
+              "amountPercent": 7.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "SS",
+              "amountPercent": 8.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "SSS",
+              "amountPercent": 10.0,
+              "$type": "RankBonus"
+            }
+          ],
+          "$type": "FamiliarDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "FamiliarTraining",
+                "key": "FAM0043_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "familiars:fam0044",
+    "gameId": "FAM0044",
+    "kind": "familiars",
+    "slug": "fam0044",
+    "type": "FamiliarDefinitionSO",
+    "names": {
+      "en": "Brick Armadillo",
+      "ko": "벽돌 아르마딜로",
+      "ja": "レンガアルマジロ",
+      "es": "Armadillo ladrillero",
+      "zh-Hans": "砖块犰狳",
+      "zh-Hant": "磚塊犰狳"
+    },
+    "descriptions": {
+      "en": "",
+      "ko": "",
+      "ja": "",
+      "es": "",
+      "zh-Hans": "",
+      "zh-Hant": ""
+    },
+    "image": {
+      "path": "assets/61e661b1596c59c48e39bf6b.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "category": "IdleSkill",
+      "unlockedWithFamiliarTrainingSkill": false,
+      "unlockIdleSkillId": "Life.Carpentry",
+      "unlockIdleActionId": "",
+      "idleUnlockChance01": 5E-05,
+      "unlockCombatAttackType": "Any",
+      "combatUnlockChance01": 0.01,
+      "objectiveUnlockChance01": 0.01,
+      "effectType": "SkillActionSpeedPercent",
+      "targetSkillId": "Life.Carpentry",
+      "targetCombatAttackType": "Any",
+      "rankBonuses": [
+        {
+          "rank": "F",
+          "amountPercent": 0.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "E",
+          "amountPercent": 1.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "D",
+          "amountPercent": 2.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "C",
+          "amountPercent": 3.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "B",
+          "amountPercent": 4.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "A",
+          "amountPercent": 5.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "S",
+          "amountPercent": 7.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "SS",
+          "amountPercent": 8.0,
+          "$type": "RankBonus"
+        },
+        {
+          "rank": "SSS",
+          "amountPercent": 10.0,
+          "$type": "RankBonus"
+        }
+      ],
+      "$type": "FamiliarDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "FamiliarTraining",
+            "key": "FAM0044_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "FamiliarTraining",
+            "key": "FAM0044_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "FamiliarTraining",
+            "key": "FAM0044_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "FamiliarTraining",
+            "key": "FAM0044_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "FamiliarTraining",
+            "key": "FAM0044_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "FamiliarTraining",
+            "key": "FAM0044_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": null,
+          "ko": null,
+          "ja": null,
+          "es": null,
+          "zh-Hans": null,
+          "zh-Hant": null
+        }
+      },
+      "fallbackLocales": []
+    },
+    "relations": [
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.unlockIdleSkillId",
+        "role": "unlock",
+        "context": {
+          "category": "IdleSkill",
+          "unlockedWithFamiliarTrainingSkill": false,
+          "unlockIdleSkillId": "Life.Carpentry",
+          "unlockIdleActionId": "",
+          "idleUnlockChance01": 5E-05,
+          "unlockCombatAttackType": "Any",
+          "combatUnlockChance01": 0.01,
+          "objectiveUnlockChance01": 0.01,
+          "effectType": "SkillActionSpeedPercent",
+          "targetSkillId": "Life.Carpentry",
+          "targetCombatAttackType": "Any",
+          "rankBonuses": [
+            {
+              "rank": "F",
+              "amountPercent": 0.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "E",
+              "amountPercent": 1.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "D",
+              "amountPercent": 2.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "C",
+              "amountPercent": 3.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "B",
+              "amountPercent": 4.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "A",
+              "amountPercent": 5.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "S",
+              "amountPercent": 7.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "SS",
+              "amountPercent": 8.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "SSS",
+              "amountPercent": 10.0,
+              "$type": "RankBonus"
+            }
+          ],
+          "$type": "FamiliarDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": null,
+              "ko": null,
+              "ja": null,
+              "es": null,
+              "zh-Hans": null,
+              "zh-Hant": null
+            }
+          },
+          "fallbackLocales": []
+        }
+      },
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.targetSkillId",
+        "role": "related",
+        "context": {
+          "category": "IdleSkill",
+          "unlockedWithFamiliarTrainingSkill": false,
+          "unlockIdleSkillId": "Life.Carpentry",
+          "unlockIdleActionId": "",
+          "idleUnlockChance01": 5E-05,
+          "unlockCombatAttackType": "Any",
+          "combatUnlockChance01": 0.01,
+          "objectiveUnlockChance01": 0.01,
+          "effectType": "SkillActionSpeedPercent",
+          "targetSkillId": "Life.Carpentry",
+          "targetCombatAttackType": "Any",
+          "rankBonuses": [
+            {
+              "rank": "F",
+              "amountPercent": 0.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "E",
+              "amountPercent": 1.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "D",
+              "amountPercent": 2.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "C",
+              "amountPercent": 3.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "B",
+              "amountPercent": 4.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "A",
+              "amountPercent": 5.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "S",
+              "amountPercent": 7.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "SS",
+              "amountPercent": 8.0,
+              "$type": "RankBonus"
+            },
+            {
+              "rank": "SSS",
+              "amountPercent": 10.0,
+              "$type": "RankBonus"
+            }
+          ],
+          "$type": "FamiliarDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "FamiliarTraining",
+                "key": "FAM0044_Name",
                 "locale": "zh-Hant"
               }
             },

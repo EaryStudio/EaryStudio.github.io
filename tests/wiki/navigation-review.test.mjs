@@ -27,10 +27,11 @@ test('all matches remain reachable and pagination reports a clamped visible rang
  assert.equal(rangeText('{total}개 중 {start}–{end}개 표시',pages[1],'ko'),'137개 중 51–100개 표시');
 });
 const loaded=loadWiki();
-test('real Korean search exposes the seven results beyond the former cap',async()=>{
+test('real Korean search exposes every result beyond the former cap',async()=>{
  const w=await loaded,docs=prepare(searchIndex(w.entities.filter(e=>!w.mergedInto.has(e.wikiId)),'ko',w.config,w.dictionaries.ko));
- const result=search(docs,'스킬');assert.equal(result.length,87);
- assert.equal(paginate(result,2).rows.length,37);
+ const result=search(docs,'스킬');assert.ok(result.length>80);
+ const pages=Array.from({length:Math.ceil(result.length/50)},(_,i)=>paginate(result,i+1));
+ assert.equal(new Set(pages.flatMap(p=>p.rows.map(r=>r.id))).size,result.length);
 });
 test('source rows group by destination while every expedition reward context survives',async()=>{
  const w=await loaded,html=renderRelationSections(w.ids.get('currencies:gold'),'ko',w).find(s=>s.id==='sources').html;

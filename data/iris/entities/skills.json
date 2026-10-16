@@ -6530,6 +6530,2152 @@
     "aliases": []
   },
   {
+    "wikiId": "skills:life.carpentry",
+    "gameId": "Life.Carpentry",
+    "kind": "skills",
+    "slug": "life.carpentry",
+    "type": "IdleSkillDefinitionSO",
+    "names": {
+      "en": "Carpentry",
+      "ko": "목공",
+      "ja": "木工",
+      "es": "Carpintería",
+      "zh-Hans": "木工",
+      "zh-Hant": "木工"
+    },
+    "descriptions": {
+      "en": "Process wood, craft furniture and improve your existing living space to support your life skills.",
+      "ko": "목재를 다듬어 가구를 만들고, 익숙한 생활 공간을 편리하게 꾸밉니다.",
+      "ja": "木材を加工して家具を作り、いつもの生活空間を使いやすく整えます。",
+      "es": "Trabaja la madera, fabrica muebles y mejora tu espacio cotidiano para facilitar las habilidades de vida.",
+      "zh-Hans": "加工木材、制作家具，让熟悉的生活空间更加便利。",
+      "zh-Hant": "加工木材、製作家具，讓熟悉的生活空間更加便利。"
+    },
+    "image": {
+      "path": "assets/5c4a53914eba9214561a6403.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "kind": "TimeBased",
+      "unlockedByDefault": false,
+      "maxLevel": 100,
+      "unlockableMaxLevel": 120,
+      "xpCurve": {
+        "expToNextByLevel": [
+          5,
+          10,
+          20,
+          30,
+          40,
+          50,
+          70,
+          80,
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          160,
+          170,
+          170,
+          175,
+          175,
+          220,
+          221,
+          228,
+          243,
+          269,
+          328,
+          393,
+          478,
+          585,
+          716,
+          1005,
+          1226,
+          1481,
+          1773,
+          2103,
+          2898,
+          3387,
+          3928,
+          4522,
+          5172,
+          6866,
+          7765,
+          8735,
+          9778,
+          10897,
+          14017,
+          15498,
+          17074,
+          18745,
+          20515,
+          25735,
+          28006,
+          30397,
+          32911,
+          35549,
+          43702,
+          47006,
+          50461,
+          54068,
+          57830,
+          69918,
+          74539,
+          79344,
+          84336,
+          89517,
+          106724,
+          112988,
+          119473,
+          126182,
+          133120,
+          156823,
+          165097,
+          173635,
+          182439,
+          191514,
+          223293,
+          233992,
+          245002,
+          256325,
+          267964,
+          309613,
+          323199,
+          337146,
+          351458,
+          366139,
+          381190,
+          396617,
+          412423,
+          428610,
+          445183,
+          508804,
+          527911,
+          547453,
+          567435,
+          587859,
+          608729,
+          630050,
+          651824,
+          674056,
+          696748,
+          718187,
+          739626,
+          761066,
+          782505,
+          803944,
+          825383,
+          846822,
+          868262,
+          889701,
+          911140,
+          932579,
+          954018,
+          975458,
+          996897,
+          1018336,
+          1039775,
+          1061214,
+          1082654,
+          1104093,
+          1125532
+        ],
+        "$type": "IdleSkillXpCurveSO"
+      },
+      "actionProficiencyCurve": {
+        "minTotalExpForRank": [
+          18,
+          92,
+          278,
+          740,
+          1850,
+          4625,
+          11100,
+          27750
+        ],
+        "$type": "IdleActionProficiencyCurveSO"
+      },
+      "baseSpeedMultiplier": 1.0,
+      "baseXpMultiplier": 1.0,
+      "levelMilestones": [
+        {
+          "level": 2,
+          "goldReward": 10,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "CritChance",
+              "value": 2.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 5,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.05,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "AttackInterval",
+              "value": -0.1,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 10,
+          "goldReward": 100,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "Defense",
+              "value": 1.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 15,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.05,
+          "combatStatModifiers": [],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 20,
+          "goldReward": 300,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "MaxHP",
+              "value": 1.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 25,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.05,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 30,
+          "goldReward": 1000,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "Sight",
+              "value": 5.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 40,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "Luck",
+              "value": 10.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 50,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.05,
+          "skillXpMultiplier": 1.05,
+          "combatStatModifiers": [],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 60,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "MinDamage",
+              "value": 3.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            },
+            {
+              "statType": "MaxDamage",
+              "value": 3.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 70,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "BossDamage",
+              "value": 7.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 80,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "AttackRange",
+              "value": 3.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 90,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "CritChance",
+              "value": 5.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            },
+            {
+              "statType": "Sight",
+              "value": 10.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 100,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "MinDamage",
+              "value": 5.0,
+              "modType": "FinalPercent",
+              "order": 0,
+              "$type": "StatModifier"
+            },
+            {
+              "statType": "MaxDamage",
+              "value": 5.0,
+              "modType": "FinalPercent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 105,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "BossDamage",
+              "value": 2.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 110,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "AttackRange",
+              "value": 5.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 115,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.1,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "HpRegen",
+              "value": 10.0,
+              "modType": "Percent",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        },
+        {
+          "level": 120,
+          "goldReward": 0,
+          "unlockRecipeIds": [],
+          "skillSpeedMultiplier": 1.0,
+          "skillXpMultiplier": 1.0,
+          "combatStatModifiers": [
+            {
+              "statType": "MaxHP",
+              "value": 5.0,
+              "modType": "FinalPercent",
+              "order": 0,
+              "$type": "StatModifier"
+            },
+            {
+              "statType": "MoveSpeed",
+              "value": 5.0,
+              "modType": "FinalPercent",
+              "order": 0,
+              "$type": "StatModifier"
+            },
+            {
+              "statType": "BossDamage",
+              "value": 10.0,
+              "modType": "Flat",
+              "order": 0,
+              "$type": "StatModifier"
+            }
+          ],
+          "$type": "LevelMilestone"
+        }
+      ],
+      "$type": "IdleSkillDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Skill",
+            "key": "Carpentry_Name",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "Carpentry_Name",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "Carpentry_Name",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "Carpentry_Name",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "Carpentry_Name",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "Carpentry_Name",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Skill",
+            "key": "Carpentry_Desc",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Skill",
+            "key": "Carpentry_Desc",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Skill",
+            "key": "Carpentry_Desc",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Skill",
+            "key": "Carpentry_Desc",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Skill",
+            "key": "Carpentry_Desc",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Skill",
+            "key": "Carpentry_Desc",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "levelTable": [
+        {
+          "level": 1,
+          "totalExpToReach": 0,
+          "expToNext": 5
+        },
+        {
+          "level": 2,
+          "totalExpToReach": 5,
+          "expToNext": 10
+        },
+        {
+          "level": 3,
+          "totalExpToReach": 15,
+          "expToNext": 20
+        },
+        {
+          "level": 4,
+          "totalExpToReach": 35,
+          "expToNext": 30
+        },
+        {
+          "level": 5,
+          "totalExpToReach": 65,
+          "expToNext": 40
+        },
+        {
+          "level": 6,
+          "totalExpToReach": 105,
+          "expToNext": 50
+        },
+        {
+          "level": 7,
+          "totalExpToReach": 155,
+          "expToNext": 70
+        },
+        {
+          "level": 8,
+          "totalExpToReach": 225,
+          "expToNext": 80
+        },
+        {
+          "level": 9,
+          "totalExpToReach": 305,
+          "expToNext": 100
+        },
+        {
+          "level": 10,
+          "totalExpToReach": 405,
+          "expToNext": 110
+        },
+        {
+          "level": 11,
+          "totalExpToReach": 515,
+          "expToNext": 120
+        },
+        {
+          "level": 12,
+          "totalExpToReach": 635,
+          "expToNext": 130
+        },
+        {
+          "level": 13,
+          "totalExpToReach": 765,
+          "expToNext": 140
+        },
+        {
+          "level": 14,
+          "totalExpToReach": 905,
+          "expToNext": 150
+        },
+        {
+          "level": 15,
+          "totalExpToReach": 1055,
+          "expToNext": 160
+        },
+        {
+          "level": 16,
+          "totalExpToReach": 1215,
+          "expToNext": 170
+        },
+        {
+          "level": 17,
+          "totalExpToReach": 1385,
+          "expToNext": 170
+        },
+        {
+          "level": 18,
+          "totalExpToReach": 1555,
+          "expToNext": 175
+        },
+        {
+          "level": 19,
+          "totalExpToReach": 1730,
+          "expToNext": 175
+        },
+        {
+          "level": 20,
+          "totalExpToReach": 1905,
+          "expToNext": 220
+        },
+        {
+          "level": 21,
+          "totalExpToReach": 2125,
+          "expToNext": 221
+        },
+        {
+          "level": 22,
+          "totalExpToReach": 2346,
+          "expToNext": 228
+        },
+        {
+          "level": 23,
+          "totalExpToReach": 2574,
+          "expToNext": 243
+        },
+        {
+          "level": 24,
+          "totalExpToReach": 2817,
+          "expToNext": 269
+        },
+        {
+          "level": 25,
+          "totalExpToReach": 3086,
+          "expToNext": 328
+        },
+        {
+          "level": 26,
+          "totalExpToReach": 3414,
+          "expToNext": 393
+        },
+        {
+          "level": 27,
+          "totalExpToReach": 3807,
+          "expToNext": 478
+        },
+        {
+          "level": 28,
+          "totalExpToReach": 4285,
+          "expToNext": 585
+        },
+        {
+          "level": 29,
+          "totalExpToReach": 4870,
+          "expToNext": 716
+        },
+        {
+          "level": 30,
+          "totalExpToReach": 5586,
+          "expToNext": 1005
+        },
+        {
+          "level": 31,
+          "totalExpToReach": 6591,
+          "expToNext": 1226
+        },
+        {
+          "level": 32,
+          "totalExpToReach": 7817,
+          "expToNext": 1481
+        },
+        {
+          "level": 33,
+          "totalExpToReach": 9298,
+          "expToNext": 1773
+        },
+        {
+          "level": 34,
+          "totalExpToReach": 11071,
+          "expToNext": 2103
+        },
+        {
+          "level": 35,
+          "totalExpToReach": 13174,
+          "expToNext": 2898
+        },
+        {
+          "level": 36,
+          "totalExpToReach": 16072,
+          "expToNext": 3387
+        },
+        {
+          "level": 37,
+          "totalExpToReach": 19459,
+          "expToNext": 3928
+        },
+        {
+          "level": 38,
+          "totalExpToReach": 23387,
+          "expToNext": 4522
+        },
+        {
+          "level": 39,
+          "totalExpToReach": 27909,
+          "expToNext": 5172
+        },
+        {
+          "level": 40,
+          "totalExpToReach": 33081,
+          "expToNext": 6866
+        },
+        {
+          "level": 41,
+          "totalExpToReach": 39947,
+          "expToNext": 7765
+        },
+        {
+          "level": 42,
+          "totalExpToReach": 47712,
+          "expToNext": 8735
+        },
+        {
+          "level": 43,
+          "totalExpToReach": 56447,
+          "expToNext": 9778
+        },
+        {
+          "level": 44,
+          "totalExpToReach": 66225,
+          "expToNext": 10897
+        },
+        {
+          "level": 45,
+          "totalExpToReach": 77122,
+          "expToNext": 14017
+        },
+        {
+          "level": 46,
+          "totalExpToReach": 91139,
+          "expToNext": 15498
+        },
+        {
+          "level": 47,
+          "totalExpToReach": 106637,
+          "expToNext": 17074
+        },
+        {
+          "level": 48,
+          "totalExpToReach": 123711,
+          "expToNext": 18745
+        },
+        {
+          "level": 49,
+          "totalExpToReach": 142456,
+          "expToNext": 20515
+        },
+        {
+          "level": 50,
+          "totalExpToReach": 162971,
+          "expToNext": 25735
+        },
+        {
+          "level": 51,
+          "totalExpToReach": 188706,
+          "expToNext": 28006
+        },
+        {
+          "level": 52,
+          "totalExpToReach": 216712,
+          "expToNext": 30397
+        },
+        {
+          "level": 53,
+          "totalExpToReach": 247109,
+          "expToNext": 32911
+        },
+        {
+          "level": 54,
+          "totalExpToReach": 280020,
+          "expToNext": 35549
+        },
+        {
+          "level": 55,
+          "totalExpToReach": 315569,
+          "expToNext": 43702
+        },
+        {
+          "level": 56,
+          "totalExpToReach": 359271,
+          "expToNext": 47006
+        },
+        {
+          "level": 57,
+          "totalExpToReach": 406277,
+          "expToNext": 50461
+        },
+        {
+          "level": 58,
+          "totalExpToReach": 456738,
+          "expToNext": 54068
+        },
+        {
+          "level": 59,
+          "totalExpToReach": 510806,
+          "expToNext": 57830
+        },
+        {
+          "level": 60,
+          "totalExpToReach": 568636,
+          "expToNext": 69918
+        },
+        {
+          "level": 61,
+          "totalExpToReach": 638554,
+          "expToNext": 74539
+        },
+        {
+          "level": 62,
+          "totalExpToReach": 713093,
+          "expToNext": 79344
+        },
+        {
+          "level": 63,
+          "totalExpToReach": 792437,
+          "expToNext": 84336
+        },
+        {
+          "level": 64,
+          "totalExpToReach": 876773,
+          "expToNext": 89517
+        },
+        {
+          "level": 65,
+          "totalExpToReach": 966290,
+          "expToNext": 106724
+        },
+        {
+          "level": 66,
+          "totalExpToReach": 1073014,
+          "expToNext": 112988
+        },
+        {
+          "level": 67,
+          "totalExpToReach": 1186002,
+          "expToNext": 119473
+        },
+        {
+          "level": 68,
+          "totalExpToReach": 1305475,
+          "expToNext": 126182
+        },
+        {
+          "level": 69,
+          "totalExpToReach": 1431657,
+          "expToNext": 133120
+        },
+        {
+          "level": 70,
+          "totalExpToReach": 1564777,
+          "expToNext": 156823
+        },
+        {
+          "level": 71,
+          "totalExpToReach": 1721600,
+          "expToNext": 165097
+        },
+        {
+          "level": 72,
+          "totalExpToReach": 1886697,
+          "expToNext": 173635
+        },
+        {
+          "level": 73,
+          "totalExpToReach": 2060332,
+          "expToNext": 182439
+        },
+        {
+          "level": 74,
+          "totalExpToReach": 2242771,
+          "expToNext": 191514
+        },
+        {
+          "level": 75,
+          "totalExpToReach": 2434285,
+          "expToNext": 223293
+        },
+        {
+          "level": 76,
+          "totalExpToReach": 2657578,
+          "expToNext": 233992
+        },
+        {
+          "level": 77,
+          "totalExpToReach": 2891570,
+          "expToNext": 245002
+        },
+        {
+          "level": 78,
+          "totalExpToReach": 3136572,
+          "expToNext": 256325
+        },
+        {
+          "level": 79,
+          "totalExpToReach": 3392897,
+          "expToNext": 267964
+        },
+        {
+          "level": 80,
+          "totalExpToReach": 3660861,
+          "expToNext": 309613
+        },
+        {
+          "level": 81,
+          "totalExpToReach": 3970474,
+          "expToNext": 323199
+        },
+        {
+          "level": 82,
+          "totalExpToReach": 4293673,
+          "expToNext": 337146
+        },
+        {
+          "level": 83,
+          "totalExpToReach": 4630819,
+          "expToNext": 351458
+        },
+        {
+          "level": 84,
+          "totalExpToReach": 4982277,
+          "expToNext": 366139
+        },
+        {
+          "level": 85,
+          "totalExpToReach": 5348416,
+          "expToNext": 381190
+        },
+        {
+          "level": 86,
+          "totalExpToReach": 5729606,
+          "expToNext": 396617
+        },
+        {
+          "level": 87,
+          "totalExpToReach": 6126223,
+          "expToNext": 412423
+        },
+        {
+          "level": 88,
+          "totalExpToReach": 6538646,
+          "expToNext": 428610
+        },
+        {
+          "level": 89,
+          "totalExpToReach": 6967256,
+          "expToNext": 445183
+        },
+        {
+          "level": 90,
+          "totalExpToReach": 7412439,
+          "expToNext": 508804
+        },
+        {
+          "level": 91,
+          "totalExpToReach": 7921243,
+          "expToNext": 527911
+        },
+        {
+          "level": 92,
+          "totalExpToReach": 8449154,
+          "expToNext": 547453
+        },
+        {
+          "level": 93,
+          "totalExpToReach": 8996607,
+          "expToNext": 567435
+        },
+        {
+          "level": 94,
+          "totalExpToReach": 9564042,
+          "expToNext": 587859
+        },
+        {
+          "level": 95,
+          "totalExpToReach": 10151901,
+          "expToNext": 608729
+        },
+        {
+          "level": 96,
+          "totalExpToReach": 10760630,
+          "expToNext": 630050
+        },
+        {
+          "level": 97,
+          "totalExpToReach": 11390680,
+          "expToNext": 651824
+        },
+        {
+          "level": 98,
+          "totalExpToReach": 12042504,
+          "expToNext": 674056
+        },
+        {
+          "level": 99,
+          "totalExpToReach": 12716560,
+          "expToNext": 696748
+        },
+        {
+          "level": 100,
+          "totalExpToReach": 13413308,
+          "expToNext": 718187
+        },
+        {
+          "level": 101,
+          "totalExpToReach": 14131495,
+          "expToNext": 739626
+        },
+        {
+          "level": 102,
+          "totalExpToReach": 14871121,
+          "expToNext": 761066
+        },
+        {
+          "level": 103,
+          "totalExpToReach": 15632187,
+          "expToNext": 782505
+        },
+        {
+          "level": 104,
+          "totalExpToReach": 16414692,
+          "expToNext": 803944
+        },
+        {
+          "level": 105,
+          "totalExpToReach": 17218636,
+          "expToNext": 825383
+        },
+        {
+          "level": 106,
+          "totalExpToReach": 18044019,
+          "expToNext": 846822
+        },
+        {
+          "level": 107,
+          "totalExpToReach": 18890841,
+          "expToNext": 868262
+        },
+        {
+          "level": 108,
+          "totalExpToReach": 19759103,
+          "expToNext": 889701
+        },
+        {
+          "level": 109,
+          "totalExpToReach": 20648804,
+          "expToNext": 911140
+        },
+        {
+          "level": 110,
+          "totalExpToReach": 21559944,
+          "expToNext": 932579
+        },
+        {
+          "level": 111,
+          "totalExpToReach": 22492523,
+          "expToNext": 954018
+        },
+        {
+          "level": 112,
+          "totalExpToReach": 23446541,
+          "expToNext": 975458
+        },
+        {
+          "level": 113,
+          "totalExpToReach": 24421999,
+          "expToNext": 996897
+        },
+        {
+          "level": 114,
+          "totalExpToReach": 25418896,
+          "expToNext": 1018336
+        },
+        {
+          "level": 115,
+          "totalExpToReach": 26437232,
+          "expToNext": 1039775
+        },
+        {
+          "level": 116,
+          "totalExpToReach": 27477007,
+          "expToNext": 1061214
+        },
+        {
+          "level": 117,
+          "totalExpToReach": 28538221,
+          "expToNext": 1082654
+        },
+        {
+          "level": 118,
+          "totalExpToReach": 29620875,
+          "expToNext": 1104093
+        },
+        {
+          "level": 119,
+          "totalExpToReach": 30724968,
+          "expToNext": 1125532
+        },
+        {
+          "level": 120,
+          "totalExpToReach": 31850500,
+          "expToNext": 0
+        }
+      ],
+      "proficiencyTable": [
+        {
+          "rank": "F",
+          "totalExpToReach": 0
+        },
+        {
+          "rank": "E",
+          "totalExpToReach": 18
+        },
+        {
+          "rank": "D",
+          "totalExpToReach": 92
+        },
+        {
+          "rank": "C",
+          "totalExpToReach": 278
+        },
+        {
+          "rank": "B",
+          "totalExpToReach": 740
+        },
+        {
+          "rank": "A",
+          "totalExpToReach": 1850
+        },
+        {
+          "rank": "S",
+          "totalExpToReach": 4625
+        },
+        {
+          "rank": "SS",
+          "totalExpToReach": 11100
+        },
+        {
+          "rank": "SSS",
+          "totalExpToReach": 27750
+        }
+      ],
+      "special": {
+        "kind": "carpentry",
+        "spaceProjects": [
+          {
+            "ref": "actions:cnh0001"
+          },
+          {
+            "ref": "actions:cnh0002"
+          },
+          {
+            "ref": "actions:cnh0003"
+          },
+          {
+            "ref": "actions:cnh0004"
+          },
+          {
+            "ref": "actions:cnh0005"
+          },
+          {
+            "ref": "actions:cnh0006"
+          },
+          {
+            "ref": "actions:cnh0007"
+          },
+          {
+            "ref": "actions:cnh0008"
+          }
+        ],
+        "furniture": [
+          {
+            "slot": 0,
+            "levels": [
+              {
+                "ref": "actions:cnf0001"
+              },
+              {
+                "ref": "actions:cnf0002"
+              },
+              {
+                "ref": "actions:cnf0003"
+              }
+            ]
+          },
+          {
+            "slot": 0,
+            "levels": [
+              {
+                "ref": "actions:cnf0025"
+              },
+              {
+                "ref": "actions:cnf0026"
+              },
+              {
+                "ref": "actions:cnf0027"
+              }
+            ]
+          },
+          {
+            "slot": 1,
+            "levels": [
+              {
+                "ref": "actions:cnf0004"
+              },
+              {
+                "ref": "actions:cnf0005"
+              },
+              {
+                "ref": "actions:cnf0006"
+              }
+            ]
+          },
+          {
+            "slot": 1,
+            "levels": [
+              {
+                "ref": "actions:cnf0028"
+              },
+              {
+                "ref": "actions:cnf0029"
+              },
+              {
+                "ref": "actions:cnf0030"
+              }
+            ]
+          },
+          {
+            "slot": 2,
+            "levels": [
+              {
+                "ref": "actions:cnf0007"
+              },
+              {
+                "ref": "actions:cnf0008"
+              },
+              {
+                "ref": "actions:cnf0009"
+              }
+            ]
+          },
+          {
+            "slot": 2,
+            "levels": [
+              {
+                "ref": "actions:cnf0031"
+              },
+              {
+                "ref": "actions:cnf0032"
+              },
+              {
+                "ref": "actions:cnf0033"
+              }
+            ]
+          },
+          {
+            "slot": 3,
+            "levels": [
+              {
+                "ref": "actions:cnf0010"
+              },
+              {
+                "ref": "actions:cnf0011"
+              },
+              {
+                "ref": "actions:cnf0012"
+              }
+            ]
+          },
+          {
+            "slot": 3,
+            "levels": [
+              {
+                "ref": "actions:cnf0034"
+              },
+              {
+                "ref": "actions:cnf0035"
+              },
+              {
+                "ref": "actions:cnf0036"
+              }
+            ]
+          },
+          {
+            "slot": 4,
+            "levels": [
+              {
+                "ref": "actions:cnf0013"
+              },
+              {
+                "ref": "actions:cnf0014"
+              },
+              {
+                "ref": "actions:cnf0015"
+              }
+            ]
+          },
+          {
+            "slot": 4,
+            "levels": [
+              {
+                "ref": "actions:cnf0037"
+              },
+              {
+                "ref": "actions:cnf0038"
+              },
+              {
+                "ref": "actions:cnf0039"
+              }
+            ]
+          },
+          {
+            "slot": 5,
+            "levels": [
+              {
+                "ref": "actions:cnf0016"
+              },
+              {
+                "ref": "actions:cnf0017"
+              },
+              {
+                "ref": "actions:cnf0018"
+              }
+            ]
+          },
+          {
+            "slot": 5,
+            "levels": [
+              {
+                "ref": "actions:cnf0040"
+              },
+              {
+                "ref": "actions:cnf0041"
+              },
+              {
+                "ref": "actions:cnf0042"
+              }
+            ]
+          },
+          {
+            "slot": 6,
+            "levels": [
+              {
+                "ref": "actions:cnf0019"
+              },
+              {
+                "ref": "actions:cnf0020"
+              },
+              {
+                "ref": "actions:cnf0021"
+              }
+            ]
+          },
+          {
+            "slot": 6,
+            "levels": [
+              {
+                "ref": "actions:cnf0043"
+              },
+              {
+                "ref": "actions:cnf0044"
+              },
+              {
+                "ref": "actions:cnf0045"
+              }
+            ]
+          },
+          {
+            "slot": 7,
+            "levels": [
+              {
+                "ref": "actions:cnf0022"
+              },
+              {
+                "ref": "actions:cnf0023"
+              },
+              {
+                "ref": "actions:cnf0024"
+              }
+            ]
+          },
+          {
+            "slot": 7,
+            "levels": [
+              {
+                "ref": "actions:cnf0046"
+              },
+              {
+                "ref": "actions:cnf0047"
+              },
+              {
+                "ref": "actions:cnf0048"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "relations": [
+      {
+        "target": "stats:critchance",
+        "field": "data.levelMilestones[0].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "CritChance",
+          "value": 2.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackinterval",
+        "field": "data.levelMilestones[1].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackInterval",
+          "value": -0.1,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:defense",
+        "field": "data.levelMilestones[2].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Defense",
+          "value": 1.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:maxhp",
+        "field": "data.levelMilestones[4].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MaxHP",
+          "value": 1.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:sight",
+        "field": "data.levelMilestones[6].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Sight",
+          "value": 5.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:luck",
+        "field": "data.levelMilestones[7].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "Luck",
+          "value": 10.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:mindamage",
+        "field": "data.levelMilestones[9].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MinDamage",
+          "value": 3.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:maxdamage",
+        "field": "data.levelMilestones[9].combatStatModifiers[1].statType",
+        "role": "related",
+        "context": {
+          "statType": "MaxDamage",
+          "value": 3.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:bossdamage",
+        "field": "data.levelMilestones[10].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "BossDamage",
+          "value": 7.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackrange",
+        "field": "data.levelMilestones[11].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackRange",
+          "value": 3.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:critchance",
+        "field": "data.levelMilestones[12].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "CritChance",
+          "value": 5.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:sight",
+        "field": "data.levelMilestones[12].combatStatModifiers[1].statType",
+        "role": "related",
+        "context": {
+          "statType": "Sight",
+          "value": 10.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:mindamage",
+        "field": "data.levelMilestones[13].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MinDamage",
+          "value": 5.0,
+          "modType": "FinalPercent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:maxdamage",
+        "field": "data.levelMilestones[13].combatStatModifiers[1].statType",
+        "role": "related",
+        "context": {
+          "statType": "MaxDamage",
+          "value": 5.0,
+          "modType": "FinalPercent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:bossdamage",
+        "field": "data.levelMilestones[14].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "BossDamage",
+          "value": 2.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:attackrange",
+        "field": "data.levelMilestones[15].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "AttackRange",
+          "value": 5.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:hpregen",
+        "field": "data.levelMilestones[16].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "HpRegen",
+          "value": 10.0,
+          "modType": "Percent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:maxhp",
+        "field": "data.levelMilestones[17].combatStatModifiers[0].statType",
+        "role": "related",
+        "context": {
+          "statType": "MaxHP",
+          "value": 5.0,
+          "modType": "FinalPercent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:movespeed",
+        "field": "data.levelMilestones[17].combatStatModifiers[1].statType",
+        "role": "related",
+        "context": {
+          "statType": "MoveSpeed",
+          "value": 5.0,
+          "modType": "FinalPercent",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "stats:bossdamage",
+        "field": "data.levelMilestones[17].combatStatModifiers[2].statType",
+        "role": "related",
+        "context": {
+          "statType": "BossDamage",
+          "value": 10.0,
+          "modType": "Flat",
+          "order": 0,
+          "$type": "StatModifier"
+        }
+      },
+      {
+        "target": "actions:cnh0001",
+        "field": "data.special.spaceProjects[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnh0001"
+        }
+      },
+      {
+        "target": "actions:cnh0002",
+        "field": "data.special.spaceProjects[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnh0002"
+        }
+      },
+      {
+        "target": "actions:cnh0003",
+        "field": "data.special.spaceProjects[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnh0003"
+        }
+      },
+      {
+        "target": "actions:cnh0004",
+        "field": "data.special.spaceProjects[3]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnh0004"
+        }
+      },
+      {
+        "target": "actions:cnh0005",
+        "field": "data.special.spaceProjects[4]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnh0005"
+        }
+      },
+      {
+        "target": "actions:cnh0006",
+        "field": "data.special.spaceProjects[5]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnh0006"
+        }
+      },
+      {
+        "target": "actions:cnh0007",
+        "field": "data.special.spaceProjects[6]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnh0007"
+        }
+      },
+      {
+        "target": "actions:cnh0008",
+        "field": "data.special.spaceProjects[7]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnh0008"
+        }
+      },
+      {
+        "target": "actions:cnf0001",
+        "field": "data.special.furniture[0].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0001"
+        }
+      },
+      {
+        "target": "actions:cnf0002",
+        "field": "data.special.furniture[0].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0002"
+        }
+      },
+      {
+        "target": "actions:cnf0003",
+        "field": "data.special.furniture[0].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0003"
+        }
+      },
+      {
+        "target": "actions:cnf0025",
+        "field": "data.special.furniture[1].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0025"
+        }
+      },
+      {
+        "target": "actions:cnf0026",
+        "field": "data.special.furniture[1].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0026"
+        }
+      },
+      {
+        "target": "actions:cnf0027",
+        "field": "data.special.furniture[1].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0027"
+        }
+      },
+      {
+        "target": "actions:cnf0004",
+        "field": "data.special.furniture[2].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0004"
+        }
+      },
+      {
+        "target": "actions:cnf0005",
+        "field": "data.special.furniture[2].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0005"
+        }
+      },
+      {
+        "target": "actions:cnf0006",
+        "field": "data.special.furniture[2].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0006"
+        }
+      },
+      {
+        "target": "actions:cnf0028",
+        "field": "data.special.furniture[3].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0028"
+        }
+      },
+      {
+        "target": "actions:cnf0029",
+        "field": "data.special.furniture[3].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0029"
+        }
+      },
+      {
+        "target": "actions:cnf0030",
+        "field": "data.special.furniture[3].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0030"
+        }
+      },
+      {
+        "target": "actions:cnf0007",
+        "field": "data.special.furniture[4].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0007"
+        }
+      },
+      {
+        "target": "actions:cnf0008",
+        "field": "data.special.furniture[4].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0008"
+        }
+      },
+      {
+        "target": "actions:cnf0009",
+        "field": "data.special.furniture[4].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0009"
+        }
+      },
+      {
+        "target": "actions:cnf0031",
+        "field": "data.special.furniture[5].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0031"
+        }
+      },
+      {
+        "target": "actions:cnf0032",
+        "field": "data.special.furniture[5].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0032"
+        }
+      },
+      {
+        "target": "actions:cnf0033",
+        "field": "data.special.furniture[5].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0033"
+        }
+      },
+      {
+        "target": "actions:cnf0010",
+        "field": "data.special.furniture[6].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0010"
+        }
+      },
+      {
+        "target": "actions:cnf0011",
+        "field": "data.special.furniture[6].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0011"
+        }
+      },
+      {
+        "target": "actions:cnf0012",
+        "field": "data.special.furniture[6].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0012"
+        }
+      },
+      {
+        "target": "actions:cnf0034",
+        "field": "data.special.furniture[7].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0034"
+        }
+      },
+      {
+        "target": "actions:cnf0035",
+        "field": "data.special.furniture[7].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0035"
+        }
+      },
+      {
+        "target": "actions:cnf0036",
+        "field": "data.special.furniture[7].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0036"
+        }
+      },
+      {
+        "target": "actions:cnf0013",
+        "field": "data.special.furniture[8].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0013"
+        }
+      },
+      {
+        "target": "actions:cnf0014",
+        "field": "data.special.furniture[8].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0014"
+        }
+      },
+      {
+        "target": "actions:cnf0015",
+        "field": "data.special.furniture[8].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0015"
+        }
+      },
+      {
+        "target": "actions:cnf0037",
+        "field": "data.special.furniture[9].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0037"
+        }
+      },
+      {
+        "target": "actions:cnf0038",
+        "field": "data.special.furniture[9].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0038"
+        }
+      },
+      {
+        "target": "actions:cnf0039",
+        "field": "data.special.furniture[9].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0039"
+        }
+      },
+      {
+        "target": "actions:cnf0016",
+        "field": "data.special.furniture[10].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0016"
+        }
+      },
+      {
+        "target": "actions:cnf0017",
+        "field": "data.special.furniture[10].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0017"
+        }
+      },
+      {
+        "target": "actions:cnf0018",
+        "field": "data.special.furniture[10].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0018"
+        }
+      },
+      {
+        "target": "actions:cnf0040",
+        "field": "data.special.furniture[11].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0040"
+        }
+      },
+      {
+        "target": "actions:cnf0041",
+        "field": "data.special.furniture[11].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0041"
+        }
+      },
+      {
+        "target": "actions:cnf0042",
+        "field": "data.special.furniture[11].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0042"
+        }
+      },
+      {
+        "target": "actions:cnf0019",
+        "field": "data.special.furniture[12].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0019"
+        }
+      },
+      {
+        "target": "actions:cnf0020",
+        "field": "data.special.furniture[12].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0020"
+        }
+      },
+      {
+        "target": "actions:cnf0021",
+        "field": "data.special.furniture[12].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0021"
+        }
+      },
+      {
+        "target": "actions:cnf0043",
+        "field": "data.special.furniture[13].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0043"
+        }
+      },
+      {
+        "target": "actions:cnf0044",
+        "field": "data.special.furniture[13].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0044"
+        }
+      },
+      {
+        "target": "actions:cnf0045",
+        "field": "data.special.furniture[13].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0045"
+        }
+      },
+      {
+        "target": "actions:cnf0022",
+        "field": "data.special.furniture[14].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0022"
+        }
+      },
+      {
+        "target": "actions:cnf0023",
+        "field": "data.special.furniture[14].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0023"
+        }
+      },
+      {
+        "target": "actions:cnf0024",
+        "field": "data.special.furniture[14].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0024"
+        }
+      },
+      {
+        "target": "actions:cnf0046",
+        "field": "data.special.furniture[15].levels[0]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0046"
+        }
+      },
+      {
+        "target": "actions:cnf0047",
+        "field": "data.special.furniture[15].levels[1]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0047"
+        }
+      },
+      {
+        "target": "actions:cnf0048",
+        "field": "data.special.furniture[15].levels[2]",
+        "role": "related",
+        "context": {
+          "ref": "actions:cnf0048"
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
     "wikiId": "skills:life.cartography",
     "gameId": "Life.Cartography",
     "kind": "skills",

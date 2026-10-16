@@ -3,10 +3,8 @@ import assert from 'node:assert/strict';
 import { loadWiki } from '../../scripts/wiki/model.mjs';
 import { renderData } from '../../scripts/wiki/render.mjs';
 
-test('0.57 exports the three purchase caps without restricting reward acquisition', async () => {
+test('slot-ticket policy introduced in 0.57 exports the three purchase caps without restricting reward acquisition', async () => {
   const w=await loadWiki();
-  assert.equal(w.manifest.release,'0.57');
-  assert.equal(w.manifest.sourceRevision,'12ae9600ef534462fe440c2a1fa78b01cfd5168f');
   const affected=w.entities.filter(e=>e.kind==='items'&&e.data.slotPurchaseLimit);
   assert.deepEqual(affected.map(e=>e.wikiId).sort(),['items:ticket0001','items:ticket0002','items:ticket0003']);
   for(const [id,cap] of [['ticket0001',450],['ticket0002',18],['ticket0003',9]]) {

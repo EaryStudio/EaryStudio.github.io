@@ -19,6 +19,22 @@ export function renderSpecial(e,l,w){
  const settings=name=>{const d=w.systems.get(name);if(!d)throw new Error(`Missing special settings: ${name}`);return d;};
  const ranks=['F','E','D','C','B','A','S','SS','SSS'];
  let html='';
+ if(skill==='skills:life.carpentry'){
+  const project=id=>w.ids.get(id),effect=a=>{const d=a.data.special;return g(d.effectTemplate,n(d.bonusPercent),...(d.targetSkills??[]).map(r=>plain(project(r.ref).names[l])));};
+  const conditions=a=>a.data.special.requiredProjects.map(r=>ref(r.ref)).join('<br>')||'—';
+  const slotTitle=slot=>g(`UI/UI_CARPENTRY_SLOT_${slot}`);
+  if(e.kind==='skills'){
+   if(s?.kind!=='carpentry')throw new Error('Missing carpentry catalog export');
+   const spaces=s.spaceProjects.map(r=>project(r.ref));
+   html+=box(g('UI/UI_CARPENTRY_VIEW_WORK'),`<p>${escape(g('UI/UI_CARPENTRY_ONCE_SHORT'))}</p>`+table([ui.actions,t('conditions'),g('UI/UI_CARPENTRY_PROJECT_RESULT')],spaces.map(a=>[ref(a.wikiId),conditions(a),a.data.special.unlocks.map(r=>ref(r.ref)).join('<br>')])));
+   html+=box(g('UI/UI_CARPENTRY_MANAGE'),`<p>${escape(g('UI/UI_CARPENTRY_PLACE_FOR_BONUS'))}</p><p>${escape(g('UI/UI_CARPENTRY_DURATION_SWITCH_HINT'))}</p><p>${escape(g('UI/UI_CARPENTRY_CYCLE_SWITCH_HINT'))}</p>`+
+    Array.from({length:8},(_,slot)=>fold(slotTitle(slot),table([ui.actions,ui.fields.level,t('conditions'),g('UI/UI_CARPENTRY_PROJECT_RESULT')],s.furniture.filter(f=>f.slot===slot).flatMap(f=>f.levels.map(r=>{const a=project(r.ref);return [ref(a.wikiId),n(a.data.special.tier),conditions(a),escape(effect(a))];}))))).join(''));
+  }else if(s?.kind==='carpentry-space'||s?.kind==='carpentry-furniture'){
+   html+=box(t('conditions'),`<p>${escape(g('UI/UI_CARPENTRY_ONE_TIME'))}</p>`+conditions(e));
+   if(s.kind==='carpentry-space')html+=box(g('UI/UI_CARPENTRY_PROJECT_RESULT'),s.unlocks.map(r=>ref(r.ref)).join('<br>'));
+   else html+=box(g('UI/UI_CARPENTRY_PROJECT_RESULT'),`<p>${escape(effect(e))}</p><p>${escape(g('UI/UI_CARPENTRY_PLACE_FOR_BONUS'))}</p><p>${escape(g('UI/UI_CARPENTRY_DURATION_SWITCH_HINT'))}</p><p>${escape(g('UI/UI_CARPENTRY_CYCLE_SWITCH_HINT'))}</p>`)+box(slotTitle(s.slot),s.alternatives.map(r=>ref(r.ref)).join('<br>'));
+  }
+ }
  if(e.kind==='skills'&&['skills:life.enchanting','skills:life.cartography','skills:life.meditation','skills:life.rest','skills:life.expedition'].includes(skill)){
   const actions=(w.skillActions.get(e.wikiId)??[]).map(id=>w.ids.get(id)).filter(x=>x.kind==='actions');
   if(['skills:life.cartography','skills:life.expedition'].includes(skill))return '';

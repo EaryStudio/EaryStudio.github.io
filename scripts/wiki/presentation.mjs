@@ -125,7 +125,7 @@ export function publicData(e) {
     if(d.useTiming!=='Periodic')delete d.periodicIntervalSeconds;
     for(const [field,source]of [['enchantScaleRules','equipmentModifiers'],['enchantIdleSkillBonusScaleRules','idleSkillBonuses']])if(d[field])d[field]=d[field].map(r=>({...pick(d[source]?.[r.modifierIndex??r.bonusIndex]??{},'statType skill bonusType'),multiplierAt99:r.multiplierAt99}));
   }
-  if(e.kind==='objectives'){if(d.category!=='Daily')delete d.dailyReveal;if(d.category!=='General')delete d.generalReveal;delete d.dailyPoolTag;}
+  if(e.kind==='objectives'){if(d.category!=='Daily')delete d.dailyReveal;if(d.category!=='General')delete d.generalReveal;if(!d.requireCompletionForSkillUnlock)delete d.requireCompletionForSkillUnlock;delete d.dailyPoolTag;}
   if(e.kind==='challenges'){delete d.enemySpawnOverride;delete d.useEnemySpawnOverride;}
   if(e.kind==='skills'){delete d.kind;delete d.category;}
   if(e.kind==='combat-actions'){delete d.actionType;d.levels=d.levels?.map((v,i)=>({level:i+1,...v}));}

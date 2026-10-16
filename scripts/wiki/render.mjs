@@ -107,7 +107,7 @@ export function renderData(e,l,w){
     stage('production',`runMode baseCycleSeconds ${d.maxStoredOutputCount>0?'maxStoredOutputCount':''} primaryOutputItem onProductionEffects`)+
     stage('harvest','rewardTable xpGrantTiming baseSkillExpGained xpMultiplier compostOutputItem onHarvestEffects unlockRecipeIds unlockPassiveIds');
  }
- if(e.kind==='offers')return `<section class="data-section"><h3>${escape(term('effectivePrice',l,w))}</h3>${offerPrice(e,l,w)}${valueHtml({item:e.data.item,amount:e.data.amount},l,w)}${e.data.price.priceKind==='Fixed'?'':fold(term('priceRules',l,w),valueHtml(projectValue(e.data.price),l,w))}</section>`;
+ if(e.kind==='offers')return `<section class="data-section"><h3>${escape(term('effectivePrice',l,w))}</h3>${offerPrice(e,l,w)}${valueHtml({item:e.data.item,amount:e.data.amount,...(e.data.slotPurchaseLimit?{slotPurchaseLimit:e.data.slotPurchaseLimit}:{})},l,w)}${e.data.price.priceKind==='Fixed'?'':fold(term('priceRules',l,w),valueHtml(projectValue(e.data.price),l,w))}</section>`;
  const catalog=catalogData(e,l,w);if(catalog!==null)return `<section class="data-section catalog">${catalog}</section>`;
  const pairs=Object.entries(publicData(e)).filter(pair=>visible(pair,w));const scalar=valueHtml(Object.fromEntries(pairs.filter(([,v])=>typeof v!=='object')),l,w);let html=scalar?`<section class="data-section">${scalar}</section>`:'';
  for(const [k,v]of pairs.filter(([,v])=>typeof v==='object')){const body=valueHtml(v,l,w,k);if(!body)continue;const title=fieldLabel(k,l,w),collapsed=['levelTable','proficiencyTable','levelMilestones','enchantScaleRules','enchantIdleSkillBonusScaleRules','statGrowthBands','bindings','traitB'].includes(k)||(Array.isArray(v)&&v.length>8&&!['equipmentModifiers','baseStats','levels','skills'].includes(k));html+=`<section class="data-section" id="field-${escape(k)}">${collapsed?fold(title,body):`<h3>${escape(title)}</h3>${body}`}</section>`;}
@@ -122,6 +122,7 @@ function relationContext(relation,owner){
   c.quantity=c.itemCountRange;c.probability=c.itemProbability;c.model=reward?.chooseOneItem?'weighted':'independent';
  }else if(c.quantityRange)c.quantity=c.$type==='ChestRewardEntry'?c.quantityRange.map(n=>Math.max(1,n)):c.quantityRange;
  else if(typeof c.amount==='number')c.quantity=[Math.abs(c.amount),Math.abs(c.amount)];
+ else if(c.$type==='ObjectiveConditionData'&&c.conditionType==='SubmitItem')c.quantity=[Math.max(1,c.targetCount),Math.max(1,c.targetCount)];
  if(c.$type==='EnemySummonEffectData')c.quantity=[c.count,c.count];
  return c;
 }
@@ -153,7 +154,8 @@ export function renderRelationSections(e,l,w){
   const html=`<ul class="relations">${rows.map(r=>{
    const contexts=r.contexts.map(x=>`<li>${x.owner?`${escape(plain(w.ids.get(x.owner).names[l]))} · `:''}${x.condition?`${escape(conditionText(x.condition))} · `:''}${x.purpose?`${escape(fieldLabel(x.purpose,l,w))} · `:''}${x.level!==undefined?`${escape(ui.level)} ${number(x.level,l)} · `:''}${x.timing?.startsWith('encounter ')?`${escape(ui.fields.enemySpawns)} ${escape(x.timing.slice(10))} · `:''}${x.quantity?`${escape(ui.fields.amount)} ${valueHtml(x.quantity,l,w,'quantityRange')}`:''}${x.probability!==undefined?` · ${escape(x.model==='weighted'?ui.weighted:ui.baseChance)} ${x.model==='weighted'?number(x.probability,l):`${number(x.probability*100,l)}%`}`:''}${x.minimumStars?` · ≥ ${x.minimumStars} ★`:''}</li>`).join('');
    const role=r.section==='sources'?term('acquisition',l,w):r.section==='uses'?term('usage',l,w):[...r.roles].filter(role=>role!=='related'||r.roles.size===1).map(role=>roles[role]??ui.related).join(' · ');
-   return `<li>${r.summaries.size?'':`<span class="relation-tag">${escape(role)}</span>`}${link(r.id,l,w,true)}${[...r.summaries].map(s=>`<small class="relation-summary">${escape(s)}</small>`).join('')}${contexts?`<details><summary>${escape(term('details',l,w))}</summary><p>${escape(term('distinctContexts',l,w))}</p><ul>${contexts}</ul></details>`:''}</li>`;}).join('')}</ul>`;
+   const uncertainRolls=r.contexts.length>1&&r.contexts.some(c=>c.probability!==undefined&&(c.model==='weighted'||c.probability<1));
+   return `<li>${r.summaries.size?'':`<span class="relation-tag">${escape(role)}</span>`}${link(r.id,l,w,true)}${[...r.summaries].map(s=>`<small class="relation-summary">${escape(s)}</small>`).join('')}${contexts?`<details><summary>${escape(term('details',l,w))}</summary>${uncertainRolls?`<p>${escape(term('distinctContexts',l,w))}</p>`:''}<ul>${contexts}</ul></details>`:''}</li>`;}).join('')}</ul>`;
   return rows.length>8?fold(`${ui[kind]} (${rows.length})`,html):`<section><h3>${escape(ui[kind])}</h3>${html}</section>`;
  }).join('');
  return ['sources','uses','related'].flatMap(id=>{

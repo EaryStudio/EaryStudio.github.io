@@ -77,5 +77,6 @@ test('grouping source links retains each repeated reward roll in the rendered de
  const relation={source:source.wikiId,target:item.wikiId,role:'rewards',field:'test.reward',context:{quantity:[2,3],probability:.25,model:'independent'}};
  const html=renderRelationSections(item,'en',{...w,reverse:new Map([[item.wikiId,[relation,{...relation,field:'test.reward2'}]]])}).find(s=>s.id==='sources').html;
  assert.equal((html.match(/25%/g)??[]).length,2);
+ assert.ok(html.includes(w.dictionaries.en.terms.distinctContexts));
  assert.equal((html.match(new RegExp(`monsters/${source.slug}/`,'g'))??[]).length,1);
 });

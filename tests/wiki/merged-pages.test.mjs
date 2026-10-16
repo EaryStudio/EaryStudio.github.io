@@ -6,8 +6,10 @@ const loaded=loadWiki();
 
 test('all familiar, stealth and combat definitions have one combined action page',async()=>{
   const w=await loaded;
-  assert.equal(w.mergedInto.size,80);
-  assert.equal(w.mergedContent.size,80);
+  const definitions=['familiars','targets','combat-actions'].flatMap(kind=>w.groups[kind]);
+  assert.equal(w.mergedInto.size,definitions.length);
+  assert.equal(w.mergedContent.size,definitions.length);
+  for(const definition of definitions)assert.ok(w.mergedInto.has(definition.wikiId));
   for(const kind of ['familiars','targets','combat-actions','offers'])assert.ok(!w.navigationKinds.includes(kind));
   for(const [definitionId,actionId]of w.mergedInto){
     const definition=w.ids.get(definitionId),action=w.ids.get(actionId);

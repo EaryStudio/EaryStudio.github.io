@@ -33,6 +33,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0002",
         "areaId": "",
         "targetCount": 20,
@@ -50,6 +51,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -146,6 +148,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0002",
           "areaId": "",
           "targetCount": 20,
@@ -204,6 +207,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0005",
         "areaId": "",
         "targetCount": 20,
@@ -221,6 +225,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -317,6 +322,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0005",
           "areaId": "",
           "targetCount": 20,
@@ -375,6 +381,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0009",
         "areaId": "",
         "targetCount": 20,
@@ -392,6 +399,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -488,6 +496,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0009",
           "areaId": "",
           "targetCount": 20,
@@ -546,6 +555,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0015",
         "areaId": "",
         "targetCount": 20,
@@ -563,6 +573,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -659,6 +670,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0015",
           "areaId": "",
           "targetCount": 20,
@@ -717,6 +729,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0021",
         "areaId": "",
         "targetCount": 20,
@@ -734,6 +747,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -830,6 +844,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0021",
           "areaId": "",
           "targetCount": 20,
@@ -888,6 +903,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0025",
         "areaId": "",
         "targetCount": 20,
@@ -905,6 +921,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -1001,6 +1018,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0025",
           "areaId": "",
           "targetCount": 20,
@@ -1059,6 +1077,7 @@
         "itemId": "IG0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -1076,6 +1095,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -1172,6 +1192,7 @@
           "itemId": "IG0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -1219,7 +1240,7 @@
       "zh-Hant": "完成今天的簡單目標並領取獎勵。"
     },
     "image": {
-      "path": "assets/99a3f4ce695e1842afbc5a6f.png",
+      "path": "assets/47cb7f429d462f0848a86e43.png",
       "width": 32,
       "height": 32
     },
@@ -1230,6 +1251,7 @@
         "itemId": "PON0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -1247,6 +1269,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -1343,6 +1366,7 @@
           "itemId": "PON0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -1401,6 +1425,7 @@
         "itemId": "CMAS0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -1418,6 +1443,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -1514,6 +1540,7 @@
           "itemId": "CMAS0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -1572,6 +1599,7 @@
         "itemId": "GF0002",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -1589,6 +1617,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -1685,6 +1714,7 @@
           "itemId": "GF0002",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -1743,6 +1773,7 @@
         "itemId": "LE0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -1760,6 +1791,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -1856,6 +1888,7 @@
           "itemId": "LE0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -1914,6 +1947,7 @@
         "itemId": "CWB0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -1931,6 +1965,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -2027,6 +2062,7 @@
           "itemId": "CWB0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -2085,6 +2121,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0030",
         "areaId": "",
         "targetCount": 20,
@@ -2102,6 +2139,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -2198,6 +2236,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0030",
           "areaId": "",
           "targetCount": 20,
@@ -2256,6 +2295,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0033",
         "areaId": "",
         "targetCount": 20,
@@ -2273,6 +2313,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -2369,6 +2410,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0033",
           "areaId": "",
           "targetCount": 20,
@@ -2427,6 +2469,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0040",
         "areaId": "",
         "targetCount": 10,
@@ -2444,6 +2487,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -2540,6 +2584,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0040",
           "areaId": "",
           "targetCount": 10,
@@ -2598,6 +2643,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0047",
         "areaId": "",
         "targetCount": 20,
@@ -2615,6 +2661,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -2711,6 +2758,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0047",
           "areaId": "",
           "targetCount": 20,
@@ -2769,6 +2817,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0051",
         "areaId": "",
         "targetCount": 20,
@@ -2786,6 +2835,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -2882,6 +2932,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0051",
           "areaId": "",
           "targetCount": 20,
@@ -2940,6 +2991,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0057",
         "areaId": "",
         "targetCount": 20,
@@ -2957,6 +3009,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -3053,6 +3106,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0057",
           "areaId": "",
           "targetCount": 20,
@@ -3111,6 +3165,7 @@
         "itemId": "IG0004",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -3128,6 +3183,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -3224,6 +3280,7 @@
           "itemId": "IG0004",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -3282,6 +3339,7 @@
         "itemId": "PON0005",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -3299,6 +3357,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -3395,6 +3454,7 @@
           "itemId": "PON0005",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -3453,6 +3513,7 @@
         "itemId": "CMAS0004",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -3470,6 +3531,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -3566,6 +3628,7 @@
           "itemId": "CMAS0004",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -3624,6 +3687,7 @@
         "itemId": "GF0005",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -3641,6 +3705,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -3737,6 +3802,7 @@
           "itemId": "GF0005",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -3795,6 +3861,7 @@
         "itemId": "LE0003",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -3812,6 +3879,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -3908,6 +3976,7 @@
           "itemId": "LE0003",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -3966,6 +4035,7 @@
         "itemId": "CWB0004",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -3983,6 +4053,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -4079,6 +4150,7 @@
           "itemId": "CWB0004",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -4137,6 +4209,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0061",
         "areaId": "",
         "targetCount": 20,
@@ -4154,6 +4227,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -4250,6 +4324,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0061",
           "areaId": "",
           "targetCount": 20,
@@ -4308,6 +4383,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0065",
         "areaId": "",
         "targetCount": 20,
@@ -4325,6 +4401,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -4421,6 +4498,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0065",
           "areaId": "",
           "targetCount": 20,
@@ -4479,6 +4557,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0067",
         "areaId": "",
         "targetCount": 20,
@@ -4496,6 +4575,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -4592,6 +4672,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0067",
           "areaId": "",
           "targetCount": 20,
@@ -4650,6 +4731,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0070",
         "areaId": "",
         "targetCount": 20,
@@ -4667,6 +4749,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -4763,6 +4846,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0070",
           "areaId": "",
           "targetCount": 20,
@@ -4821,6 +4905,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0073",
         "areaId": "",
         "targetCount": 20,
@@ -4838,6 +4923,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -4934,6 +5020,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0073",
           "areaId": "",
           "targetCount": 20,
@@ -4992,6 +5079,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0075",
         "areaId": "",
         "targetCount": 20,
@@ -5009,6 +5097,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -5105,6 +5194,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0075",
           "areaId": "",
           "targetCount": 20,
@@ -5163,6 +5253,7 @@
         "itemId": "IG0008",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -5180,6 +5271,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -5276,6 +5368,7 @@
           "itemId": "IG0008",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -5334,6 +5427,7 @@
         "itemId": "PON0010",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -5351,6 +5445,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -5447,6 +5542,7 @@
           "itemId": "PON0010",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -5505,6 +5601,7 @@
         "itemId": "CMAS0007",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -5522,6 +5619,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -5618,6 +5716,7 @@
           "itemId": "CMAS0007",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -5676,6 +5775,7 @@
         "itemId": "GF0009",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -5693,6 +5793,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -5789,6 +5890,7 @@
           "itemId": "GF0009",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -5847,6 +5949,7 @@
         "itemId": "LE0005",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -5864,6 +5967,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -5960,6 +6064,7 @@
           "itemId": "LE0005",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -6018,6 +6123,7 @@
         "itemId": "CWB0008",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -6035,6 +6141,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -6131,6 +6238,7 @@
           "itemId": "CWB0008",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -6189,6 +6297,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Cooking",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 30,
@@ -6206,6 +6315,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -6302,6 +6412,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Cooking",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 30,
@@ -6360,6 +6471,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Training",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -6377,6 +6489,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -6473,6 +6586,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Training",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -6531,6 +6645,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Stealth",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -6548,6 +6663,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -6644,6 +6760,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Stealth",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -6702,6 +6819,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Brewing",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -6719,6 +6837,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -6815,6 +6934,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Brewing",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -6873,6 +6993,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Meditation",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -6890,6 +7011,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -6986,6 +7108,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Meditation",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -7044,6 +7167,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Crafting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 30,
@@ -7061,6 +7185,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -7157,6 +7282,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Crafting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 30,
@@ -7215,6 +7341,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Smithing",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 30,
@@ -7232,6 +7359,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -7328,6 +7456,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Smithing",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 30,
@@ -7386,6 +7515,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Cartography",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 40,
@@ -7403,6 +7533,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -7499,6 +7630,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Cartography",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 40,
@@ -7557,6 +7689,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.FamiliarTraining",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 70,
@@ -7574,6 +7707,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -7670,6 +7804,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.FamiliarTraining",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 70,
@@ -7728,6 +7863,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.InstrumentPerformance",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -7745,6 +7881,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -7841,6 +7978,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.InstrumentPerformance",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -7899,6 +8037,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Painting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -7916,6 +8055,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -8012,6 +8152,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Painting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -8070,6 +8211,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Commerce",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 80,
@@ -8087,6 +8229,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -8183,6 +8326,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Commerce",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 80,
@@ -8241,6 +8385,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0002",
         "areaId": "",
         "targetCount": 30,
@@ -8258,6 +8403,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -8354,6 +8500,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0002",
           "areaId": "",
           "targetCount": 30,
@@ -8426,6 +8573,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0006",
         "areaId": "",
         "targetCount": 30,
@@ -8443,6 +8591,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -8539,6 +8688,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0006",
           "areaId": "",
           "targetCount": 30,
@@ -8611,6 +8761,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0010",
         "areaId": "",
         "targetCount": 30,
@@ -8628,6 +8779,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -8724,6 +8876,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0010",
           "areaId": "",
           "targetCount": 30,
@@ -8796,6 +8949,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0014",
         "areaId": "",
         "targetCount": 30,
@@ -8813,6 +8967,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -8909,6 +9064,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0014",
           "areaId": "",
           "targetCount": 30,
@@ -8981,6 +9137,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0018",
         "areaId": "",
         "targetCount": 30,
@@ -8998,6 +9155,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -9094,6 +9252,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0018",
           "areaId": "",
           "targetCount": 30,
@@ -9166,6 +9325,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0022",
         "areaId": "",
         "targetCount": 30,
@@ -9183,6 +9343,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -9279,6 +9440,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0022",
           "areaId": "",
           "targetCount": 30,
@@ -9351,6 +9513,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0026",
         "areaId": "",
         "targetCount": 30,
@@ -9368,6 +9531,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -9464,6 +9628,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0026",
           "areaId": "",
           "targetCount": 30,
@@ -9536,6 +9701,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0030",
         "areaId": "",
         "targetCount": 30,
@@ -9553,6 +9719,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -9649,6 +9816,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0030",
           "areaId": "",
           "targetCount": 30,
@@ -9721,6 +9889,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0034",
         "areaId": "",
         "targetCount": 30,
@@ -9738,6 +9907,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -9834,6 +10004,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0034",
           "areaId": "",
           "targetCount": 30,
@@ -9906,6 +10077,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0038",
         "areaId": "",
         "targetCount": 30,
@@ -9923,6 +10095,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -10019,6 +10192,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0038",
           "areaId": "",
           "targetCount": 30,
@@ -10091,6 +10265,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0042",
         "areaId": "",
         "targetCount": 30,
@@ -10108,6 +10283,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -10204,6 +10380,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0042",
           "areaId": "",
           "targetCount": 30,
@@ -10276,6 +10453,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0046",
         "areaId": "",
         "targetCount": 30,
@@ -10293,6 +10471,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -10389,6 +10568,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0046",
           "areaId": "",
           "targetCount": 30,
@@ -10461,6 +10641,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0050",
         "areaId": "",
         "targetCount": 30,
@@ -10478,6 +10659,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -10574,6 +10756,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0050",
           "areaId": "",
           "targetCount": 30,
@@ -10646,6 +10829,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0054",
         "areaId": "",
         "targetCount": 30,
@@ -10663,6 +10847,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -10759,6 +10944,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0054",
           "areaId": "",
           "targetCount": 30,
@@ -10831,6 +11017,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0058",
         "areaId": "",
         "targetCount": 30,
@@ -10848,6 +11035,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -10944,6 +11132,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0058",
           "areaId": "",
           "targetCount": 30,
@@ -11016,6 +11205,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0062",
         "areaId": "",
         "targetCount": 30,
@@ -11033,6 +11223,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -11129,6 +11320,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0062",
           "areaId": "",
           "targetCount": 30,
@@ -11201,6 +11393,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0066",
         "areaId": "",
         "targetCount": 30,
@@ -11218,6 +11411,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -11314,6 +11508,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0066",
           "areaId": "",
           "targetCount": 30,
@@ -11386,6 +11581,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0070",
         "areaId": "",
         "targetCount": 30,
@@ -11403,6 +11599,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -11499,6 +11696,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0070",
           "areaId": "",
           "targetCount": 30,
@@ -11571,6 +11769,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0074",
         "areaId": "",
         "targetCount": 30,
@@ -11588,6 +11787,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -11684,6 +11884,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0074",
           "areaId": "",
           "targetCount": 30,
@@ -11756,6 +11957,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "0078",
         "areaId": "",
         "targetCount": 30,
@@ -11773,6 +11975,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -11869,6 +12072,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "0078",
           "areaId": "",
           "targetCount": 30,
@@ -11941,6 +12145,7 @@
         "itemId": "SEC0004",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 70,
@@ -11958,6 +12163,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -12054,6 +12260,7 @@
           "itemId": "SEC0004",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 70,
@@ -12112,6 +12319,7 @@
         "itemId": "CMAS0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 700,
@@ -12129,6 +12337,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -12225,6 +12434,7 @@
           "itemId": "CMAS0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 700,
@@ -12283,6 +12493,7 @@
         "itemId": "GF0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 70,
@@ -12300,6 +12511,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -12396,6 +12608,7 @@
           "itemId": "GF0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 70,
@@ -12443,7 +12656,7 @@
       "zh-Hant": "提交今天所需的物品並領取獎勵。"
     },
     "image": {
-      "path": "assets/216b386cb77b9f4eedba8c41.png",
+      "path": "assets/aba6f81c03e4fe93a1afcbef.png",
       "width": 32,
       "height": 32
     },
@@ -12454,6 +12667,7 @@
         "itemId": "POC0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 25,
@@ -12471,6 +12685,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -12567,6 +12782,7 @@
           "itemId": "POC0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 25,
@@ -12625,6 +12841,7 @@
         "itemId": "CHESTS0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -12642,6 +12859,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -12738,6 +12956,7 @@
           "itemId": "CHESTS0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -12796,6 +13015,7 @@
         "itemId": "PTGE0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -12813,6 +13033,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -12909,6 +13130,7 @@
           "itemId": "PTGE0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -12967,6 +13189,7 @@
         "itemId": "GF0004",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -12984,6 +13207,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -13089,6 +13313,7 @@
           "itemId": "GF0004",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -13183,6 +13408,7 @@
         "itemId": "GF0006",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -13200,6 +13426,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -13305,6 +13532,7 @@
           "itemId": "GF0006",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -13399,6 +13627,7 @@
         "itemId": "GF0009",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -13416,6 +13645,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -13521,6 +13751,7 @@
           "itemId": "GF0009",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -13615,6 +13846,7 @@
         "itemId": "SEI0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -13632,6 +13864,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -13737,6 +13970,7 @@
           "itemId": "SEI0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -13831,6 +14065,7 @@
         "itemId": "SEG0002",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 40,
@@ -13848,6 +14083,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -13953,6 +14189,7 @@
           "itemId": "SEG0002",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 40,
@@ -14047,6 +14284,7 @@
         "itemId": "SEM0003",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -14064,6 +14302,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -14169,6 +14408,7 @@
           "itemId": "SEM0003",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -14263,6 +14503,7 @@
         "itemId": "CHARM0002",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -14280,6 +14521,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -14385,6 +14627,7 @@
           "itemId": "CHARM0002",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -14479,6 +14722,7 @@
         "itemId": "CHARM0006",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -14496,6 +14740,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -14601,6 +14846,7 @@
           "itemId": "CHARM0006",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -14695,6 +14941,7 @@
         "itemId": "CHARM0012",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 50,
@@ -14712,6 +14959,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -14817,6 +15065,7 @@
           "itemId": "CHARM0012",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 50,
@@ -14911,6 +15160,7 @@
         "itemId": "LE0002",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -14928,6 +15178,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -15024,6 +15275,7 @@
           "itemId": "LE0002",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -15096,6 +15348,7 @@
         "itemId": "LE0004",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -15113,6 +15366,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -15209,6 +15463,7 @@
           "itemId": "LE0004",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -15281,6 +15536,7 @@
         "itemId": "LE0006",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -15298,6 +15554,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -15394,6 +15651,7 @@
           "itemId": "LE0006",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -15466,6 +15724,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0001",
         "targetCount": 5,
@@ -15493,6 +15752,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -15589,6 +15849,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0001",
           "targetCount": 5,
@@ -15674,6 +15935,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0002",
         "targetCount": 5,
@@ -15701,6 +15963,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -15797,6 +16060,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0002",
           "targetCount": 5,
@@ -15882,6 +16146,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0003",
         "targetCount": 5,
@@ -15909,6 +16174,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -16005,6 +16271,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0003",
           "targetCount": 5,
@@ -16090,6 +16357,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0004",
         "targetCount": 5,
@@ -16117,6 +16385,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -16213,6 +16482,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0004",
           "targetCount": 5,
@@ -16298,6 +16568,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0005",
         "targetCount": 5,
@@ -16325,6 +16596,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -16421,6 +16693,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0005",
           "targetCount": 5,
@@ -16506,6 +16779,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0006",
         "targetCount": 5,
@@ -16533,6 +16807,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -16629,6 +16904,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0006",
           "targetCount": 5,
@@ -16714,6 +16990,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0007",
         "targetCount": 5,
@@ -16741,6 +17018,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -16837,6 +17115,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0007",
           "targetCount": 5,
@@ -16922,6 +17201,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0008",
         "targetCount": 5,
@@ -16949,6 +17229,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -17045,6 +17326,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0008",
           "targetCount": 5,
@@ -17130,6 +17412,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0009",
         "targetCount": 5,
@@ -17157,6 +17440,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -17253,6 +17537,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0009",
           "targetCount": 5,
@@ -17338,6 +17623,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0010",
         "targetCount": 5,
@@ -17365,6 +17651,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -17461,6 +17748,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0010",
           "targetCount": 5,
@@ -17546,6 +17834,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0011",
         "targetCount": 5,
@@ -17573,6 +17862,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -17669,6 +17959,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0011",
           "targetCount": 5,
@@ -17754,6 +18045,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0012",
         "targetCount": 5,
@@ -17781,6 +18073,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -17877,6 +18170,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0012",
           "targetCount": 5,
@@ -17962,6 +18256,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0013",
         "targetCount": 5,
@@ -17989,6 +18284,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -18085,6 +18381,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0013",
           "targetCount": 5,
@@ -18170,6 +18467,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0014",
         "targetCount": 5,
@@ -18197,6 +18495,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -18293,6 +18592,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0014",
           "targetCount": 5,
@@ -18378,6 +18678,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0015",
         "targetCount": 5,
@@ -18405,6 +18706,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -18501,6 +18803,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0015",
           "targetCount": 5,
@@ -18586,6 +18889,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0016",
         "targetCount": 5,
@@ -18613,6 +18917,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -18709,6 +19014,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0016",
           "targetCount": 5,
@@ -18794,6 +19100,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0017",
         "targetCount": 5,
@@ -18821,6 +19128,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -18917,6 +19225,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0017",
           "targetCount": 5,
@@ -19002,6 +19311,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0018",
         "targetCount": 5,
@@ -19029,6 +19339,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -19125,6 +19436,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0018",
           "targetCount": 5,
@@ -19210,6 +19522,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0019",
         "targetCount": 50,
@@ -19237,6 +19550,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -19333,6 +19647,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0019",
           "targetCount": 50,
@@ -19418,6 +19733,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "DG0020",
         "targetCount": 100,
@@ -19445,6 +19761,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Combat.Endurance",
@@ -19541,6 +19858,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "DG0020",
           "targetCount": 100,
@@ -19626,6 +19944,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Cooking",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -19643,6 +19962,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Cooking",
@@ -19739,6 +20059,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Cooking",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -19809,6 +20130,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Cooking",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -19826,6 +20148,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Cooking",
@@ -19922,6 +20245,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Cooking",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -19992,6 +20316,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Training",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -20009,6 +20334,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Training",
@@ -20105,6 +20431,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Training",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -20175,6 +20502,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Training",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -20192,6 +20520,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Training",
@@ -20288,6 +20617,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Training",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -20358,6 +20688,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Farming",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 5,
@@ -20375,6 +20706,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Farming",
@@ -20471,6 +20803,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Farming",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 5,
@@ -20541,6 +20874,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Farming",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 15,
@@ -20558,6 +20892,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Farming",
@@ -20654,6 +20989,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Farming",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 15,
@@ -20724,6 +21060,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Smithing",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -20741,6 +21078,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Smithing",
@@ -20837,6 +21175,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Smithing",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -20907,6 +21246,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Smithing",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -20924,6 +21264,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Smithing",
@@ -21020,6 +21361,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Smithing",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -21090,6 +21432,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Brewing",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -21107,6 +21450,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Brewing",
@@ -21203,6 +21547,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Brewing",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -21273,6 +21618,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Brewing",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -21290,6 +21636,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Brewing",
@@ -21386,6 +21733,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Brewing",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -21456,6 +21804,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Meditation",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -21473,6 +21822,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Meditation",
@@ -21569,6 +21919,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Meditation",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -21639,6 +21990,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Meditation",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -21656,6 +22008,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Meditation",
@@ -21752,6 +22105,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Meditation",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -21822,6 +22176,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Enchanting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -21839,6 +22194,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Enchanting",
@@ -21935,6 +22291,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Enchanting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -22005,6 +22362,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Enchanting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -22022,6 +22380,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Enchanting",
@@ -22118,6 +22477,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Enchanting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -22188,6 +22548,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Rest",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 5,
@@ -22205,6 +22566,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Rest",
@@ -22301,6 +22663,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Rest",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 5,
@@ -22371,6 +22734,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Rest",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 15,
@@ -22388,6 +22752,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Rest",
@@ -22484,6 +22849,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Rest",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 15,
@@ -22554,6 +22920,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Crafting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -22571,6 +22938,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Crafting",
@@ -22667,6 +23035,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Crafting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -22737,6 +23106,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Crafting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -22754,6 +23124,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Crafting",
@@ -22850,6 +23221,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Crafting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -22920,6 +23292,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Stealth",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -22937,6 +23310,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Stealth",
@@ -23033,6 +23407,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Stealth",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -23103,6 +23478,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Stealth",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -23120,6 +23496,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Stealth",
@@ -23216,6 +23593,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Stealth",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -23286,6 +23664,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Cartography",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -23303,6 +23682,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Cartography",
@@ -23399,6 +23779,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Cartography",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -23469,6 +23850,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Cartography",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -23486,6 +23868,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Cartography",
@@ -23582,6 +23965,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Cartography",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -23652,6 +24036,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.FamiliarTraining",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -23669,6 +24054,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.FamiliarTraining",
@@ -23765,6 +24151,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.FamiliarTraining",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -23835,6 +24222,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.FamiliarTraining",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -23852,6 +24240,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.FamiliarTraining",
@@ -23948,6 +24337,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.FamiliarTraining",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -24018,6 +24408,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.InstrumentPerformance",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -24035,6 +24426,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.InstrumentPerformance",
@@ -24131,6 +24523,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.InstrumentPerformance",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -24201,6 +24594,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.InstrumentPerformance",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -24218,6 +24612,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.InstrumentPerformance",
@@ -24314,6 +24709,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.InstrumentPerformance",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -24384,6 +24780,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Painting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -24401,6 +24798,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Painting",
@@ -24497,6 +24895,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Painting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -24567,6 +24966,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Painting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -24584,6 +24984,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Painting",
@@ -24680,6 +25081,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Painting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -24750,6 +25152,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Writing",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -24767,6 +25170,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Writing",
@@ -24863,6 +25267,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Writing",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -24933,6 +25338,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Writing",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -24950,6 +25356,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Writing",
@@ -25046,6 +25453,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Writing",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -25116,6 +25524,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Commerce",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 100,
@@ -25133,6 +25542,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Commerce",
@@ -25229,6 +25639,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Commerce",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 100,
@@ -25299,6 +25710,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Commerce",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3000,
@@ -25316,6 +25728,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "SkillLevelAtLeast",
         "skillId": "Life.Commerce",
@@ -25412,6 +25825,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Commerce",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3000,
@@ -25482,6 +25896,7 @@
         "itemId": "SEC0004",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 1,
@@ -25509,6 +25924,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -25609,6 +26025,7 @@
           "itemId": "SEC0004",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 1,
@@ -25656,6 +26073,7 @@
             "itemId": "SEC0004",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -25683,6 +26101,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -25813,6 +26232,7 @@
           "SEC0004"
         ],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 1,
@@ -25860,6 +26280,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -25965,6 +26386,7 @@
             "SEC0004"
           ],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 1,
@@ -26044,6 +26466,7 @@
               "SEC0004"
             ],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -26091,6 +26514,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -26198,6 +26622,7 @@
               "SEC0004"
             ],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -26245,6 +26670,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -26376,6 +26802,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "NM0001",
         "targetCount": 1,
@@ -26393,6 +26820,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -26496,6 +26924,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "NM0001",
           "targetCount": 1,
@@ -26528,6 +26957,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "NM0001",
             "targetCount": 1,
@@ -26545,6 +26975,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -26650,6 +27081,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "NM0001",
             "targetCount": 1,
@@ -26667,6 +27099,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -26798,6 +27231,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "MN0001",
         "targetCount": 1,
@@ -26815,6 +27249,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -26918,6 +27353,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "MN0001",
           "targetCount": 1,
@@ -26950,6 +27386,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "MN0001",
             "targetCount": 1,
@@ -26967,6 +27404,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -27072,6 +27510,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "MN0001",
             "targetCount": 1,
@@ -27089,6 +27528,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -27220,6 +27660,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "FR0001",
         "targetCount": 1,
@@ -27237,6 +27678,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -27340,6 +27782,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "FR0001",
           "targetCount": 1,
@@ -27372,6 +27815,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "FR0001",
             "targetCount": 1,
@@ -27389,6 +27833,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -27494,6 +27939,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "FR0001",
             "targetCount": 1,
@@ -27511,6 +27957,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -27642,6 +28089,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "SE0001",
         "targetCount": 1,
@@ -27679,6 +28127,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -27782,6 +28231,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "SE0001",
           "targetCount": 1,
@@ -27859,6 +28309,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "SE0001",
             "targetCount": 1,
@@ -27896,6 +28347,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -28001,6 +28453,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "SE0001",
             "targetCount": 1,
@@ -28038,6 +28491,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -28169,6 +28623,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Cooking",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 1,
@@ -28186,6 +28641,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -28289,6 +28745,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Cooking",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 1,
@@ -28321,6 +28778,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Cooking",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -28338,6 +28796,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -28443,6 +28902,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Cooking",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -28460,6 +28920,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -28593,6 +29054,7 @@
           "GF0001"
         ],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 1,
@@ -28620,6 +29082,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -28725,6 +29188,7 @@
             "GF0001"
           ],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 1,
@@ -28774,6 +29238,7 @@
               "GF0001"
             ],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -28801,6 +29266,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -28908,6 +29374,7 @@
               "GF0001"
             ],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -28935,6 +29402,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -29066,6 +29534,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Training",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 7,
@@ -29083,6 +29552,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -29186,6 +29656,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Training",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 7,
@@ -29218,6 +29689,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Training",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 7,
@@ -29235,6 +29707,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -29340,6 +29813,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Training",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 7,
@@ -29357,6 +29831,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -29488,6 +29963,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "NM0001",
         "targetCount": 1,
@@ -29525,6 +30001,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -29628,6 +30105,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "NM0001",
           "targetCount": 1,
@@ -29675,6 +30153,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "NM0001",
             "targetCount": 1,
@@ -29712,6 +30191,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -29817,6 +30297,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "NM0001",
             "targetCount": 1,
@@ -29854,6 +30335,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -29985,6 +30467,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Stealth",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 10,
@@ -30012,6 +30495,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -30115,6 +30599,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Stealth",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 10,
@@ -30162,6 +30647,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Stealth",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 10,
@@ -30189,6 +30675,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -30294,6 +30781,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Stealth",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 10,
@@ -30321,6 +30809,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -30452,6 +30941,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Farming",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 1,
@@ -30479,6 +30969,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -30582,6 +31073,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Farming",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 1,
@@ -30629,6 +31121,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Farming",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -30656,6 +31149,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -30761,6 +31255,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Farming",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -30788,6 +31283,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -30919,6 +31415,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Brewing",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3,
@@ -30946,6 +31443,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -31049,6 +31547,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Brewing",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3,
@@ -31096,6 +31595,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Brewing",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 3,
@@ -31123,6 +31623,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -31228,6 +31729,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Brewing",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 3,
@@ -31255,6 +31757,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -31386,6 +31889,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Crafting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3,
@@ -31413,6 +31917,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -31516,6 +32021,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Crafting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3,
@@ -31563,6 +32069,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Crafting",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 3,
@@ -31590,6 +32097,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -31695,6 +32203,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Crafting",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 3,
@@ -31722,6 +32231,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -31853,6 +32363,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Cartography",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 10,
@@ -31870,6 +32381,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -31973,6 +32485,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Cartography",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 10,
@@ -32005,6 +32518,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Cartography",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 10,
@@ -32022,6 +32536,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -32127,6 +32642,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Cartography",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 10,
@@ -32144,6 +32660,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -32275,6 +32792,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Expedition",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 5,
@@ -32292,6 +32810,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -32395,6 +32914,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Expedition",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 5,
@@ -32427,6 +32947,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Expedition",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 5,
@@ -32444,6 +32965,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -32549,6 +33071,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Expedition",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 5,
@@ -32566,6 +33089,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -32697,6 +33221,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Meditation",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 5,
@@ -32724,6 +33249,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -32827,6 +33353,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Meditation",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 5,
@@ -32874,6 +33401,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Meditation",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 5,
@@ -32901,6 +33429,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -33006,6 +33535,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Meditation",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 5,
@@ -33033,6 +33563,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -33164,6 +33695,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.FamiliarTraining",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 5,
@@ -33181,6 +33713,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -33284,6 +33817,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.FamiliarTraining",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 5,
@@ -33316,6 +33850,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.FamiliarTraining",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 5,
@@ -33333,6 +33868,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -33438,6 +33974,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.FamiliarTraining",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 5,
@@ -33455,6 +33992,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -33586,6 +34124,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.InstrumentPerformance",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 20,
@@ -33613,6 +34152,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -33716,6 +34256,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.InstrumentPerformance",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 20,
@@ -33763,6 +34304,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.InstrumentPerformance",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 20,
@@ -33790,6 +34332,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -33895,6 +34438,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.InstrumentPerformance",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 20,
@@ -33922,6 +34466,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -34053,6 +34598,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Painting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 5,
@@ -34080,6 +34626,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -34183,6 +34730,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Painting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 5,
@@ -34230,6 +34778,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Painting",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 5,
@@ -34257,6 +34806,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -34362,6 +34912,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Painting",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 5,
@@ -34389,6 +34940,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -34520,6 +35072,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Writing",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 1,
@@ -34537,6 +35090,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -34640,6 +35194,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Writing",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 1,
@@ -34672,6 +35227,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Writing",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -34689,6 +35245,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -34794,6 +35351,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Writing",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -34811,6 +35369,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -34942,6 +35501,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Commerce",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 5,
@@ -34969,6 +35529,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -35072,6 +35633,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Commerce",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 5,
@@ -35119,6 +35681,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Commerce",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 5,
@@ -35146,6 +35709,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -35251,6 +35815,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Commerce",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 5,
@@ -35278,6 +35843,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -35409,6 +35975,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Enchanting",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3,
@@ -35426,6 +35993,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -35529,6 +36097,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Enchanting",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3,
@@ -35561,6 +36130,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Enchanting",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 3,
@@ -35578,6 +36148,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -35683,6 +36254,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Enchanting",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 3,
@@ -35700,6 +36272,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -35831,6 +36404,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Rest",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 1,
@@ -35858,6 +36432,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -35961,6 +36536,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Rest",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 1,
@@ -36008,6 +36584,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Rest",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -36035,6 +36612,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -36140,6 +36718,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Rest",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -36167,6 +36746,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -36298,6 +36878,7 @@
         "itemId": "FSD0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3,
@@ -36315,6 +36896,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -36418,6 +37000,7 @@
           "itemId": "FSD0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3,
@@ -36450,6 +37033,7 @@
             "itemId": "FSD0001",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 3,
@@ -36467,6 +37051,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -36572,6 +37157,7 @@
             "itemId": "FSD0001",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 3,
@@ -36589,6 +37175,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -36720,6 +37307,7 @@
         "itemId": "",
         "equipItemIds": [],
         "skillId": "Life.Camping",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 1,
@@ -36737,6 +37325,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -36840,6 +37429,7 @@
           "itemId": "",
           "equipItemIds": [],
           "skillId": "Life.Camping",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 1,
@@ -36872,6 +37462,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Camping",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -36889,6 +37480,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -36994,6 +37586,7 @@
             "itemId": "",
             "equipItemIds": [],
             "skillId": "Life.Camping",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 1,
@@ -37011,6 +37604,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -37142,6 +37736,7 @@
         "itemId": "CMPP0001",
         "equipItemIds": [],
         "skillId": "",
+        "actionId": "",
         "enemyId": "",
         "areaId": "",
         "targetCount": 3,
@@ -37159,6 +37754,7 @@
           "$type": "ObjectiveRewardData"
         }
       ],
+      "requireCompletionForSkillUnlock": false,
       "generalReveal": {
         "revealConditionType": "None",
         "skillId": "",
@@ -37247,6 +37843,9 @@
       "mainOrder": 27,
       "previous": {
         "ref": "objectives:mo0026"
+      },
+      "next": {
+        "ref": "objectives:mo0028"
       }
     },
     "relations": [
@@ -37259,6 +37858,7 @@
           "itemId": "CMPP0001",
           "equipItemIds": [],
           "skillId": "",
+          "actionId": "",
           "enemyId": "",
           "areaId": "",
           "targetCount": 3,
@@ -37291,6 +37891,7 @@
             "itemId": "CMPP0001",
             "equipItemIds": [],
             "skillId": "",
+            "actionId": "",
             "enemyId": "",
             "areaId": "",
             "targetCount": 3,
@@ -37308,6 +37909,7 @@
               "$type": "ObjectiveRewardData"
             }
           ],
+          "requireCompletionForSkillUnlock": false,
           "generalReveal": {
             "revealConditionType": "None",
             "skillId": "",
@@ -37396,6 +37998,1831 @@
           "mainOrder": 27,
           "previous": {
             "ref": "objectives:mo0026"
+          },
+          "next": {
+            "ref": "objectives:mo0028"
+          }
+        }
+      },
+      {
+        "target": "objectives:mo0028",
+        "field": "data.next",
+        "role": "related",
+        "context": {
+          "category": "Main",
+          "condition": {
+            "conditionType": "SubmitItem",
+            "itemId": "CMPP0001",
+            "equipItemIds": [],
+            "skillId": "",
+            "actionId": "",
+            "enemyId": "",
+            "areaId": "",
+            "targetCount": 3,
+            "$type": "ObjectiveConditionData"
+          },
+          "rewards": [
+            {
+              "rewardType": "Item",
+              "itemId": "CMPM0006",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 3,
+              "unlockKind": "Skill",
+              "unlockTargetId": "",
+              "$type": "ObjectiveRewardData"
+            }
+          ],
+          "requireCompletionForSkillUnlock": false,
+          "generalReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "targetCount": 0,
+            "$type": "ObjectiveRevealConditionData"
+          },
+          "dailyReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "minCount": 0,
+            "maxCount": 0,
+            "additionalAndConditions": [],
+            "$type": "ObjectiveDailyRevealConditionData"
+          },
+          "dailyPoolTag": "",
+          "$type": "ObjectiveDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_TITLE",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_TITLE",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_TITLE",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_TITLE",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_TITLE",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_TITLE",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_027_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "mainOrder": 27,
+          "previous": {
+            "ref": "objectives:mo0026"
+          },
+          "next": {
+            "ref": "objectives:mo0028"
+          }
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "objectives:mo0028",
+    "gameId": "MO0028",
+    "kind": "objectives",
+    "slug": "mo0028",
+    "type": "ObjectiveDefinitionSO",
+    "names": {
+      "en": "A Carpenter Made of Wood",
+      "ko": "나무로 된 목공 장인",
+      "ja": "木でできた木工職人",
+      "es": "Un carpintero de madera",
+      "zh-Hans": "木头做的木匠",
+      "zh-Hant": "木頭做的木匠"
+    },
+    "descriptions": {
+      "en": "Bring Plankie 100 Oak Wood and learn Carpentry.",
+      "ko": "플랭키에게 참나무 목재 100개를 건네고 목공을 배워보자.",
+      "ja": "プランキーにオーク材を100個渡し、木工を教わろう。",
+      "es": "Entrega 100 unidades de madera de roble a Plankie y aprende carpintería.",
+      "zh-Hans": "交给普兰奇100份橡木，学习木工。",
+      "zh-Hant": "交給普蘭奇100份橡木，學習木工。"
+    },
+    "image": {
+      "path": "assets/bab1d9440e2fd2286156021a.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "category": "Main",
+      "condition": {
+        "conditionType": "SubmitItem",
+        "itemId": "FWD0001",
+        "equipItemIds": [],
+        "skillId": "",
+        "actionId": "",
+        "enemyId": "",
+        "areaId": "",
+        "targetCount": 100,
+        "$type": "ObjectiveConditionData"
+      },
+      "rewards": [
+        {
+          "rewardType": "Unlock",
+          "itemId": "",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 0,
+          "unlockKind": "Skill",
+          "unlockTargetId": "Life.Carpentry",
+          "$type": "ObjectiveRewardData"
+        }
+      ],
+      "requireCompletionForSkillUnlock": true,
+      "generalReveal": {
+        "revealConditionType": "None",
+        "skillId": "",
+        "areaId": "",
+        "targetCount": 0,
+        "$type": "ObjectiveRevealConditionData"
+      },
+      "dailyReveal": {
+        "revealConditionType": "None",
+        "skillId": "",
+        "areaId": "",
+        "minCount": 0,
+        "maxCount": 0,
+        "additionalAndConditions": [],
+        "$type": "ObjectiveDailyRevealConditionData"
+      },
+      "dailyPoolTag": "",
+      "$type": "ObjectiveDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "mainOrder": 28,
+      "previous": {
+        "ref": "objectives:mo0027"
+      },
+      "next": {
+        "ref": "objectives:mo0029"
+      }
+    },
+    "relations": [
+      {
+        "target": "items:fwd0001",
+        "field": "data.condition.itemId",
+        "role": "requires",
+        "context": {
+          "conditionType": "SubmitItem",
+          "itemId": "FWD0001",
+          "equipItemIds": [],
+          "skillId": "",
+          "actionId": "",
+          "enemyId": "",
+          "areaId": "",
+          "targetCount": 100,
+          "$type": "ObjectiveConditionData"
+        }
+      },
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.rewards[0].unlockTargetId",
+        "role": "rewards",
+        "context": {
+          "rewardType": "Unlock",
+          "itemId": "",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 0,
+          "unlockKind": "Skill",
+          "unlockTargetId": "Life.Carpentry",
+          "$type": "ObjectiveRewardData"
+        }
+      },
+      {
+        "target": "objectives:mo0027",
+        "field": "data.previous",
+        "role": "related",
+        "context": {
+          "category": "Main",
+          "condition": {
+            "conditionType": "SubmitItem",
+            "itemId": "FWD0001",
+            "equipItemIds": [],
+            "skillId": "",
+            "actionId": "",
+            "enemyId": "",
+            "areaId": "",
+            "targetCount": 100,
+            "$type": "ObjectiveConditionData"
+          },
+          "rewards": [
+            {
+              "rewardType": "Unlock",
+              "itemId": "",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 0,
+              "unlockKind": "Skill",
+              "unlockTargetId": "Life.Carpentry",
+              "$type": "ObjectiveRewardData"
+            }
+          ],
+          "requireCompletionForSkillUnlock": true,
+          "generalReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "targetCount": 0,
+            "$type": "ObjectiveRevealConditionData"
+          },
+          "dailyReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "minCount": 0,
+            "maxCount": 0,
+            "additionalAndConditions": [],
+            "$type": "ObjectiveDailyRevealConditionData"
+          },
+          "dailyPoolTag": "",
+          "$type": "ObjectiveDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "mainOrder": 28,
+          "previous": {
+            "ref": "objectives:mo0027"
+          },
+          "next": {
+            "ref": "objectives:mo0029"
+          }
+        }
+      },
+      {
+        "target": "objectives:mo0029",
+        "field": "data.next",
+        "role": "related",
+        "context": {
+          "category": "Main",
+          "condition": {
+            "conditionType": "SubmitItem",
+            "itemId": "FWD0001",
+            "equipItemIds": [],
+            "skillId": "",
+            "actionId": "",
+            "enemyId": "",
+            "areaId": "",
+            "targetCount": 100,
+            "$type": "ObjectiveConditionData"
+          },
+          "rewards": [
+            {
+              "rewardType": "Unlock",
+              "itemId": "",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 0,
+              "unlockKind": "Skill",
+              "unlockTargetId": "Life.Carpentry",
+              "$type": "ObjectiveRewardData"
+            }
+          ],
+          "requireCompletionForSkillUnlock": true,
+          "generalReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "targetCount": 0,
+            "$type": "ObjectiveRevealConditionData"
+          },
+          "dailyReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "minCount": 0,
+            "maxCount": 0,
+            "additionalAndConditions": [],
+            "$type": "ObjectiveDailyRevealConditionData"
+          },
+          "dailyPoolTag": "",
+          "$type": "ObjectiveDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_TITLE",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_028_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "mainOrder": 28,
+          "previous": {
+            "ref": "objectives:mo0027"
+          },
+          "next": {
+            "ref": "objectives:mo0029"
+          }
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "objectives:mo0029",
+    "gameId": "MO0029",
+    "kind": "objectives",
+    "slug": "mo0029",
+    "type": "ObjectiveDefinitionSO",
+    "names": {
+      "en": "Along the Grain",
+      "ko": "나뭇결을 따라서",
+      "ja": "木目に沿って",
+      "es": "Siguiendo la veta",
+      "zh-Hans": "顺着木纹",
+      "zh-Hant": "順著木紋"
+    },
+    "descriptions": {
+      "en": "Craft 10 Oak Planks through Wood Processing and deliver them to Plankie.",
+      "ko": "목재 가공으로 참나무 판재 10개를 만들어 플랭키에게 건네자.",
+      "ja": "木材加工でオークの板材を10個作り、プランキーに渡そう。",
+      "es": "Fabrica 10 tablas de roble mediante el procesado de madera y entrégaselas a Plankie.",
+      "zh-Hans": "通过木材加工制作10块橡木板材，交给普兰奇。",
+      "zh-Hant": "透過木材加工製作10塊橡木板材，交給普蘭奇。"
+    },
+    "image": {
+      "path": "assets/bab1d9440e2fd2286156021a.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "category": "Main",
+      "condition": {
+        "conditionType": "SubmitItem",
+        "itemId": "CNP0001",
+        "equipItemIds": [],
+        "skillId": "",
+        "actionId": "",
+        "enemyId": "",
+        "areaId": "",
+        "targetCount": 10,
+        "$type": "ObjectiveConditionData"
+      },
+      "rewards": [
+        {
+          "rewardType": "Item",
+          "itemId": "CNT0001",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 10,
+          "unlockKind": "Skill",
+          "unlockTargetId": "",
+          "$type": "ObjectiveRewardData"
+        },
+        {
+          "rewardType": "Item",
+          "itemId": "IG0001",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 100,
+          "unlockKind": "Skill",
+          "unlockTargetId": "",
+          "$type": "ObjectiveRewardData"
+        }
+      ],
+      "requireCompletionForSkillUnlock": false,
+      "generalReveal": {
+        "revealConditionType": "None",
+        "skillId": "",
+        "areaId": "",
+        "targetCount": 0,
+        "$type": "ObjectiveRevealConditionData"
+      },
+      "dailyReveal": {
+        "revealConditionType": "None",
+        "skillId": "",
+        "areaId": "",
+        "minCount": 0,
+        "maxCount": 0,
+        "additionalAndConditions": [],
+        "$type": "ObjectiveDailyRevealConditionData"
+      },
+      "dailyPoolTag": "",
+      "$type": "ObjectiveDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "mainOrder": 29,
+      "previous": {
+        "ref": "objectives:mo0028"
+      },
+      "next": {
+        "ref": "objectives:mo0030"
+      }
+    },
+    "relations": [
+      {
+        "target": "items:cnp0001",
+        "field": "data.condition.itemId",
+        "role": "requires",
+        "context": {
+          "conditionType": "SubmitItem",
+          "itemId": "CNP0001",
+          "equipItemIds": [],
+          "skillId": "",
+          "actionId": "",
+          "enemyId": "",
+          "areaId": "",
+          "targetCount": 10,
+          "$type": "ObjectiveConditionData"
+        }
+      },
+      {
+        "target": "items:cnt0001",
+        "field": "data.rewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "rewardType": "Item",
+          "itemId": "CNT0001",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 10,
+          "unlockKind": "Skill",
+          "unlockTargetId": "",
+          "$type": "ObjectiveRewardData"
+        }
+      },
+      {
+        "target": "items:ig0001",
+        "field": "data.rewards[1].itemId",
+        "role": "rewards",
+        "context": {
+          "rewardType": "Item",
+          "itemId": "IG0001",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 100,
+          "unlockKind": "Skill",
+          "unlockTargetId": "",
+          "$type": "ObjectiveRewardData"
+        }
+      },
+      {
+        "target": "objectives:mo0028",
+        "field": "data.previous",
+        "role": "related",
+        "context": {
+          "category": "Main",
+          "condition": {
+            "conditionType": "SubmitItem",
+            "itemId": "CNP0001",
+            "equipItemIds": [],
+            "skillId": "",
+            "actionId": "",
+            "enemyId": "",
+            "areaId": "",
+            "targetCount": 10,
+            "$type": "ObjectiveConditionData"
+          },
+          "rewards": [
+            {
+              "rewardType": "Item",
+              "itemId": "CNT0001",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 10,
+              "unlockKind": "Skill",
+              "unlockTargetId": "",
+              "$type": "ObjectiveRewardData"
+            },
+            {
+              "rewardType": "Item",
+              "itemId": "IG0001",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 100,
+              "unlockKind": "Skill",
+              "unlockTargetId": "",
+              "$type": "ObjectiveRewardData"
+            }
+          ],
+          "requireCompletionForSkillUnlock": false,
+          "generalReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "targetCount": 0,
+            "$type": "ObjectiveRevealConditionData"
+          },
+          "dailyReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "minCount": 0,
+            "maxCount": 0,
+            "additionalAndConditions": [],
+            "$type": "ObjectiveDailyRevealConditionData"
+          },
+          "dailyPoolTag": "",
+          "$type": "ObjectiveDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "mainOrder": 29,
+          "previous": {
+            "ref": "objectives:mo0028"
+          },
+          "next": {
+            "ref": "objectives:mo0030"
+          }
+        }
+      },
+      {
+        "target": "objectives:mo0030",
+        "field": "data.next",
+        "role": "related",
+        "context": {
+          "category": "Main",
+          "condition": {
+            "conditionType": "SubmitItem",
+            "itemId": "CNP0001",
+            "equipItemIds": [],
+            "skillId": "",
+            "actionId": "",
+            "enemyId": "",
+            "areaId": "",
+            "targetCount": 10,
+            "$type": "ObjectiveConditionData"
+          },
+          "rewards": [
+            {
+              "rewardType": "Item",
+              "itemId": "CNT0001",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 10,
+              "unlockKind": "Skill",
+              "unlockTargetId": "",
+              "$type": "ObjectiveRewardData"
+            },
+            {
+              "rewardType": "Item",
+              "itemId": "IG0001",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 100,
+              "unlockKind": "Skill",
+              "unlockTargetId": "",
+              "$type": "ObjectiveRewardData"
+            }
+          ],
+          "requireCompletionForSkillUnlock": false,
+          "generalReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "targetCount": 0,
+            "$type": "ObjectiveRevealConditionData"
+          },
+          "dailyReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "minCount": 0,
+            "maxCount": 0,
+            "additionalAndConditions": [],
+            "$type": "ObjectiveDailyRevealConditionData"
+          },
+          "dailyPoolTag": "",
+          "$type": "ObjectiveDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_TITLE",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_029_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "mainOrder": 29,
+          "previous": {
+            "ref": "objectives:mo0028"
+          },
+          "next": {
+            "ref": "objectives:mo0030"
+          }
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "objectives:mo0030",
+    "gameId": "MO0030",
+    "kind": "objectives",
+    "slug": "mo0030",
+    "type": "ObjectiveDefinitionSO",
+    "names": {
+      "en": "Room to Work",
+      "ko": "손이 닿는 작업 공간",
+      "ja": "手の届く作業スペース",
+      "es": "Un lugar para trabajar",
+      "zh-Hans": "顺手的工作区",
+      "zh-Hant": "順手的工作區"
+    },
+    "descriptions": {
+      "en": "Complete Organize the Work Area under Space Improvement. If you have already completed it, speak to Plankie to claim your reward.",
+      "ko": "공간 정비에서 작업 공간 정돈을 완료하자. 이미 완료했다면 플랭키에게 바로 보상을 받을 수 있다.",
+      "ja": "空間整備の「作業スペースを整える」を完了しよう。すでに完了していれば、プランキーからすぐに報酬を受け取れる。",
+      "es": "Completa «Ordenar la zona de trabajo» en Mejora del espacio. Si ya lo has hecho, habla con Plankie para recibir tu recompensa.",
+      "zh-Hans": "完成空间整备中的「整理工作区」。若之前已经完成，可直接向普兰奇领取奖励。",
+      "zh-Hant": "完成空間整備中的「整理工作區」。若之前已經完成，可直接向普蘭奇領取獎勵。"
+    },
+    "image": {
+      "path": "assets/bab1d9440e2fd2286156021a.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "category": "Main",
+      "condition": {
+        "conditionType": "CompleteCarpentryProject",
+        "itemId": "",
+        "equipItemIds": [],
+        "skillId": "Life.Carpentry",
+        "actionId": "CNH0001",
+        "enemyId": "",
+        "areaId": "",
+        "targetCount": 1,
+        "$type": "ObjectiveConditionData"
+      },
+      "rewards": [
+        {
+          "rewardType": "Item",
+          "itemId": "PON0018",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 20,
+          "unlockKind": "Skill",
+          "unlockTargetId": "",
+          "$type": "ObjectiveRewardData"
+        }
+      ],
+      "requireCompletionForSkillUnlock": false,
+      "generalReveal": {
+        "revealConditionType": "None",
+        "skillId": "",
+        "areaId": "",
+        "targetCount": 0,
+        "$type": "ObjectiveRevealConditionData"
+      },
+      "dailyReveal": {
+        "revealConditionType": "None",
+        "skillId": "",
+        "areaId": "",
+        "minCount": 0,
+        "maxCount": 0,
+        "additionalAndConditions": [],
+        "$type": "ObjectiveDailyRevealConditionData"
+      },
+      "dailyPoolTag": "",
+      "$type": "ObjectiveDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "mainOrder": 30,
+      "previous": {
+        "ref": "objectives:mo0029"
+      },
+      "next": {
+        "ref": "objectives:mo0031"
+      }
+    },
+    "relations": [
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.condition.skillId",
+        "role": "requires",
+        "context": {
+          "conditionType": "CompleteCarpentryProject",
+          "itemId": "",
+          "equipItemIds": [],
+          "skillId": "Life.Carpentry",
+          "actionId": "CNH0001",
+          "enemyId": "",
+          "areaId": "",
+          "targetCount": 1,
+          "$type": "ObjectiveConditionData"
+        }
+      },
+      {
+        "target": "actions:cnh0001",
+        "field": "data.condition.actionId",
+        "role": "requires",
+        "context": {
+          "conditionType": "CompleteCarpentryProject",
+          "itemId": "",
+          "equipItemIds": [],
+          "skillId": "Life.Carpentry",
+          "actionId": "CNH0001",
+          "enemyId": "",
+          "areaId": "",
+          "targetCount": 1,
+          "$type": "ObjectiveConditionData"
+        }
+      },
+      {
+        "target": "items:pon0018",
+        "field": "data.rewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "rewardType": "Item",
+          "itemId": "PON0018",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 20,
+          "unlockKind": "Skill",
+          "unlockTargetId": "",
+          "$type": "ObjectiveRewardData"
+        }
+      },
+      {
+        "target": "objectives:mo0029",
+        "field": "data.previous",
+        "role": "related",
+        "context": {
+          "category": "Main",
+          "condition": {
+            "conditionType": "CompleteCarpentryProject",
+            "itemId": "",
+            "equipItemIds": [],
+            "skillId": "Life.Carpentry",
+            "actionId": "CNH0001",
+            "enemyId": "",
+            "areaId": "",
+            "targetCount": 1,
+            "$type": "ObjectiveConditionData"
+          },
+          "rewards": [
+            {
+              "rewardType": "Item",
+              "itemId": "PON0018",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 20,
+              "unlockKind": "Skill",
+              "unlockTargetId": "",
+              "$type": "ObjectiveRewardData"
+            }
+          ],
+          "requireCompletionForSkillUnlock": false,
+          "generalReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "targetCount": 0,
+            "$type": "ObjectiveRevealConditionData"
+          },
+          "dailyReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "minCount": 0,
+            "maxCount": 0,
+            "additionalAndConditions": [],
+            "$type": "ObjectiveDailyRevealConditionData"
+          },
+          "dailyPoolTag": "",
+          "$type": "ObjectiveDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "mainOrder": 30,
+          "previous": {
+            "ref": "objectives:mo0029"
+          },
+          "next": {
+            "ref": "objectives:mo0031"
+          }
+        }
+      },
+      {
+        "target": "objectives:mo0031",
+        "field": "data.next",
+        "role": "related",
+        "context": {
+          "category": "Main",
+          "condition": {
+            "conditionType": "CompleteCarpentryProject",
+            "itemId": "",
+            "equipItemIds": [],
+            "skillId": "Life.Carpentry",
+            "actionId": "CNH0001",
+            "enemyId": "",
+            "areaId": "",
+            "targetCount": 1,
+            "$type": "ObjectiveConditionData"
+          },
+          "rewards": [
+            {
+              "rewardType": "Item",
+              "itemId": "PON0018",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 20,
+              "unlockKind": "Skill",
+              "unlockTargetId": "",
+              "$type": "ObjectiveRewardData"
+            }
+          ],
+          "requireCompletionForSkillUnlock": false,
+          "generalReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "targetCount": 0,
+            "$type": "ObjectiveRevealConditionData"
+          },
+          "dailyReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "minCount": 0,
+            "maxCount": 0,
+            "additionalAndConditions": [],
+            "$type": "ObjectiveDailyRevealConditionData"
+          },
+          "dailyPoolTag": "",
+          "$type": "ObjectiveDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_TITLE",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_030_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "mainOrder": 30,
+          "previous": {
+            "ref": "objectives:mo0029"
+          },
+          "next": {
+            "ref": "objectives:mo0031"
+          }
+        }
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "wikiId": "objectives:mo0031",
+    "gameId": "MO0031",
+    "kind": "objectives",
+    "slug": "mo0031",
+    "type": "ObjectiveDefinitionSO",
+    "names": {
+      "en": "A Steady First Workbench",
+      "ko": "흔들리지 않는 첫 작업대",
+      "ja": "ぐらつかない最初の作業台",
+      "es": "Un primer banco firme",
+      "zh-Hans": "第一张稳当的工作台",
+      "zh-Hant": "第一張穩當的工作台"
+    },
+    "descriptions": {
+      "en": "Craft a Wooden Workbench under Furniture & Upgrades. A workbench crafted or upgraded before accepting this objective also counts.",
+      "ko": "가구 제작 및 개선에서 나무 작업대를 제작하자. 목표 수락 전에 제작했거나 상위 단계로 개선한 작업대도 인정된다.",
+      "ja": "家具製作・改良で木の作業台を作ろう。目標を受ける前に製作したものや、上位段階に改良した作業台も対象になる。",
+      "es": "Fabrica un banco de madera en Muebles y mejoras. También cuenta si ya lo habías fabricado o mejorado antes de aceptar el objetivo.",
+      "zh-Hans": "在家具制作与改良中制作木制工作台。接受目标前已制作或已升级的工作台也算完成。",
+      "zh-Hant": "在家具製作與改良中製作木製工作台。接受目標前已製作或已升級的工作台也算完成。"
+    },
+    "image": {
+      "path": "assets/bab1d9440e2fd2286156021a.png",
+      "width": 32,
+      "height": 32
+    },
+    "data": {
+      "category": "Main",
+      "condition": {
+        "conditionType": "CompleteCarpentryProject",
+        "itemId": "",
+        "equipItemIds": [],
+        "skillId": "Life.Carpentry",
+        "actionId": "CNF0004",
+        "enemyId": "",
+        "areaId": "",
+        "targetCount": 1,
+        "$type": "ObjectiveConditionData"
+      },
+      "rewards": [
+        {
+          "rewardType": "Item",
+          "itemId": "CNP0002",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 20,
+          "unlockKind": "Skill",
+          "unlockTargetId": "",
+          "$type": "ObjectiveRewardData"
+        },
+        {
+          "rewardType": "Item",
+          "itemId": "CNP0003",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 20,
+          "unlockKind": "Skill",
+          "unlockTargetId": "",
+          "$type": "ObjectiveRewardData"
+        }
+      ],
+      "requireCompletionForSkillUnlock": false,
+      "generalReveal": {
+        "revealConditionType": "None",
+        "skillId": "",
+        "areaId": "",
+        "targetCount": 0,
+        "$type": "ObjectiveRevealConditionData"
+      },
+      "dailyReveal": {
+        "revealConditionType": "None",
+        "skillId": "",
+        "areaId": "",
+        "minCount": 0,
+        "maxCount": 0,
+        "additionalAndConditions": [],
+        "$type": "ObjectiveDailyRevealConditionData"
+      },
+      "dailyPoolTag": "",
+      "$type": "ObjectiveDefinitionSO",
+      "textReferences": {
+        "names": {
+          "en": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+            "locale": "zh-Hant"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+            "locale": "en"
+          },
+          "ko": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+            "locale": "ko"
+          },
+          "ja": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+            "locale": "ja"
+          },
+          "es": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+            "locale": "es"
+          },
+          "zh-Hans": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+            "locale": "zh-Hans"
+          },
+          "zh-Hant": {
+            "table": "Objectives",
+            "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "fallbackLocales": [],
+      "mainOrder": 31,
+      "previous": {
+        "ref": "objectives:mo0030"
+      }
+    },
+    "relations": [
+      {
+        "target": "skills:life.carpentry",
+        "field": "data.condition.skillId",
+        "role": "requires",
+        "context": {
+          "conditionType": "CompleteCarpentryProject",
+          "itemId": "",
+          "equipItemIds": [],
+          "skillId": "Life.Carpentry",
+          "actionId": "CNF0004",
+          "enemyId": "",
+          "areaId": "",
+          "targetCount": 1,
+          "$type": "ObjectiveConditionData"
+        }
+      },
+      {
+        "target": "actions:cnf0004",
+        "field": "data.condition.actionId",
+        "role": "requires",
+        "context": {
+          "conditionType": "CompleteCarpentryProject",
+          "itemId": "",
+          "equipItemIds": [],
+          "skillId": "Life.Carpentry",
+          "actionId": "CNF0004",
+          "enemyId": "",
+          "areaId": "",
+          "targetCount": 1,
+          "$type": "ObjectiveConditionData"
+        }
+      },
+      {
+        "target": "items:cnp0002",
+        "field": "data.rewards[0].itemId",
+        "role": "rewards",
+        "context": {
+          "rewardType": "Item",
+          "itemId": "CNP0002",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 20,
+          "unlockKind": "Skill",
+          "unlockTargetId": "",
+          "$type": "ObjectiveRewardData"
+        }
+      },
+      {
+        "target": "items:cnp0003",
+        "field": "data.rewards[1].itemId",
+        "role": "rewards",
+        "context": {
+          "rewardType": "Item",
+          "itemId": "CNP0003",
+          "skillId": "",
+          "currencyId": "",
+          "amount": 20,
+          "unlockKind": "Skill",
+          "unlockTargetId": "",
+          "$type": "ObjectiveRewardData"
+        }
+      },
+      {
+        "target": "objectives:mo0030",
+        "field": "data.previous",
+        "role": "related",
+        "context": {
+          "category": "Main",
+          "condition": {
+            "conditionType": "CompleteCarpentryProject",
+            "itemId": "",
+            "equipItemIds": [],
+            "skillId": "Life.Carpentry",
+            "actionId": "CNF0004",
+            "enemyId": "",
+            "areaId": "",
+            "targetCount": 1,
+            "$type": "ObjectiveConditionData"
+          },
+          "rewards": [
+            {
+              "rewardType": "Item",
+              "itemId": "CNP0002",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 20,
+              "unlockKind": "Skill",
+              "unlockTargetId": "",
+              "$type": "ObjectiveRewardData"
+            },
+            {
+              "rewardType": "Item",
+              "itemId": "CNP0003",
+              "skillId": "",
+              "currencyId": "",
+              "amount": 20,
+              "unlockKind": "Skill",
+              "unlockTargetId": "",
+              "$type": "ObjectiveRewardData"
+            }
+          ],
+          "requireCompletionForSkillUnlock": false,
+          "generalReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "targetCount": 0,
+            "$type": "ObjectiveRevealConditionData"
+          },
+          "dailyReveal": {
+            "revealConditionType": "None",
+            "skillId": "",
+            "areaId": "",
+            "minCount": 0,
+            "maxCount": 0,
+            "additionalAndConditions": [],
+            "$type": "ObjectiveDailyRevealConditionData"
+          },
+          "dailyPoolTag": "",
+          "$type": "ObjectiveDefinitionSO",
+          "textReferences": {
+            "names": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_TITLE",
+                "locale": "zh-Hant"
+              }
+            },
+            "descriptions": {
+              "en": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+                "locale": "en"
+              },
+              "ko": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+                "locale": "ko"
+              },
+              "ja": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+                "locale": "ja"
+              },
+              "es": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+                "locale": "es"
+              },
+              "zh-Hans": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+                "locale": "zh-Hans"
+              },
+              "zh-Hant": {
+                "table": "Objectives",
+                "key": "OBJECTIVES_MAINOBJECTIVES_031_DESC",
+                "locale": "zh-Hant"
+              }
+            }
+          },
+          "fallbackLocales": [],
+          "mainOrder": 31,
+          "previous": {
+            "ref": "objectives:mo0030"
           }
         }
       }

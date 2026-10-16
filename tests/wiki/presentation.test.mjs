@@ -57,8 +57,8 @@ test('progression lists have numeric order and real no-JavaScript pagination',as
   const main=sortEntities(w.groups.objectives,'ko').filter(e=>e.data.category==='Main');
   assert.equal(main[0].data.mainOrder,1);assert.equal(main[1].data.mainOrder,2);
   const pages=w.pages.filter(p=>p.locale==='ko'&&p.kind==='items');
-  assert.equal(pages.length,19);assert.ok(pages.every(p=>p.entities.length<=50));
-  assert.equal(new Set(pages.flatMap(p=>p.entities.map(e=>e.wikiId))).size,941);
+  assert.equal(pages.length,Math.ceil(w.groups.items.length/50));assert.ok(pages.every(p=>p.entities.length<=50));
+  assert.equal(new Set(pages.flatMap(p=>p.entities.map(e=>e.wikiId))).size,w.groups.items.length);
   assert.equal(pages[1].url,'/iris/wiki/ko/items/page/2/');
   const maze=w.groups.challenges.filter(e=>e.data.mazeId==='REWIND_LABYRINTH_001');
   assert.equal(new Set(maze.map(e=>e.names.ko)).size,3);
