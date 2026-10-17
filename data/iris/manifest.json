@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "release": "0.58",
-  "sourceRevision": "e1b70899813c6eb6e3f31f3efaefad8229df8c29",
+  "release": "0.59",
+  "sourceRevision": "3f227a17027f7ac76088aebda7542f01f55b05f5",
   "exporterVersion": "1.4.0",
   "exporterHash": "0f324777514f193e25f5d4a9ec10c2c91742ecf3b485921e441542e463c48fbb",
   "locales": [
@@ -12,8 +12,8 @@
     "zh-Hans",
     "zh-Hant"
   ],
-  "entityCount": 3205,
-  "publicationHash": "eda87dbea89876b8b166a4f68e0862689b4bad5133cf48af24ebdb079d394744",
+  "entityCount": 3206,
+  "publicationHash": "185a78ceb00f09671330faf50ade2d957883f7149da2cb44140fca96cabc4383",
   "files": {
     "assets/000deb1b38a56b120d936526.png": "000deb1b38a56b120d936526ccb4f2adafdef6e17807f1f7c1a099737f7ebbb3",
     "assets/001ed598c59cd296ef654d5c.png": "001ed598c59cd296ef654d5c03f5fe4f8e1212171a4b831446042398aa909ade",
@@ -1461,7 +1461,7 @@
     "assets/ffadeb074d43f0888de8e9fc.png": "ffadeb074d43f0888de8e9fce7e157e429af143275eb125690eb9bb84bdddca8",
     "assets/ffb9ff3dbfa7c9e6c0f26068.png": "ffb9ff3dbfa7c9e6c0f2606884888b0f1b3373ee818b45aafe2a561c0d4845ba",
     "entities/achievements.json": "f1a400361cb2542dfeca20a1ecfe18c829a708da6436b40ead7b7dfc57cb7d33",
-    "entities/actions.json": "916bdd2544c11d5c2a699a9886bbc05059112e742219a241302c672d973b3cac",
+    "entities/actions.json": "4bbcf70d3de07089e93032c68a006c4a6f74391587ff17b6d424b94d87f8e2ed",
     "entities/challenges.json": "911fce64404aa3e8a61b97440a7a0a7f05c39f87b54fa23d969f226c54dfaefa",
     "entities/combat-actions.json": "1576f148445b15fd2f17054d1be62d68081d6299e94c7d9ef71eede0cb9664f7",
     "entities/currencies.json": "e5d1dea990531e2e67b7603f145a472c4c4c95274329117ba75db8422fdf1051",
@@ -1473,7 +1473,7 @@
     "entities/museum.json": "584333a6eb9e97aa1cb5357f313e703588da3b27be5cf201ba26c032e6b333be",
     "entities/objectives.json": "5f40c36d448de88957ce724f4a5a06825d1e3c35581a3a20262ab87f3108b83a",
     "entities/offers.json": "dd30a47579740601403bc3e66590a48f1bc1b2812528a7c6581e00543e8cc6f5",
-    "entities/patch-notes.json": "9671202cff60e480ba1accaa81ccd78789f18ce9faa4cd0b6fae58415a81ea70",
+    "entities/patch-notes.json": "8b4456d05f9a536157aeb44b5f92dbee5d0b789c219023754ffe85380a20231f",
     "entities/recipes.json": "573ccf18031ebb97d46f61c770bcfc9b766911eea9939a762c9a965bd8a7d2e7",
     "entities/rules.json": "17ef7de2da8ed10f0628ade96d471b8c48e1d9f342d8d77be273a11df5a5d0e9",
     "entities/shops.json": "b02e390ac7201ca657c94b74793334752768e17e99b10cefcb8225c2f8d4be74",
@@ -1483,12 +1483,12 @@
     "entities/stats.json": "3bca8993e321d41a14b4e62c94a5bd2598ffdb1cbd85ce1a3c664c0ae605471b",
     "entities/systems.json": "d4fcc04eb6d2941f574e51ee2cdd0658f64d5da47125e77d99723273451a4e69",
     "entities/targets.json": "727fc8741326ec8c38b581b5ca992334ae73ae0811b9d193b158795dd655aefe",
-    "locales/en.json": "d18951ebd1150acfcd557bae8d1743b407c593b180c697fc949b2298ccffb6f7",
-    "locales/es.json": "3077eaa1f61077278f880b3f8297e47081bed43dc89b3bd607d944e0a743d019",
-    "locales/ja.json": "3c3fe359add5f00b06542a301ea9bc16206becb4a2da270f7b1e40e37382ae96",
-    "locales/ko.json": "04a657413f884665fb598213ee588867569e33afd8a91b4ff65e9f306aeeb943",
-    "locales/zh-Hans.json": "c636695fbcd892fa107dd370f73b249e9e628c363d5b546f6a94f5f797594bb1",
-    "locales/zh-Hant.json": "9e568f05310db4e3de6d0659e1cdaa4dcb13515e5f7b1b61675770b33681cdf9",
+    "locales/en.json": "f90d144a272c4773a93fbf993d40db2dccd502affac10d3ee0d19778f1b12666",
+    "locales/es.json": "1689ab800e0c30c28b652eceac357ace40906504f4c0146644d7c0d8518c8afd",
+    "locales/ja.json": "91734acee569335e46d8ebaf3fe9f455a8297bc2391d4bb836fa1a7ad5564ec6",
+    "locales/ko.json": "a728c485ba37e7718375560431a68ddaa916a728c5859f4a7a21f6acd7d6d14a",
+    "locales/zh-Hans.json": "339dfcc275005bb5a9f8dd869816d676fb25339d53cc7f1de78d0f3c34b9162e",
+    "locales/zh-Hant.json": "468791ad5d43c0a87709b548902b20e6e22b7b07a5941fbb4b86ad4acc19af3d",
     "schema/entity.schema.json": "5beb917cea7f4639a0b92ab9b3661da11badcf7cd2f685bd7e8662b6c06624eb"
   }
 }

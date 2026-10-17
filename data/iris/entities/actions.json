@@ -67792,14 +67792,14 @@
           },
           "progressionSkill": null,
           "skillId": "",
-          "minLevel": 20,
+          "minLevel": 10,
           "$type": "LevelRequirement"
         }
       ],
       "inputCosts": [
         {
           "costKind": "Item",
-          "itemId": "CNP0003",
+          "itemId": "CNP0002",
           "currencyId": "",
           "amount": 120,
           "consume": true,
@@ -67807,7 +67807,7 @@
         },
         {
           "costKind": "Item",
-          "itemId": "CNT0003",
+          "itemId": "CNT0002",
           "currencyId": "",
           "amount": 20,
           "consume": true,
@@ -67824,7 +67824,7 @@
       ],
       "toolRequirements": [],
       "extraConditions": [],
-      "baseSkillExpGained": 30,
+      "baseSkillExpGained": 15,
       "skillExpBonusPercent": 0,
       "rewardTable": null,
       "onStartEffects": [],
@@ -67922,14 +67922,14 @@
               },
               "progressionSkill": null,
               "skillId": "",
-              "minLevel": 20,
+              "minLevel": 10,
               "$type": "LevelRequirement"
             }
           ],
           "inputCosts": [
             {
               "costKind": "Item",
-              "itemId": "CNP0003",
+              "itemId": "CNP0002",
               "currencyId": "",
               "amount": 120,
               "consume": true,
@@ -67937,7 +67937,7 @@
             },
             {
               "costKind": "Item",
-              "itemId": "CNT0003",
+              "itemId": "CNT0002",
               "currencyId": "",
               "amount": 20,
               "consume": true,
@@ -67954,7 +67954,7 @@
           ],
           "toolRequirements": [],
           "extraConditions": [],
-          "baseSkillExpGained": 30,
+          "baseSkillExpGained": 15,
           "skillExpBonusPercent": 0,
           "rewardTable": null,
           "onStartEffects": [],
@@ -68041,17 +68041,17 @@
           },
           "progressionSkill": null,
           "skillId": "",
-          "minLevel": 20,
+          "minLevel": 10,
           "$type": "LevelRequirement"
         }
       },
       {
-        "target": "items:cnp0003",
+        "target": "items:cnp0002",
         "field": "data.inputCosts[0].itemId",
         "role": "consumes",
         "context": {
           "costKind": "Item",
-          "itemId": "CNP0003",
+          "itemId": "CNP0002",
           "currencyId": "",
           "amount": 120,
           "consume": true,
@@ -68059,12 +68059,12 @@
         }
       },
       {
-        "target": "items:cnt0003",
+        "target": "items:cnt0002",
         "field": "data.inputCosts[1].itemId",
         "role": "consumes",
         "context": {
           "costKind": "Item",
-          "itemId": "CNT0003",
+          "itemId": "CNT0002",
           "currencyId": "",
           "amount": 20,
           "consume": true,
@@ -84156,14 +84156,14 @@
           },
           "progressionSkill": null,
           "skillId": "",
-          "minLevel": 20,
+          "minLevel": 10,
           "$type": "LevelRequirement"
         }
       ],
       "inputCosts": [
         {
           "costKind": "Item",
-          "itemId": "CNP0003",
+          "itemId": "CNP0002",
           "currencyId": "",
           "amount": 200,
           "consume": true,
@@ -84171,7 +84171,7 @@
         },
         {
           "costKind": "Item",
-          "itemId": "CNT0003",
+          "itemId": "CNT0002",
           "currencyId": "",
           "amount": 40,
           "consume": true,
@@ -84188,7 +84188,7 @@
       ],
       "toolRequirements": [],
       "extraConditions": [],
-      "baseSkillExpGained": 120,
+      "baseSkillExpGained": 70,
       "skillExpBonusPercent": 0,
       "rewardTable": null,
       "onStartEffects": [],
@@ -84281,14 +84281,14 @@
               },
               "progressionSkill": null,
               "skillId": "",
-              "minLevel": 20,
+              "minLevel": 10,
               "$type": "LevelRequirement"
             }
           ],
           "inputCosts": [
             {
               "costKind": "Item",
-              "itemId": "CNP0003",
+              "itemId": "CNP0002",
               "currencyId": "",
               "amount": 200,
               "consume": true,
@@ -84296,7 +84296,7 @@
             },
             {
               "costKind": "Item",
-              "itemId": "CNT0003",
+              "itemId": "CNT0002",
               "currencyId": "",
               "amount": 40,
               "consume": true,
@@ -84313,7 +84313,7 @@
           ],
           "toolRequirements": [],
           "extraConditions": [],
-          "baseSkillExpGained": 120,
+          "baseSkillExpGained": 70,
           "skillExpBonusPercent": 0,
           "rewardTable": null,
           "onStartEffects": [],
@@ -84395,17 +84395,17 @@
           },
           "progressionSkill": null,
           "skillId": "",
-          "minLevel": 20,
+          "minLevel": 10,
           "$type": "LevelRequirement"
         }
       },
       {
-        "target": "items:cnp0003",
+        "target": "items:cnp0002",
         "field": "data.inputCosts[0].itemId",
         "role": "consumes",
         "context": {
           "costKind": "Item",
-          "itemId": "CNP0003",
+          "itemId": "CNP0002",
           "currencyId": "",
           "amount": 200,
           "consume": true,
@@ -84413,12 +84413,12 @@
         }
       },
       {
-        "target": "items:cnt0003",
+        "target": "items:cnt0002",
         "field": "data.inputCosts[1].itemId",
         "role": "consumes",
         "context": {
           "costKind": "Item",
-          "itemId": "CNT0003",
+          "itemId": "CNT0002",
           "currencyId": "",
           "amount": 40,
           "consume": true,
