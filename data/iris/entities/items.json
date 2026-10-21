@@ -65136,7 +65136,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -65218,7 +65219,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -65300,7 +65302,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -65382,7 +65385,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -65464,7 +65468,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -65546,7 +65551,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -65628,7 +65634,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -65710,7 +65717,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -65792,7 +65800,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -65874,7 +65883,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -65956,7 +65966,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -66038,7 +66049,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -66120,7 +66132,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -67527,7 +67540,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -67609,7 +67623,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -67691,7 +67706,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -67773,7 +67789,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -67855,7 +67872,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -67937,7 +67955,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -68019,7 +68038,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -68101,7 +68121,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -68183,7 +68204,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -68265,7 +68287,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -68347,7 +68370,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -68429,7 +68453,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -68511,7 +68536,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -68593,7 +68619,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -73294,7 +73321,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -73376,7 +73404,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -73458,7 +73487,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -73540,7 +73570,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -73622,7 +73653,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -73704,7 +73736,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -73786,7 +73819,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -73868,7 +73902,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -73950,7 +73985,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -74032,7 +74068,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -74114,7 +74151,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -74196,7 +74234,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -74278,7 +74317,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -74360,7 +74400,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -74442,7 +74483,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 12
     },
     "relations": [],
     "aliases": []
@@ -133266,7 +133308,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 1
     },
     "relations": [],
     "aliases": []
@@ -133348,7 +133391,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 2
     },
     "relations": [],
     "aliases": []
@@ -133430,7 +133474,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 2
     },
     "relations": [],
     "aliases": []
@@ -133512,7 +133557,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 2
     },
     "relations": [],
     "aliases": []
@@ -133594,7 +133640,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 2
     },
     "relations": [],
     "aliases": []
@@ -133676,7 +133723,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 2
     },
     "relations": [],
     "aliases": []
@@ -133758,7 +133806,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 2
     },
     "relations": [],
     "aliases": []
@@ -133840,7 +133889,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -133922,7 +133972,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -134004,7 +134055,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -134086,7 +134138,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -134168,7 +134221,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -134250,7 +134304,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []
@@ -134332,7 +134387,8 @@
         }
       },
       "fallbackLocales": [],
-      "museumCategory": "misc:Seed"
+      "museumCategory": "misc:Seed",
+      "minimumPlantingQuantity": 3
     },
     "relations": [],
     "aliases": []

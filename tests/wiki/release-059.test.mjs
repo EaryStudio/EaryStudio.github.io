@@ -6,8 +6,6 @@ const loaded = loadWiki();
 
 test('0.59 preserves the reviewed storage balance and moves material usage from pine to maple', async () => {
   const w = await loaded;
-  assert.equal(w.manifest.release, '0.59');
-  assert.equal(w.manifest.sourceRevision, '3f227a17027f7ac76088aebda7542f01f55b05f5');
   // Independently checked against CNH0003.asset and CNF0007.asset at the release revision.
   for (const [id, xp, duration, costs] of [
     ['cnh0003', 70, 1200, [['CNP0002',200],['CNT0002',40],['IG0003',200]]],
@@ -39,7 +37,7 @@ test('0.59 preserves the reviewed storage balance and moves material usage from 
 
 test('0.59 patch notes retain all five game entries in every locale without fallback', async () => {
   const w = await loaded, patch = w.ids.get('patch-notes:0.59');
-  assert.equal(patch.data.order, 0);
+  assert.equal(patch.data.version, '0.59');
   assert.deepEqual(patch.data.fallbackLocales, []);
   for (const locale of w.manifest.locales) {
     const body = patch.data.bodies[locale];

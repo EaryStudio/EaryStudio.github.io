@@ -1,7 +1,7 @@
 import { plain, route } from './model.mjs';
 import { publicData, projectValue, effectiveCurrency, term, enumText, listType, levelOf, pick, locales } from './presentation.mjs';
 import { relationSection } from './relations.mjs';
-import { renderSpecial } from './special-actions.mjs';
+import { renderSpecial, gameText } from './special-actions.mjs';
 export const escape = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const label = name => name.replace(/([a-z0-9])([A-Z])/g, '$1 $2');
 const aliases={progressionSkill:'skill',unlockIdleSkillId:'skill',unlockRequiredSkillId:'skill',targetSkillId:'skill',specificProgressionSkills:'specificSkills',specificSkillIds:'specificSkills',combatStatModifiers:'modifiers',statModifiers:'modifiers',enemyData:'enemyId',equipItemIds:'itemId',entryConsumeItemId:'itemId',entryRequiredEquippedItemId:'itemId',unlockObjectiveId:'objectives',unlockTargetId:'unlockKind',actionId:'actions',unlockIdleActionId:'actions',targetSkill:'skill',item:'itemId',area:'areaId',familiar:'familiars',allowedRecipes:'recipes',shopCatalog:'shops',offers:'offers',towerFloors:'tower',mazes:'maze',cycleStoneCurrency:'currency',rewindThreadCurrency:'currency',rankBonuses:'rankStatBonuses',statGrowthBands:'modifiers',enchantLevel:'level',outputPercent:'percent',price:'priceRules'};
@@ -88,7 +88,12 @@ function catalogData(e,l,w){const ui=w.dictionaries[l],d=e.data;
  return null;
 }
 export function renderData(e,l,w){
- const special=renderSpecial(e,l,w);
+ let special=renderSpecial(e,l,w);
+ if(e.data.minimumPlantingQuantity!==undefined){
+  if(e.kind!=='items'||!Number.isSafeInteger(e.data.minimumPlantingQuantity)||e.data.minimumPlantingQuantity<=0)throw new Error('Invalid planting quantity: '+e.wikiId);
+  special+='<section class="data-section planting-requirement"><p>'+escape(gameText(w,l,'UI/UI_ITEM_REQ_PLANTING_QUANTITY_FORMAT',[e.data.minimumPlantingQuantity]))+'</p></section>';
+  e={...e,data:{...e.data,minimumPlantingQuantity:undefined}};
+ }
  if(e.data.bindings?.some(b=>b.$type==='ExpeditionAreaBindingSO'))e={...e,data:{...e.data,baseDurationSeconds:undefined}};
  if(e.data.special)e={...e,data:{...e.data,special:undefined}};
  if(e.data.bindings)e={...e,data:{...e.data,bindings:e.data.bindings.filter(b=>!['CartographyAreaBindingSO','ExpeditionAreaBindingSO'].includes(b.$type)).map(b=>b.$type==='MeditationActionEffectBindingSO'?{...b,actionId:undefined,consecutiveBuffByRank:undefined}:b)}};
