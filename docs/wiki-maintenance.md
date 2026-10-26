@@ -6,11 +6,11 @@ navigation. Every content route is an actual `index.html` and remains readable
 without JavaScript. The first snapshot is game release **0.56**, revision
 `fd02bba2d2e4e677e39a0334461c3a9d61d5f0ee`.
 
-The current snapshot is **0.60**, revision
-`922a2fcad6f658901a5d06ef96ddfce3ea3c0699`; see the
-[0.60 update record](wiki-release-0.60.md) for the source changes and checks.
-The developer reviewed and authorized publication of 0.60 on 2026-10-21.
-The Pages workflow validates the release before deployment.
+The current snapshot is **0.61**, revision
+`012dfc01d311534264970424f8f958512cca9137`; see the
+[0.61 update record](wiki-release-0.61.md) for the source changes and checks.
+The developer reviewed and authorized publication of 0.61 on 2026-10-26.
+The approved snapshot is deployed through the existing Pages workflow.
 
 ## Local workflow
 

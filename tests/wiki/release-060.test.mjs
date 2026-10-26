@@ -7,9 +7,7 @@ const loaded = loadWiki();
 
 test('0.60 patch notes match all six game tables without fallback', async () => {
   const w = await loaded, patch = w.ids.get('patch-notes:0.60');
-  assert.equal(w.manifest.release, '0.60');
-  assert.equal(w.manifest.sourceRevision, '922a2fcad6f658901a5d06ef96ddfce3ea3c0699');
-  assert.equal(patch.data.order, 0);
+  assert.equal(patch.data.version, '0.60');
   assert.deepEqual(patch.data.fallbackLocales, []);
   for (const locale of w.manifest.locales) {
     assert.equal(patch.data.bodies[locale], w.gameStrings.get(locale)['PatchNotes/PATCH_NOTES_BODY_0_60']);
