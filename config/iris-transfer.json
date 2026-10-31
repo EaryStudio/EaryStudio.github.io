@@ -1,5 +1,5 @@
 {
-  "manualTransferEnabled": true,
+  "manualTransferEnabled": false,
   "manualTransferMaintenance": false,
   "configVersion": 1
 }
